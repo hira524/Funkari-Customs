@@ -977,7 +977,7 @@ const MenuEight = () => {
                                         </Link>
                                     </li>*/}
                                     <li>
-                                        <Link href="/blog/grid" className='text-xl font-semibold flex items-center justify-between mt-5'>
+                                        <Link href="/blog/list" className='text-xl font-semibold flex items-center justify-between mt-5'>
                                             Blog
                                         </Link>
                                     </li>

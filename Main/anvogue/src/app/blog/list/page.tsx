@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { useSearchParams } from 'next/navigation';
 import Image from 'next/image';
 import TopNavOne from '@/components/Header/TopNav/TopNavOne'
-import MenuOne from '@/components/Header/Menu/MenuOne'
+import MenuEight from '@/components/Header/Menu/MenuEight'
 import Breadcrumb from '@/components/Breadcrumb/Breadcrumb';
 import blogData from '@/data/Blog.json'
 import BlogItem from '@/components/Blog/BlogItem';
@@ -11,7 +11,6 @@ import Footer from '@/components/Footer/Footer'
 import HandlePagination from '@/components/Other/HandlePagination'
 import { useRouter } from 'next/navigation'
 import * as Icon from "@phosphor-icons/react/dist/ssr";
-import MenuEight from '@/components/Header/Menu/MenuEight';
 
 const BlogList = () => {
     const [currentPage, setCurrentPage] = useState(0);
@@ -78,10 +77,10 @@ const BlogList = () => {
 
     return (
         <>
-            <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
+            <TopNavOne props="style-one bg-black" slogan="Custom Sneakers - Free Shipping Over $100" />
             <div id="header" className='relative w-full'>
                 <MenuEight/>
-                <Breadcrumb heading='Blog List' subHeading='Blog List' />
+                <Breadcrumb heading='Custom Sneaker Blog' subHeading='Custom Sneaker Blog' />
             </div>
             <div className='blog list md:py-20 py-10'>
                 <div className="container">
@@ -100,7 +99,7 @@ const BlogList = () => {
                         </div>
                         <div className="right xl:w-1/4 xl:pl-[52px]">
                             <form className='form-search relative w-full h-12'>
-                                <input className='py-2 px-4 w-full h-full border border-line rounded-lg' type="text" placeholder='Search' />
+                                <input className='py-2 px-4 w-full h-full border border-line rounded-lg' type="text" placeholder='Search custom sneakers...' />
                                 <button>
                                     <Icon.MagnifyingGlass className='heading6 text-secondary hover:text-black duration-300 absolute top-1/2 -translate-y-1/2 right-4 cursor-pointer' />
                                 </button>
@@ -111,10 +110,10 @@ const BlogList = () => {
                                     {blogData.slice(12, 15).map(item => (
                                         <div className="item flex gap-4 mt-5 cursor-pointer" key={item.id} onClick={() => handleBlogClick(item.id)}>
                                             <Image
-                                                src={item.thumbImg}
+                                                src={`/images/blog/product (${item.id})/p${item.id} (1).png`}
                                                 width={500}
                                                 height={400}
-                                                alt={item.thumbImg}
+                                                alt={`Custom sneaker design ${item.id}`}
                                                 className='w-20 h-20 object-cover rounded-lg flex-shrink-0'
                                             />
                                             <div>
@@ -132,7 +131,7 @@ const BlogList = () => {
                                         className={`cate-item flex items-center justify-between cursor-pointer mt-3 ${category === 'fashion' ? 'active' : ''}`}
                                         onClick={() => handleCategory('fashion')}
                                     >
-                                        <div className='capitalize has-line-before hover:text-black text-secondary'>Fashion</div>
+                                        <div className='capitalize has-line-before hover:text-black text-secondary'>Custom Sneakers</div>
                                         <div className="text-secondary2">
                                             ({blogData.filter(dataItem => dataItem.category === 'fashion').length})
                                         </div>
@@ -141,7 +140,7 @@ const BlogList = () => {
                                         className={`cate-item flex items-center justify-between cursor-pointer mt-3 ${category === 'cosmetic' ? 'active' : ''}`}
                                         onClick={() => handleCategory('cosmetic')}
                                     >
-                                        <div className='capitalize has-line-before hover:text-black text-secondary'>cosmetic</div>
+                                        <div className='capitalize has-line-before hover:text-black text-secondary'>Anime Art</div>
                                         <div className="text-secondary2">
                                             ({blogData.filter(dataItem => dataItem.category === 'cosmetic').length})
                                         </div>
@@ -150,7 +149,7 @@ const BlogList = () => {
                                         className={`cate-item flex items-center justify-between cursor-pointer mt-3 ${category === 'toys-kid' ? 'active' : ''}`}
                                         onClick={() => handleCategory('toys-kid')}
                                     >
-                                        <div className='capitalize has-line-before hover:text-black text-secondary'>toys kid</div>
+                                        <div className='capitalize has-line-before hover:text-black text-secondary'>Streetwear</div>
                                         <div className="text-secondary2">
                                             ({blogData.filter(dataItem => dataItem.category === 'toys-kid').length})
                                         </div>
@@ -159,7 +158,7 @@ const BlogList = () => {
                                         className={`cate-item flex items-center justify-between cursor-pointer mt-3 ${category === 'yoga' ? 'active' : ''}`}
                                         onClick={() => handleCategory('yoga')}
                                     >
-                                        <div className='capitalize has-line-before hover:text-black text-secondary'>yoga</div>
+                                        <div className='capitalize has-line-before hover:text-black text-secondary'>Gaming Themes</div>
                                         <div className="text-secondary2">
                                             ({blogData.filter(dataItem => dataItem.category === 'yoga').length})
                                         </div>
@@ -168,7 +167,7 @@ const BlogList = () => {
                                         className={`cate-item flex items-center justify-between cursor-pointer mt-3 ${category === 'organic' ? 'active' : ''}`}
                                         onClick={() => handleCategory('organic')}
                                     >
-                                        <div className='capitalize has-line-before hover:text-black text-secondary'>organic</div>
+                                        <div className='capitalize has-line-before hover:text-black text-secondary'>Sports Designs</div>
                                         <div className="text-secondary2">
                                             ({blogData.filter(dataItem => dataItem.category === 'organic').length})
                                         </div>
@@ -182,31 +181,31 @@ const BlogList = () => {
                                         className={`tags bg-white border border-line py-1.5 px-4 rounded-full text-button-uppercase text-secondary cursor-pointer duration-300 hover:bg-black hover:text-white ${category === 'fashion' ? 'active' : ''}`}
                                         onClick={() => handleCategory('fashion')}
                                     >
-                                        fashion
+                                        custom sneakers
                                     </div>
                                     <div
                                         className={`tags bg-white border border-line py-1.5 px-4 rounded-full text-button-uppercase text-secondary cursor-pointer duration-300 hover:bg-black hover:text-white ${category === 'cosmetic' ? 'active' : ''}`}
                                         onClick={() => handleCategory('cosmetic')}
                                     >
-                                        cosmetic
+                                        anime art
                                     </div>
                                     <div
-                                        className={`tags bg-white border border-line py-1.5 px-4 rounded-full text-button-uppercase text-secondary cursor-pointer duration-300 hover:bg-black hover:text-white ${category === 'toy-kid' ? 'active' : ''}`}
+                                        className={`tags bg-white border border-line py-1.5 px-4 rounded-full text-button-uppercase text-secondary cursor-pointer duration-300 hover:bg-black hover:text-white ${category === 'toys-kid' ? 'active' : ''}`}
                                         onClick={() => handleCategory('toys-kid')}
                                     >
-                                        toys kid
+                                        streetwear
                                     </div>
                                     <div
                                         className={`tags bg-white border border-line py-1.5 px-4 rounded-full text-button-uppercase text-secondary cursor-pointer duration-300 hover:bg-black hover:text-white ${category === 'yoga' ? 'active' : ''}`}
                                         onClick={() => handleCategory('yoga')}
                                     >
-                                        yoga
+                                        gaming
                                     </div>
                                     <div
                                         className={`tags bg-white border border-line py-1.5 px-4 rounded-full text-button-uppercase text-secondary cursor-pointer duration-300 hover:bg-black hover:text-white ${category === 'organic' ? 'active' : ''}`}
                                         onClick={() => handleCategory('organic')}
                                     >
-                                        organic
+                                        sports
                                     </div>
                                 </div>
                             </div>

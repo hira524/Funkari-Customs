@@ -34,7 +34,7 @@ const BlogDetailOne = () => {
 
     return (
         <>
-            <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
+            <TopNavOne props="style-one bg-black" slogan="Custom Sneakers - Free Shipping Over $100" />
             <div id="header" className='relative w-full'>
                 <MenuEight />
             </div>
@@ -71,7 +71,7 @@ const BlogDetailOne = () => {
                             </div>
                             <div className="content md:mt-8 mt-5">
                                 <div className="body1">{blogMain.description}</div>
-                                <div className="body1 mt-3">I’ve always been passionate about underwear and shapewear and have a huge collection from over the years! When it came to shapewear, I could never find exactly what I was looking for and I would cut up pieces and sew them together to create the style and compression I needed.</div>
+                                <div className="body1 mt-3">I&apos;ve always been passionate about custom sneaker art and have built an extensive collection over the years! When it comes to custom designs, I could never find exactly what I was looking for in stores, so I started hand-painting and customizing my own sneakers to create the unique style and artistic expression I craved.</div>
                                 <div className="grid sm:grid-cols-2 gap-[30px] md:mt-8 mt-5">
                                     {blogMain.subImg.map((item, index) => (
                                         <Image
@@ -84,9 +84,9 @@ const BlogDetailOne = () => {
                                         />
                                     ))}
                                 </div>
-                                <div className="heading4 md:mt-8 mt-5">How did SKIMS start?</div>
-                                <div className="body1 mt-4">This is such a hard question! Honestly, every time we drop a new collection I get obsessed with it. The pieces that have been my go-tos though are some of our simplest styles that we launched with. I wear our Fits Everybody Thong every single day – it is the only underwear I have now, it’s so comfortable and stretchy and light enough that you can wear anything over it.</div>
-                                <div className="body1 mt-4">For bras, I love our Cotton Jersey Scoop Bralette – it’s lined with this amazing power mesh so you get great support and is so comfy I can sleep in it. I also love our Seamless Sculpt Bodysuit – it’s the perfect all in one sculpting, shaping and smoothing shapewear piece with different levels of support woven throughout.</div>
+                                <div className="heading4 md:mt-8 mt-5">How did Custom Sneaker Art begin?</div>
+                                <div className="body1 mt-4">This is such an exciting question! Honestly, every time we create a new custom design, I get completely obsessed with it. The pieces that have become my absolute favorites are some of our most intricate hand-painted styles. I wear our custom Nike AF1s almost every day – they&apos;re not just shoes, they&apos;re wearable art that expresses my personality and creativity.</div>
+                                <div className="body1 mt-4">For sneaker customization, I love working with anime-inspired designs – they offer incredible detail and vibrant colors that really pop on the canvas of a sneaker. I also enjoy creating automotive-themed customs like our GTR Skyline series – they capture the speed, power, and sleek aesthetics of legendary cars while maintaining that street-ready comfort and style.</div>
                             </div>
                             <div className="action flex items-center justify-between flex-wrap gap-5 md:mt-8 mt-5">
                                 <div className="left flex items-center gap-3 flex-wrap">
@@ -96,19 +96,19 @@ const BlogDetailOne = () => {
                                             className={`tags bg-surface py-1.5 px-4 rounded-full text-button-uppercase cursor-pointer duration-300 hover:bg-black hover:text-white`}
                                             onClick={() => handleBlogClick('fashion')}
                                         >
-                                            fashion
+                                            custom sneakers
                                         </div>
                                         <div
                                             className={`tags bg-surface py-1.5 px-4 rounded-full text-button-uppercase cursor-pointer duration-300 hover:bg-black hover:text-white`}
-                                            onClick={() => handleBlogClick('yoga')}
+                                            onClick={() => handleBlogClick('cosmetic')}
                                         >
-                                            yoga
+                                            anime art
                                         </div>
                                         <div
                                             className={`tags bg-surface py-1.5 px-4 rounded-full text-button-uppercase cursor-pointer duration-300 hover:bg-black hover:text-white`}
                                             onClick={() => handleBlogClick('organic')}
                                         >
-                                            organic
+                                            streetwear
                                         </div>
                                     </div>
                                 </div>

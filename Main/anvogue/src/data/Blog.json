@@ -2,379 +2,523 @@
     {
         "id": "1",
         "category": "fashion",
-        "tag": "Jean, glasses",
-        "title": "Fashion Trends to Watch Out for in Summer 2023",
+        "tag": "Custom Sneakers, Anime",
+        "title": "Nike AF1 Anime Abstract: Where Art Meets Streetwear",
         "date": "Dec 20, 2023",
         "author": "Chris Evans",
         "avatar": "/images/avatar/1.png",
-        "thumbImg": "/images/blog/1.png",
-        "coverImg": "/images/blog/1.png",
+        "thumbImg": "/images/products/product/p1 (1).png",
+        "coverImg": "/images/products/product/p1 (1).png",
         "subImg": [
-            "/images/blog/3.png",
-            "/images/blog/2.png"
+            "/images/products/product/p1 (2).png",
+            "/images/products/product/p1 (3).png"
         ],
-        "shortDesc": "Discover the latest fashion trends that will dominate the upcoming season. From vibrant colors to unique patterns and innovative styles.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "fashion-news"
+        "shortDesc": "Step into a world of creativity with the Nike Af1 Anime Abstract, a bold fusion of iconic sneaker style and vibrant anime-inspired artistry.",
+        "description": "Discover the ultimate fusion of street culture and anime artistry with the Nike AF1 Anime Abstract. These custom sneakers feature hand-painted designs that capture the dynamic energy of anime culture, making them perfect for collectors and fans alike.",
+        "slug": "nike-af1-anime-abstract"
     },
     {
         "id": "2",
         "category": "fashion",
-        "tag": "Jean, shoes",
-        "title": "How to Build a Sustainable and Stylish Wardrobe",
+        "tag": "Custom Sneakers, GTR",
+        "title": "Nike AF1 GTR Skyline: Speed Meets Style",
         "date": "Dec 21, 2023",
         "author": "Alex Balde",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/blog/2.png",
-        "coverImg": "/images/blog/2.png",
+        "thumbImg": "/images/products/product (2)/p2 (1).png",
+        "coverImg": "/images/products/product (2)/p2 (1).png",
         "subImg": [
-            "/images/blog/1.png",
-            "/images/blog/3.png"
+            "/images/products/product (2)/p2 (2).png",
+            "/images/products/product (2)/p2 (4).png"
         ],
-        "shortDesc": "Build a versatile and timeless wardrobe with our list of must-have fashion staples. From the classic little black dress to the perfect pair of jeans.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "fashion-news"
+        "shortDesc": "Experience the fusion of street style and automotive passion with the Nike Af1 GTR Skyline custom sneakers.",
+        "description": "Inspired by the legendary GTR Skyline, these custom sneakers capture the speed, power, and iconic silhouette of the classic car with hand-painted details.",
+        "slug": "nike-af1-gtr-skyline"
     },
     {
         "id": "3",
-        "category": "fashion",
-        "tag": "Jean, skirt",
-        "title": "Fashion and Beauty Tips for Busy Professionals",
+        "category": "cosmetic",
+        "tag": "Anime, Naruto",
+        "title": "Nike AF1 Sasuke x Toji: Anime Legends United",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/3.png",
-        "thumbImg": "/images/blog/3.png",
-        "coverImg": "/images/blog/3.png",
+        "thumbImg": "/images/products/product (3)/p3 (5).png",
+        "coverImg": "/images/products/product (3)/p3 (5).png",
         "subImg": [
-            "/images/blog/1.png",
-            "/images/blog/2.png"
+            "/images/products/product (3)/p3 (1).png",
+            "/images/products/product (3)/p3 (2).png"
         ],
-        "shortDesc": "Explore the power of accessories and learn how to effortlessly transform your outfits. From statement jewelry to stylish handbags and chic scarves.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "fashion-news"
+        "shortDesc": "Unleash your inner anime fan with the Nike Af1 Sasuke x Toji, featuring hand-painted artwork of two iconic characters.",
+        "description": "These custom sneakers bring together the fierce energy of Sasuke and the powerful presence of Toji, making each pair a wearable masterpiece for anime enthusiasts.",
+        "slug": "nike-af1-sasuke-toji"
     },
     {
         "id": "4",
-        "category": "underwear",
-        "tag": "underwear",
-        "title": "The Art of Makeup: Mastering the Perfect Everyday Look",
+        "category": "toys-kid",
+        "tag": "Abstract Art",
+        "title": "Nike AF1 Sunset Abstract: Capturing Golden Hour",
         "date": "Dec 24, 2023",
         "author": "Christina Smith",
         "avatar": "/images/avatar/4.png",
-        "thumbImg": "/images/blog/4.png",
-        "coverImg": "/images/blog/4.png",
+        "thumbImg": "/images/products/product (4)/p4 (3).png",
+        "coverImg": "/images/products/product (4)/p4 (3).png",
         "subImg": [
-            "/images/blog/6.png",
-            "/images/blog/5.png"
+            "/images/products/product (4)/p4 (1).png",
+            "/images/products/product (4)/p4 (2).png"
         ],
-        "shortDesc": "Discover the latest fashion trends that will dominate the upcoming season. From vibrant colors to unique patterns and innovative styles.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "underwear-blog"
+        "shortDesc": "Capture the vibrant energy of a sunset with the Nike Af1 Sunset Abstract custom sneakers.",
+        "description": "These custom sneakers feature hand-painted abstract designs inspired by the warm hues and dynamic patterns of a breathtaking sunset.",
+        "slug": "nike-af1-sunset-abstract"
     },
     {
         "id": "5",
-        "category": "underwear",
-        "tag": "underwear",
-        "title": "Unlocking the Secrets of Anti-Aging: Effective Strategies and Products",
+        "category": "yoga",
+        "tag": "Jordan, Wave",
+        "title": "Nike Air Jordan Wave: Riding the Ocean's Energy",
         "date": "Dec 26, 2023",
         "author": "Louis Ancelotti",
         "avatar": "/images/avatar/5.png",
-        "thumbImg": "/images/blog/5.png",
-        "coverImg": "/images/blog/5.png",
+        "thumbImg": "/images/products/product (5)/p5 (1).png",
+        "coverImg": "/images/products/product (5)/p5 (1).png",
         "subImg": [
-            "/images/blog/4.png",
-            "/images/blog/6.png"
+            "/images/products/product (5)/p5 (3).png",
+            "/images/products/product (5)/p5 (4).png"
         ],
-        "shortDesc": "Discover the latest fashion trends that will dominate the upcoming season. From vibrant colors to unique patterns and innovative styles.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "underwear-blog"
+        "shortDesc": "Ride the wave of style with the Nike Air Jordan Wave, featuring dynamic wave patterns inspired by ocean energy.",
+        "description": "This custom sneaker features dynamic, hand-painted wave patterns that blend bold artistry with the legendary Air Jordan silhouette.",
+        "slug": "nike-air-jordan-wave"
     },
     {
         "id": "6",
-        "category": "underwear",
-        "tag": "underwear",
-        "title": "Exploring the World of Fragrances: How to Find Your Signature Scent",
+        "category": "organic",
+        "tag": "Joker, DC Comics",
+        "title": "Nike AF1 Joker White: Embrace Your Wild Side",
         "date": "Dec 26, 2023",
         "author": "Davide Alvaro",
         "avatar": "/images/avatar/6.png",
-        "thumbImg": "/images/blog/6.png",
-        "coverImg": "/images/blog/6.png",
+        "thumbImg": "/images/products/product (6)/p6 (8).png",
+        "coverImg": "/images/products/product (6)/p6 (8).png",
         "subImg": [
-            "/images/blog/5.png",
-            "/images/blog/4.png"
+            "/images/products/product (6)/p6 (1).png",
+            "/images/products/product (6)/p6 (2).png"
         ],
-        "shortDesc": "Discover the latest fashion trends that will dominate the upcoming season. From vibrant colors to unique patterns and innovative styles.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "underwear-blog"
+        "shortDesc": "Step into the world of bold style with the Nike Af1 Joker White custom sneakers.",
+        "description": "Inspired by the iconic Joker character, these custom sneakers feature striking hand-painted details in vibrant green and purple accents on a crisp white base.",
+        "slug": "nike-af1-joker-white"
     },
     {
         "id": "7",
         "category": "cosmetic",
-        "tag": "body lotion",
-        "title": "cosmetic Trends to Watch Out for in Summer 2023",
+        "tag": "Lotus, Nature",
+        "title": "Nike Jordan WILD LOTUS CS: Nature Meets Street",
         "date": "Dec 20, 2023",
         "author": "Chris Evans",
         "avatar": "/images/avatar/8.png",
-        "thumbImg": "/images/blog/7.png",
-        "coverImg": "/images/blog/7.png",
+        "thumbImg": "/images/products/product (7)/p7 (1).png",
+        "coverImg": "/images/products/product (7)/p7 (1).png",
         "subImg": [
-            "/images/blog/9.png",
-            "/images/blog/8.png"
+            "/images/products/product (7)/p7 (2).png",
+            "/images/products/product (7)/p7 (3).png"
         ],
-        "shortDesc": "Discover the latest cosmetic trends that will dominate the upcoming season. From vibrant colors to unique patterns and innovative styles, stay ahead of the cosmetic curve with our comprehensive guide.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "cosmetic-news"
+        "shortDesc": "Elevate your sneaker style with Nike AF1 WILD LOTUS – a fusion of natural beauty and urban fashion.",
+        "description": "These iconic kicks are inspired by the untamed elegance of the lotus flower, featuring a design that captures its vibrant colors and graceful allure.",
+        "slug": "nike-jordan-wild-lotus-cs"
     },
     {
         "id": "8",
         "category": "cosmetic",
-        "tag": "nourishing mask",
-        "title": "How to Build a Sustainable and Stylish Wardrobe",
+        "tag": "Hip Hop, 2Pac",
+        "title": "Snoop-2Pac Custom Set: Hip Hop Legends",
         "date": "Dec 21, 2023",
         "author": "Alex Balde",
         "avatar": "/images/avatar/1.png",
-        "thumbImg": "/images/blog/8.png",
-        "coverImg": "/images/blog/8.png",
+        "thumbImg": "/images/products/product (8)/p8 (1).png",
+        "coverImg": "/images/products/product (8)/p8 (1).png",
         "subImg": [
-            "/images/blog/7.png",
-            "/images/blog/9.png"
+            "/images/products/product (8)/p8 (2).png",
+            "/images/products/product (8)/p8 (3).png"
         ],
-        "shortDesc": "Build a versatile and timeless wardrobe with our list of must-have cosmetic staples. From the classic little black dress to the perfect pair of jeans.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "cosmetic-news"
+        "shortDesc": "Pay tribute to hip hop legends with this custom Snoop-2Pac inspired sneaker set.",
+        "description": "These custom kicks redefine sneaker customization with their mesmerizing blend of colors and artistic flair, paying homage to hip hop culture.",
+        "slug": "snoop-2pac"
     },
     {
         "id": "9",
         "category": "cosmetic",
-        "tag": "body lotion",
-        "title": "cosmetic and Beauty Tips for Busy Professionals",
+        "tag": "Bridal, Wedding",
+        "title": "Nike AF1 Bridal Theme: Walk Down the Aisle in Style",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/blog/9.png",
-        "coverImg": "/images/blog/9.png",
+        "thumbImg": "/images/products/product (9)/p9 (11).png",
+        "coverImg": "/images/products/product (9)/p9 (11).png",
         "subImg": [
-            "/images/blog/8.png",
-            "/images/blog/7.png"
+            "/images/products/product (9)/p9 (12).png",
+            "/images/products/product (9)/p9 (6).png"
         ],
-        "shortDesc": "Explore the power of accessories and learn how to effortlessly transform your outfits. From statement jewelry to stylish handbags and chic scarves.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "cosmetic-news"
+        "shortDesc": "Step into your special day with the Nike Af1 Bridal theme custom sneakers.",
+        "description": "Featuring delicate hand-painted floral accents, shimmering details, and a pristine white base, these sneakers are perfect for walking down the aisle.",
+        "slug": "nike-af1-bridal-theme"
     },
     {
         "id": "10",
         "category": "toys-kid",
-        "tag": "body lotion",
-        "title": "The Art of Makeup: Mastering the Perfect Everyday Look",
+        "tag": "One Piece, Luffy",
+        "title": "Nike AF1 Luffy: Set Sail in Style",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/3.png",
-        "thumbImg": "/images/blog/toys1.png",
-        "coverImg": "/images/blog/toys1.png",
+        "thumbImg": "/images/products/product (10)/p10 (2).png",
+        "coverImg": "/images/products/product (10)/p10 (2).png",
         "subImg": [
-            "/images/blog/toys3.png",
-            "/images/blog/toys2.png"
+            "/images/products/product (10)/p10 (7).png",
+            "/images/products/product (10)/p10 (2).png"
         ],
-        "shortDesc": "Explore the power of accessories and learn how to effortlessly transform your outfits. From statement jewelry to stylish handbags and chic scarves.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "toys-kid-news"
+        "shortDesc": "Set sail in style with the Nike Af1 Luffy, inspired by the adventurous spirit of the legendary pirate captain.",
+        "description": "These custom sneakers feature hand-painted artwork of Luffy, vibrant colors, and iconic motifs from the One Piece anime series.",
+        "slug": "nike-af1-luffy"
     },
     {
         "id": "11",
         "category": "toys-kid",
-        "tag": "nourishing mask",
-        "title": "How to Build a Sustainable and Stylish Wardrobe",
+        "tag": "Money Theme",
+        "title": "Nike AF1 Money Themed Customs: Luxury Meets Street",
         "date": "Dec 21, 2023",
         "author": "Alex Balde",
         "avatar": "/images/avatar/4.png",
-        "thumbImg": "/images/blog/toys2.png",
-        "coverImg": "/images/blog/toys2.png",
+        "thumbImg": "/images/products/product (11)/p11 (1).png",
+        "coverImg": "/images/products/product (11)/p11 (1).png",
         "subImg": [
-            "/images/blog/toys1.png",
-            "/images/blog/toys3.png"
+            "/images/products/product (11)/p11 (5).png",
+            "/images/products/product (11)/p11 (3).png"
         ],
-        "shortDesc": "Build a versatile and timeless wardrobe with our list of must-have toys-kid staples. From the classic little black dress to the perfect pair of jeans.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "toys-kid-news"
+        "shortDesc": "Step up your sneaker game with the Nike Af1 Money themed Customs.",
+        "description": "These unique custom sneakers feature hand-painted dollar bill graphics, metallic accents, and bold green hues inspired by finance and street culture.",
+        "slug": "nike-af1-money-themed-customs"
     },
     {
         "id": "12",
         "category": "toys-kid",
-        "tag": "body lotion",
-        "title": "toys kid and Beauty Tips for Busy Professionals",
+        "tag": "Neon, Beach",
+        "title": "Nike AF1 Neon Beach NEW: Summer Vibes",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/5.png",
-        "thumbImg": "/images/blog/toys3.png",
-        "coverImg": "/images/blog/toys3.png",
+        "thumbImg": "/images/products/product (12)/p12 (1).png",
+        "coverImg": "/images/products/product (12)/p12 (1).png",
         "subImg": [
-            "/images/blog/toys2.png",
-            "/images/blog/toys1.png"
+            "/images/products/product (12)/p12 (2).png",
+            "/images/products/product (12)/p12 (3).png"
         ],
-        "shortDesc": "Explore the power of accessories and learn how to effortlessly transform your outfits. From statement jewelry to stylish handbags and chic scarves.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "toys-kid-news"
+        "shortDesc": "Bring the energy of summer to your feet with the Nike Af1 Neon Beach NEW.",
+        "description": "These custom sneakers feature vibrant neon colors and beach-inspired hand-painted artwork, capturing the fun and excitement of ocean days.",
+        "slug": "nike-af1-neon-beach-new"
     },
     {
         "id": "13",
         "category": "yoga",
-        "tag": "body lotion",
-        "title": "Mastering the Perfect Everyday Look",
+        "tag": "Colorful, Splash",
+        "title": "Dual Colorful Splash Nike AF1: Art in Motion",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/6.png",
-        "thumbImg": "/images/blog/yoga1.png",
-        "coverImg": "/images/blog/yoga1.png",
+        "thumbImg": "/images/products/product (13)/p13 (7).png",
+        "coverImg": "/images/products/product (13)/p13 (7).png",
         "subImg": [
-            "/images/blog/yoga2.png",
-            "/images/blog/yoga3.png"
+            "/images/products/product (13)/p13 (1).png",
+            "/images/products/product (13)/p13 (2).png"
         ],
-        "shortDesc": "Explore the power of accessories and learn how to effortlessly transform your outfits. From statement jewelry to stylish handbags and chic scarves.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "yoga-news"
+        "shortDesc": "Make a bold statement with the 2 colorful Splash nike af1 custom sneakers.",
+        "description": "These custom sneakers feature a vibrant, hand-painted splash design in multiple colors, turning every step into a work of art.",
+        "slug": "dual-colorful-splash-nike-af1"
     },
     {
         "id": "14",
         "category": "yoga",
-        "tag": "nourishing mask",
-        "title": "How to Build a Sustainable",
+        "tag": "Hello Kitty, Kawaii",
+        "title": "Nike AF1 Hello Kitty: Cuteness Overload",
         "date": "Dec 21, 2023",
         "author": "Alex Balde",
         "avatar": "/images/avatar/8.png",
-        "thumbImg": "/images/blog/yoga2.png",
-        "coverImg": "/images/blog/yoga2.png",
+        "thumbImg": "/images/products/product (14)/p14 (6).png",
+        "coverImg": "/images/products/product (14)/p14 (6).png",
         "subImg": [
-            "/images/blog/yoga1.png",
-            "/images/blog/yoga3.png"
+            "/images/products/product (14)/p14 (1).png",
+            "/images/products/product (14)/p14 (2).png"
         ],
-        "shortDesc": "Build a versatile and timeless wardrobe with our list of must-have yoga staples. From the classic little black dress to the perfect pair of jeans.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "yoga-news"
+        "shortDesc": "Step into playful style with the Nike Af1 Hello kitty custom sneakers.",
+        "description": "These custom sneakers feature adorable Hello Kitty artwork, pastel pink accents, and charming details that bring the beloved character to life.",
+        "slug": "nike-af1-hello-kitty"
     },
     {
         "id": "15",
         "category": "yoga",
-        "tag": "body lotion",
-        "title": "Beauty Tips for Busy Professionals",
+        "tag": "Real Madrid, Football",
+        "title": "Nike Air Jordan Real Madrid Customs: Hala Madrid",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/1.png",
-        "thumbImg": "/images/blog/yoga3.png",
-        "coverImg": "/images/blog/yoga3.png",
+        "thumbImg": "/images/products/product (15)/p15 (6).png",
+        "coverImg": "/images/products/product (15)/p15 (6).png",
         "subImg": [
-            "/images/blog/yoga2.png",
-            "/images/blog/yoga1.png"
+            "/images/products/product (15)/p15 (1).png",
+            "/images/products/product (15)/p15 (2).png"
         ],
-        "shortDesc": "Explore the power of accessories and learn how to effortlessly transform your outfits. From statement jewelry to stylish handbags and chic scarves.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "yoga-news"
+        "shortDesc": "Show your passion for football and street style with the Nike Air Jordan Real Madrid Customs.",
+        "description": "These custom sneakers feature hand-painted details in the iconic white and gold colorway, celebrating the legendary Real Madrid club.",
+        "slug": "nike-air-jordan-real-madrid-customs"
     },
     {
         "id": "16",
         "category": "organic",
-        "tag": "body lotion",
-        "title": "The Art of Makeup: Mastering the Perfect Everyday Look",
+        "tag": "Japanese Culture",
+        "title": "Nike Air Jordan Japanese Custom: East Meets West",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/blog/organic1.png",
-        "coverImg": "/images/blog/organic1.png",
+        "thumbImg": "/images/products/product (16)/p16 (5).png",
+        "coverImg": "/images/products/product (16)/p16 (5).png",
         "subImg": [
-            "/images/blog/organic3.png",
-            "/images/blog/organic2.png"
+            "/images/products/product (16)/p16 (1).png",
+            "/images/products/product (16)/p16 (2).png"
         ],
-        "shortDesc": "Explore the power of accessories and learn how to effortlessly transform your outfits. From statement jewelry to stylish handbags and chic scarves.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "organic-news"
+        "shortDesc": "Experience the fusion of tradition and street style with the Nike Air Jordan Japanese Custom.",
+        "description": "These unique sneakers feature hand-painted Japanese motifs, bold color blocking, and intricate details inspired by Japanese art and culture.",
+        "slug": "nike-air-jordan-japanese-custom"
     },
     {
         "id": "17",
         "category": "organic",
-        "tag": "nourishing mask",
-        "title": "How to Build a Sustainable and Stylish Wardrobe",
+        "tag": "Hamza Ibrahim, Art",
+        "title": "Nike Jordan Hamza Ibrahim: Tattoo Art on Sneakers",
         "date": "Dec 21, 2023",
         "author": "Alex Balde",
         "avatar": "/images/avatar/3.png",
-        "thumbImg": "/images/blog/organic2.png",
-        "coverImg": "/images/blog/organic2.png",
+        "thumbImg": "/images/products/product (17)/p17 (1).png",
+        "coverImg": "/images/products/product (17)/p17 (1).png",
         "subImg": [
-            "/images/blog/organic1.png",
-            "/images/blog/organic3.png"
+            "/images/products/product (17)/p17 (2).png",
+            "/images/products/product (17)/p17 (3).png"
         ],
-        "shortDesc": "Build a versatile and timeless wardrobe with our list of must-have organic staples. From the classic little black dress to the perfect pair of jeans.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "organic-news"
+        "shortDesc": "Introducing our exclusive Nike AF1s adorned with the mesmerizing hand tattoo of Hamza Ibrahim.",
+        "description": "These custom kicks fuse the timeless Jordan silhouette with Ibrahim's intricate artistry, creating a bold statement of individuality and style.",
+        "slug": "nike-jordan-hamza-ibrahim"
     },
     {
         "id": "18",
         "category": "organic",
-        "tag": "body lotion",
-        "title": "toys kid and Beauty Tips for Busy Professionals",
+        "tag": "Wolf, Howl",
+        "title": "Nike Jordan HOWL: Unleash Your Wild Side",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/4.png",
-        "thumbImg": "/images/blog/organic3.png",
-        "coverImg": "/images/blog/organic3.png",
+        "thumbImg": "/images/products/product (18)/p18 (1).png",
+        "coverImg": "/images/products/product (18)/p18 (1).png",
         "subImg": [
-            "/images/blog/organic2.png",
-            "/images/blog/organic1.png"
+            "/images/products/product (18)/p18 (4).png",
+            "/images/products/product (18)/p18 (5).png"
         ],
-        "shortDesc": "Explore the power of accessories and learn how to effortlessly transform your outfits. From statement jewelry to stylish handbags and chic scarves.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "organic-news"
+        "shortDesc": "Unleash your wild side with the Nike Jordan HOWL custom sneakers.",
+        "description": "These custom sneakers feature bold, hand-painted wolf-inspired artwork and striking details that capture the spirit of the night.",
+        "slug": "nike-jordan-howl"
     },
     {
         "id": "19",
         "category": "marketplace",
-        "tag": "Apple, headphone",
-        "title": "quality Headphone models worth buying in 2024",
+        "tag": "Devil Jin, Tekken",
+        "title": "Nike AF1 Devil Jin Customs: Gaming Power",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/blog/marketplace1.png",
-        "coverImg": "/images/slider/watch1.png",
+        "thumbImg": "/images/products/product (19)/p19 (7).png",
+        "coverImg": "/images/products/product (19)/p19 (7).png",
         "subImg": [
-            "/images/blog/marketplace1.png",
-            "/images/blog/marketplace2.png"
+            "/images/products/product (19)/p19 (1).png",
+            "/images/products/product (19)/p19 (2).png"
         ],
-        "shortDesc": "Explore the power of accessories and learn how to effortlessly transform your outfits. From statement jewelry to stylish handbags and chic scarves.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "organic-news"
+        "shortDesc": "Unleash your dark side with the Nike Af1 Devil Jin Customs.",
+        "description": "Inspired by the iconic Tekken character, these custom sneakers feature bold, hand-painted Devil Jin motifs and striking color contrasts.",
+        "slug": "nike-af1-devil-jin-customs"
     },
     {
         "id": "20",
         "category": "marketplace",
-        "tag": "Samsung, S21",
-        "title": "Useful feature of S21 Ultra that you don’t know",
+        "tag": "Skull, Gothic",
+        "title": "Nike AF1 Bloody Skull: Dark Aesthetics",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/blog/marketplace2.png",
-        "coverImg": "/images/slider/watch2.png",
+        "thumbImg": "/images/products/product (20)/p20 (1).png",
+        "coverImg": "/images/products/product (20)/p20 (1).png",
         "subImg": [
-            "/images/blog/marketplace1.png",
-            "/images/blog/marketplace2.png"
+            "/images/products/product (20)/p20 (2).png",
+            "/images/products/product (20)/p20 (3).png"
         ],
-        "shortDesc": "Explore the power of accessories and learn how to effortlessly transform your outfits. From statement jewelry to stylish handbags and chic scarves.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "organic-news"
+        "shortDesc": "Make a fierce statement with the Nike Af1 Bloody Skull custom sneakers.",
+        "description": "These custom sneakers feature bold, hand-painted skull artwork with striking red accents, capturing a rebellious and edgy vibe.",
+        "slug": "nike-af1-bloody-skull"
     },
     {
         "id": "21",
         "category": "marketplace",
-        "tag": "Apple, iPhone",
-        "title": "Great performance of the new iPhone Generation",
+        "tag": "Gran Turismo, Racing",
+        "title": "Nike Gran Tourismo: Racing Heritage",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/blog/marketplace3.png",
-        "coverImg": "/images/slider/watch3.png",
+        "thumbImg": "/images/products/product (21)/p21 (4).png",
+        "coverImg": "/images/products/product (21)/p21 (4).png",
         "subImg": [
-            "/images/blog/marketplace1.png",
-            "/images/blog/marketplace2.png"
+            "/images/products/product (21)/p21 (8).png",
+            "/images/products/product (21)/p21 (9).png"
         ],
-        "shortDesc": "Explore the power of accessories and learn how to effortlessly transform your outfits. From statement jewelry to stylish handbags and chic scarves.",
-        "description": "The poblano yogurt is a key component here, but I totally understand if you want to skip out on it because of time, lack of poblanos, or you're anti-chile. No problem, just about any flavor-forward yogurt slather will do in its place. You could simply crush a clove of garlic into some paste with a pinch of salt, and stir that in your favorite plain yogurt - also delicious. Or, whisk a tablespoon of harissa paste into your yogurt.",
-        "slug": "organic-news"
+        "shortDesc": "Inspired by the thrill of racing, the Nike Gran Tourismo brings speed and style to your sneaker collection.",
+        "description": "These custom sneakers feature hand-painted Gran Turismo graphics, bold blue accents, and dynamic details that capture the essence of motorsport.",
+        "slug": "nike-gran-tourismo"
+    },
+    {
+        "id": "22",
+        "category": "fashion",
+        "tag": "SRK, Bollywood",
+        "title": "Nike AF1 SRK DDLJ: Bollywood Magic",
+        "date": "Dec 22, 2023",
+        "author": "Leona Pablo",
+        "avatar": "/images/avatar/2.png",
+        "thumbImg": "/images/products/product (22)/p22 (6).png",
+        "coverImg": "/images/products/product (22)/p22 (6).png",
+        "subImg": [
+            "/images/products/product (22)/p22 (1).png",
+            "/images/products/product (22)/p22 (2).png"
+        ],
+        "shortDesc": "Celebrate Bollywood magic and sneaker culture with the Nike Af1 SRK DDLJ.",
+        "description": "Inspired by the iconic film 'Dilwale Dulhania Le Jayenge' and Shah Rukh Khan, these custom sneakers feature hand-painted motifs and vibrant colors.",
+        "slug": "nike-af1-srk-ddlj"
+    },
+    {
+        "id": "23",
+        "category": "fashion",
+        "tag": "Naruto, Sasuke",
+        "title": "Nike AF1 Sasuke x Naruto Swoosh: Rivalry United",
+        "date": "Dec 22, 2023",
+        "author": "Leona Pablo",
+        "avatar": "/images/avatar/2.png",
+        "thumbImg": "/images/products/product (23)/p23 (1).png",
+        "coverImg": "/images/products/product (23)/p23 (1).png",
+        "subImg": [
+            "/images/products/product (23)/p23 (2).png",
+            "/images/products/product (23)/p23 (3).png"
+        ],
+        "shortDesc": "Unite two legendary anime rivals with the Nike Af1 Sasuke x Naruto Swoosh.",
+        "description": "These custom sneakers feature hand-painted artwork inspired by Sasuke and Naruto, blending their iconic colors and motifs on the classic Nike Air Force 1.",
+        "slug": "nike-af1-sasuke-naruto-swoosh"
+    },
+    {
+        "id": "24",
+        "category": "fashion",
+        "tag": "Messi, World Cup",
+        "title": "Nike AF1 Messi Worldcup: Football Greatness",
+        "date": "Dec 22, 2023",
+        "author": "Leona Pablo",
+        "avatar": "/images/avatar/2.png",
+        "thumbImg": "/images/products/product (24)/p24 (6).png",
+        "coverImg": "/images/products/product (24)/p24 (6).png",
+        "subImg": [
+            "/images/products/product (24)/p24 (1).png",
+            "/images/products/product (24)/p24 (2).png"
+        ],
+        "shortDesc": "Celebrate football greatness with the Nike Af1 Messi Worldcup custom sneakers.",
+        "description": "Inspired by Lionel Messi's legendary World Cup journey, these custom sneakers feature Argentina's iconic colors and gold championship accents.",
+        "slug": "nike-af1-messi-worldcup"
+    },
+    {
+        "id": "25",
+        "category": "fashion",
+        "tag": "Automotive, Racing",
+        "title": "Nike AF1 Auto Theme: Motorsport Culture",
+        "date": "Dec 22, 2023",
+        "author": "Leona Pablo",
+        "avatar": "/images/avatar/2.png",
+        "thumbImg": "/images/products/product (25)/p25 (6).png",
+        "coverImg": "/images/products/product (25)/p25 (6).png",
+        "subImg": [
+            "/images/products/product (25)/p25 (1).png",
+            "/images/products/product (25)/p25 (2).png"
+        ],
+        "shortDesc": "Shift your style into high gear with the Nike Af1 Auto Theme custom sneakers.",
+        "description": "Inspired by automobiles and motorsport, these custom sneakers feature hand-painted racing stripes, bold color accents, and unique automotive details.",
+        "slug": "nike-af1-auto-theme"
+    },
+    {
+        "id": "26",
+        "category": "fashion",
+        "tag": "Itachi, Naruto",
+        "title": "Nike AF1 Itachi Uchiha: Shinobi Legacy",
+        "date": "Dec 22, 2023",
+        "author": "Leona Pablo",
+        "avatar": "/images/avatar/2.png",
+        "thumbImg": "/images/products/product (26)/p26 (1).png",
+        "coverImg": "/images/products/product (26)/p26 (1).png",
+        "subImg": [
+            "/images/products/product (26)/p26 (2).png",
+            "/images/products/product (26)/p26 (3).png"
+        ],
+        "shortDesc": "Embrace the legacy of the legendary shinobi with the Nike Af1 Itachi Uchiha.",
+        "description": "These custom sneakers pay tribute to Itachi from Naruto, featuring hand-painted Sharingan eyes, Akatsuki cloud motifs, and striking red and black accents.",
+        "slug": "nike-af1-itachi-uchiha"
+    },
+    {
+        "id": "27",
+        "category": "fashion",
+        "tag": "Street Art, Urban",
+        "title": "Nike AF1 IB: Urban Street Expression",
+        "date": "Dec 22, 2023",
+        "author": "Leona Pablo",
+        "avatar": "/images/avatar/2.png",
+        "thumbImg": "/images/products/product (27)/p27 (1).png",
+        "coverImg": "/images/products/product (27)/p27 (1).png",
+        "subImg": [
+            "/images/products/product (27)/p27 (2).png",
+            "/images/products/product (27)/p27 (3).png"
+        ],
+        "shortDesc": "Step into bold style with the Nike Af1 IB custom sneakers.",
+        "description": "These custom sneakers feature hand-painted details and vibrant color blocking, inspired by modern street art and urban culture.",
+        "slug": "nike-af1-ib"
+    },
+    {
+        "id": "28",
+        "category": "fashion",
+        "tag": "Drip Style, High Top",
+        "title": "Nike AF1 High Drip Style: Elevated Street Fashion",
+        "date": "Dec 22, 2023",
+        "author": "Leona Pablo",
+        "avatar": "/images/avatar/2.png",
+        "thumbImg": "/images/products/product (28)/p28 (1).png",
+        "coverImg": "/images/products/product (28)/p28 (1).png",
+        "subImg": [
+            "/images/products/product (28)/p28 (2).png",
+            "/images/products/product (28)/p28 (3).png"
+        ],
+        "shortDesc": "Turn heads with the Nike Af1 High Drip Style custom sneakers.",
+        "description": "These custom high-top sneakers feature bold, hand-painted drip effects and vibrant color splashes, making each pair a unique work of art.",
+        "slug": "nike-af1-high-drip-style"
+    },
+    {
+        "id": "29",
+        "category": "fashion",
+        "tag": "Aqua, Ocean",
+        "title": "Nike AF1 Aquagreen Swoosh: Ocean Vibes",
+        "date": "Dec 22, 2023",
+        "author": "Leona Pablo",
+        "avatar": "/images/avatar/2.png",
+        "thumbImg": "/images/products/product (29)/p29 (1).png",
+        "coverImg": "/images/products/product (29)/p29 (1).png",
+        "subImg": [
+            "/images/products/product (29)/p29 (2).png",
+            "/images/products/product (29)/p29 (3).png"
+        ],
+        "shortDesc": "Dive into fresh style with the Nike Af1 Aquagreen Swoosh custom sneakers.",
+        "description": "These custom sneakers feature a vibrant aquagreen swoosh and hand-painted accents, inspired by the cool tones of ocean waves.",
+        "slug": "nike-af1-aquagreen-swoosh"
     }
 ]
