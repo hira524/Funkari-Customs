@@ -79,7 +79,7 @@ const MenuEight = () => {
                         </div>
                             <Link href={'/homepages/fashion8'} className='flex items-center'>
                             <Image
-                                src="/images/logo/Funkari New Original logo.png" // Update the path if your logo image is different
+                                src="/images/logo/Funkari New Original logo.png" 
                                 alt="Funkari Custom Logo"
                                 width={40}
                                 height={40}

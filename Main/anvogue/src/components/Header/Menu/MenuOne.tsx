@@ -76,15 +76,15 @@ const MenuOne: React.FC<Props> = ({ props }) => {
                             <i className="icon-category text-2xl"></i>
                         </div>
                         <div className="left flex items-center gap-16">
-                            <Link href={'/Home'} className='flex items-center max-lg:absolute max-lg:left-1/2 max-lg:-translate-x-1/2'>
-                                <Image
-                                    src="/images/logo/Funkari New Original logo.png"
-                                    alt="Funkari Customs Logo"
-                                    width={120} // Set appropriate width
-                                    height={40} // Set appropriate height
-                                    className="max-lg:w-[120px] max-lg:h-[40px] w-auto h-auto"
-                                    priority
-                                />
+                           <Link href="/Home" className="flex items-center max-lg:absolute max-lg:left-1/2 max-lg:-translate-x-1/2">
+                               <Image
+                               src="/images/logo/Funkari New Original logo.png"
+                               alt="Funkari Customs Logo"
+                               width={120}
+                               height={80}
+                               className="w-[120px] h-[80px] object-contain"
+                               priority
+                            />
                             </Link>
                             <div className="menu-main h-full max-lg:hidden">
                                 <ul className='flex items-center gap-8 h-full'>
