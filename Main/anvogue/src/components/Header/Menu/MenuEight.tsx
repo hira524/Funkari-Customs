@@ -464,12 +464,12 @@ const MenuEight = () => {
             </div>
         </div>
     </div> */}
-    </li>
+   {/*} </li>
         <li className='h-full'>
         <Link href="/product/styles/style5" className='text-button-uppercase duration-300 h-full flex items-center justify-center'>
             Product
         </Link>
-        {/* <div className="mega-menu absolute top-[44px] left-0 bg-white w-screen">
+         <div className="mega-menu absolute top-[44px] left-0 bg-white w-screen">
             <div className="container">
                 <div className="flex justify-between py-8">
                     <div className="nav-link basis-2/3 flex justify-between xl:pr-14 pr-5">
@@ -971,11 +971,11 @@ const MenuEight = () => {
                                             Shop
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/*<li>
                                         <Link href="/product/styles/style5" className='text-xl font-semibold flex items-center justify-between mt-5'>
                                             Product
                                         </Link>
-                                    </li>
+                                    </li>*/}
                                     <li>
                                         <Link href="/blog/grid" className='text-xl font-semibold flex items-center justify-between mt-5'>
                                             Blog

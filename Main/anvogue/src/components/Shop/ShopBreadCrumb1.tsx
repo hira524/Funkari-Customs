@@ -223,7 +223,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({ data, productPerPage, dataType, gend
                                 </div>
                             </div>
                             <div className="list-tab flex flex-wrap items-center justify-center gap-y-5 gap-8 lg:mt-[70px] mt-12 overflow-hidden">
-                                {['t-shirt', 'dress', 'top', 'swimwear', 'shirt'].map((item, index) => (
+                                {['shoes'].map((item, index) => (
                                     <div
                                         key={index}
                                         className={`tab-item text-button-uppercase cursor-pointer has-line-before line-2px ${dataType === item ? 'active' : ''}`}
@@ -243,27 +243,27 @@ const ShopBreadCrumb1: React.FC<Props> = ({ data, productPerPage, dataType, gend
                     <div className="flex max-md:flex-wrap max-md:flex-col-reverse gap-y-8">
                         <div className="sidebar lg:w-1/4 md:w-1/3 w-full md:pr-12">
                             <div className="filter-type pb-8 border-b border-line">
-                                <div className="heading6">Products Type</div>
-                                <div className="list-type mt-4">
-                                    {['t-shirt', 'dress', 'top', 'swimwear', 'shirt', 'underwear', 'sets', 'accessories'].map((item, index) => (
-                                        <div
-                                            key={index}
-                                            className={`item flex items-center justify-between cursor-pointer ${dataType === item ? 'active' : ''}`}
-                                            onClick={() => handleType(item)}
-                                        >
-                                            <div className='text-secondary has-line-before hover:text-black capitalize'>{item}</div>
-                                            <div className='text-secondary2'>
-                                                ({data.filter(dataItem => dataItem.type === item && dataItem.category === 'fashion').length})
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
+    <div className="heading6">Products Type</div>
+    <div className="list-type mt-4">
+        {['shoes'].map((item, index) => (
+            <div
+                key={index}
+                className={`item flex items-center justify-between cursor-pointer ${dataType === item ? 'active' : ''}`}
+                onClick={() => handleType(item)}
+            >
+                <div className='text-secondary has-line-before hover:text-black capitalize'>{item}</div>
+                <div className='text-secondary2'>
+                    ({data.filter(dataItem => dataItem.type === item && dataItem.category === 'fashion').length})
+                </div>
+            </div>
+        ))}
+    </div>
+</div>
                             <div className="filter-size pb-8 border-b border-line mt-8">
                                 <div className="heading6">Size</div>
                                 <div className="list-size flex items-center flex-wrap gap-3 gap-y-4 mt-4">
                                     {
-                                        ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL'].map((item, index) => (
+                                        ['6', '7', '8', '9', '10', '11'].map((item, index) => (
                                             <div
                                                 key={index}
                                                 className={`size-item text-button w-[44px] h-[44px] flex items-center justify-center rounded-full border border-line ${size === item ? 'active' : ''}`}
@@ -274,12 +274,12 @@ const ShopBreadCrumb1: React.FC<Props> = ({ data, productPerPage, dataType, gend
                                         ))
                                     }
                                     <div
-                                        className={`size-item text-button px-4 py-2 flex items-center justify-center rounded-full border border-line ${size === 'freesize' ? 'active' : ''}`}
-                                        onClick={() => handleSize('freesize')}
+                                        className={`size-item text-button px-4 py-2 flex items-center justify-center rounded-full border border-line ${size === 'onesize' ? 'active' : ''}`}
+                                        onClick={() => handleSize('onesize')}
                                     >
-                                        Freesize
+                                        One Size
                                     </div>
-                                </div>
+                                    </div>
                             </div>
                             <div className="filter-price pb-8 border-b border-line mt-8">
                                 <div className="heading6">Price Range</div>
@@ -360,7 +360,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({ data, productPerPage, dataType, gend
                                     </div>
                                 </div>
                             </div>
-                            <div className="filter-brand mt-8">
+                           {/* <div className="filter-brand mt-8">
                                 <div className="heading6">Brands</div>
                                 <div className="list-brand mt-4">
                                     {['adidas', 'hermes', 'zara', 'nike', 'gucci'].map((item, index) => (
@@ -383,7 +383,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({ data, productPerPage, dataType, gend
                                         </div>
                                     ))}
                                 </div>
-                            </div>
+                            </div>*/}
                         </div>
                         <div className="list-product-block lg:w-3/4 md:w-2/3 w-full md:pl-3">
                             <div className="filter-heading flex items-center justify-between gap-5 flex-wrap">

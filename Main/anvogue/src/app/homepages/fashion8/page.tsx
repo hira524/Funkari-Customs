@@ -17,7 +17,7 @@ import ModalNewsletter from '@/components/Modal/ModalNewsletter'
 export default function HomeEight() {
     return (
         <>
-            <TopNavOne props="style-one bg-black" slogan='New customers save 10% with the code GET10' />
+            <TopNavOne props="style-one bg-black" slogan='Custom Sneakers - Free Shipping Over $100' />
             <div id="header" className='relative w-full'>
                 <MenuEight />
                 <SliderEight />
@@ -32,5 +32,8 @@ export default function HomeEight() {
             <Footer />
             <ModalNewsletter />
         </>
+        
     )
-}
+        
+    
+    }

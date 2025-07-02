@@ -223,7 +223,7 @@ const ShopBreadCrumbImg: React.FC<Props> = ({ data, productPerPage, dataType }) 
                                 </div>
                             </div>
                             <div className="list-tab flex flex-wrap items-center justify-center gap-y-5 gap-8 lg:mt-[70px] mt-12 overflow-hidden">
-                                {['t-shirt', 'dress', 'top', 'swimwear', 'shirt'].map((item, index) => (
+                                {['shoes'].map((item, index) => (
                                     <div
                                         key={index}
                                         className={`tab-item text-button-uppercase cursor-pointer has-line-before line-2px ${dataType === item ? 'active' : ''}`}
@@ -339,10 +339,10 @@ const ShopBreadCrumbImg: React.FC<Props> = ({ data, productPerPage, dataType }) 
                         <div
                             className={`sidebar style-dropdown bg-white grid md:grid-cols-4 grid-cols-2 md:gap-[30px] gap-6 ${openSidebar ? 'open' : ''}`}
                         >
-                            <div className="filter-type">
+                                                       <div className="filter-type">
                                 <div className="heading6">Products Type</div>
                                 <div className="list-type mt-4">
-                                    {['t-shirt', 'dress', 'top', 'swimwear', 'shirt', 'underwear', 'sets', 'accessories'].map((item, index) => (
+                                    {['shoes'].map((item, index) => (
                                         <div
                                             key={index}
                                             className={`item flex items-center justify-between cursor-pointer ${dataType === item ? 'active' : ''}`}
@@ -357,11 +357,11 @@ const ShopBreadCrumbImg: React.FC<Props> = ({ data, productPerPage, dataType }) 
                                 </div>
                             </div>
                             <div>
-                                <div className="filter-size">
+                                                                <div className="filter-size">
                                     <div className="heading6">Size</div>
                                     <div className="list-size flex items-center flex-wrap gap-3 gap-y-4 mt-4">
                                         {
-                                            ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL'].map((item, index) => (
+                                            ['6', '7', '8', '9', '10', '11'].map((item, index) => (
                                                 <div
                                                     key={index}
                                                     className={`size-item text-button w-[44px] h-[44px] flex items-center justify-center rounded-full border border-line ${size === item ? 'active' : ''}`}
@@ -372,13 +372,13 @@ const ShopBreadCrumbImg: React.FC<Props> = ({ data, productPerPage, dataType }) 
                                             ))
                                         }
                                         <div
-                                            className={`size-item text-button px-4 py-2 flex items-center justify-center rounded-full border border-line ${size === 'freesize' ? 'active' : ''}`}
-                                            onClick={() => handleSize('freesize')}
+                                            className={`size-item text-button px-4 py-2 flex items-center justify-center rounded-full border border-line ${size === 'onesize' ? 'active' : ''}`}
+                                            onClick={() => handleSize('onesize')}
                                         >
-                                            Freesize
+                                            One Size
                                         </div>
                                     </div>
-                                </div>
+                                    </div>
                                 <div className="filter-price mt-8">
                                     <div className="heading6">Price Range</div>
                                     <Slider
@@ -459,7 +459,7 @@ const ShopBreadCrumbImg: React.FC<Props> = ({ data, productPerPage, dataType }) 
                                     </div>
                                 </div>
                             </div>
-                            <div className="filter-brand">
+                            {/*<div className="filter-brand">
                                 <div className="heading6">Brands</div>
                                 <div className="list-brand mt-4">
                                     {['adidas', 'hermes', 'zara', 'nike', 'gucci'].map((item, index) => (
@@ -482,7 +482,7 @@ const ShopBreadCrumbImg: React.FC<Props> = ({ data, productPerPage, dataType }) 
                                         </div>
                                     ))}
                                 </div>
-                            </div>
+                            </div>*/}
                         </div>
 
                         <div className="list-filtered flex items-center gap-3 mt-4">
