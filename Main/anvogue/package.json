@@ -14,8 +14,8 @@
     "framer-motion": "^10.17.4",
     "nprogress": "^0.2.0",
     "rc-slider": "^10.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-fast-marquee": "^1.6.2",
     "react-loading": "^2.0.3",
     "react-paginate": "^8.2.0",
@@ -23,7 +23,8 @@
     "react-slider": "^2.0.6",
     "sass": "^1.69.5",
     "slick-carousel": "^1.8.1",
-    "swiper": "^11.0.4"
+    "swiper": "^11.0.4",
+    "next": "13.5.6"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.27.1",
@@ -33,10 +34,8 @@
     "@types/react-slick": "^0.23.12",
     "@types/react-slider": "^1.3.6",
     "autoprefixer": "^10.0.1",
-    "babel-preset-next": "^1.4.0",
     "eslint": "^8.57.1",
-    "eslint-config-next": "^14.2.30",
-    "next": "^15.3.4",
+    "eslint-config-next": "13.5.6",
     "postcss": "^8",
     "react-image-zoom": "^1.3.1",
     "tailwindcss": "^3.3.0",
