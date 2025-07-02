@@ -11,6 +11,7 @@ import Footer from '@/components/Footer/Footer'
 import HandlePagination from '@/components/Other/HandlePagination'
 import { useRouter } from 'next/navigation'
 import * as Icon from "@phosphor-icons/react/dist/ssr";
+import MenuEight from '@/components/Header/Menu/MenuEight';
 
 const BlogList = () => {
     const [currentPage, setCurrentPage] = useState(0);
@@ -79,7 +80,7 @@ const BlogList = () => {
         <>
             <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
             <div id="header" className='relative w-full'>
-                <MenuOne props="bg-transparent" />
+                <MenuEight/>
                 <Breadcrumb heading='Blog List' subHeading='Blog List' />
             </div>
             <div className='blog list md:py-20 py-10'>

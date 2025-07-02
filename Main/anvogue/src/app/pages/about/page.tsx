@@ -9,13 +9,14 @@ import Newsletter from '@/components/Home4/Newsletter'
 import Instagram from '@/components/Home6/Instagram'
 import Brand from '@/components/Home1/Brand'
 import Footer from '@/components/Footer/Footer'
+import MenuEight from '@/components/Header/Menu/MenuEight';
 
 const AboutUs = () => {
     return (
         <>
             <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
             <div id="header" className='relative w-full'>
-                <MenuOne props="bg-transparent" />
+                <MenuEight/>
                 <Breadcrumb heading='About Us' subHeading='About Us' />
             </div>
             <div className='about md:pt-20 pt-10'>

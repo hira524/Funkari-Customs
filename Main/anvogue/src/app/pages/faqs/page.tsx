@@ -5,6 +5,7 @@ import MenuOne from '@/components/Header/Menu/MenuOne'
 import Breadcrumb from '@/components/Breadcrumb/Breadcrumb';
 import Footer from '@/components/Footer/Footer'
 import * as Icon from "@phosphor-icons/react/dist/ssr";
+import MenuEight from '@/components/Header/Menu/MenuEight';
 
 const Faqs = () => {
     const [activeTab, setActiveTab] = useState<string | undefined>('how to buy')
@@ -22,7 +23,7 @@ const Faqs = () => {
         <>
             <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
             <div id="header" className='relative w-full'>
-                <MenuOne props="bg-transparent" />
+                <MenuEight />
                 <Breadcrumb heading='FAQs' subHeading='FAQs' />
             </div>
             <div className='faqs-block md:py-20 py-10'>
