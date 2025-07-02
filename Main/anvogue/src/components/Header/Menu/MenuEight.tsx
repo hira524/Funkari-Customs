@@ -972,7 +972,7 @@ const MenuEight = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/product/default" className='text-xl font-semibold flex items-center justify-between mt-5'>
+                                        <Link href="/product/styles/style5" className='text-xl font-semibold flex items-center justify-between mt-5'>
                                             Product
                                         </Link>
                                     </li>
