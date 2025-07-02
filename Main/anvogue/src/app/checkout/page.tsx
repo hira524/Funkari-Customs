@@ -12,6 +12,7 @@ import Product from '@/components/Product/Product'
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { useCart } from '@/context/CartContext'
 import { useSearchParams } from 'next/navigation';
+import MenuEight from '@/components/Header/Menu/MenuEight'
 
 const Checkout = () => {
     const searchParams = useSearchParams()
@@ -32,7 +33,7 @@ const Checkout = () => {
         <>
             <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
             <div id="header" className='relative w-full'>
-                <MenuOne props="bg-transparent" />
+                <MenuEight />
                 <Breadcrumb heading='Shopping cart' subHeading='Shopping cart' />
             </div>
             <div className="cart-block md:py-20 py-10">

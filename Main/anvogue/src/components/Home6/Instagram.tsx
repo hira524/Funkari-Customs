@@ -12,8 +12,8 @@ const Instagram = () => {
         <>
             <div className="instagram-block md:pt-20 pt-10">
                 <div className="heading">
-                    <div className="heading3 text-center">Funkari Customs On Instagram</div>
-                    <div className="text-center mt-3">#Funkari Customstheme</div>
+                    <div className="heading3 text-center">Custom Sneaker Art On Instagram</div>
+                    <div className="text-center mt-3">#CustomSneakerArt</div>
                 </div>
                 <div className="list-instagram md:mt-7 mt-4">
                     <Swiper
@@ -41,10 +41,10 @@ const Instagram = () => {
                         <SwiperSlide>
                             <Link href={'https://www.instagram.com/'} target='_blank' className="item relative block overflow-hidden">
                                 <Image
-                                    src={'/images/instagram/1.png'}
+                                    src={'/images/products/product (8)/p8 (4).png'}
                                     width={500}
                                     height={500}
-                                    alt='1'
+                                    alt='custom anime sneakers'
                                     className='h-full w-full duration-500 relative'
                                 />
                                 <div className="icon w-12 h-12 bg-white hover:bg-black duration-500 flex items-center justify-center rounded-2xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1]">
@@ -55,10 +55,10 @@ const Instagram = () => {
                         <SwiperSlide>
                             <Link href={'https://www.instagram.com/'} target='_blank' className="item relative block overflow-hidden">
                                 <Image
-                                    src={'/images/instagram/2.png'}
+                                    src={'/images/products/product (2)/p2 (4).png'}
                                     width={500}
                                     height={500}
-                                    alt='1'
+                                    alt='gtr skyline custom sneakers'
                                     className='h-full w-full duration-500 relative'
                                 />
                                 <div className="icon w-12 h-12 bg-white hover:bg-black duration-500 flex items-center justify-center rounded-2xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1]">
@@ -69,10 +69,10 @@ const Instagram = () => {
                         <SwiperSlide>
                             <Link href={'https://www.instagram.com/'} target='_blank' className="item relative block overflow-hidden">
                                 <Image
-                                    src={'/images/instagram/3.png'}
+                                    src={'/images/products/product (3)/p3 (3).png'}
                                     width={500}
                                     height={500}
-                                    alt='1'
+                                    alt='sasuke toji anime sneakers'
                                     className='h-full w-full duration-500 relative'
                                 />
                                 <div className="icon w-12 h-12 bg-white hover:bg-black duration-500 flex items-center justify-center rounded-2xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1]">
@@ -83,10 +83,10 @@ const Instagram = () => {
                         <SwiperSlide>
                             <Link href={'https://www.instagram.com/'} target='_blank' className="item relative block overflow-hidden">
                                 <Image
-                                    src={'/images/instagram/4.png'}
+                                    src={'/images/products/product (4)/p4 (4).png'}
                                     width={500}
                                     height={500}
-                                    alt='1'
+                                    alt='sunset abstract custom sneakers'
                                     className='h-full w-full duration-500 relative'
                                 />
                                 <div className="icon w-12 h-12 bg-white hover:bg-black duration-500 flex items-center justify-center rounded-2xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1]">
@@ -97,10 +97,10 @@ const Instagram = () => {
                         <SwiperSlide>
                             <Link href={'https://www.instagram.com/'} target='_blank' className="item relative block overflow-hidden">
                                 <Image
-                                    src={'/images/instagram/5.png'}
+                                    src={'/images/products/product (5)/p5 (6).png'}
                                     width={500}
                                     height={500}
-                                    alt='1'
+                                    alt='jordan wave custom sneakers'
                                     className='h-full w-full duration-500 relative'
                                 />
                                 <div className="icon w-12 h-12 bg-white hover:bg-black duration-500 flex items-center justify-center rounded-2xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1]">
@@ -111,10 +111,10 @@ const Instagram = () => {
                         <SwiperSlide>
                             <Link href={'https://www.instagram.com/'} target='_blank' className="item relative block overflow-hidden">
                                 <Image
-                                    src={'/images/instagram/0.png'}
+                                    src={'/images/products/product (6)/p6 (3).png'}
                                     width={500}
                                     height={500}
-                                    alt='1'
+                                    alt='joker custom sneakers'
                                     className='h-full w-full duration-500 relative'
                                 />
                                 <div className="icon w-12 h-12 bg-white hover:bg-black duration-500 flex items-center justify-center rounded-2xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1]">

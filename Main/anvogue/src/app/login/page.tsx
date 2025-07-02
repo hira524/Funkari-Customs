@@ -6,6 +6,7 @@ import MenuOne from '@/components/Header/Menu/MenuOne'
 import Breadcrumb from '@/components/Breadcrumb/Breadcrumb'
 import Footer from '@/components/Footer/Footer'
 import * as Icon from "@phosphor-icons/react/dist/ssr";
+import MenuEight from '@/components/Header/Menu/MenuEight'
 
 const Login = () => {
 
@@ -13,7 +14,7 @@ const Login = () => {
         <>
             <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
             <div id="header" className='relative w-full'>
-                <MenuOne props="bg-transparent" />
+                <MenuEight />
                 <Breadcrumb heading='Login' subHeading='Login' />
             </div>
             <div className="login-block md:py-20 py-10">

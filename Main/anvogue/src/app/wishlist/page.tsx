@@ -9,6 +9,7 @@ import Product from '@/components/Product/Product'
 import { useWishlist } from '@/context/WishlistContext'
 import HandlePagination from '@/components/Other/HandlePagination'
 import * as Icon from "@phosphor-icons/react/dist/ssr";
+import MenuEight from '@/components/Header/Menu/MenuEight'
 
 
 const Wishlist = () => {
@@ -120,7 +121,7 @@ const Wishlist = () => {
         <>
             <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
             <div id="header" className='relative w-full'>
-                <MenuOne props="bg-transparent" />
+                <MenuEight />
                 <Breadcrumb heading='Wish list' subHeading='Wish list' />
             </div>
             <div className="shop-product breadcrumb1 lg:py-20 md:py-14 py-10">
