@@ -9,6 +9,7 @@ import blogData from '@/data/Blog.json'
 import NewsInsight from '@/components/Home3/NewsInsight';
 import Footer from '@/components/Footer/Footer'
 import { useRouter } from 'next/navigation'
+import MenuEight from '@/components/Header/Menu/MenuEight';
 
 const BlogDetailOne = () => {
     const searchParams = useSearchParams()
@@ -35,7 +36,7 @@ const BlogDetailOne = () => {
         <>
             <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
             <div id="header" className='relative w-full'>
-                <MenuOne props="bg-white" />
+                <MenuEight />
             </div>
             <div className='blog detail1'>
                 <div className="bg-img md:mt-[74px] mt-14">
