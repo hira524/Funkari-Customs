@@ -908,10 +908,63 @@ const MenuEight = () => {
                                             </div>
                                         </div>
                                     </li> */}
-                                    <li>
-                                        <Link href="#!" className='text-xl font-semibold flex items-center justify-between'>
-                                            Features
-                                        </Link>
+                                                                        <li
+                                        className={`${openSubNavMobile === 2 ? 'open' : ''}`}
+                                        onClick={() => handleOpenSubNavMobile(2)}
+                                    >
+                                        <a href={'#!'} className='text-xl font-semibold flex items-center justify-between'>Features
+                                            <span className='text-right'>
+                                                <Icon.CaretRight size={20} />
+                                            </span>
+                                        </a>
+                                        <div className="sub-nav-mobile">
+                                            <div
+                                                className="back-btn flex items-center gap-3"
+                                                onClick={() => handleOpenSubNavMobile(2)}
+                                            >
+                                                <Icon.CaretLeft />
+                                                Back
+                                            </div>
+                                            <div className="list-nav-item w-full pt-2 pb-6">
+                                                <div className="nav-item mb-6">
+                                                    <div className="text-button-uppercase pb-2">Custom Shoes</div>
+                                                    <ul>
+                                                        <li>
+                                                            <div
+                                                                onClick={() => handleTypeClick('shoes')}
+                                                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
+                                                            >
+                                                                Nike Air Force
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div
+                                                                onClick={() => handleTypeClick('shoes')}
+                                                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
+                                                            >
+                                                                Jordan Customs
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div
+                                                                onClick={() => handleTypeClick('shoes')}
+                                                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
+                                                            >
+                                                                Custom Sneakers
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div
+                                                                onClick={() => handleTypeClick('shoes')}
+                                                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer view-all-btn`}
+                                                            >
+                                                                View All Shoes
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
                                         <Link href="/shop/breadcrumb-img" className='text-xl font-semibold flex items-center justify-between mt-5'>
