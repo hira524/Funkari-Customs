@@ -11,7 +11,7 @@ const Collection = () => {
     const router = useRouter()
 
     const handleTypeClick = (type: string) => {
-        router.push(`/shop/breadcrumb1?type=${type}`);
+        router.push(`/shop/breadcrumb-img?type=${type}`);
     };
 
     return (
@@ -47,7 +47,7 @@ const Collection = () => {
                             className='h-full'
                         >
                             <SwiperSlide>
-                                <div className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleTypeClick('swimwear')}>
+                                <div className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleTypeClick('shoes')}>
                                     <div className="bg-img">
                                         <Image
                                             src={'/images/collection/product (4)/p4 (3).png' }
@@ -60,7 +60,7 @@ const Collection = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleTypeClick('top')}>
+                                <div className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleTypeClick('shoes')}>
                                     <div className="bg-img">
                                         <Image
                                             src={'/images/collection/product (5)/p5 (5).png'}
@@ -73,7 +73,7 @@ const Collection = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleTypeClick('sets')}>
+                                <div className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleTypeClick('shoes')}>
                                     <div className="bg-img">
                                         <Image
                                             src={'/images/collection/product (6)/p6 (3).png'}
@@ -86,7 +86,7 @@ const Collection = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleTypeClick('outerwear')}>
+                                <div className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleTypeClick('shoes')}>
                                     <div className="bg-img">
                                         <Image
                                             src={'/images/collection/product (7)/p7 (3).png'}
@@ -99,7 +99,7 @@ const Collection = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleTypeClick('underwear')}>
+                                <div className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleTypeClick('shoes')}>
                                     <div className="bg-img">
                                         <Image
                                             src={'/images/collection/product (8)/p8 (2).png'}
@@ -110,9 +110,9 @@ const Collection = () => {
                                     </div>
                                     <div className="collection-name heading6 text-center sm:bottom-5 bottom-3 lg:w-[140px] md:w-[120px] w-[100px] md:py-1.5 py-1 bg-white rounded-xl duration-500">Collection 5</div>
                                 </div>
-                            </SwiperSlide>
+                            </SwiperSlide> 
                             <SwiperSlide>
-                                <div className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleTypeClick('t-shirt')}>
+                                <div className="collection-item block relative rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleTypeClick('shoes')}>
                                     <div className="bg-img">
                                         <Image
                                             src={'/images/collection/product (9)/p9 (9).png'}
