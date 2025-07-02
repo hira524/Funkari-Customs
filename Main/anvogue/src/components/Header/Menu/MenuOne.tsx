@@ -76,7 +76,7 @@ const MenuOne: React.FC<Props> = ({ props }) => {
                             <i className="icon-category text-2xl"></i>
                         </div>
                         <div className="left flex items-center gap-16">
-                           <Link href="/Home" className="flex items-center max-lg:absolute max-lg:left-1/2 max-lg:-translate-x-1/2">
+                           <Link href="/homepages/fashion8" className="flex items-center max-lg:absolute max-lg:left-1/2 max-lg:-translate-x-1/2">
                                <Image
                                src="/images/logo/Funkari New Original logo.png"
                                alt="Funkari Customs Logo"
