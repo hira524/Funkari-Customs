@@ -6469,55 +6469,57 @@
   {
     "id": "139",
     "category": "fashion",
-    "type": "sweater",
-    "name": "silver sweater",
-    "gender": "men",
+    "type": "shoes",
+    "name": "",
+    "gender": "unisex",
     "new": false,
     "sale": true,
     "rate": 5,
     "price": 26,
     "originPrice": 32,
-    "brand": "zara",
+    "brand": "nike",
     "sold": 16,
     "quantity": 64,
     "quantityPurchase": 1,
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
+       "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
     ],
     "variation": [
       {
         "color": "grey",
         "colorCode": "#F6EFDD",
-        "colorImage": "/images/product/color/48x48.png",
-        "image": "/images/product/1000x1000.png"
+        "colorImage": "/images/products/color/48x48.png",
+        "image": "/images/products/1000x1000.png"
       },
       {
         "color": "yellow",
         "colorCode": "#ECB018",
-        "colorImage": "/images/product/color/48x48.png",
-        "image": "/images/product/1000x1000.png"
+        "colorImage": "/images/products/color/48x48.png",
+        "image": "/images/products/1000x1000.png"
       }
     ],
     "thumbImage": [
-      "/images/product/1000x1000.png",
-      "/images/product/1000x1000.png"
+      "/images/products/1000x1000.png",
+      "/images/products/1000x1000.png"
     ],
     "images": [
-      "/images/product/1000x1000.png",
-      "/images/product/1000x1000.png"
+      "/images/products/1000x1000.png",
+      "/images/products/1000x1000.png"
     ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
+    "description": "",
     "action": "quick shop",
     "slug": "fashion"
   },
   {
     "id": "140",
     "category": "fashion",
-    "type": "sweater",
-    "name": "silver sweater",
+    "type": "shoes",
+    "name": "",
     "gender": "men",
     "new": true,
     "sale": false,
@@ -6529,89 +6531,87 @@
     "quantity": 64,
     "quantityPurchase": 1,
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
+         "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
     ],
     "variation": [
       {
-        "color": "red",
-        "colorCode": "#DB4444",
-        "colorImage": "/images/product/color/48x48.png",
-        "image": "/images/product/1000x1000.png"
-      },
-      {
         "color": "purple",
         "colorCode": "#8684D4",
-        "colorImage": "/images/product/color/48x48.png",
-        "image": "/images/product/1000x1000.png"
+        "colorImage": "/images/products/color/48x48.png",
+        "image": "/images/products/1000x1000.png"
       }
     ],
     "thumbImage": [
-      "/images/product/1000x1000.png",
-      "/images/product/1000x1000.png"
+      "/images/products/1000x1000.png",
+      "/images/products/1000x1000.png"
     ],
     "images": [
-      "/images/product/1000x1000.png",
-      "/images/product/1000x1000.png"
+      "/images/products/1000x1000.png",
+      "/images/products/1000x1000.png"
     ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
+    "description": "",
+     "action": "add to cart",
     "slug": "fashion"
   },
   {
     "id": "141",
     "category": "fashion",
-    "type": "outerwear",
-    "name": "women office outerwear",
+    "type": "shoes",
+    "name": "",
     "gender": "women",
     "new": false,
     "sale": true,
     "rate": 5,
     "price": 26,
     "originPrice": 32,
-    "brand": "zara",
+    "brand": "nike",
     "sold": 16,
     "quantity": 64,
     "quantityPurchase": 1,
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
+        "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
     ],
     "variation": [
       {
         "color": "yellow",
         "colorCode": "#ECB018",
-        "colorImage": "/images/product/color/48x48.png",
-        "image": "/images/product/1000x1000.png"
+        "colorImage": "/images/products/color/48x48.png",
+        "image": "/images/products/1000x1000.png"
       },
       {
         "color": "grey",
         "colorCode": "#F6EFDD",
-        "colorImage": "/images/product/color/48x48.png",
-        "image": "/images/product/1000x1000.png"
+        "colorImage": "/images/products/color/48x48.png",
+        "image": "/images/products/1000x1000.png"
       }
     ],
     "thumbImage": [
-      "/images/product/1000x1000.png",
-      "/images/product/1000x1000.png"
+      "/images/products/1000x1000.png",
+      "/images/products/1000x1000.png"
     ],
     "images": [
-      "/images/product/1000x1000.png",
-      "/images/product/1000x1000.png"
+      "/images/products/1000x1000.png",
+      "/images/products/1000x1000.png"
     ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
+    "description": "",
     "action": "quick shop",
     "slug": "fashion"
   },
   {
     "id": "142",
     "category": "fashion",
-    "type": "outerwear",
-    "name": "men outerwear",
+    "type": "shoes",
+    "name": "",
     "gender": "men",
     "new": true,
     "sale": false,
@@ -6623,80 +6623,87 @@
     "quantity": 64,
     "quantityPurchase": 1,
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
+        "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
     ],
     "variation": [
       {
         "color": "black",
         "colorCode": "#1F1F1F",
-        "colorImage": "/images/product/color/48x48.png",
-        "image": "/images/product/1000x1000.png"
+        "colorImage": "/images/products/color/48x48.png",
+        "image": "/images/products/1000x1000.png"
       },
       {
         "color": "yellow",
         "colorCode": "#ECB018",
-        "colorImage": "/images/product/color/48x48.png",
-        "image": "/images/product/1000x1000.png"
+        "colorImage": "/images/products/color/48x48.png",
+        "image": "/images/products/1000x1000.png"
       }
     ],
     "thumbImage": [
-      "/images/product/1000x1000.png",
-      "/images/product/1000x1000.png"
+      "/images/products/1000x1000.png",
+      "/images/products/1000x1000.png"
     ],
     "images": [
-      "/images/product/1000x1000.png",
-      "/images/product/1000x1000.png"
+      "/images/products/1000x1000.png",
+      "/images/products/1000x1000.png"
     ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
+    "description": "",
+     "action": "add to cart",
     "slug": "fashion"
   },
   {
     "id": "143",
     "category": "fashion",
-    "type": "dress",
-    "name": "Off-the-Shoulder Blouse",
+    "type": "shoes",
+    "name": "",
     "gender": "women",
     "new": false,
     "sale": true,
     "rate": 4,
     "price": 32,
     "originPrice": 40,
-    "brand": "zara",
+    "brand": "nike",
     "sold": 42,
     "quantity": 80,
     "quantityPurchase": 1,
     "sizes": [
-      "freesize"
+         "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
     ],
     "variation": [
       {
         "color": "green",
         "colorCode": "#D2EF9A",
-        "colorImage": "/images/product/color/48x48.png",
-        "image": "/images/product/1000x1000.png"
+        "colorImage": "/images/products/color/48x48.png",
+        "image": "/images/products/1000x1000.png"
       },
       {
         "color": "red",
         "colorCode": "#DB4444",
-        "colorImage": "/images/product/color/48x48.png",
-        "image": "/images/product/1000x1000.png"
+        "colorImage": "/images/products/color/48x48.png",
+        "image": "/images/products/1000x1000.png"
       }
     ],
     "thumbImage": [
-      "/images/product/1000x1000.png",
-      "/images/product/1000x1000.png"
+      "/images/products/1000x1000.png",
+      "/images/products/1000x1000.png"
     ],
     "images": [
-      "/images/product/1000x1000.png",
-      "/images/product/1000x1000.png",
-      "/images/product/1000x1000.png",
-      "/images/product/1000x1000.png"
+      "/images/products/1000x1000.png",
+      "/images/products/1000x1000.png",
+      "/images/products/1000x1000.png",
+      "/images/products/1000x1000.png"
     ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
+    "description": "",
     "action": "add to cart",
     "slug": "blouse"
   },
