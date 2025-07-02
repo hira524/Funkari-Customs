@@ -107,113 +107,173 @@ const Checkout = () => {
                                                 <textarea className="border border-line px-4 py-3 w-full rounded-lg" id="note" name="note" placeholder="Write note..."></textarea>
                                             </div>
                                         </div>
-                                        <div className="payment-block md:mt-10 mt-6">
+                                                                                <div className="payment-block md:mt-10 mt-6">
                                             <div className="heading5">Choose payment Option:</div>
                                             <div className="list-payment mt-5">
+                                                {/* Credit Card */}
                                                 <div className={`type bg-surface p-5 border border-line rounded-lg ${activePayment === 'credit-card' ? 'open' : ''}`}>
                                                     <input className="cursor-pointer" type="radio" id="credit" name="payment" checked={activePayment === 'credit-card'} onChange={() => handlePayment('credit-card')} />
                                                     <label className="text-button pl-2 cursor-pointer" htmlFor="credit">Credit Card</label>
-                                                    <div className="infor">
-                                                        <div className="text-on-surface-variant1 pt-4">Make your payment directly into our bank account. Your order will not be shipped until the funds have cleared in our account.</div>
-                                                        <div className="row">
-                                                            <div className="col-12 mt-3">
-                                                                <label htmlFor="cardNumberCredit">Card Numbers</label>
-                                                                <input className="cursor-pointer border-line px-4 py-3 w-full rounded mt-2" type="text" id="cardNumberCredit" placeholder="ex.1234567290" />
+                                                    {activePayment === 'credit-card' && (
+                                                        <div className="infor pt-4">
+                                                            <div className="text-on-surface-variant1 mb-3">Pay securely with your credit card.</div>
+                                                            <div className="row">
+                                                                <div className="col-12 mt-3">
+                                                                    <label htmlFor="cardNumberCredit">Card Number</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="cardNumberCredit" placeholder="ex. 1234 5678 9012 3456" />
+                                                                </div>
+                                                                <div className="mt-3">
+                                                                    <label htmlFor="dateCredit">Expiry Date</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="dateCredit" placeholder="MM/YY" />
+                                                                </div>
+                                                                <div className="mt-3">
+                                                                    <label htmlFor="ccvCredit">CVV</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="ccvCredit" placeholder="***" />
+                                                                </div>
+                                                                <div className="mt-3">
+                                                                    <label htmlFor="nameCredit">Name on Card</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="nameCredit" placeholder="Cardholder Name" />
+                                                                </div>
                                                             </div>
-                                                            <div className=" mt-3">
-                                                                <label htmlFor="dateCredit">Date</label>
-                                                                <input className="border-line px-4 py-3 w-full rounded mt-2" type="date" id="dateCredit" name="date" />
-                                                            </div>
-                                                            <div className=" mt-3">
-                                                                <label htmlFor="ccvCredit">CCV</label>
-                                                                <input className="cursor-pointer border-line px-4 py-3 w-full rounded mt-2" type="text" id="ccvCredit" placeholder="****" />
+                                                            <div className="flex items-center gap-2 mt-3">
+                                                                <input type="checkbox" id="saveCredit" name="save" />
+                                                                <label className="text-button" htmlFor="saveCredit">Save Card Details</label>
                                                             </div>
                                                         </div>
-                                                        <div className="flex items-center gap-2 mt-3">
-                                                            <input type="checkbox" id="saveCredit" name="save" />
-                                                            <label className="text-button" htmlFor="saveCredit">Save Card Details</label>
-                                                        </div>
-                                                    </div>
+                                                    )}
                                                 </div>
+                                                {/* Cash on Delivery */}
                                                 <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'cash-delivery' ? 'open' : ''}`}>
                                                     <input className="cursor-pointer" type="radio" id="delivery" name="payment" checked={activePayment === 'cash-delivery'} onChange={() => handlePayment('cash-delivery')} />
-                                                    <label className="text-button pl-2 cursor-pointer" htmlFor="delivery">Cash on delivery</label>
-                                                    <div className="infor">
-                                                        <div className="text-on-surface-variant1 pt-4">Make your payment directly into our bank account. Your order will not be shipped until the funds have cleared in our account.</div>
-                                                        <div className="row">
-                                                            <div className="col-12 mt-3">
-                                                                {/* <div className="bg-img"><Image src="assets/images/component/payment.png" alt="" /></div> */}
-                                                                <label htmlFor="cardNumberDelivery">Card Numbers</label>
-                                                                <input className="cursor-pointer border-line px-4 py-3 w-full rounded mt-2" type="text" id="cardNumberDelivery" placeholder="ex.1234567290" />
-                                                            </div>
-                                                            <div className=" mt-3">
-                                                                <label htmlFor="dateDelivery">Date</label>
-                                                                <input className="border-line px-4 py-3 w-full rounded mt-2" type="date" id="dateDelivery" name="date" />
-                                                            </div>
-                                                            <div className=" mt-3">
-                                                                <label htmlFor="ccvDelivery">CCV</label>
-                                                                <input className="cursor-pointer border-line px-4 py-3 w-full rounded mt-2" type="text" id="ccvDelivery" placeholder="****" />
-                                                            </div>
+                                                    <label className="text-button pl-2 cursor-pointer" htmlFor="delivery">Cash on Delivery</label>
+                                                    {activePayment === 'cash-delivery' && (
+                                                        <div className="infor pt-4">
+                                                            <div className="text-on-surface-variant1">Pay with cash when your order is delivered to your address.</div>
                                                         </div>
-                                                        <div className="flex items-center gap-2 mt-3">
-                                                            <input type="checkbox" id="saveDelivery" name="save" />
-                                                            <label className="text-button" htmlFor="saveDelivery">Save Card Details</label>
-                                                        </div>
-                                                    </div>
+                                                    )}
                                                 </div>
+                                                {/* Apple Pay */}
                                                 <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'apple-pay' ? 'open' : ''}`}>
-                                                    <input className="cursor-pointer" type="radio" id="apple" name="payment" checked={activePayment === 'apple-pay'} onChange={() => handlePayment('apple-pay')} />
-                                                    <label className="text-button pl-2 cursor-pointer" htmlFor="apple">Apple Pay</label>
-                                                    <div className="infor">
-                                                        <div className="text-on-surface-variant1 pt-4">Make your payment directly into our bank account. Your order will not be shipped until the funds have cleared in our account.</div>
-                                                        <div className="row">
-                                                            <div className="col-12 mt-3">
-                                                                {/* <div className="bg-img"><Image src="assets/images/component/payment.png" alt="" /></div> */}
-                                                                <label htmlFor="cardNumberApple">Card Numbers</label>
-                                                                <input className="cursor-pointer border-line px-4 py-3 w-full rounded mt-2" type="text" id="cardNumberApple" placeholder="ex.1234567290" />
-                                                            </div>
-                                                            <div className=" mt-3">
-                                                                <label htmlFor="dateApple">Date</label>
-                                                                <input className="border-line px-4 py-3 w-full rounded mt-2" type="date" id="dateApple" name="date" />
-                                                            </div>
-                                                            <div className=" mt-3">
-                                                                <label htmlFor="ccvApple">CCV</label>
-                                                                <input className="cursor-pointer border-line px-4 py-3 w-full rounded mt-2" type="text" id="ccvApple" placeholder="****" />
+                                                    <input className="cursor-pointer" type="radio" id="apple-pay" name="payment" checked={activePayment === 'apple-pay'} onChange={() => handlePayment('apple-pay')} />
+                                                    <label className="text-button pl-2 cursor-pointer" htmlFor="apple-pay">Apple Pay</label>
+                                                    {activePayment === 'apple-pay' && (
+                                                        <div className="infor pt-4">
+                                                            <div className="text-on-surface-variant1 mb-3">Pay quickly and securely with Apple Pay.</div>
+                                                            <div className="row">
+                                                                <div className="col-12 mt-3">
+                                                                    <label htmlFor="applePayDevice">Device Account Number</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="applePayDevice" placeholder="Device Account Number" />
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                        <div className="flex items-center gap-2 mt-3">
-                                                            <input type="checkbox" id="saveApple" name="save" />
-                                                            <label className="text-button" htmlFor="saveApple">Save Card Details</label>
-                                                        </div>
-                                                    </div>
+                                                    )}
                                                 </div>
+                                                {/* PayPal */}
                                                 <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'paypal' ? 'open' : ''}`}>
                                                     <input className="cursor-pointer" type="radio" id="paypal" name="payment" checked={activePayment === 'paypal'} onChange={() => handlePayment('paypal')} />
                                                     <label className="text-button pl-2 cursor-pointer" htmlFor="paypal">PayPal</label>
-                                                    <div className="infor">
-                                                        <div className="text-on-surface-variant1 pt-4">Make your payment directly into our bank account. Your order will not be shipped until the funds have cleared in our account.</div>
-                                                        <div className="row">
-                                                            <div className="col-12 mt-3">
-                                                                <label htmlFor="cardNumberPaypal">Card Numbers</label>
-                                                                <input className="cursor-pointer border-line px-4 py-3 w-full rounded mt-2" type="text" id="cardNumberPaypal" placeholder="ex.1234567290" />
-                                                            </div>
-                                                            <div className=" mt-3">
-                                                                <label htmlFor="datePaypal">Date</label>
-                                                                <input className="border-line px-4 py-3 w-full rounded mt-2" type="date" id="datePaypal" name="date" />
-                                                            </div>
-                                                            <div className=" mt-3">
-                                                                <label htmlFor="ccvPaypal">CCV</label>
-                                                                <input className="cursor-pointer border-line px-4 py-3 w-full rounded mt-2" type="text" id="ccvPaypal" placeholder="****" />
+                                                    {activePayment === 'paypal' && (
+                                                        <div className="infor pt-4">
+                                                            <div className="text-on-surface-variant1 mb-3">Pay securely using your PayPal account.</div>
+                                                            <div className="row">
+                                                                <div className="col-12 mt-3">
+                                                                    <label htmlFor="paypalEmail">PayPal Email</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="email" id="paypalEmail" placeholder="your@email.com" />
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                        <div className="flex items-center gap-2 mt-3">
-                                                            <input type="checkbox" id="savePaypal" name="save" />
-                                                            <label className="text-button" htmlFor="savePaypal">Save Card Details</label>
-                                                        </div>
-                                                    </div>
+                                                    )}
                                                 </div>
-                                            </div>
-                                        </div>
+                                                {/* Stripe */}
+                                                <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'stripe' ? 'open' : ''}`}>
+                                                    <input className="cursor-pointer" type="radio" id="stripe" name="payment" checked={activePayment === 'stripe'} onChange={() => handlePayment('stripe')} />
+                                                    <label className="text-button pl-2 cursor-pointer" htmlFor="stripe">Stripe</label>
+                                                    {activePayment === 'stripe' && (
+                                                        <div className="infor pt-4">
+                                                            <div className="text-on-surface-variant1 mb-3">Pay with your credit or debit card via Stripe.</div>
+                                                            <div className="row">
+                                                                <div className="col-12 mt-3">
+                                                                    <label htmlFor="stripeCardNumber">Card Number</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="stripeCardNumber" placeholder="ex. 1234 5678 9012 3456" />
+                                                                </div>
+                                                                <div className="mt-3">
+                                                                    <label htmlFor="stripeDate">Expiry Date</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="stripeDate" placeholder="MM/YY" />
+                                                                </div>
+                                                                <div className="mt-3">
+                                                                    <label htmlFor="stripeCvv">CVV</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="stripeCvv" placeholder="***" />
+                                                                </div>
+                                                                <div className="mt-3">
+                                                                    <label htmlFor="stripeName">Name on Card</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="stripeName" placeholder="Cardholder Name" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    )}
+                                                </div>
+                                                {/* Visa */}
+                                                <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'visa' ? 'open' : ''}`}>
+                                                    <input className="cursor-pointer" type="radio" id="visa" name="payment" checked={activePayment === 'visa'} onChange={() => handlePayment('visa')} />
+                                                    <label className="text-button pl-2 cursor-pointer" htmlFor="visa">Visa</label>
+                                                    {activePayment === 'visa' && (
+                                                        <div className="infor pt-4">
+                                                            <div className="text-on-surface-variant1 mb-3">Enter your Visa card details:</div>
+                                                            <div className="row">
+                                                                <div className="col-12 mt-3">
+                                                                    <label htmlFor="visaCardNumber">Card Number</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="visaCardNumber" placeholder="ex. 1234 5678 9012 3456" />
+                                                                </div>
+                                                                <div className="mt-3">
+                                                                    <label htmlFor="visaDate">Expiry Date</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="visaDate" placeholder="MM/YY" />
+                                                                </div>
+                                                                <div className="mt-3">
+                                                                    <label htmlFor="visaCvv">CVV</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="visaCvv" placeholder="***" />
+                                                                </div>
+                                                                <div className="mt-3">
+                                                                    <label htmlFor="visaName">Name on Card</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="visaName" placeholder="Cardholder Name" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    )}
+                                                </div>
+                                                {/* Payoneer */}
+                                                <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'payoneer' ? 'open' : ''}`}>
+                                                    <input className="cursor-pointer" type="radio" id="payoneer" name="payment" checked={activePayment === 'payoneer'} onChange={() => handlePayment('payoneer')} />
+                                                    <label className="text-button pl-2 cursor-pointer" htmlFor="payoneer">Payoneer</label>
+                                                    {activePayment === 'payoneer' && (
+                                                        <div className="infor pt-4">
+                                                            <div className="text-on-surface-variant1 mb-3">Pay using your Payoneer account.</div>
+                                                            <div className="row">
+                                                                <div className="col-12 mt-3">
+                                                                    <label htmlFor="payoneerEmail">Payoneer Email</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="email" id="payoneerEmail" placeholder="your@email.com" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    )}
+                                                </div>
+                                             {/* Amazon Pay */}
+        <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'amazon-pay' ? 'open' : ''}`}>
+            <input className="cursor-pointer" type="radio" id="amazon-pay" name="payment" checked={activePayment === 'amazon-pay'} onChange={() => handlePayment('amazon-pay')} />
+            <label className="text-button pl-2 cursor-pointer" htmlFor="amazon-pay">Amazon Pay</label>
+            {activePayment === 'amazon-pay' && (
+                <div className="infor pt-4">
+                    <div className="text-on-surface-variant1 mb-3">Pay easily with your Amazon account.</div>
+                    <div className="row">
+                        <div className="col-12 mt-3">
+                            <label htmlFor="amazonEmail">Amazon Email</label>
+                            <input className="border-line px-4 py-3 w-full rounded mt-2" type="email" id="amazonEmail" placeholder="your@email.com" />
+                        </div>
+                    </div>
+                </div>
+            )}
+        </div>
+    </div>
+</div>
                                         <div className="block-button md:mt-10 mt-6">
                                             <button className="button-main w-full">Payment</button>
                                         </div>
