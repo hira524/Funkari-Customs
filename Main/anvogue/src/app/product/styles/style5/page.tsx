@@ -7,6 +7,7 @@ import MenuOne from '@/components/Header/Menu/MenuOne'
 import ShopFilterCanvas from '@/components/Shop/ShopFilterCanvas'
 import productData from '@/data/Product.json'
 import Footer from '@/components/Footer/Footer'
+import MenuEight from '@/components/Header/Menu/MenuEight';
 
 export default function FilterCanvasProductFive() {
     const searchParams = useSearchParams()
@@ -16,7 +17,7 @@ export default function FilterCanvasProductFive() {
         <>
             <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
             <div id="header" className='relative w-full'>
-                <MenuOne props="bg-transparent" />
+                <MenuEight/>
             </div>
             <ShopFilterCanvas data={productData} productPerPage={12} dataType={type} productStyle='style-5' />
             <Footer />

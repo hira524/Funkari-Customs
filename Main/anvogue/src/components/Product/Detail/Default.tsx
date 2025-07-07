@@ -18,6 +18,7 @@ import { useModalWishlistContext } from '@/context/ModalWishlistContext'
 import { useCompare } from '@/context/CompareContext'
 import { useModalCompareContext } from '@/context/ModalCompareContext'
 import ModalSizeguide from '@/components/Modal/ModalSizeguide'
+import { useRouter } from 'next/navigation'
 
 SwiperCore.use([Navigation, Thumbs]);
 
@@ -28,6 +29,7 @@ interface Props {
 
 const Default: React.FC<Props> = ({ data, productId }) => {
     const swiperRef: any = useRef();
+    const router = useRouter();
     const [photoIndex, setPhotoIndex] = useState(0)
     const [openPopupImg, setOpenPopupImg] = useState(false)
     const [openSizeGuide, setOpenSizeGuide] = useState<boolean>(false)
@@ -132,7 +134,9 @@ const Default: React.FC<Props> = ({ data, productId }) => {
     const handleActiveTab = (tab: string) => {
         setActiveTab(tab)
     }
-
+    const handleCustomizeClick = () => {
+        router.push(`/customize?productId=${productMain.id}`);
+    };
 
     return (
         <>
@@ -335,9 +339,17 @@ const Default: React.FC<Props> = ({ data, productId }) => {
                                     </div>
                                     <div onClick={handleAddToCart} className="button-main w-full text-center bg-white text-black border border-black">Add To Cart</div>
                                 </div>
-                                <div className="button-block mt-5">
-                                    <div className="button-main w-full text-center">Buy It Now</div>
-                                </div>
+                                <div className="button-block mt-5 flex flex-col gap-3">
+                        <div className="button-main w-full text-center">Buy It Now</div>
+                        {/* Customization Button */}
+                        <button
+                            className="button-main w-full text-center bg-blue-600 text-white border border-blue-600 hover:bg-blue-700 transition"
+                            style={{ marginTop: '8px' }}
+                            onClick={handleCustomizeClick}
+                        >
+                            Customize Product
+                        </button>
+                    </div>
                                 <div className="flex items-center lg:gap-20 gap-8 mt-5 pb-6 border-b border-line">
                                     <div className="compare flex items-center gap-3 cursor-pointer" onClick={(e) => { e.stopPropagation(); handleAddToCompare() }}>
                                         <div className="compare-btn md:w-12 md:h-12 w-10 h-10 flex items-center justify-center border border-line cursor-pointer rounded-xl duration-300 hover:bg-black hover:text-white">
@@ -351,6 +363,7 @@ const Default: React.FC<Props> = ({ data, productId }) => {
                                         </div>
                                         <span>Share Products</span>
                                     </div>
+                                    
                                 </div>
                                 <div className="more-infor mt-6">
                                     <div className="flex items-center gap-4 flex-wrap">
