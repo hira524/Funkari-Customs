@@ -5,39 +5,13 @@ import MenuEight from '@/components/Header/Menu/MenuEight';
 import Footer from '@/components/Footer/Footer';
 
 export default function CustomizePage() {
-  const [form, setForm] = useState({
-    name: '',
-    email: '',
-    productId: '',
-    details: '',
-  });
-  const [status, setStatus] = useState('');
+  const [productId, setProductId] = useState('');
 
   // Get productId from URL
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    setForm(f => ({ ...f, productId: params.get('productId') || '' }));
+    setProductId(params.get('productId') || '');
   }, []);
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setStatus('Sending...');
-    const res = await fetch('/api/send-customization', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(form),
-    });
-    if (res.ok) {
-      setStatus('Your customization request has been sent!');
-      setForm({ name: '', email: '', productId: form.productId, details: '' });
-    } else {
-      setStatus('Failed to send. Please try again.');
-    }
-  };
 
   return (
     <>
@@ -45,16 +19,19 @@ export default function CustomizePage() {
       <div className="customize-bg min-h-[70vh] flex items-center justify-center py-12 px-4">
         <div className="w-full max-w-xl bg-white/90 shadow-xl rounded-2xl p-8 border border-line">
           <h1 className="heading3 mb-6 text-center">Customize Your Product</h1>
-          <form className="space-y-5" onSubmit={handleSubmit}>
+          <form
+            className="space-y-5"
+            action="https://formspree.io/f/xwpbdeke"
+            method="POST"
+          >
             <div>
               <label className="block mb-1 font-semibold text-gray-700">Your Name</label>
               <input
                 className="border border-gray-300 px-4 py-2 w-full rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
                 name="name"
-                value={form.name}
-                onChange={handleChange}
                 required
                 placeholder="Enter your name"
+                autoComplete="name"
               />
             </div>
             <div>
@@ -63,10 +40,9 @@ export default function CustomizePage() {
                 className="border border-gray-300 px-4 py-2 w-full rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
                 name="email"
                 type="email"
-                value={form.email}
-                onChange={handleChange}
                 required
                 placeholder="Enter your email"
+                autoComplete="email"
               />
             </div>
             <div>
@@ -74,7 +50,7 @@ export default function CustomizePage() {
               <input
                 className="border border-gray-200 px-4 py-2 w-full rounded-lg bg-gray-100"
                 name="productId"
-                value={form.productId}
+                value={productId}
                 readOnly
               />
             </div>
@@ -83,8 +59,6 @@ export default function CustomizePage() {
               <textarea
                 className="border border-gray-300 px-4 py-2 w-full rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
                 name="details"
-                value={form.details}
-                onChange={handleChange}
                 required
                 rows={5}
                 placeholder="Describe your customization request in detail"
@@ -96,12 +70,6 @@ export default function CustomizePage() {
             >
               Send Request
             </button>
-           
-            {status && (
-              <div className={`mt-2 text-center ${status.includes('sent') ? 'text-green-600' : 'text-red-600'}`}>
-                {status}
-              </div>
-            )}
           </form>
         </div>
       </div>
