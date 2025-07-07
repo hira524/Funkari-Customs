@@ -340,8 +340,14 @@ const Default: React.FC<Props> = ({ data, productId }) => {
                                     <div onClick={handleAddToCart} className="button-main w-full text-center bg-white text-black border border-black">Add To Cart</div>
                                 </div>
                                 <div className="button-block mt-5 flex flex-col gap-3">
-                        <div className="button-main w-full text-center">Buy It Now</div>
-                        {/* Customization Button */}
+                      
+                        <div
+                          className="button-main w-full text-center bg-black text-white cursor-pointer hover:bg-blue-700 transition"
+                          onClick={() => router.push('/checkout')}
+                        >
+                          Buy It Now
+                        </div>
+                                             {/* Customization Button */}
                         <button
                             className="button-main w-full text-center bg-blue-600 text-white border border-blue-600 hover:bg-blue-700 transition"
                             style={{ marginTop: '8px' }}
