@@ -85,7 +85,7 @@ const MenuEight = () => {
                                 height={40}
                                 className="mr-2"
                             />
-                            <div className="heading4">Funkari Custom</div>
+                            <div className="heading4">Funkari Customs</div>
                         </Link>
                         <div className="form-search w-2/3 pl-8 flex items-center h-[44px] max-lg:hidden">
                             <div className="category-block relative h-full">
