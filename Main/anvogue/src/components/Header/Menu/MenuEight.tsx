@@ -187,6 +187,7 @@ const MenuEight = () => {
         <div className="container h-full">
           <div className="top-nav-menu-main flex items-center justify-between h-full">
             <div className="left flex items-center h-full">
+              {/*
               <div className="menu-department-block relative h-full">
                 <div
                   className="menu-department-btn bg-black relative flex items-center sm:gap-16 gap-4 px-4 h-full w-fit cursor-pointer"
@@ -216,12 +217,24 @@ const MenuEight = () => {
                                     </div>
                                     <div className="item block">
                                         <Link href={'/shop/breadcrumb-img'} className='py-1.5 whitespace-nowrap inline-block'>Bags & Backpacks</Link>
-                                    </div>*/}
+                                    </div>
                   <div
                     onClick={() => handleTypeClick("shoes")}
                     className={`link text-secondary duration-300 cursor-pointer`}
                   >
                     Shoes
+                  </div>
+                  <div
+                    onClick={() => handleTypeClick("denim jackets")}
+                    className={`link text-secondary duration-300 cursor-pointer`}
+                  >
+                    Denim jackets
+                  </div>
+                  <div
+                    onClick={() => handleTypeClick("Wallets & Clutches")}
+                    className={`link text-secondary duration-300 cursor-pointer`}
+                  >
+                    Wallets & Clutches
                   </div>
                   {/*  <div className="item block">
                                         <Link href={'/shop/breadcrumb-img'} className='py-1.5 whitespace-nowrap inline-block'>Jewelry</Link>
@@ -237,9 +250,9 @@ const MenuEight = () => {
                                     </div>
                                     <div className="item block">
                                         <Link href={'/shop/breadcrumb-img'} className='py-1.5 whitespace-nowrap inline-block'>Kids & Baby</Link>
-                                    </div>*/}
+                                    </div>
                 </div>
-              </div>
+              </div>*/}
               <div className="menu-main style-eight h-full pl-12 max-lg:hidden">
                 <ul className="flex items-center gap-8 h-full">
                   <li className="h-full">
@@ -271,7 +284,7 @@ const MenuEight = () => {
                                 <li>
                                   <div
                                     onClick={() =>
-                                      handleTypeClick("denim jacket")
+                                      handleTypeClick("denim jackets")
                                     }
                                     className={`link text-secondary duration-300 cursor-pointer`}
                                   >
@@ -286,6 +299,46 @@ const MenuEight = () => {
                                     className={`link text-secondary duration-300 cursor-pointer`}
                                   >
                                     leather jackets
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("Wallets & Clutches")
+                                    }
+                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    Wallets & Clutches
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("hightops")
+                                    }
+                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    Hightops
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("slipons")
+                                    }
+                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    Slip-ons
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("lowtops")
+                                    }
+                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    Lowtops
                                   </div>
                                 </li>
                                 <li>
@@ -1036,7 +1089,7 @@ const MenuEight = () => {
                             </li>
                             <li>
                               <div
-                                onClick={() => handleTypeClick("denim jacket")}
+                                onClick={() => handleTypeClick("denim jackets")}
                                 className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
                               >
                                 Denim jackets
@@ -1048,6 +1101,38 @@ const MenuEight = () => {
                                 className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
                               >
                                 leather jackets
+                              </div>
+                            </li>
+                            <li>
+                              <div
+                                onClick={() => handleTypeClick("Wallets & Clutches")}
+                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
+                              >
+                                Wallets & Clutches
+                              </div>
+                            </li>
+                            <li>
+                              <div
+                                onClick={() => handleTypeClick("hightops")}
+                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
+                              >
+                                Hightops
+                              </div>
+                            </li>
+                            <li>
+                              <div
+                                onClick={() => handleTypeClick("slipons")}
+                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
+                              >
+                                Slip-ons
+                              </div>
+                            </li>
+                            <li>
+                              <div
+                                onClick={() => handleTypeClick("lowtops")}
+                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
+                              >
+                                Lowtops
                               </div>
                             </li>
                             <li>

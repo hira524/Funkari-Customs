@@ -245,8 +245,6 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                   </div>
                 </div>
               </div>
-              
-  
             </div>
           </div>
         </div>
@@ -285,7 +283,111 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                   ))}
                 </div>
                 <div className="list-type mt-4">
-                  {["denim jacket", "leather jacket"].map((item, index) => (
+                  {["denim jackets", "leather jackets"].map((item, index) => (
+                    <div
+                      key={index}
+                      className={`item flex items-center justify-between cursor-pointer ${
+                        dataType === item ? "active" : ""
+                      }`}
+                      onClick={() => handleType(item)}
+                    >
+                      <div className="text-secondary has-line-before hover:text-black capitalize">
+                        {item}
+                      </div>
+                      <div className="text-secondary2">
+                        (
+                        {
+                          data.filter(
+                            (dataItem) =>
+                              dataItem.type === item &&
+                              dataItem.category === "fashion"
+                          ).length
+                        }
+                        )
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                <div className="list-type mt-4">
+                  {["Wallets & Clutches"].map((item, index) => (
+                    <div
+                      key={index}
+                      className={`item flex items-center justify-between cursor-pointer ${
+                        dataType === item ? "active" : ""
+                      }`}
+                      onClick={() => handleType(item)}
+                    >
+                      <div className="text-secondary has-line-before hover:text-black capitalize">
+                        {item}
+                      </div>
+                      <div className="text-secondary2">
+                        (
+                        {
+                          data.filter(
+                            (dataItem) =>
+                              dataItem.type === item &&
+                              dataItem.category === "fashion"
+                          ).length
+                        }
+                        )
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                <div className="list-type mt-4">
+                  {["hightops"].map((item, index) => (
+                    <div
+                      key={index}
+                      className={`item flex items-center justify-between cursor-pointer ${
+                        dataType === item ? "active" : ""
+                      }`}
+                      onClick={() => handleType(item)}
+                    >
+                      <div className="text-secondary has-line-before hover:text-black capitalize">
+                        {item}
+                      </div>
+                      <div className="text-secondary2">
+                        (
+                        {
+                          data.filter(
+                            (dataItem) =>
+                              dataItem.type === item &&
+                              dataItem.category === "fashion"
+                          ).length
+                        }
+                        )
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                <div className="list-type mt-4">
+                  {["lowtops"].map((item, index) => (
+                    <div
+                      key={index}
+                      className={`item flex items-center justify-between cursor-pointer ${
+                        dataType === item ? "active" : ""
+                      }`}
+                      onClick={() => handleType(item)}
+                    >
+                      <div className="text-secondary has-line-before hover:text-black capitalize">
+                        {item}
+                      </div>
+                      <div className="text-secondary2">
+                        (
+                        {
+                          data.filter(
+                            (dataItem) =>
+                              dataItem.type === item &&
+                              dataItem.category === "fashion"
+                          ).length
+                        }
+                        )
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                <div className="list-type mt-4">
+                  {["slip-ons"].map((item, index) => (
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${
