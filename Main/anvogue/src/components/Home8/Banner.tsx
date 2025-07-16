@@ -18,7 +18,7 @@ const Banner = () => {
                             />
                         </div>
                         <div className="banner-content absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
-                            <div className="heading4 text-white text-center">Nike Air Force <br />Custom Collection</div>
+                            <div className="heading4 text-white text-center">Nike AJ <br />Custom Collection</div>
                             <div className="text-button text-white relative inline-block pb-1 border-b-2 border-white duration-500 mt-2">Shop Now</div>
                         </div>
                     </Link>
@@ -33,7 +33,7 @@ const Banner = () => {
                             />
                         </div>
                         <div className="banner-content absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
-                            <div className="heading4 text-white text-center">Jordan Customs <br />Premium Sneakers</div>
+                            <div className="heading4 text-white text-center">Nike Air <br />Force Collection</div>
                             <div className="text-button text-white relative inline-block pb-1 border-b-2 border-white duration-500 mt-2">Shop Now</div>
                         </div>
                     </Link>
