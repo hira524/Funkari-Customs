@@ -245,19 +245,8 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                   </div>
                 </div>
               </div>
-              <div className="list-tab flex flex-wrap items-center justify-center gap-y-5 gap-8 lg:mt-[70px] mt-12 overflow-hidden">
-                {["shoes"].map((item, index) => (
-                  <div
-                    key={index}
-                    className={`tab-item text-button-uppercase cursor-pointer has-line-before line-2px ${
-                      dataType === item ? "active" : ""
-                    }`}
-                    onClick={() => handleType(item)}
-                  >
-                    {item}
-                  </div>
-                ))}
-              </div>
+              
+  
             </div>
           </div>
         </div>
@@ -295,8 +284,34 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     </div>
                   ))}
                 </div>
+                <div className="list-type mt-4">
+                  {["denim jacket", "leather jacket"].map((item, index) => (
+                    <div
+                      key={index}
+                      className={`item flex items-center justify-between cursor-pointer ${
+                        dataType === item ? "active" : ""
+                      }`}
+                      onClick={() => handleType(item)}
+                    >
+                      <div className="text-secondary has-line-before hover:text-black capitalize">
+                        {item}
+                      </div>
+                      <div className="text-secondary2">
+                        (
+                        {
+                          data.filter(
+                            (dataItem) =>
+                              dataItem.type === item &&
+                              dataItem.category === "fashion"
+                          ).length
+                        }
+                        )
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
-              <div className="filter-size pb-8 border-b border-line mt-8">
+              {/*<div className="filter-size pb-8 border-b border-line mt-8">
                 <div className="heading6">Size</div>
                 <div className="list-size flex items-center flex-wrap gap-3 gap-y-4 mt-4">
                   {["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"].map(
@@ -313,7 +328,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     )
                   )}
                 </div>
-              </div>
+              </div>*/}
               <div className="filter-price pb-8 border-b border-line mt-8">
                 <div className="heading6">Price Range</div>
                 <Slider

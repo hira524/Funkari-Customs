@@ -381,7 +381,7 @@ const CountdownTimer: React.FC<Props> = ({ data, productId }) => {
                                         <div className="list grid grid-cols-6">
                                             <div className="item flex items-center justify-center lg:px-3 px-1">
                                                 <Image
-                                                    src={'/images/payment/Frame-0.png'}
+                                                    src={'/images/payment/Frame-0.jpg'}
                                                     width={500}
                                                     height={450}
                                                     alt='payment'
@@ -390,7 +390,7 @@ const CountdownTimer: React.FC<Props> = ({ data, productId }) => {
                                             </div>
                                             <div className="item flex items-center justify-center lg:px-3 px-1">
                                                 <Image
-                                                    src={'/images/payment/Frame-1.png'}
+                                                    src={'/images/payment/Frame-1.jpg'}
                                                     width={500}
                                                     height={450}
                                                     alt='payment'
@@ -399,7 +399,7 @@ const CountdownTimer: React.FC<Props> = ({ data, productId }) => {
                                             </div>
                                             <div className="item flex items-center justify-center lg:px-3 px-1">
                                                 <Image
-                                                    src={'/images/payment/Frame-2.png'}
+                                                    src={'/images/payment/Frame-2.jpg'}
                                                     width={500}
                                                     height={450}
                                                     alt='payment'
@@ -408,7 +408,7 @@ const CountdownTimer: React.FC<Props> = ({ data, productId }) => {
                                             </div>
                                             <div className="item flex items-center justify-center lg:px-3 px-1">
                                                 <Image
-                                                    src={'/images/payment/Frame-3.png'}
+                                                    src={'/images/payment/Frame-3.jpg'}
                                                     width={500}
                                                     height={450}
                                                     alt='payment'
@@ -417,7 +417,7 @@ const CountdownTimer: React.FC<Props> = ({ data, productId }) => {
                                             </div>
                                             <div className="item flex items-center justify-center lg:px-3 px-1">
                                                 <Image
-                                                    src={'/images/payment/Frame-4.png'}
+                                                    src={'/images/payment/Frame-4.jpg'}
                                                     width={500}
                                                     height={450}
                                                     alt='payment'
@@ -426,7 +426,7 @@ const CountdownTimer: React.FC<Props> = ({ data, productId }) => {
                                             </div>
                                             <div className="item flex items-center justify-center lg:px-3 px-1">
                                                 <Image
-                                                    src={'/images/payment/Frame-5.png'}
+                                                    src={'/images/payment/Frame-5.jpg'}
                                                     width={500}
                                                     height={450}
                                                     alt='payment'
@@ -709,7 +709,7 @@ const CountdownTimer: React.FC<Props> = ({ data, productId }) => {
                                                 <div className="user-infor flex gap-4">
                                                     <div className="avatar">
                                                         <Image
-                                                            src={'/images/avatar/1.png'}
+                                                            src={'/images/avatar/1.jpg'}
                                                             width={200}
                                                             height={200}
                                                             alt='img'
@@ -749,7 +749,7 @@ const CountdownTimer: React.FC<Props> = ({ data, productId }) => {
                                                 <div className="user-infor flex gap-4">
                                                     <div className="avatar">
                                                         <Image
-                                                            src={'/images/avatar/2.png'}
+                                                            src={'/images/avatar/2.jpg'}
                                                             width={200}
                                                             height={200}
                                                             alt='img'
@@ -789,7 +789,7 @@ const CountdownTimer: React.FC<Props> = ({ data, productId }) => {
                                                 <div className="user-infor flex gap-4">
                                                     <div className="avatar">
                                                         <Image
-                                                            src={'/images/avatar/3.png'}
+                                                            src={'/images/avatar/3.jpg'}
                                                             width={200}
                                                             height={200}
                                                             alt='img'

@@ -6423,146 +6423,123 @@
     "action": "add to cart",
     "slug": "organic"
   },
-  {
+   {
     "id": "139",
     "category": "fashion",
-    "type": "shirt",
-    "name": "",
+    "type": "denim jacket",
+    "name": "Arabian Theme Custom Jacket",
     "gender": "unisex",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 26,
-    "originPrice": 32,
-    "brand": "nike",
-    "sold": 16,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [
-       "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11"
-    ],
-    "variation": [
-      {
-        "color": "grey",
-        "colorCode": "#F6EFDD",
-        "colorImage": "/images/products/color/48x48.jpg",
-        "image": "/images/products/1000x1000.jpg"
-      },
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/products/color/48x48.jpg",
-        "image": "/images/products/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/products/1000x1000.jpg",
-      "/images/products/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/products/1000x1000.jpg",
-      "/images/products/1000x1000.jpg"
-    ],
-    "description": "",
-    "action": "quick shop",
-    "slug": "fashion"
-  },
-  {
-    "id": "140",
-    "category": "fashion",
-    "type": "shirt",
-    "name": "",
-    "gender": "men",
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 32,
-    "originPrice": 40,
-    "brand": "nike",
-    "sold": 26,
-    "quantity": 64,
+    "price": 180,
+    "originPrice": 220,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 20,
     "quantityPurchase": 1,
     "sizes": [
-         "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11"
+      "S", "M", "L", "XL", "XXL"
     ],
     "variation": [
       {
-        "color": "purple",
-        "colorCode": "#8684D4",
-        "colorImage": "/images/products/color/48x48.jpg",
-        "image": "/images/products/1000x1000.jpg"
+        "color": "black",
+        "colorCode": "#1F1F1F",
+        "colorImage": "/images/products/product (51)/p51 (1).jpg",
+        "image": "/images/products/product (51)/p51 (1).jpg"
       }
     ],
     "thumbImage": [
-      "/images/products/1000x1000.jpg",
-      "/images/products/1000x1000.jpg"
+      "/images/products/product (51)/p51 (2).jpg",
+      "/images/products/product (51)/p51 (3).jpg"
     ],
     "images": [
-      "/images/products/1000x1000.jpg",
-      "/images/products/1000x1000.jpg"
+      "/images/products/product (51)/p51 (4).jpg",
+      "/images/products/product (51)/p51 (2).jpg",
+      "/images/products/product (51)/p51 (3).jpg",
+      "/images/products/product (51)/p51 (1).jpg"
     ],
-    "description": "",
-     "action": "add to cart",
-    "slug": "fashion"
+    "description": "Experience the fusion of tradition and modern streetwear with the Arabian Theme Custom Jacket. This unique denim jacket features hand-painted Arabian-inspired motifs, intricate patterns, and vibrant colors that celebrate Middle Eastern artistry. Crafted for comfort and style, it’s perfect for those who want to make a bold statement and showcase their appreciation for cultural heritage. Elevate your wardrobe with this one-of-a-kind piece that blends classic denim with the rich spirit of Arabian design.",
+    "action": "add to cart",
+    "slug": "arabian-theme-custom-jacket"
   },
-  {
+    {
+    "id": "140",
+    "category": "fashion",
+    "type": "denim jacket",
+    "name": "Eiffel Tower x Galaxy themed Jacket",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 210,
+    "originPrice": 260,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 15,
+    "quantityPurchase": 1,
+    "sizes": [
+      "S", "M", "L", "XL", "XXL"
+    ],
+    "variation": [
+      {
+        "color": "blue",
+        "colorCode": "#2D3A6B",
+        "colorImage": "/images/products/product (52)/p52 (1).jpg",
+        "image": "/images/products/product (52)/p52 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (52)/p52 (1).jpg",
+      "/images/products/product (52)/p52 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (52)/p52 (1).jpg",
+      "/images/products/product (52)/p52 (2).jpg",
+      "/images/products/product (52)/p52 (3).jpg",
+      "/images/products/product (52)/p52 (4).jpg"
+    ],
+    "description": "Reach for the stars in the Eiffel Tower x Galaxy Themed Jacket. This custom denim jacket features a stunning hand-painted Eiffel Tower set against a swirling galaxy sky, blending Parisian elegance with cosmic wonder. Intricate details and vibrant colors make this piece a true work of wearable art. Crafted for comfort and style, it's perfect for those who want to stand out and express their love for travel, art, and the mysteries of the universe. Elevate your wardrobe with a jacket that captures the magic of the night sky and the romance of Paris.",
+    "action": "add to cart",
+    "slug": "eiffel-tower-galaxy-themed-jacket"
+  },
+   {
     "id": "141",
     "category": "fashion",
-    "type": "shirt",
-    "name": "",
-    "gender": "women",
-    "new": false,
-    "sale": true,
+    "type": "denim jacket",
+    "name": "Line Art Custom Denim Jacket",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
     "rate": 5,
-    "price": 26,
-    "originPrice": 32,
-    "brand": "nike",
-    "sold": 16,
-    "quantity": 64,
+    "price": 195,
+    "originPrice": 240,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 20,
     "quantityPurchase": 1,
     "sizes": [
-        "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11"
+      "S", "M", "L", "XL", "XXL"
     ],
     "variation": [
       {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/products/color/48x48.jpg",
-        "image": "/images/products/1000x1000.jpg"
-      },
-      {
-        "color": "grey",
-        "colorCode": "#F6EFDD",
-        "colorImage": "/images/products/color/48x48.jpg",
-        "image": "/images/products/1000x1000.jpg"
+        "color": "blue",
+        "colorCode": "#3A5A98",
+        "colorImage": "/images/products/product (53)/p53 (2).jpg",
+        "image": "/images/products/product (53)/p53 (1).jpg"
       }
     ],
     "thumbImage": [
-      "/images/products/1000x1000.jpg",
-      "/images/products/1000x1000.jpg"
+      "/images/products/product (53)/p53 (2).jpg",
+      "/images/products/product (53)/p53 (1).jpg"
     ],
     "images": [
-      "/images/products/1000x1000.jpg",
-      "/images/products/1000x1000.jpg"
+      "/images/products/product (53)/p53 (1).jpg",
+      "/images/products/product (53)/p53 (2).jpg"
     ],
-    "description": "",
-    "action": "quick shop",
-    "slug": "fashion"
+    "description": "Make a statement with the Line Art Custom Denim Jacket. This unique piece features hand-painted minimalist line art, blending modern aesthetics with classic denim style. Each jacket is a wearable canvas, showcasing bold, artistic lines that create a striking visual impact. Crafted for comfort and individuality, it's perfect for those who appreciate contemporary art and want to stand out from the crowd. Elevate your wardrobe with this one-of-a-kind jacket that turns everyday fashion into a gallery of self-expression.",
+    "action": "add to cart",
+    "slug": "line-art-custom-denim-jacket"
   },
   {
     "id": "142",

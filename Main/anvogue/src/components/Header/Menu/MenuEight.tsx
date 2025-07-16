@@ -259,9 +259,6 @@ const MenuEight = () => {
                         <div className="flex justify-between py-8">
                           <div className="nav-link basis-2/3 grid grid-cols-4 gap-y-8">
                             <div className="nav-item">
-                              <div className="text-button-uppercase pb-2">
-                                Custom Shoes
-                              </div>
                               <ul>
                                 <li>
                                   <div
@@ -274,11 +271,21 @@ const MenuEight = () => {
                                 <li>
                                   <div
                                     onClick={() =>
-                                      handleTypeClick("jackets&hoodies")
+                                      handleTypeClick("denim jacket")
                                     }
                                     className={`link text-secondary duration-300 cursor-pointer`}
                                   >
-                                    Custom Jackets & Hoodies
+                                    Denim jackets
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("leather jacket")
+                                    }
+                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    leather jackets
                                   </div>
                                 </li>
                                 <li>
@@ -288,7 +295,7 @@ const MenuEight = () => {
                                     }
                                     className={`link text-secondary duration-300 cursor-pointer view-all-btn`}
                                   >
-                                    View All Shoes
+                                    View All
                                   </div>
                                 </li>
                               </ul>
@@ -1029,12 +1036,28 @@ const MenuEight = () => {
                             </li>
                             <li>
                               <div
+                                onClick={() => handleTypeClick("denim jacket")}
+                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
+                              >
+                                Denim jackets
+                              </div>
+                            </li>
+                             <li>
+                              <div
+                                onClick={() => handleTypeClick("leather jacket")}
+                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
+                              >
+                                leather jackets
+                              </div>
+                            </li>
+                            <li>
+                              <div
                                 onClick={() =>
                                   router.push("/shop/breadcrumb-img")
                                 }
                                 className={`nav-item-mobile text-secondary duration-300 cursor-pointer view-all-btn`}
                               >
-                                View All Shoes
+                                View All
                               </div>
                             </li>
                           </ul>
