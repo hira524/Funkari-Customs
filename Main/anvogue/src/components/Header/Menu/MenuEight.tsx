@@ -168,9 +168,12 @@ const MenuEight = () => {
                                     <div className="item block">
                                         <Link href={'/shop/breadcrumb-img'} className='py-1.5 whitespace-nowrap inline-block'>Bags & Backpacks</Link>
                                     </div>*/}
-                                    <div className="item block">
-                                        <Link href={'/shop/breadcrumb-img'} className='py-1.5 whitespace-nowrap inline-block'>Shoes</Link>
-                                    </div>
+                                          <div
+    onClick={() => handleTypeClick('shoes')}
+    className={`link text-secondary duration-300 cursor-pointer`}
+>
+    Shoes
+</div>
                                   {/*  <div className="item block">
                                         <Link href={'/shop/breadcrumb-img'} className='py-1.5 whitespace-nowrap inline-block'>Jewelry</Link>
                                     </div>

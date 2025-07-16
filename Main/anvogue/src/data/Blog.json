@@ -7,11 +7,11 @@
         "date": "Dec 20, 2023",
         "author": "Chris Evans",
         "avatar": "/images/avatar/1.png",
-        "thumbImg": "/images/products/product/p1 (1).png",
-        "coverImg": "/images/products/product/p1 (1).png",
+        "thumbImg": "/images/products/product/p1 (1).jpg",
+        "coverImg": "/images/products/product/p1 (1).jpg",
         "subImg": [
-            "/images/products/product/p1 (2).png",
-            "/images/products/product/p1 (3).png"
+            "/images/products/product/p1 (2).jpg",
+            "/images/products/product/p1 (3).jpg"
         ],
         "shortDesc": "Step into a world of creativity with the Nike Af1 Anime Abstract, a bold fusion of iconic sneaker style and vibrant anime-inspired artistry.",
         "description": "Discover the ultimate fusion of street culture and anime artistry with the Nike AF1 Anime Abstract. These custom sneakers feature hand-painted designs that capture the dynamic energy of anime culture, making them perfect for collectors and fans alike.",
@@ -25,11 +25,11 @@
         "date": "Dec 21, 2023",
         "author": "Alex Balde",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (2)/p2 (1).png",
-        "coverImg": "/images/products/product (2)/p2 (1).png",
+        "thumbImg": "/images/products/product (2)/p2 (3).jpg",
+        "coverImg": "/images/products/product (2)/p2 (2).jpg",
         "subImg": [
-            "/images/products/product (2)/p2 (2).png",
-            "/images/products/product (2)/p2 (4).png"
+            "/images/products/product (2)/p2 (2).jpg",
+            "/images/products/product (2)/p2 (4).jpg"
         ],
         "shortDesc": "Experience the fusion of street style and automotive passion with the Nike Af1 GTR Skyline custom sneakers.",
         "description": "Inspired by the legendary GTR Skyline, these custom sneakers capture the speed, power, and iconic silhouette of the classic car with hand-painted details.",
@@ -43,11 +43,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/3.png",
-        "thumbImg": "/images/products/product (3)/p3 (5).png",
-        "coverImg": "/images/products/product (3)/p3 (5).png",
+        "thumbImg": "/images/products/product (3)/p3 (1).jpg",
+        "coverImg": "/images/products/product (3)/p3 (2).jpg",
         "subImg": [
-            "/images/products/product (3)/p3 (1).png",
-            "/images/products/product (3)/p3 (2).png"
+            "/images/products/product (3)/p3 (1).jpg",
+            "/images/products/product (3)/p3 (2).jpg"
         ],
         "shortDesc": "Unleash your inner anime fan with the Nike Af1 Sasuke x Toji, featuring hand-painted artwork of two iconic characters.",
         "description": "These custom sneakers bring together the fierce energy of Sasuke and the powerful presence of Toji, making each pair a wearable masterpiece for anime enthusiasts.",
@@ -60,12 +60,12 @@
         "title": "Nike AF1 Sunset Abstract: Capturing Golden Hour",
         "date": "Dec 24, 2023",
         "author": "Christina Smith",
-        "avatar": "/images/avatar/4.png",
-        "thumbImg": "/images/products/product (4)/p4 (3).png",
-        "coverImg": "/images/products/product (4)/p4 (3).png",
+        "avatar": "/images/avatar/3.png",
+        "thumbImg": "/images/products/product (4)/p4 (4).jpg",
+        "coverImg": "/images/products/product (4)/p4 (4).jpg",
         "subImg": [
-            "/images/products/product (4)/p4 (1).png",
-            "/images/products/product (4)/p4 (2).png"
+            "/images/products/product (4)/p4 (1).jpg",
+            "/images/products/product (4)/p4 (2).jpg"
         ],
         "shortDesc": "Capture the vibrant energy of a sunset with the Nike Af1 Sunset Abstract custom sneakers.",
         "description": "These custom sneakers feature hand-painted abstract designs inspired by the warm hues and dynamic patterns of a breathtaking sunset.",
@@ -78,12 +78,12 @@
         "title": "Nike Air Jordan Wave: Riding the Ocean's Energy",
         "date": "Dec 26, 2023",
         "author": "Louis Ancelotti",
-        "avatar": "/images/avatar/5.png",
-        "thumbImg": "/images/products/product (5)/p5 (1).png",
-        "coverImg": "/images/products/product (5)/p5 (1).png",
+        "avatar": "/images/avatar/3.png",
+        "thumbImg": "/images/products/product (5)/p5 (4).jpg",
+        "coverImg": "/images/products/product (5)/p5 (4).jpg",
         "subImg": [
-            "/images/products/product (5)/p5 (3).png",
-            "/images/products/product (5)/p5 (4).png"
+            "/images/products/product (5)/p5 (3).jpg",
+            "/images/products/product (5)/p5 (2).jpg"
         ],
         "shortDesc": "Ride the wave of style with the Nike Air Jordan Wave, featuring dynamic wave patterns inspired by ocean energy.",
         "description": "This custom sneaker features dynamic, hand-painted wave patterns that blend bold artistry with the legendary Air Jordan silhouette.",
@@ -96,12 +96,12 @@
         "title": "Nike AF1 Joker White: Embrace Your Wild Side",
         "date": "Dec 26, 2023",
         "author": "Davide Alvaro",
-        "avatar": "/images/avatar/6.png",
-        "thumbImg": "/images/products/product (6)/p6 (8).png",
-        "coverImg": "/images/products/product (6)/p6 (8).png",
+        "avatar": "/images/avatar/3.png",
+        "thumbImg": "/images/products/product (6)/p6 (8).jpg",
+        "coverImg": "/images/products/product (6)/p6 (8).jpg",
         "subImg": [
-            "/images/products/product (6)/p6 (1).png",
-            "/images/products/product (6)/p6 (2).png"
+            "/images/products/product (6)/p6 (1).jpg",
+            "/images/products/product (6)/p6 (2).jpg"
         ],
         "shortDesc": "Step into the world of bold style with the Nike Af1 Joker White custom sneakers.",
         "description": "Inspired by the iconic Joker character, these custom sneakers feature striking hand-painted details in vibrant green and purple accents on a crisp white base.",
@@ -114,12 +114,12 @@
         "title": "Nike Jordan WILD LOTUS CS: Nature Meets Street",
         "date": "Dec 20, 2023",
         "author": "Chris Evans",
-        "avatar": "/images/avatar/8.png",
-        "thumbImg": "/images/products/product (7)/p7 (1).png",
-        "coverImg": "/images/products/product (7)/p7 (1).png",
+        "avatar": "/images/avatar/3.png",
+        "thumbImg": "/images/products/product (7)/p7 (1).jpg",
+        "coverImg": "/images/products/product (7)/p7 (1).jpg",
         "subImg": [
-            "/images/products/product (7)/p7 (2).png",
-            "/images/products/product (7)/p7 (3).png"
+            "/images/products/product (7)/p7 (2).jpg",
+            "/images/products/product (7)/p7 (3).jpg"
         ],
         "shortDesc": "Elevate your sneaker style with Nike AF1 WILD LOTUS – a fusion of natural beauty and urban fashion.",
         "description": "These iconic kicks are inspired by the untamed elegance of the lotus flower, featuring a design that captures its vibrant colors and graceful allure.",
@@ -133,11 +133,11 @@
         "date": "Dec 21, 2023",
         "author": "Alex Balde",
         "avatar": "/images/avatar/1.png",
-        "thumbImg": "/images/products/product (8)/p8 (1).png",
-        "coverImg": "/images/products/product (8)/p8 (1).png",
+        "thumbImg": "/images/products/product (8)/p8 (1).jpg",
+        "coverImg": "/images/products/product (8)/p8 (1).jpg",
         "subImg": [
-            "/images/products/product (8)/p8 (2).png",
-            "/images/products/product (8)/p8 (3).png"
+            "/images/products/product (8)/p8 (2).jpg",
+            "/images/products/product (8)/p8 (3).jpg"
         ],
         "shortDesc": "Pay tribute to hip hop legends with this custom Snoop-2Pac inspired sneaker set.",
         "description": "These custom kicks redefine sneaker customization with their mesmerizing blend of colors and artistic flair, paying homage to hip hop culture.",
@@ -151,11 +151,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (9)/p9 (11).png",
-        "coverImg": "/images/products/product (9)/p9 (11).png",
+        "thumbImg": "/images/products/product (9)/p9 (5).jpg",
+        "coverImg": "/images/products/product (9)/p9 (2).jpg",
         "subImg": [
-            "/images/products/product (9)/p9 (12).png",
-            "/images/products/product (9)/p9 (6).png"
+            "/images/products/product (9)/p9 (3).jpg",
+            "/images/products/product (9)/p9 (6).jpg"
         ],
         "shortDesc": "Step into your special day with the Nike Af1 Bridal theme custom sneakers.",
         "description": "Featuring delicate hand-painted floral accents, shimmering details, and a pristine white base, these sneakers are perfect for walking down the aisle.",
@@ -169,11 +169,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/3.png",
-        "thumbImg": "/images/products/product (10)/p10 (2).png",
-        "coverImg": "/images/products/product (10)/p10 (2).png",
+        "thumbImg": "/images/products/product (10)/p10 (2).jpg",
+        "coverImg": "/images/products/product (10)/p10 (2).jpg",
         "subImg": [
-            "/images/products/product (10)/p10 (7).png",
-            "/images/products/product (10)/p10 (2).png"
+            "/images/products/product (10)/p10 (5).jpg",
+            "/images/products/product (10)/p10 (2).jpg"
         ],
         "shortDesc": "Set sail in style with the Nike Af1 Luffy, inspired by the adventurous spirit of the legendary pirate captain.",
         "description": "These custom sneakers feature hand-painted artwork of Luffy, vibrant colors, and iconic motifs from the One Piece anime series.",
@@ -186,12 +186,12 @@
         "title": "Nike AF1 Money Themed Customs: Luxury Meets Street",
         "date": "Dec 21, 2023",
         "author": "Alex Balde",
-        "avatar": "/images/avatar/4.png",
-        "thumbImg": "/images/products/product (11)/p11 (1).png",
-        "coverImg": "/images/products/product (11)/p11 (1).png",
+        "avatar": "/images/avatar/3.png",
+        "thumbImg": "/images/products/product (11)/p11 (4).jpg",
+        "coverImg": "/images/products/product (11)/p11 (4).jpg",
         "subImg": [
-            "/images/products/product (11)/p11 (5).png",
-            "/images/products/product (11)/p11 (3).png"
+            "/images/products/product (11)/p11 (2).jpg",
+            "/images/products/product (11)/p11 (3).jpg"
         ],
         "shortDesc": "Step up your sneaker game with the Nike Af1 Money themed Customs.",
         "description": "These unique custom sneakers feature hand-painted dollar bill graphics, metallic accents, and bold green hues inspired by finance and street culture.",
@@ -204,12 +204,12 @@
         "title": "Nike AF1 Neon Beach NEW: Summer Vibes",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
-        "avatar": "/images/avatar/5.png",
-        "thumbImg": "/images/products/product (12)/p12 (1).png",
-        "coverImg": "/images/products/product (12)/p12 (1).png",
+        "avatar": "/images/avatar/3.png",
+        "thumbImg": "/images/products/product (12)/p12 (1).jpg",
+        "coverImg": "/images/products/product (12)/p12 (1).jpg",
         "subImg": [
-            "/images/products/product (12)/p12 (2).png",
-            "/images/products/product (12)/p12 (3).png"
+            "/images/products/product (12)/p12 (2).jpg",
+            "/images/products/product (12)/p12 (3).jpg"
         ],
         "shortDesc": "Bring the energy of summer to your feet with the Nike Af1 Neon Beach NEW.",
         "description": "These custom sneakers feature vibrant neon colors and beach-inspired hand-painted artwork, capturing the fun and excitement of ocean days.",
@@ -222,12 +222,12 @@
         "title": "Dual Colorful Splash Nike AF1: Art in Motion",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
-        "avatar": "/images/avatar/6.png",
-        "thumbImg": "/images/products/product (13)/p13 (7).png",
-        "coverImg": "/images/products/product (13)/p13 (7).png",
+        "avatar": "/images/avatar/3.png",
+        "thumbImg": "/images/products/product (13)/p13 (4).jpg",
+        "coverImg": "/images/products/product (13)/p13 (4).jpg",
         "subImg": [
-            "/images/products/product (13)/p13 (1).png",
-            "/images/products/product (13)/p13 (2).png"
+            "/images/products/product (13)/p13 (1).jpg",
+            "/images/products/product (13)/p13 (2).jpg"
         ],
         "shortDesc": "Make a bold statement with the 2 colorful Splash nike af1 custom sneakers.",
         "description": "These custom sneakers feature a vibrant, hand-painted splash design in multiple colors, turning every step into a work of art.",
@@ -240,12 +240,12 @@
         "title": "Nike AF1 Hello Kitty: Cuteness Overload",
         "date": "Dec 21, 2023",
         "author": "Alex Balde",
-        "avatar": "/images/avatar/8.png",
-        "thumbImg": "/images/products/product (14)/p14 (6).png",
-        "coverImg": "/images/products/product (14)/p14 (6).png",
+        "avatar": "/images/avatar/3.png",
+        "thumbImg": "/images/products/product (14)/p14 (3).jpg",
+        "coverImg": "/images/products/product (14)/p14 (2).jpg",
         "subImg": [
-            "/images/products/product (14)/p14 (1).png",
-            "/images/products/product (14)/p14 (2).png"
+            "/images/products/product (14)/p14 (1).jpg",
+            "/images/products/product (14)/p14 (2).jpg"
         ],
         "shortDesc": "Step into playful style with the Nike Af1 Hello kitty custom sneakers.",
         "description": "These custom sneakers feature adorable Hello Kitty artwork, pastel pink accents, and charming details that bring the beloved character to life.",
@@ -259,11 +259,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/1.png",
-        "thumbImg": "/images/products/product (15)/p15 (6).png",
-        "coverImg": "/images/products/product (15)/p15 (6).png",
+        "thumbImg": "/images/products/product (15)/p15 (4).jpg",
+        "coverImg": "/images/products/product (15)/p15 (5).jpg",
         "subImg": [
-            "/images/products/product (15)/p15 (1).png",
-            "/images/products/product (15)/p15 (2).png"
+            "/images/products/product (15)/p15 (1).jpg",
+            "/images/products/product (15)/p15 (2).jpg"
         ],
         "shortDesc": "Show your passion for football and street style with the Nike Air Jordan Real Madrid Customs.",
         "description": "These custom sneakers feature hand-painted details in the iconic white and gold colorway, celebrating the legendary Real Madrid club.",
@@ -277,11 +277,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (16)/p16 (5).png",
-        "coverImg": "/images/products/product (16)/p16 (5).png",
+        "thumbImg": "/images/products/product (16)/p16 (5).jpg",
+        "coverImg": "/images/products/product (16)/p16 (5).jpg",
         "subImg": [
-            "/images/products/product (16)/p16 (1).png",
-            "/images/products/product (16)/p16 (2).png"
+            "/images/products/product (16)/p16 (1).jpg",
+            "/images/products/product (16)/p16 (2).jpg"
         ],
         "shortDesc": "Experience the fusion of tradition and street style with the Nike Air Jordan Japanese Custom.",
         "description": "These unique sneakers feature hand-painted Japanese motifs, bold color blocking, and intricate details inspired by Japanese art and culture.",
@@ -295,11 +295,11 @@
         "date": "Dec 21, 2023",
         "author": "Alex Balde",
         "avatar": "/images/avatar/3.png",
-        "thumbImg": "/images/products/product (17)/p17 (1).png",
-        "coverImg": "/images/products/product (17)/p17 (1).png",
+        "thumbImg": "/images/products/product (17)/p17 (2).jpg",
+        "coverImg": "/images/products/product (17)/p17 (1).jpg",
         "subImg": [
-            "/images/products/product (17)/p17 (2).png",
-            "/images/products/product (17)/p17 (3).png"
+            "/images/products/product (17)/p17 (2).jpg",
+            "/images/products/product (17)/p17 (3).jpg"
         ],
         "shortDesc": "Introducing our exclusive Nike AF1s adorned with the mesmerizing hand tattoo of Hamza Ibrahim.",
         "description": "These custom kicks fuse the timeless Jordan silhouette with Ibrahim's intricate artistry, creating a bold statement of individuality and style.",
@@ -312,12 +312,12 @@
         "title": "Nike Jordan HOWL: Unleash Your Wild Side",
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
-        "avatar": "/images/avatar/4.png",
-        "thumbImg": "/images/products/product (18)/p18 (1).png",
-        "coverImg": "/images/products/product (18)/p18 (1).png",
+        "avatar": "/images/avatar/3.png",
+        "thumbImg": "/images/products/product (18)/p18 (2).jpg",
+        "coverImg": "/images/products/product (18)/p18 (3).jpg",
         "subImg": [
-            "/images/products/product (18)/p18 (4).png",
-            "/images/products/product (18)/p18 (5).png"
+            "/images/products/product (18)/p18 (4).jpg",
+            "/images/products/product (18)/p18 (5).jpg"
         ],
         "shortDesc": "Unleash your wild side with the Nike Jordan HOWL custom sneakers.",
         "description": "These custom sneakers feature bold, hand-painted wolf-inspired artwork and striking details that capture the spirit of the night.",
@@ -331,11 +331,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (19)/p19 (7).png",
-        "coverImg": "/images/products/product (19)/p19 (7).png",
+        "thumbImg": "/images/products/product (19)/p19 (4).jpg",
+        "coverImg": "/images/products/product (19)/p19 (5).jpg",
         "subImg": [
-            "/images/products/product (19)/p19 (1).png",
-            "/images/products/product (19)/p19 (2).png"
+            "/images/products/product (19)/p19 (1).jpg",
+            "/images/products/product (19)/p19 (2).jpg"
         ],
         "shortDesc": "Unleash your dark side with the Nike Af1 Devil Jin Customs.",
         "description": "Inspired by the iconic Tekken character, these custom sneakers feature bold, hand-painted Devil Jin motifs and striking color contrasts.",
@@ -349,11 +349,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (20)/p20 (1).png",
-        "coverImg": "/images/products/product (20)/p20 (1).png",
+        "thumbImg": "/images/products/product (20)/p20 (1).jpg",
+        "coverImg": "/images/products/product (20)/p20 (1).jpg",
         "subImg": [
-            "/images/products/product (20)/p20 (2).png",
-            "/images/products/product (20)/p20 (3).png"
+            "/images/products/product (20)/p20 (2).jpg",
+            "/images/products/product (20)/p20 (3).jpg"
         ],
         "shortDesc": "Make a fierce statement with the Nike Af1 Bloody Skull custom sneakers.",
         "description": "These custom sneakers feature bold, hand-painted skull artwork with striking red accents, capturing a rebellious and edgy vibe.",
@@ -367,11 +367,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (21)/p21 (4).png",
-        "coverImg": "/images/products/product (21)/p21 (4).png",
+        "thumbImg": "/images/products/product (21)/p21 (4).jpg",
+        "coverImg": "/images/products/product (21)/p21 (4).jpg",
         "subImg": [
-            "/images/products/product (21)/p21 (8).png",
-            "/images/products/product (21)/p21 (9).png"
+            "/images/products/product (21)/p21 (8).jpg",
+            "/images/products/product (21)/p21 (9).jpg"
         ],
         "shortDesc": "Inspired by the thrill of racing, the Nike Gran Tourismo brings speed and style to your sneaker collection.",
         "description": "These custom sneakers feature hand-painted Gran Turismo graphics, bold blue accents, and dynamic details that capture the essence of motorsport.",
@@ -385,11 +385,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (22)/p22 (6).png",
-        "coverImg": "/images/products/product (22)/p22 (6).png",
+        "thumbImg": "/images/products/product (22)/p22 (4).jpg",
+        "coverImg": "/images/products/product (22)/p22 (3).jpg",
         "subImg": [
-            "/images/products/product (22)/p22 (1).png",
-            "/images/products/product (22)/p22 (2).png"
+            "/images/products/product (22)/p22 (1).jpg",
+            "/images/products/product (22)/p22 (2).jpg"
         ],
         "shortDesc": "Celebrate Bollywood magic and sneaker culture with the Nike Af1 SRK DDLJ.",
         "description": "Inspired by the iconic film 'Dilwale Dulhania Le Jayenge' and Shah Rukh Khan, these custom sneakers feature hand-painted motifs and vibrant colors.",
@@ -403,11 +403,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (23)/p23 (1).png",
-        "coverImg": "/images/products/product (23)/p23 (1).png",
+        "thumbImg": "/images/products/product (23)/p23 (3).jpg",
+        "coverImg": "/images/products/product (23)/p23 (1).jpg",
         "subImg": [
-            "/images/products/product (23)/p23 (2).png",
-            "/images/products/product (23)/p23 (3).png"
+            "/images/products/product (23)/p23 (2).jpg",
+            "/images/products/product (23)/p23 (3).jpg"
         ],
         "shortDesc": "Unite two legendary anime rivals with the Nike Af1 Sasuke x Naruto Swoosh.",
         "description": "These custom sneakers feature hand-painted artwork inspired by Sasuke and Naruto, blending their iconic colors and motifs on the classic Nike Air Force 1.",
@@ -421,11 +421,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (24)/p24 (6).png",
-        "coverImg": "/images/products/product (24)/p24 (6).png",
+        "thumbImg": "/images/products/product (24)/p24 (2).jpg",
+        "coverImg": "/images/products/product (24)/p24 (3).jpg",
         "subImg": [
-            "/images/products/product (24)/p24 (1).png",
-            "/images/products/product (24)/p24 (2).png"
+            "/images/products/product (24)/p24 (1).jpg",
+            "/images/products/product (24)/p24 (2).jpg"
         ],
         "shortDesc": "Celebrate football greatness with the Nike Af1 Messi Worldcup custom sneakers.",
         "description": "Inspired by Lionel Messi's legendary World Cup journey, these custom sneakers feature Argentina's iconic colors and gold championship accents.",
@@ -439,11 +439,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (25)/p25 (6).png",
-        "coverImg": "/images/products/product (25)/p25 (6).png",
+        "thumbImg": "/images/products/product (25)/p25 (3).jpg",
+        "coverImg": "/images/products/product (25)/p25 (2).jpg",
         "subImg": [
-            "/images/products/product (25)/p25 (1).png",
-            "/images/products/product (25)/p25 (2).png"
+            "/images/products/product (25)/p25 (1).jpg",
+            "/images/products/product (25)/p25 (2).jpg"
         ],
         "shortDesc": "Shift your style into high gear with the Nike Af1 Auto Theme custom sneakers.",
         "description": "Inspired by automobiles and motorsport, these custom sneakers feature hand-painted racing stripes, bold color accents, and unique automotive details.",
@@ -457,11 +457,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (26)/p26 (1).png",
-        "coverImg": "/images/products/product (26)/p26 (1).png",
+        "thumbImg": "/images/products/product (26)/p26 (1).jpg",
+        "coverImg": "/images/products/product (26)/p26 (1).jpg",
         "subImg": [
-            "/images/products/product (26)/p26 (2).png",
-            "/images/products/product (26)/p26 (3).png"
+            "/images/products/product (26)/p26 (2).jpg",
+            "/images/products/product (26)/p26 (3).jpg"
         ],
         "shortDesc": "Embrace the legacy of the legendary shinobi with the Nike Af1 Itachi Uchiha.",
         "description": "These custom sneakers pay tribute to Itachi from Naruto, featuring hand-painted Sharingan eyes, Akatsuki cloud motifs, and striking red and black accents.",
@@ -475,11 +475,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (27)/p27 (1).png",
-        "coverImg": "/images/products/product (27)/p27 (1).png",
+        "thumbImg": "/images/products/product (27)/p27 (1).jpg",
+        "coverImg": "/images/products/product (27)/p27 (1).jpg",
         "subImg": [
-            "/images/products/product (27)/p27 (2).png",
-            "/images/products/product (27)/p27 (3).png"
+            "/images/products/product (27)/p27 (2).jpg",
+            "/images/products/product (27)/p27 (3).jpg"
         ],
         "shortDesc": "Step into bold style with the Nike Af1 IB custom sneakers.",
         "description": "These custom sneakers feature hand-painted details and vibrant color blocking, inspired by modern street art and urban culture.",
@@ -493,11 +493,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (28)/p28 (1).png",
-        "coverImg": "/images/products/product (28)/p28 (1).png",
+        "thumbImg": "/images/products/product (28)/p28 (1).jpg",
+        "coverImg": "/images/products/product (28)/p28 (1).jpg",
         "subImg": [
-            "/images/products/product (28)/p28 (2).png",
-            "/images/products/product (28)/p28 (3).png"
+            "/images/products/product (28)/p28 (2).jpg",
+            "/images/products/product (28)/p28 (3).jpg"
         ],
         "shortDesc": "Turn heads with the Nike Af1 High Drip Style custom sneakers.",
         "description": "These custom high-top sneakers feature bold, hand-painted drip effects and vibrant color splashes, making each pair a unique work of art.",
@@ -511,11 +511,11 @@
         "date": "Dec 22, 2023",
         "author": "Leona Pablo",
         "avatar": "/images/avatar/2.png",
-        "thumbImg": "/images/products/product (29)/p29 (1).png",
-        "coverImg": "/images/products/product (29)/p29 (1).png",
+        "thumbImg": "/images/products/product (29)/p29 (3).jpg",
+        "coverImg": "/images/products/product (29)/p29 (1).jpg",
         "subImg": [
-            "/images/products/product (29)/p29 (2).png",
-            "/images/products/product (29)/p29 (3).png"
+            "/images/products/product (29)/p29 (2).jpg",
+            "/images/products/product (29)/p29 (3).jpg"
         ],
         "shortDesc": "Dive into fresh style with the Nike Af1 Aquagreen Swoosh custom sneakers.",
         "description": "These custom sneakers feature a vibrant aquagreen swoosh and hand-painted accents, inspired by the cool tones of ocean waves.",

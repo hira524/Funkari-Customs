@@ -31,7 +31,7 @@ const AboutUs = () => {
                         <div className="list-img grid sm:grid-cols-3 gap-[30px] md:pt-20 pt-10">
                             <div className="bg-img">
                                 <Image
-                                    src={'/images/products/product (7)/p7 (5).png'}
+                                    src={'/images/products/product (7)/p7 (4).jpg'}
                                     width={2000}
                                     height={3000}
                                     alt='custom sneaker art'
@@ -40,7 +40,7 @@ const AboutUs = () => {
                             </div>
                             <div className="bg-img">
                                 <Image
-                                    src={'/images/products/product (2)/p2 (4).png'}
+                                    src={'/images/products/product (2)/p2 (4).jpg'}
                                     width={2000}
                                     height={3000}
                                     alt='anime inspired sneakers'
@@ -49,7 +49,7 @@ const AboutUs = () => {
                             </div>
                             <div className="bg-img">
                                 <Image
-                                    src={'/images/products/product (3)/p3 (3).png'}
+                                    src={'/images/products/product (3)/p3 (3).jpg'}
                                     width={2000}
                                     height={3000}
                                     alt='automotive themed customs'

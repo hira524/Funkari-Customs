@@ -41,7 +41,7 @@ const Instagram = () => {
                         <SwiperSlide>
                             <Link href={'https://www.instagram.com/'} target='_blank' className="item relative block overflow-hidden">
                                 <Image
-                                    src={'/images/products/product (8)/p8 (4).png'}
+                                    src={'/images/products/product (8)/p8 (4).jpg'}
                                     width={500}
                                     height={500}
                                     alt='custom anime sneakers'
@@ -55,7 +55,7 @@ const Instagram = () => {
                         <SwiperSlide>
                             <Link href={'https://www.instagram.com/'} target='_blank' className="item relative block overflow-hidden">
                                 <Image
-                                    src={'/images/products/product (2)/p2 (4).png'}
+                                    src={'/images/products/product (2)/p2 (4).jpg'}
                                     width={500}
                                     height={500}
                                     alt='gtr skyline custom sneakers'
@@ -69,7 +69,7 @@ const Instagram = () => {
                         <SwiperSlide>
                             <Link href={'https://www.instagram.com/'} target='_blank' className="item relative block overflow-hidden">
                                 <Image
-                                    src={'/images/products/product (3)/p3 (3).png'}
+                                    src={'/images/products/product (3)/p3 (3).jpg'}
                                     width={500}
                                     height={500}
                                     alt='sasuke toji anime sneakers'
@@ -83,7 +83,7 @@ const Instagram = () => {
                         <SwiperSlide>
                             <Link href={'https://www.instagram.com/'} target='_blank' className="item relative block overflow-hidden">
                                 <Image
-                                    src={'/images/products/product (4)/p4 (4).png'}
+                                    src={'/images/products/product (4)/p4 (4).jpg'}
                                     width={500}
                                     height={500}
                                     alt='sunset abstract custom sneakers'
@@ -97,7 +97,7 @@ const Instagram = () => {
                         <SwiperSlide>
                             <Link href={'https://www.instagram.com/'} target='_blank' className="item relative block overflow-hidden">
                                 <Image
-                                    src={'/images/products/product (5)/p5 (6).png'}
+                                    src={'/images/products/product (5)/p5 (6).jpg'}
                                     width={500}
                                     height={500}
                                     alt='jordan wave custom sneakers'
@@ -111,7 +111,7 @@ const Instagram = () => {
                         <SwiperSlide>
                             <Link href={'https://www.instagram.com/'} target='_blank' className="item relative block overflow-hidden">
                                 <Image
-                                    src={'/images/products/product (6)/p6 (3).png'}
+                                    src={'/images/products/product (6)/p6 (3).jpg'}
                                     width={500}
                                     height={500}
                                     alt='joker custom sneakers'
