@@ -2211,97 +2211,87 @@
   "action": "quick shop",
   "slug": "Nike-AJ-White-Fang-themed-Customs"
 },
-  {
+   {
     "id": "46",
-    "category": "cosmetic",
-    "type": "eye",
-    "name": "Tinted Eye Balm",
-    "gender": "women",
+    "category": "fashion",
+    "type": "lowtops",
+    "name": "Naruto Lowtop Canvas Custom",
+    "gender": "unisex",
     "new": true,
     "sale": false,
-    "rate": 4,
-    "price": 20,
-    "originPrice": 25,
-    "brand": "eyeoil",
-    "sold": 24,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [
-      "50",
-      "100",
-      "200"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "purple",
-        "colorCode": "#8684D4",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "cosmetic"
-  },
-  {
-    "id": "47",
-    "category": "cosmetic",
-    "type": "nail",
-    "name": "Nail Treatment",
-    "gender": "women",
-    "new": false,
-    "sale": true,
     "rate": 5,
-    "price": 10,
-    "originPrice": 14,
-    "brand": "chi",
-    "sold": 15,
-    "quantity": 100,
+    "price": 185,
+    "originPrice": 230,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 20,
     "quantityPurchase": 1,
     "sizes": [
-      "50",
-      "100",
-      "200"
+      "US 6", "US 7", "US 8", "US 9", "US 10", "US 11"
     ],
     "variation": [
       {
-        "color": "red",
-        "colorCode": "#DB4444",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "purple",
-        "colorCode": "#8684D4",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
+        "color": "multi",
+        "colorCode": "#FFA500",
+        "colorImage": "/images/products/product (73)/p73 (1).jpg",
+        "image": "/images/products/product (73)/p73 (1).jpg"
       }
     ],
     "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (73)/p73 (5).jpg",
+      "/images/products/product (73)/p73 (3).jpg"
     ],
     "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (73)/p73 (1).jpg",
+      "/images/products/product (73)/p73 (2).jpg",
+      "/images/products/product (73)/p73 (3).jpg",
+      "/images/products/product (73)/p73 (4).jpg"
     ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "cosmetic"
+    "description": "Show your ninja pride with the Naruto Lowtop Canvas Custom sneakers. These unique low-top shoes feature vibrant, hand-painted artwork inspired by the world of Naruto, including iconic symbols, characters, and motifs from the beloved anime. Crafted on durable canvas for comfort and everyday style, these lowtops are perfect for fans who want to express their love for adventure, friendship, and anime culture. Step out in bold fashion and let your footwear tell the story of your ninja journey.",
+    "action": "add to cart",
+    "slug": "naruto-lowtop-canvas-custom",
+    "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol."
+  },
+    {
+    "id": "47",
+    "category": "fashion",
+    "type": "lowtops",
+    "name": "Real Madrid Cf Canvas Lows",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 195,
+    "originPrice": 240,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 20,
+    "quantityPurchase": 1,
+    "sizes": [
+      "US 6", "US 7", "US 8", "US 9", "US 10", "US 11"
+    ],
+    "variation": [
+      {
+        "color": "white/gold",
+        "colorCode": "#F5F5F5",
+        "colorImage": "/images/products/product (74)/p74 (1).jpg",
+        "image": "/images/products/product (74)/p74 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (74)/p74 (2).jpg",
+      "/images/products/product (74)/p74 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (74)/p74 (1).jpg",
+      "/images/products/product (74)/p74 (2).jpg",
+      "/images/products/product (74)/p74 (3).jpg",
+      "/images/products/product (74)/p74 (4).jpg"
+    ],
+    "description": "Show your passion for football with the Real Madrid Cf Canvas Lows. These custom low-top sneakers feature hand-painted details inspired by the legendary Real Madrid club, including the iconic crest, white and gold colorway, and unique artistic accents. Crafted on durable canvas for comfort and everyday style, these lowtops are perfect for fans who want to celebrate their love for Real Madrid both on and off the pitch. Step out in bold fashion and let your footwear reflect your loyalty to one of the world's greatest football teams.",
+    "action": "add to cart",
+    "slug": "real-madrid-cf-canvas-lows",
+    "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol."
   },
   {
     "id": "48",
