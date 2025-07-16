@@ -1,64 +1,62 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client'
-import React, { useState } from 'react'
+
 import Image from 'next/image'
-import Link from 'next/link'
 import TopNavOne from '@/components/Header/TopNav/TopNavOne'
 import Breadcrumb from '@/components/Breadcrumb/Breadcrumb'
 import Footer from '@/components/Footer/Footer'
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { useCart } from '@/context/CartContext'
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams, useRouter } from 'next/navigation';
 import MenuEight from '@/components/Header/Menu/MenuEight'
+
+// Import the external StripeCardForm component
+import StripeCardForm from './StripeCardForm';
 
 // Stripe Elements imports
 import { Elements } from '@stripe/react-stripe-js'
 import { loadStripe } from '@stripe/stripe-js'
-import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js'
 
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY || '');
+import { useEffect, useState } from 'react';
+import { CreditCard, AppleLogo, ShoppingCart, Bank } from "@phosphor-icons/react/dist/ssr";
 
-function StripeCardForm() {
-    const stripe = useStripe();
-    const elements = useElements();
-    const [error, setError] = useState<string | null>(null);
 
-    const handleSubmit = async (e: React.FormEvent) => {
-        e.preventDefault();
-        if (!stripe || !elements) return;
-
-        const cardElement = elements.getElement(CardElement);
-        const { error, paymentMethod } = await stripe.createPaymentMethod({
-            type: 'card',
-            card: cardElement!,
-        });
-
-        if (error) {
-            setError(error.message || 'Payment error');
-        } else {
-            setError(null);
-            // Send paymentMethod.id to your backend to complete the payment
-            alert('Card details submitted! (Integrate backend for real payment)');
-        }
-    };
-
-    return (
-        <form onSubmit={handleSubmit}>
-            <CardElement className="border-line px-4 py-3 w-full rounded mt-2 bg-white" />
-            <button className="button-main w-full mt-4 bg-blue-600 text-black rounded-lg py-2" type="submit" disabled={!stripe}>
-                Pay with Stripe
-            </button>
-            {error && <div className="text-red-600 mt-2">{error}</div>}
-        </form>
-    );
+function ClientOnly({ children, ...delegated }: { children: React.ReactNode }) {
+  const [hasMounted, setHasMounted] = useState(false);
+  
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
+  
+  if (!hasMounted) {
+    return null;
+  }
+  
+  return (
+    <div {...delegated}>
+      {children}
+    </div>
+  );
 }
+
+
 
 const Checkout = () => {
     const searchParams = useSearchParams()
+    const router = useRouter(); 
     let discount = searchParams.get('discount') || 0
     let ship = searchParams.get('ship') || 0
     const { cartState } = useCart();
     let totalCart = 0
     const [activePayment, setActivePayment] = useState<string>('stripe')
+    
+    // Add test navigation function
+    const testNavigation = () => {
+        const testOrderId = 'TEST' + Math.floor(100000 + Math.random() * 900000);
+        console.log('Testing navigation to:', `/order-confirmation?orderId=${testOrderId}`);
+        router.push(`/order-confirmation?orderId=${testOrderId}`);
+    };
 
     cartState.cartArray.map(item => totalCart += item.price * item.quantity)
 
@@ -98,8 +96,10 @@ const Checkout = () => {
                             </div>
                             <div className="information mt-5">
                                 <div className="heading5">Information</div>
+                                
+                                {/* IMPORTANT: Changed <form> to <div> to avoid nesting forms */}
                                 <div className="form-checkout mt-5">
-                                    <form>
+                                    <div>
                                         <div className="grid sm:grid-cols-2 gap-4 gap-y-5 flex-wrap">
                                             <div className="">
                                                 <input className="border-line px-4 py-3 w-full rounded-lg" id="firstName" type="text" placeholder="First Name *" required />
@@ -116,9 +116,7 @@ const Checkout = () => {
                                             <div className="col-span-full select-block">
                                                 <select className="border border-line px-4 py-3 w-full rounded-lg" id="region" name="region" defaultValue={'default'}>
                                                     <option value="default" disabled>Choose Country/Region</option>
-                                                    <option value="India">India</option>
-                                                    <option value="France">France</option>
-                                                    <option value="Singapore">Singapore</option>
+                                                    <option value="Pakistan">Pakistan</option>
                                                 </select>
                                                 <Icon.CaretDown className='arrow-down' />
                                             </div>
@@ -131,9 +129,10 @@ const Checkout = () => {
                                             <div className="select-block">
                                                 <select className="border border-line px-4 py-3 w-full rounded-lg" id="country" name="country" defaultValue={'default'}>
                                                     <option value="default" disabled>Choose State</option>
-                                                    <option value="India">India</option>
-                                                    <option value="France">France</option>
-                                                    <option value="Singapore">Singapore</option>
+                                                    <option value="Punjab">Punjab</option>
+                                                    <option value="Sindh">Sindh</option>
+                                                    <option value="Khyber Pakhtunkhwa">Khyber Pakhtunkhwa</option>
+                                                    <option value="Balochistan">Balochistan</option>
                                                 </select>
                                                 <Icon.CaretDown className='arrow-down' />
                                             </div>
@@ -144,6 +143,18 @@ const Checkout = () => {
                                                 <textarea className="border border-line px-4 py-3 w-full rounded-lg" id="note" name="note" placeholder="Write note..."></textarea>
                                             </div>
                                         </div>
+                                        
+                                        {/* Test Navigation button - add this for debugging */}
+                                        <div className="mt-4">
+                                            <button 
+                                                onClick={testNavigation}
+                                                className="px-4 py-2 bg-yellow-500 text-white rounded-lg"
+                                                type="button"
+                                            >
+                                                Test Navigation
+                                            </button>
+                                        </div>
+                                        
                                         <div className="payment-block md:mt-10 mt-6">
                                             <div className="heading5">Choose payment Option:</div>
                                             <div className="list-payment mt-5">
@@ -154,13 +165,161 @@ const Checkout = () => {
                                                     {activePayment === 'stripe' && (
                                                         <div className="infor pt-4">
                                                             <div className="text-on-surface-variant1 mb-3">Pay with your credit or debit card via Stripe.</div>
-                                                            <Elements stripe={stripePromise}>
-                                                                <StripeCardForm />
-                                                            </Elements>
+                                                            <ClientOnly>
+                                                                <Elements stripe={stripePromise}>
+                                                                    <StripeCardForm />
+                                                                </Elements>
+                                                            </ClientOnly>
                                                         </div>
                                                     )}
                                                 </div>
-                                                {/* PayPal */}
+
+                                                {/* Apple Pay */}
+                                                <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'apple-pay' ? 'open' : ''}`}>
+                                                    <input className="cursor-pointer" type="radio" id="apple-pay" name="payment" checked={activePayment === 'apple-pay'} onChange={() => handlePayment('apple-pay')} />
+                                                    <label className="text-button pl-2 cursor-pointer flex items-center" htmlFor="apple-pay">
+                                                        <AppleLogo size={20} className="mr-2" />
+                                                        Apple Pay
+                                                    </label>
+                                                    {activePayment === 'apple-pay' && (
+                                                        <div className="infor pt-4">
+                                                            <div className="text-on-surface-variant1 mb-3">Pay securely with Apple Pay.</div>
+                                                            <div className="bg-gray-100 rounded-lg p-4 text-center">
+                                                                <p className="text-gray-500 mb-3">Apple Pay is available on supported devices.</p>
+                                                                <button 
+                                                                    className="button-main w-full mt-3 bg-black text-white rounded-lg py-3 flex items-center justify-center"
+                                                                    onClick={(e) => {
+                                                                        e.preventDefault();
+                                                                        alert('Apple Pay integration would go here.');
+                                                                        const orderId = 'APORD' + Math.floor(100000 + Math.random() * 900000);
+                                                                        setTimeout(() => {
+                                                                            router.push(`/order-confirmation?orderId=${orderId}`);
+                                                                        }, 1500);
+                                                                    }}
+                                                                >
+                                                                    <AppleLogo size={24} className="mr-2" weight="fill" />
+                                                                    <span>Pay with Apple Pay</span>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    )}
+                                                </div>
+
+                                                {/* Visa Direct */}
+                                                <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'visa' ? 'open' : ''}`}>
+                                                    <input className="cursor-pointer" type="radio" id="visa" name="payment" checked={activePayment === 'visa'} onChange={() => handlePayment('visa')} />
+                                                    <label className="text-button pl-2 cursor-pointer flex items-center" htmlFor="visa">
+                                                        <CreditCard size={20} className="mr-2" />
+                                                        Visa Direct
+                                                    </label>
+                                                    {activePayment === 'visa' && (
+                                                        <div className="infor pt-4">
+                                                            <div className="text-on-surface-variant1 mb-3">Pay directly with your Visa card.</div>
+                                                            <div className="row">
+                                                                <div className="col-12 mt-3">
+                                                                    <label htmlFor="cardNumber">Card Number</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="cardNumber" placeholder="1234 5678 9012 3456" />
+                                                                </div>
+                                                                <div className="grid grid-cols-2 gap-4 mt-3">
+                                                                    <div>
+                                                                        <label htmlFor="expiryDate">Expiry Date</label>
+                                                                        <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="expiryDate" placeholder="MM/YY" />
+                                                                    </div>
+                                                                    <div>
+                                                                        <label htmlFor="cvv">CVV</label>
+                                                                        <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="cvv" placeholder="123" />
+                                                                    </div>
+                                                                </div>
+                                                                <div className="col-12 mt-3">
+                                                                    <label htmlFor="nameOnCard">Name on Card</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="nameOnCard" placeholder="John Doe" />
+                                                                </div>
+                                                                <button 
+                                                                    className="button-main w-full mt-4 bg-blue-600 text-white rounded-lg py-3"
+                                                                    onClick={(e) => {
+                                                                        e.preventDefault();
+                                                                        alert('Visa payment would process here.');
+                                                                        const orderId = 'VSORD' + Math.floor(100000 + Math.random() * 900000);
+                                                                        setTimeout(() => {
+                                                                            router.push(`/order-confirmation?orderId=${orderId}`);
+                                                                        }, 1500);
+                                                                    }}
+                                                                >
+                                                                    Pay with Visa
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    )}
+                                                </div>
+
+                                                {/* Payoneer */}
+                                                <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'payoneer' ? 'open' : ''}`}>
+                                                    <input className="cursor-pointer" type="radio" id="payoneer" name="payment" checked={activePayment === 'payoneer'} onChange={() => handlePayment('payoneer')} />
+                                                    <label className="text-button pl-2 cursor-pointer flex items-center" htmlFor="payoneer">
+                                                        <Bank size={20} className="mr-2" />
+                                                        Payoneer
+                                                    </label>
+                                                    {activePayment === 'payoneer' && (
+                                                        <div className="infor pt-4">
+                                                            <div className="text-on-surface-variant1 mb-3">Pay using your Payoneer account.</div>
+                                                            <div className="row">
+                                                                <div className="col-12 mt-3">
+                                                                    <label htmlFor="payoneerEmail">Payoneer Email</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="email" id="payoneerEmail" placeholder="your@email.com" />
+                                                                </div>
+                                                                <div className="col-12 mt-3">
+                                                                    <label htmlFor="payoneerPassword">Payoneer Password</label>
+                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="password" id="payoneerPassword" placeholder="••••••••" />
+                                                                </div>
+                                                                <button 
+                                                                    className="button-main w-full mt-4 bg-green-600 text-white rounded-lg py-3"
+                                                                    onClick={(e) => {
+                                                                        e.preventDefault();
+                                                                        alert('Payoneer authentication would occur here.');
+                                                                        const orderId = 'PYORD' + Math.floor(100000 + Math.random() * 900000);
+                                                                        setTimeout(() => {
+                                                                            router.push(`/order-confirmation?orderId=${orderId}`);
+                                                                        }, 1500);
+                                                                    }}
+                                                                >
+                                                                    Pay with Payoneer
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    )}
+                                                </div>
+
+                                                {/* Amazon Pay */}
+                                                <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'amazon-pay' ? 'open' : ''}`}>
+                                                    <input className="cursor-pointer" type="radio" id="amazon-pay" name="payment" checked={activePayment === 'amazon-pay'} onChange={() => handlePayment('amazon-pay')} />
+                                                    <label className="text-button pl-2 cursor-pointer flex items-center" htmlFor="amazon-pay">
+                                                        <ShoppingCart size={20} className="mr-2" />
+                                                        Amazon Pay
+                                                    </label>
+                                                    {activePayment === 'amazon-pay' && (
+                                                        <div className="infor pt-4">
+                                                            <div className="text-on-surface-variant1 mb-3">Pay securely using your Amazon account.</div>
+                                                            <div className="bg-gray-100 rounded-lg p-4 text-center">
+                                                                <p className="text-gray-500 mb-3">You'll be redirected to Amazon to complete your payment.</p>
+                                                                <button 
+                                                                    className="button-main w-full mt-3 bg-yellow-500 text-black font-medium rounded-lg py-3"
+                                                                    onClick={(e) => {
+                                                                        e.preventDefault();
+                                                                        alert('Amazon Pay redirect would happen here.');
+                                                                        const orderId = 'AMORD' + Math.floor(100000 + Math.random() * 900000);
+                                                                        setTimeout(() => {
+                                                                            router.push(`/order-confirmation?orderId=${orderId}`);
+                                                                        }, 1500);
+                                                                    }}
+                                                                >
+                                                                    Pay with Amazon
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    )}
+                                                </div>
+
+                                                {/* For PayPal - keep your existing code */}
                                                 <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'paypal' ? 'open' : ''}`}>
                                                     <input className="cursor-pointer" type="radio" id="paypal" name="payment" checked={activePayment === 'paypal'} onChange={() => handlePayment('paypal')} />
                                                     <label className="text-button pl-2 cursor-pointer" htmlFor="paypal">PayPal</label>
@@ -172,95 +331,32 @@ const Checkout = () => {
                                                                     <label htmlFor="paypalEmail">PayPal Email</label>
                                                                     <input className="border-line px-4 py-3 w-full rounded mt-2" type="email" id="paypalEmail" placeholder="your@email.com" />
                                                                 </div>
-                                                            </div>
-                                                        </div>
-                                                    )}
-                                                </div>
-                                                {/* Apple Pay */}
-                                                <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'apple-pay' ? 'open' : ''}`}>
-                                                    <input className="cursor-pointer" type="radio" id="apple-pay" name="payment" checked={activePayment === 'apple-pay'} onChange={() => handlePayment('apple-pay')} />
-                                                    <label className="text-button pl-2 cursor-pointer" htmlFor="apple-pay">Apple Pay</label>
-                                                    {activePayment === 'apple-pay' && (
-                                                        <div className="infor pt-4">
-                                                            <div className="text-on-surface-variant1 mb-3">Pay quickly and securely with Apple Pay.</div>
-                                                            <div className="row">
-                                                                <div className="col-12 mt-3">
-                                                                    <label htmlFor="applePayDevice">Device Account Number</label>
-                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="applePayDevice" placeholder="Device Account Number" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    )}
-                                                </div>
-                                                {/* Visa */}
-                                                <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'visa' ? 'open' : ''}`}>
-                                                    <input className="cursor-pointer" type="radio" id="visa" name="payment" checked={activePayment === 'visa'} onChange={() => handlePayment('visa')} />
-                                                    <label className="text-button pl-2 cursor-pointer" htmlFor="visa">Visa</label>
-                                                    {activePayment === 'visa' && (
-                                                        <div className="infor pt-4">
-                                                            <div className="text-on-surface-variant1 mb-3">Enter your Visa card details:</div>
-                                                            <div className="row">
-                                                                <div className="col-12 mt-3">
-                                                                    <label htmlFor="visaCardNumber">Card Number</label>
-                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="visaCardNumber" placeholder="ex. 1234 5678 9012 3456" />
-                                                                </div>
-                                                                <div className="mt-3">
-                                                                    <label htmlFor="visaDate">Expiry Date</label>
-                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="visaDate" placeholder="MM/YY" />
-                                                                </div>
-                                                                <div className="mt-3">
-                                                                    <label htmlFor="visaCvv">CVV</label>
-                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="visaCvv" placeholder="***" />
-                                                                </div>
-                                                                <div className="mt-3">
-                                                                    <label htmlFor="visaName">Name on Card</label>
-                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="text" id="visaName" placeholder="Cardholder Name" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    )}
-                                                </div>
-                                                {/* Payoneer */}
-                                                <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'payoneer' ? 'open' : ''}`}>
-                                                    <input className="cursor-pointer" type="radio" id="payoneer" name="payment" checked={activePayment === 'payoneer'} onChange={() => handlePayment('payoneer')} />
-                                                    <label className="text-button pl-2 cursor-pointer" htmlFor="payoneer">Payoneer</label>
-                                                    {activePayment === 'payoneer' && (
-                                                        <div className="infor pt-4">
-                                                            <div className="text-on-surface-variant1 mb-3">Pay using your Payoneer account.</div>
-                                                            <div className="row">
-                                                                <div className="col-12 mt-3">
-                                                                    <label htmlFor="payoneerEmail">Payoneer Email</label>
-                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="email" id="payoneerEmail" placeholder="your@email.com" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    )}
-                                                </div>
-                                                {/* Amazon Pay */}
-                                                <div className={`type bg-surface p-5 border border-line rounded-lg mt-5 ${activePayment === 'amazon-pay' ? 'open' : ''}`}>
-                                                    <input className="cursor-pointer" type="radio" id="amazon-pay" name="payment" checked={activePayment === 'amazon-pay'} onChange={() => handlePayment('amazon-pay')} />
-                                                    <label className="text-button pl-2 cursor-pointer" htmlFor="amazon-pay">Amazon Pay</label>
-                                                    {activePayment === 'amazon-pay' && (
-                                                        <div className="infor pt-4">
-                                                            <div className="text-on-surface-variant1 mb-3">Pay easily with your Amazon account.</div>
-                                                            <div className="row">
-                                                                <div className="col-12 mt-3">
-                                                                    <label htmlFor="amazonEmail">Amazon Email</label>
-                                                                    <input className="border-line px-4 py-3 w-full rounded mt-2" type="email" id="amazonEmail" placeholder="your@email.com" />
-                                                                </div>
+                                                                <button 
+                                                                    className="button-main w-full mt-4 bg-blue-600 text-white rounded-lg py-3"
+                                                                    onClick={(e) => {
+                                                                        e.preventDefault();
+                                                                        alert('PayPal integration would go here. Redirecting to PayPal...');
+                                                                        // In real implementation, you'd redirect to PayPal
+                                                                        const orderId = 'PPORD' + Math.floor(100000 + Math.random() * 900000);
+                                                                        setTimeout(() => {
+                                                                            router.push(`/order-confirmation?orderId=${orderId}`);
+                                                                        }, 1500);
+                                                                    }}
+                                                                >
+                                                                    Pay with PayPal
+                                                                </button>
                                                             </div>
                                                         </div>
                                                     )}
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="block-button md:mt-10 mt-6">
-                                            <button className="button-main w-full">Payment</button>
-                                        </div>
-                                    </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        
+                        {/* Right side cart summary - unchanged */}
                         <div className="right w-5/12">
                             <div className="checkout-block">
                                 <div className="heading5 pb-3">Your Order</div>
@@ -277,6 +373,7 @@ const Checkout = () => {
                                                         height={500}
                                                         alt='img'
                                                         className='w-full h-full'
+                                                        style={{ width: 'auto', height: 'auto' }} /* Fix image aspect ratio */
                                                     />
                                                 </div>
                                                 <div className="flex items-center justify-between w-full">

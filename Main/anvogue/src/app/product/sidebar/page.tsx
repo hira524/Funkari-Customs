@@ -9,6 +9,7 @@ import Sidebar from '@/components/Product/Detail/Sidebar';
 import Footer from '@/components/Footer/Footer'
 import { ProductType } from '@/type/ProductType'
 import productData from '@/data/Product.json'
+import MenuEight from '@/components/Header/Menu/MenuEight';
 
 const ProductSidebar = () => {
     const searchParams = useSearchParams()
@@ -22,7 +23,7 @@ const ProductSidebar = () => {
         <>
             <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
             <div id="header" className='relative w-full'>
-                <MenuOne props="bg-white" />
+                <MenuEight />
                 <BreadcrumbProduct data={productData} productPage='sidebar' productId={productId} />
             </div>
             <Sidebar data={productData} productId={productId} />

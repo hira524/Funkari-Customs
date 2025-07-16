@@ -7,6 +7,7 @@ import MenuOne from '@/components/Header/Menu/MenuOne'
 import ShopSidebarList from '@/components/Shop/ShopSidebarList'
 import productData from '@/data/Product.json'
 import Footer from '@/components/Footer/Footer'
+import MenuEight from '@/components/Header/Menu/MenuEight';
 
 export default function SidebarList() {
     const searchParams = useSearchParams()
@@ -17,7 +18,7 @@ export default function SidebarList() {
         <>
             <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
             <div id="header" className='relative w-full'>
-                <MenuOne props="bg-transparent" />
+                <MenuEight />
             </div>
             <ShopSidebarList data={productData} productPerPage={4} dataType={type} />
             <Footer />

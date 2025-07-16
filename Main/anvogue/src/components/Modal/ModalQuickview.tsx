@@ -200,13 +200,14 @@ const ModalQuickview = () => {
                                             ))}
                                         </div>
                                     </div>
-                                    <div className="choose-size mt-5">
+                                                                       <div className="choose-size mt-5">
                                         <div className="heading flex items-center justify-between">
                                             <div className="text-title">Size: <span className='text-title size'>{activeSize}</span></div>
                                             <div
-                                                className="caption1 size-guide text-red underline cursor-pointer"
+                                                className="caption1 size-guide text-red underline cursor-pointer flex items-center gap-1"
                                                 onClick={handleOpenSizeGuide}
                                             >
+                                                <Icon.Ruler size={16} />
                                                 Size Guide
                                             </div>
                                             <ModalSizeguide data={selectedProduct} isOpen={openSizeGuide} onClose={handleCloseSizeGuide} />
@@ -214,7 +215,7 @@ const ModalQuickview = () => {
                                         <div className="list-size flex items-center gap-2 flex-wrap mt-3">
                                             {selectedProduct?.sizes.map((item, index) => (
                                                 <div
-                                                    className={`size-item ${item === 'freesize' ? 'px-3 py-2' : 'w-12 h-12'} flex items-center justify-center text-button rounded-full bg-white border border-line ${activeSize === item ? 'active' : ''}`}
+                                                    className={`size-item ${item === 'freesize' ? 'px-3 py-2' : 'w-12 h-12'} flex items-center justify-center text-button rounded-full bg-white border ${activeSize === item ? 'border-black bg-black text-white' : 'border-line'}`}
                                                     key={index}
                                                     onClick={() => handleActiveSize(item)}
                                                 >
@@ -222,6 +223,13 @@ const ModalQuickview = () => {
                                                 </div>
                                             ))}
                                         </div>
+                                        {selectedProduct?.category?.includes('shoes') || 
+                                         selectedProduct?.category?.includes('sneakers') || 
+                                         (selectedProduct?.tags && selectedProduct.tags.includes('footwear')) ? (
+                                            <div className="text-xs text-gray-500 mt-2 italic">
+                                                Not sure about your size? Check our size chart.
+                                            </div>
+                                        ) : null}
                                     </div>
                                     <div className="text-title mt-5">Quantity:</div>
                                     <div className="choose-quantity flex items-center max-xl:flex-wrap lg:justify-between gap-5 mt-3">

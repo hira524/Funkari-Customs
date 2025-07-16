@@ -29,6 +29,7 @@ export interface ProductType {
   description: string;
   action: string;
   slug: string;
+  tags?: string[];
   careInstructions?: ReactNode; // Optional for flexibility
   video?: string; // Optional to fix the LookBook build error
 }

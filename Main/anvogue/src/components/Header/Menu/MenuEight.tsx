@@ -6,14 +6,12 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { usePathname } from 'next/navigation';
-import Product from '@/components/Product/Product';
-import productData from '@/data/Product.json'
+
 import useLoginPopup from '@/store/useLoginPopup';
 import useSubMenuDepartment from '@/store/useSubMenuDepartment';
 import useMenuMobile from '@/store/useMenuMobile';
 import { useModalCartContext } from '@/context/ModalCartContext';
 import { useModalWishlistContext } from '@/context/ModalWishlistContext';
-import { useModalSearchContext } from '@/context/ModalSearchContext';
 import { useCart } from '@/context/CartContext';
 
 const MenuEight = () => {

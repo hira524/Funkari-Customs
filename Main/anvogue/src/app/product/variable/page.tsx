@@ -7,6 +7,7 @@ import BreadcrumbProduct from '@/components/Breadcrumb/BreadcrumbProduct'
 import VariableProduct from '@/components/Product/Detail/VariableProduct';
 import Footer from '@/components/Footer/Footer'
 import productData from '@/data/Product.json'
+import MenuEight from '@/components/Header/Menu/MenuEight';
 
 const ProductVariableProduct = () => {
     const searchParams = useSearchParams()
@@ -20,7 +21,7 @@ const ProductVariableProduct = () => {
         <>
             <TopNavOne props="style-one bg-black" slogan="New customers save 10% with the code GET10" />
             <div id="header" className='relative w-full'>
-                <MenuOne props="bg-white" />
+                <MenuEight/>
                 <BreadcrumbProduct data={productData} productPage='variable' productId={productId} />
             </div>
             <VariableProduct data={productData} productId={productId} />

@@ -23,8 +23,9 @@ type CartAction =
         }
     }
     | { type: 'LOAD_CART'; payload: CartItem[] }
+    | { type: 'CLEAR_CART' }
 
-interface CartContextProps {
+export interface CartContextProps {
     cartState: CartState;
     addToCart: (item: ProductType) => void;
     removeFromCart: (itemId: string) => void;
@@ -65,6 +66,11 @@ const cartReducer = (state: CartState, action: CartAction): CartState => {
                 ...state,
                 cartArray: action.payload,
             };
+        case 'CLEAR_CART':
+            return {
+                ...state,
+                cartArray: []
+          };
         default:
             return state;
     }

@@ -303,17 +303,22 @@ const Default: React.FC<Props> = ({ data, productId }) => {
                                     <div className="heading flex items-center justify-between">
                                         <div className="text-title">Size: <span className='text-title size'>{activeSize}</span></div>
                                         <div
-                                            className="caption1 size-guide text-red underline cursor-pointer"
+                                            className="caption1 size-guide text-red underline cursor-pointer flex items-center gap-1"
                                             onClick={handleOpenSizeGuide}
                                         >
+                                            <Icon.Ruler size={16} />
                                             Size Guide
                                         </div>
-                                        <ModalSizeguide data={productMain} isOpen={openSizeGuide} onClose={handleCloseSizeGuide} />
+                                        <ModalSizeguide 
+                                            data={productMain} 
+                                            isOpen={openSizeGuide} 
+                                            onClose={handleCloseSizeGuide} 
+                                        />
                                     </div>
                                     <div className="list-size flex items-center gap-2 flex-wrap mt-3">
                                         {productMain.sizes.map((item, index) => (
                                             <div
-                                                className={`size-item ${item === 'freesize' ? 'px-3 py-2' : 'w-12 h-12'} flex items-center justify-center text-button rounded-full bg-white border border-line ${activeSize === item ? 'active' : ''}`}
+                                                className={`size-item ${item === 'freesize' ? 'px-3 py-2' : 'w-12 h-12'} flex items-center justify-center text-button rounded-full bg-white border ${activeSize === item ? 'border-black bg-black text-white' : 'border-line'}`}
                                                 key={index}
                                                 onClick={() => handleActiveSize(item)}
                                             >
@@ -321,6 +326,13 @@ const Default: React.FC<Props> = ({ data, productId }) => {
                                             </div>
                                         ))}
                                     </div>
+                                    {productMain.category?.includes('shoes') || 
+                                     productMain.category?.includes('sneakers') || 
+                                     (productMain.tags && productMain.tags.includes('footwear')) ? (
+                                        <div className="text-xs text-gray-500 mt-2 italic">
+                                            Not sure about your size? Check our size chart.
+                                        </div>
+                                    ) : null}
                                 </div>
                                 <div className="text-title mt-5">Quantity:</div>
                                 <div className="choose-quantity flex items-center lg:justify-between gap-5 gap-y-3 mt-3">
