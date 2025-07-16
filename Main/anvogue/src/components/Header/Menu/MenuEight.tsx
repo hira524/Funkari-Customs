@@ -231,10 +231,10 @@ const MenuEight = () => {
                     Denim jackets
                   </div>
                   <div
-                    onClick={() => handleTypeClick("Wallets & Clutches")}
+                    onClick={() => handleTypeClick("wallets-clutches")}
                     className={`link text-secondary duration-300 cursor-pointer`}
                   >
-                    Wallets & Clutches
+                    wallets-clutches
                   </div>
                   {/*  <div className="item block">
                                         <Link href={'/shop/breadcrumb-img'} className='py-1.5 whitespace-nowrap inline-block'>Jewelry</Link>
@@ -298,17 +298,17 @@ const MenuEight = () => {
                                     }
                                     className={`link text-secondary duration-300 cursor-pointer`}
                                   >
-                                    leather jackets
+                                    Leather jackets
                                   </div>
                                 </li>
                                 <li>
                                   <div
                                     onClick={() =>
-                                      handleTypeClick("Wallets & Clutches")
+                                      handleTypeClick("wallets-clutches")
                                     }
                                     className={`link text-secondary duration-300 cursor-pointer`}
                                   >
-                                    Wallets & Clutches
+                                  wallets-clutches
                                   </div>
                                 </li>
                                 <li>
@@ -324,7 +324,7 @@ const MenuEight = () => {
                                 <li>
                                   <div
                                     onClick={() =>
-                                      handleTypeClick("slipons")
+                                      handleTypeClick("slip-ons")
                                     }
                                     className={`link text-secondary duration-300 cursor-pointer`}
                                   >
@@ -1105,10 +1105,10 @@ const MenuEight = () => {
                             </li>
                             <li>
                               <div
-                                onClick={() => handleTypeClick("Wallets & Clutches")}
+                                onClick={() => handleTypeClick("wallets-clutches")}
                                 className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
                               >
-                                Wallets & Clutches
+                               wallets-clutches
                               </div>
                             </li>
                             <li>
@@ -1121,7 +1121,7 @@ const MenuEight = () => {
                             </li>
                             <li>
                               <div
-                                onClick={() => handleTypeClick("slipons")}
+                                onClick={() => handleTypeClick("slip-ons")}
                                 className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
                               >
                                 Slip-ons

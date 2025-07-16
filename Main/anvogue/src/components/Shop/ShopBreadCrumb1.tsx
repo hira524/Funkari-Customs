@@ -195,11 +195,11 @@ const ShopBreadCrumb1: React.FC<Props> = ({
 
   // Find page number base on filteredData
   const pageCount = Math.ceil(filteredData.length / productsPerPage);
-
-  // If page number 0, set current page = 0
-  if (pageCount === 0) {
-    setCurrentPage(0);
-  }
+useEffect(() => {
+    if (pageCount === 0 && currentPage !== 0) {
+      setCurrentPage(0);
+    }
+  }, [pageCount, currentPage]);
 
   // Get product data for current page
   let currentProducts: ProductType[];
@@ -309,7 +309,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                   ))}
                 </div>
                 <div className="list-type mt-4">
-                  {["Wallets & Clutches"].map((item, index) => (
+                  {["wallets-clutches"].map((item, index) => (
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${

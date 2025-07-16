@@ -2295,49 +2295,44 @@
   },
   {
     "id": "48",
-    "category": "cosmetic",
-    "type": "nail",
-    "name": "Nail After Moon",
-    "gender": "women",
-    "new": false,
-    "sale": true,
+    "category": "fashion",
+    "type": "slip-ons",
+    "name": "Courage Custom Canvas Slip ons",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
     "rate": 5,
-    "price": 15,
-    "originPrice": 20,
-    "brand": "chi",
-    "sold": 12,
-    "quantity": 100,
+    "price": 165,
+    "originPrice": 210,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 20,
     "quantityPurchase": 1,
     "sizes": [
-      "100",
-      "150",
-      "200"
+      "US 6", "US 7", "US 8", "US 9", "US 10", "US 11"
     ],
     "variation": [
       {
-        "color": "red",
-        "colorCode": "#DB4444",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "purple",
-        "colorCode": "#8684D4",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
+        "color": "multi",
+        "colorCode": "#A020F0",
+        "colorImage": "/images/products/product (75)/p75 (1).jpg",
+        "image": "/images/products/product (75)/p75 (1).jpg"
       }
     ],
     "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (75)/p75 (2).jpg",
+      "/images/products/product (75)/p75 (3).jpg"
     ],
     "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (75)/p75 (1).jpg",
+      "/images/products/product (75)/p75 (2).jpg",
+      "/images/products/product (75)/p75 (3).jpg",
+      "/images/products/product (75)/p75 (4).jpg"
     ],
-    "description": "The garments labelled as Committed are products that have been produced using sustainable fibres or processes, reducing their environmental impact.",
-    "action": "quick shop",
-    "slug": "cosmetic"
+    "description": "Step into fearless style with the Courage Custom Canvas Slip ons. These unique slip-on sneakers feature hand-painted artwork inspired by the theme of courage, blending bold colors and expressive motifs for a look that stands out. Crafted on durable canvas for comfort and easy wear, these slip-ons are perfect for those who want to express their individuality and inner strength. Make every step a statement and let your footwear inspire confidence and creativity.",
+    "action": "add to cart",
+    "slug": "courage-custom-canvas-slip-ons",
+    "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol."
   },
   {
     "id": "49",
@@ -3799,47 +3794,46 @@
     "action": "quick shop",
     "slug": "furniture"
   },
-  {
+    {
     "id": "76",
-    "category": "furniture",
-    "type": "chair",
-    "name": "chair furniture",
-    "gender": "both",
-    "new": false,
-    "sale": true,
+    "category": "fashion",
+    "type": "slip-ons",
+    "name": "Grey's Anatomy Custom Slip Ons",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
     "rate": 5,
-    "price": 126,
-    "originPrice": 142,
-    "brand": "wood",
-    "sold": 21,
-    "quantity": 64,
+    "price": 175,
+    "originPrice": 210,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 20,
     "quantityPurchase": 1,
-    "sizes": [],
+    "sizes": [
+      "US 6", "US 7", "US 8", "US 9", "US 10", "US 11"
+    ],
     "variation": [
       {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
+        "color": "multi",
+        "colorCode": "#A9A9A9",
+        "colorImage": "/images/products/product (76)/p76 (1).jpg",
+        "image": "/images/products/product (76)/p76 (1).jpg"
       }
     ],
     "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (76)/p76 (2).jpg",
+      "/images/products/product (76)/p76 (3).jpg"
     ],
     "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (76)/p76 (1).jpg",
+      "/images/products/product (76)/p76 (2).jpg",
+      "/images/products/product (76)/p76 (3).jpg",
+      "/images/products/product (76)/p76 (4).jpg"
     ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
+    "description": "Celebrate your love for medical drama with the Grey's Anatomy Custom Slip Ons. These unique slip-on sneakers feature hand-painted artwork inspired by the iconic TV series, including medical motifs, quotes, and signature colors. Crafted on durable canvas for comfort and easy wear, these slip-ons are perfect for fans who want to showcase their passion for Grey's Anatomy in everyday style. Step out with confidence and let your footwear tell the story of your favorite show.",
     "action": "add to cart",
-    "slug": "furniture"
+    "slug": "greys-anatomy-custom-slip-ons",
+    "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol."
   },
   {
     "id": "72",
@@ -3877,47 +3871,46 @@
     "action": "add to cart",
     "slug": "furniture"
   },
-  {
+   {
     "id": "77",
-    "category": "furniture",
-    "type": "chair",
-    "name": "wood chair",
-    "gender": "both",
+    "category": "fashion",
+    "type": "slip-ons",
+    "name": "Truck Art Custom Slip-ons",
+    "gender": "unisex",
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 129,
-    "originPrice": 135,
-    "brand": "wood",
-    "sold": 21,
-    "quantity": 64,
+    "price": 175,
+    "originPrice": 210,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 20,
     "quantityPurchase": 1,
-    "sizes": [],
+    "sizes": [
+      "US 6", "US 7", "US 8", "US 9", "US 10", "US 11"
+    ],
     "variation": [
       {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
+        "color": "multi",
+        "colorCode": "#A020F0",
+        "colorImage": "/images/products/product (77)/p77 (1).jpg",
+        "image": "/images/products/product (77)/p77 (1).jpg"
       }
     ],
     "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (77)/p77 (2).jpg",
+      "/images/products/product (77)/p77 (3).jpg"
     ],
     "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (77)/p77 (1).jpg",
+      "/images/products/product (77)/p77 (2).jpg",
+      "/images/products/product (77)/p77 (3).jpg",
+      "/images/products/product (77)/p77 (4).jpg"
     ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "furniture"
+    "description": "Celebrate vibrant culture with the Truck Art Custom Slip-ons. Inspired by the colorful and intricate designs of South Asian truck art, these slip-on sneakers feature hand-painted motifs, bold patterns, and lively hues that capture the spirit of the open road. Crafted on durable canvas for comfort and easy wear, these slip-ons are perfect for those who want to express their individuality and appreciation for artistic tradition. Step out in unique style and let your footwear tell a story of creativity and heritage.",
+    "action": "add to cart",
+    "slug": "truck-art-custom-slip-ons",
+    "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol."
   },
   {
     "id": "74",
@@ -3961,78 +3954,87 @@
     "action": "add to cart",
     "slug": "furniture"
   },
-  {
+    {
     "id": "78",
-    "category": "furniture",
-    "type": "table",
-    "name": "wood table",
-    "gender": "both",
+    "category": "fashion",
+    "type": "slip-ons",
+    "name": "GOT Theme Custom Slip Ons",
+    "gender": "unisex",
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 125,
-    "originPrice": 135,
-    "brand": "wood",
-    "sold": 21,
-    "quantity": 64,
+    "price": 185,
+    "originPrice": 220,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 20,
     "quantityPurchase": 1,
-    "sizes": [],
+    "sizes": [
+      "US 6", "US 7", "US 8", "US 9", "US 10", "US 11"
+    ],
     "variation": [
       {
-        "color": "black",
+        "color": "multi",
         "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
+        "colorImage": "/images/products/product (78)/p78 (1).jpg",
+        "image": "/images/products/product (78)/p78 (1).jpg"
       }
     ],
     "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (78)/p78 (2).jpg",
+      "/images/products/product (78)/p78 (3).jpg"
     ],
     "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (78)/p78 (1).jpg",
+      "/images/products/product (78)/p78 (2).jpg",
+      "/images/products/product (78)/p78 (3).jpg",
+      "/images/products/product (78)/p78 (4).jpg"
     ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "furniture"
+    "description": "Step into the world of Westeros with the GOT Theme Custom Slip Ons. These unique slip-on sneakers feature hand-painted artwork inspired by Game of Thrones, including iconic house sigils, dragons, and legendary motifs. Crafted on durable canvas for comfort and easy wear, these slip-ons are perfect for fans who want to showcase their love for epic fantasy and unforgettable characters. Make every step a tribute to your favorite saga and let your footwear tell the story of thrones, dragons, and destiny.",
+    "action": "add to cart",
+    "slug": "got-theme-custom-slip-ons",
+    "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol."
   },
-  {
+   {
     "id": "80",
-    "category": "furniture",
-    "type": "chair",
-    "name": "stainless steel chair",
-    "gender": "both",
+    "category": "fashion",
+    "type": "slip-ons",
+    "name": "Off-white Canvas Slip-ons Custom",
+    "gender": "unisex",
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 100,
-    "originPrice": 125,
-    "brand": "stainless",
-    "sold": 21,
-    "quantity": 64,
+    "price": 170,
+    "originPrice": 210,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 20,
     "quantityPurchase": 1,
-    "sizes": [],
+    "sizes": [
+      "US 6", "US 7", "US 8", "US 9", "US 10", "US 11"
+    ],
     "variation": [
       {
-        "color": "silver",
-        "colorCode": "#a1a2af",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
+        "color": "off-white",
+        "colorCode": "#F8F8F0",
+        "colorImage": "/images/products/product (80)/p80 (1).jpg",
+        "image": "/images/products/product (80)/p80 (1).jpg"
       }
     ],
     "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (80)/p80 (2).jpg",
+      "/images/products/product (80)/p80 (3).jpg"
     ],
     "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (80)/p80 (1).jpg",
+      "/images/products/product (80)/p80 (2).jpg",
+      "/images/products/product (80)/p80 (3).jpg",
+      "/images/products/product (80)/p80 (4).jpg"
     ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "furniture"
+    "description": "Step into minimalist style with the Off-white Canvas Slip-ons Custom. These unique slip-on sneakers feature a clean off-white canvas base, accented with subtle hand-painted details for a modern, versatile look. Crafted for comfort and easy wear, these slip-ons are perfect for those who appreciate understated elegance and effortless fashion. Pair them with any outfit for a fresh, contemporary vibe and let your footwear speak to your refined sense of style.",
+    "action": "add to cart",
+    "slug": "off-white-canvas-slip-ons-custom",
+    "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol."
   },
   {
     "id": "81",
@@ -4214,42 +4216,46 @@
     "action": "add to cart",
     "slug": "furniture"
   },
-  {
+    {
     "id": "79",
-    "category": "furniture",
-    "type": "table",
-    "name": "wood table",
-    "gender": "both",
-    "new": false,
-    "sale": true,
+    "category": "fashion",
+    "type": "slip-ons",
+    "name": "Loki Marvel Custom Slip-ons",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
     "rate": 5,
-    "price": 110,
-    "originPrice": 135,
-    "brand": "wood",
-    "sold": 21,
-    "quantity": 64,
+    "price": 185,
+    "originPrice": 220,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 20,
     "quantityPurchase": 1,
-    "sizes": [],
+    "sizes": [
+      "US 6", "US 7", "US 8", "US 9", "US 10", "US 11"
+    ],
     "variation": [
       {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
+        "color": "multi",
+        "colorCode": "#4B5320",
+        "colorImage": "/images/products/product (79)/p79 (1).jpg",
+        "image": "/images/products/product (79)/p79 (1).jpg"
       }
     ],
     "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (79)/p79 (2).jpg",
+      "/images/products/product (79)/p79 (3).jpg"
     ],
     "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (79)/p79 (1).jpg",
+      "/images/products/product (79)/p79 (2).jpg",
+      "/images/products/product (79)/p79 (3).jpg",
+      "/images/products/product (79)/p79 (4).jpg"
     ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
+    "description": "Embrace the mischief and magic of Marvel’s iconic trickster with the Loki Marvel Custom Slip-ons. These unique slip-on sneakers feature hand-painted artwork inspired by Loki, including his signature horned helmet, green and gold motifs, and Norse-inspired details. Crafted on durable canvas for comfort and easy wear, these slip-ons are perfect for fans who want to showcase their love for the God of Mischief and the Marvel universe. Step out in bold, heroic style and let your footwear channel the spirit of Loki with every stride.",
     "action": "add to cart",
-    "slug": "furniture"
+    "slug": "loki-marvel-custom-slip-ons",
+    "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol."
   },
   {
     "id": "82",
@@ -6534,7 +6540,7 @@
     {
     "id": "142",
     "category": "fashion",
-    "type": "Wallets & Clutches",
+    "type": "wallets-clutches",
     "name": "Punisher Theme Custom Wallet",
     "gender": "unisex",
     "new": true,
@@ -6574,7 +6580,7 @@
     {
     "id": "143",
     "category": "fashion",
-    "type": "Wallets & Clutches",
+    "type": "wallets-clutches",
     "name": "Anime Custom Wallet",
     "gender": "unisex",
     "new": true,
@@ -6614,7 +6620,7 @@
     {
     "id": "144",
     "category": "fashion",
-    "type": "Wallets & Clutches",
+    "type": "wallets-clutches",
     "name": "Face Painted Wallet (Female)",
     "gender": "female",
     "new": true,
@@ -6654,7 +6660,7 @@
     {
     "id": "145",
     "category": "fashion",
-    "type": "Wallets & Clutches",
+    "type": "wallets-clutches",
     "name": "Face-pet portrait Custom Wallet",
     "gender": "unisex",
     "new": true,
@@ -6694,7 +6700,7 @@
     {
     "id": "146",
     "category": "fashion",
-    "type": "Wallets & Clutches",
+    "type": "wallets-clutches",
     "name": "Joker Theme Long Wallet",
     "gender": "unisex",
     "new": true,
@@ -6734,7 +6740,7 @@
     {
     "id": "147",
     "category": "fashion",
-    "type": "Wallets & Clutches",
+    "type": "wallets-clutches",
     "name": "Native American Headdress Skull Wallet",
     "gender": "unisex",
     "new": true,
@@ -6774,7 +6780,7 @@
     {
     "id": "148",
     "category": "fashion",
-    "type": "Wallets & Clutches",
+    "type": "wallets-clutches",
     "name": "Prada Clutch Custom Painted",
     "gender": "unisex",
     "new": true,
