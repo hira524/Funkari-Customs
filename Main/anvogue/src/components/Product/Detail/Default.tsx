@@ -19,6 +19,7 @@ import { useCompare } from "@/context/CompareContext";
 import { useModalCompareContext } from "@/context/ModalCompareContext";
 import ModalSizeguide from "@/components/Modal/ModalSizeguide";
 import { useRouter } from "next/navigation";
+import ModalSizeguideCanvas from "@/components/Modal/ModalSizeguideCanvas";
 
 SwiperCore.use([Navigation, Thumbs]);
 
@@ -365,6 +366,21 @@ const Default: React.FC<Props> = ({ data, productId }) => {
                           Size Guide
                         </div>
                         <ModalSizeguide
+                          data={productMain}
+                          isOpen={openSizeGuide}
+                          onClose={handleCloseSizeGuide}
+                        />
+                      </>
+                    )}
+                    {["hightops", "lowtops", "slip-ons"].includes(productMain.type) && (
+                      <>
+                        <div
+                          className="caption1 size-guide text-red underline cursor-pointer"
+                          onClick={handleOpenSizeGuide}
+                        >
+                          Size Guide
+                        </div>
+                        <ModalSizeguideCanvas
                           data={productMain}
                           isOpen={openSizeGuide}
                           onClose={handleCloseSizeGuide}
