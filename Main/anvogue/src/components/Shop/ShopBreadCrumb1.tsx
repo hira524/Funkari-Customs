@@ -31,8 +31,8 @@ const ShopBreadCrumb1: React.FC<Props> = ({
   const [color, setColor] = useState<string | null>();
   const [brand, setBrand] = useState<string | null>();
   const [priceRange, setPriceRange] = useState<{ min: number; max: number }>({
-    min: 0,
-    max: 100,
+    min: 50,
+    max: 500,
   });
   const [currentPage, setCurrentPage] = useState(0);
   const productsPerPage = productPerPage;
@@ -108,7 +108,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
     }
 
     let isPriceRangeMatched = true;
-    if (priceRange.min !== 0 || priceRange.max !== 100) {
+    if (priceRange.min !== 50 || priceRange.max !== 500) {
       isPriceRangeMatched =
         product.price >= priceRange.min && product.price <= priceRange.max;
     }
@@ -195,7 +195,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
 
   // Find page number base on filteredData
   const pageCount = Math.ceil(filteredData.length / productsPerPage);
-useEffect(() => {
+  useEffect(() => {
     if (pageCount === 0 && currentPage !== 0) {
       setCurrentPage(0);
     }
@@ -222,7 +222,7 @@ useEffect(() => {
     setSize(null);
     setColor(null);
     setBrand(null);
-    setPriceRange({ min: 0, max: 100 });
+    setPriceRange({ min: 50, max: 500 });
     setCurrentPage(0);
     handleType(null);
   };
@@ -412,6 +412,32 @@ useEffect(() => {
                     </div>
                   ))}
                 </div>
+                <div className="list-type mt-4">
+                  {["custom portrait"].map((item, index) => (
+                    <div
+                      key={index}
+                      className={`item flex items-center justify-between cursor-pointer ${
+                        dataType === item ? "active" : ""
+                      }`}
+                      onClick={() => handleType(item)}
+                    >
+                      <div className="text-secondary has-line-before hover:text-black capitalize">
+                        {item}
+                      </div>
+                      <div className="text-secondary2">
+                        (
+                        {
+                          data.filter(
+                            (dataItem) =>
+                              dataItem.type === item &&
+                              dataItem.category === "art"
+                          ).length
+                        }
+                        )
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
               {/*<div className="filter-size pb-8 border-b border-line mt-8">
                 <div className="heading6">Size</div>
@@ -435,9 +461,9 @@ useEffect(() => {
                 <div className="heading6">Price Range</div>
                 <Slider
                   range
-                  defaultValue={[0, 100]}
-                  min={0}
-                  max={100}
+                  defaultValue={[50, 500]}
+                  min={50}
+                  max={500}
                   onChange={handlePriceChange}
                   className="mt-5"
                 />

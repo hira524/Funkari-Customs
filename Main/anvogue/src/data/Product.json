@@ -8,8 +8,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 150,
-    "originPrice": 180,
+    "price": 211.30,
+    "originPrice": 250,
     "brand": "nike",
     "sold": 5,
     "quantity": 20,
@@ -49,8 +49,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 160,
-    "originPrice": 190,
+    "price": 105.65,
+    "originPrice": 120.00,
     "brand": "nike",
     "sold": 3,
     "quantity": 15,
@@ -90,8 +90,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 170,
-    "originPrice": 200,
+    "price": 169.04,
+    "originPrice": 180.00,
     "brand": "nike",
     "sold": 2,
     "quantity": 12,
@@ -131,8 +131,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 175,
-    "originPrice": 210,
+    "price": 105.65,
+    "originPrice": 120.00,
     "brand": "nike",
     "sold": 0,
     "quantity": 10,
@@ -173,8 +173,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 185,
-    "originPrice": 220,
+    "price": 154.96,
+    "originPrice": 157.00,
     "brand": "nike",
     "sold": 0,
     "quantity": 10,
@@ -216,8 +216,8 @@
   "new": true,
   "sale": false,
   "rate": 5,
-  "price": 165,
-  "originPrice": 200,
+  "price": 176.09,
+  "originPrice": 180.00,
   "brand": "nike",
   "sold": 0,
   "quantity": 15,
@@ -258,8 +258,8 @@
   "new": true,
   "sale": false,
   "rate": 5,
-  "price": 195,
-  "originPrice": 230,
+  "price": 211.30,
+  "originPrice": 250.00,
   "brand": "nike",
   "sold": 0,
   "quantity": 10,
@@ -301,8 +301,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 120,
-    "originPrice": 150,
+    "price": 140.87,
+    "originPrice": 180,
     "brand": "custom",
     "sold": 0,
     "quantity": 50,
@@ -349,8 +349,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 220,
-    "originPrice": 260,
+    "price": 154.96,
+    "originPrice": 170.00,
     "brand": "nike",
     "sold": 4,
     "quantity": 10,
@@ -391,8 +391,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 180,
-    "originPrice": 210,
+    "price": 246.52,
+    "originPrice": 270.00,
     "brand": "nike",
     "sold": 8,
     "quantity": 20,
@@ -433,8 +433,8 @@
   "new": true,
   "sale": false,
   "rate": 5,
-  "price": 250,
-  "originPrice": 300,
+  "price": 154.96,
+  "originPrice": 167.00,
   "brand": "nike",
   "sold": 10,
   "quantity": 15,
@@ -474,8 +474,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 210,
-    "originPrice": 260,
+    "price": 140.87,
+    "originPrice": 180.00,
     "brand": "nike",
     "sold": 0,
     "quantity": 15,
@@ -514,8 +514,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 185,
-    "originPrice": 220,
+    "price": 84.52,
+    "originPrice": 120.00,
     "brand": "nike",
     "sold": 39,
     "quantity": 100,
@@ -556,8 +556,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 185,
-    "originPrice": 220,
+    "price": 154.96,
+    "originPrice": 190.00,
     "brand": "nike",
     "sold": 9,
     "quantity": 20,
@@ -598,8 +598,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 250,
-    "originPrice": 300,
+    "price": 154.96,
+    "originPrice": 180.00,
     "brand": "nike",
     "sold": 8,
     "quantity": 20,
@@ -633,13 +633,13 @@
     "id": "16",
     "category": "fashion",
     "type": "shoes",
-    "name": "Nike Jordan Japanese Custom",
+    "name": "D Nike Jordan high Life And Death Samurai Customs",
     "gender": "unisex",
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 240,
-    "originPrice": 290,
+    "price": 140.87,
+    "originPrice": 150,
     "brand": "nike",
     "sold": 12,
     "quantity": 100,
@@ -666,10 +666,10 @@
       "/images/products/product (16)/p16 (4).jpg",
       "/images/products/product (16)/p16 (5).jpg"
     ],
-    "description": "Experience the fusion of tradition and street style with the Nike Air Jordan Japanese Custom. These unique sneakers feature hand-painted Japanese motifs, bold color blocking, and intricate details inspired by Japanese art and culture. Built on the iconic Air Jordan silhouette, this pair offers premium comfort, durability, and a standout look for sneaker collectors and fans of Japanese aesthetics. Step out in style and celebrate the spirit of Japan with every stride.",
+    "description": "Experience the fusion of tradition and street style with the D Nike Jordan high Life And Death Samurai Customs. These unique sneakers feature hand-painted Japanese motifs, bold color blocking, and intricate details inspired by Japanese art and culture. Built on the iconic Air Jordan silhouette, this pair offers premium comfort, durability, and a standout look for sneaker collectors and fans of Japanese aesthetics. Step out in style and celebrate the spirit of Japan with every stride.",
     "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol." ,
     "action": "add to cart",
-    "slug": "nike-jordan-japanese-custom"
+    "slug": "d-nike-jordan-high-life-and-death-samurai-customs"
   },
     {
     "id": "22",
@@ -680,8 +680,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 260,
-    "originPrice": 320,
+    "price": 154.96,
+    "originPrice": 160.00,
     "brand": "nike",
     "sold": 41,
     "quantity": 100,
@@ -720,8 +720,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 210,
-    "originPrice": 250,
+    "price": 157.96,
+    "originPrice": 170.00,
     "brand": "nike",
     "sold": 17,
     "quantity": 30,
@@ -760,8 +760,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 220,
-    "originPrice": 260,
+    "price": 154.96,
+    "originPrice": 200,
     "brand": "nike",
     "sold": 5,
     "quantity": 20,
@@ -802,8 +802,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 230,
-    "originPrice": 270,
+    "price": 197.22,
+    "originPrice": 210.00,
     "brand": "nike",
     "sold": 7,
     "quantity": 20,
@@ -843,8 +843,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 240,
-    "originPrice": 280,
+    "price": 211.30,
+    "originPrice": 250.00,
     "brand": "nike",
     "sold": 3,
     "quantity": 15,
@@ -886,8 +886,8 @@
   "new": true,
   "sale": false,
   "rate": 5,
-  "price": 250,
-  "originPrice": 300,
+  "price": 154.96,
+  "originPrice": 180.00,
   "brand": "nike",
   "sold": 6,
   "quantity": 15,
@@ -928,8 +928,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 260,
-    "originPrice": 320,
+    "price": 154.96,
+    "originPrice": 200.00,
     "brand": "nike",
     "sold": 12,
     "quantity": 20,
@@ -971,8 +971,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 270,
-    "originPrice": 320,
+    "price": 154.96,
+    "originPrice": 190.00,
     "brand": "nike",
     "sold": 28,
     "quantity": 50,
@@ -1013,8 +1013,8 @@
   "new": false,
   "sale": true,
   "rate": 5,
-  "price": 16,
-  "originPrice": 22,
+  "price": 352.17,
+  "originPrice": 360.00,
   "brand": "nike",
   "sold": 32,
   "quantity": 100,
@@ -1061,8 +1061,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 240,
-    "originPrice": 290,
+    "price": 176.09,
+    "originPrice": 200.00,
     "brand": "nike",
     "sold": 18,
     "quantity": 50,
@@ -1102,8 +1102,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 235,
-    "originPrice": 280,
+    "price": 140.87,
+    "originPrice": 190.00,
     "brand": "nike",
     "sold": 21,
     "quantity": 50,
@@ -1142,8 +1142,8 @@
   "new": true,
   "sale": false,
   "rate": 5,
-  "price": 210,
-  "originPrice": 260,
+  "price": 140.87,
+  "originPrice": 150.00,
   "brand": "nike",
   "sold": 14,
   "quantity": 40,
@@ -1183,8 +1183,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 225,
-    "originPrice": 270,
+    "price": 140.87,
+    "originPrice": 180.00,
     "brand": "nike",
     "sold": 9,
     "quantity": 30,
@@ -1223,8 +1223,8 @@
       "new": true,
       "sale": false,
       "rate": 5,
-      "price": 185,
-      "originPrice": 220,
+      "price": 105.65,
+      "originPrice": 130.00,
       "brand": "nike",
       "sold": 22,
       "quantity": 100,
@@ -1270,8 +1270,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 260,
-    "originPrice": 320,
+    "price": 176.09,
+    "originPrice": 199.99,
     "brand": "nike",
     "sold": 15,
     "quantity": 50,
@@ -1312,8 +1312,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 260,
-    "originPrice": 320,
+    "price": 140.87,
+    "originPrice": 170.00,
     "brand": "nike",
     "sold": 8,
     "quantity": 30,
@@ -1352,8 +1352,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 210,
-    "originPrice": 260,
+    "price": 105.65,
+    "originPrice": 130.00,
     "brand": "nike",
     "sold": 10,
     "quantity": 30,
@@ -1399,8 +1399,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 220,
-    "originPrice": 270,
+    "price": 112.70,
+    "originPrice": 130.00,
     "brand": "nike",
     "sold": 12,
     "quantity": 100,
@@ -1452,8 +1452,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 230,
-    "originPrice": 280,
+    "price": 140.87,
+    "originPrice": 160.00,
     "brand": "nike",
     "sold": 21,
     "quantity": 100,
@@ -1505,8 +1505,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 190,
-    "originPrice": 240,
+    "price": 140.87,
+    "originPrice": 180.00,
     "brand": "nike",
     "sold": 15,
     "quantity": 100,
@@ -1559,8 +1559,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 210,
-    "originPrice": 260,
+    "price": 140.87,
+    "originPrice": 157.00,
     "brand": "nike",
     "sold": 12,
     "quantity": 100,
@@ -1612,8 +1612,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 190,
-    "originPrice": 240,
+    "price": 119.74,
+    "originPrice": 150,
     "brand": "nike",
     "sold": 20,
     "quantity": 100,
@@ -1666,8 +1666,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 220,
-    "originPrice": 270,
+    "price": 211.30,
+    "originPrice": 240.00,
     "brand": "custom",
     "sold": 18,
     "quantity": 50,
@@ -1714,8 +1714,8 @@
       "new": false,
       "sale": true,
       "rate": 5,
-      "price": 19,
-      "originPrice": 27,
+      "price": 246.52,
+      "originPrice": 289.00,
       "brand": "nike",
       "sold": 12,
       "quantity": 100,
@@ -1768,8 +1768,8 @@
   "new": false,
   "sale": true,
   "rate": 5,
-  "price": 12,
-  "originPrice": 20,
+  "price": 140.87,
+  "originPrice": 185.00,
   "brand": "nike",
   "sold": 12,
   "quantity": 100,
@@ -1819,8 +1819,8 @@
   "new": true,
   "sale": false,
   "rate": 5,
-  "price": 34,
-  "originPrice": 42,
+  "price": 154.96,
+  "originPrice": 172.00,
   "brand": "nike",
   "sold": 21,
   "quantity": 100,
@@ -1872,8 +1872,8 @@
   "new": true,
   "sale": false,
   "rate": 5,
-  "price": 24,
-  "originPrice": 32,
+  "price": 154.96,
+  "originPrice": 172.00,
   "brand": "nike",
   "sold": 12,
   "quantity": 100,
@@ -1919,8 +1919,8 @@
   "new": false,
   "sale": true,
   "rate": 5,
-  "price": 15,
-  "originPrice": 21,
+  "price": 70.43,
+  "originPrice": 130.00,
   "brand": "nike",
   "sold": 34,
   "quantity": 100,
@@ -1970,8 +1970,8 @@
   "new": true,
   "sale": false,
   "rate": 5,
-  "price": 24,
-  "originPrice": 32,
+  "price": 105.65,
+  "originPrice": 130.00,
   "brand": "nike",
   "sold": 12,
   "quantity": 100,
@@ -2021,8 +2021,8 @@
   "new": false,
   "sale": true,
   "rate": 5,
-  "price": 15,
-  "originPrice": 21,
+  "price": 154.96,
+  "originPrice": 200.00,
   "brand": "nike",
   "sold": 34,
   "quantity": 100,
@@ -2074,8 +2074,8 @@
       "new": true,
       "sale": false,
       "rate": 4,
-      "price": 14,
-      "originPrice": 19,
+      "price": 211.30,
+      "originPrice": 250.00,
       "brand": "rangana",
       "sold": 18,
       "quantity": 100,
@@ -2121,8 +2121,8 @@
     "new": false,
     "sale": true,
     "rate": 5,
-    "price": 15,
-    "originPrice": 20,
+    "price": 140.87,
+    "originPrice": 190.00,
     "brand": "nike",
     "sold": 12,
     "quantity": 100,
@@ -2167,8 +2167,8 @@
   "new": true,
   "sale": false,
   "rate": 4,
-  "price": 20,
-  "originPrice": 25,
+  "price": 176.09,
+  "originPrice": 200.00,
   "brand": "nike",
   "sold": 24,
   "quantity": 100,
@@ -2220,8 +2220,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 185,
-    "originPrice": 230,
+    "price": 105.65,
+    "originPrice": 130.00,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -2261,8 +2261,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 195,
-    "originPrice": 240,
+    "price": 140.87,
+    "originPrice": 178.00,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -2302,8 +2302,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 165,
-    "originPrice": 210,
+    "price": 169.04,
+    "originPrice": 178.00,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -2334,235 +2334,7 @@
     "slug": "courage-custom-canvas-slip-ons",
     "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol."
   },
-  {
-    "id": "49",
-    "category": "cosmetic",
-    "type": "eye",
-    "name": "Tinted Moisturiser",
-    "gender": "women",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 20,
-    "originPrice": 25,
-    "brand": "eyeoil",
-    "sold": 24,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [
-      "50",
-      "100",
-      "150"
-    ],
-    "variation": [
-      {
-        "color": "green",
-        "colorCode": "#D2EF9A",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "cosmetic"
-  },
-  {
-    "id": "43",
-    "category": "cosmetic",
-    "type": "hair",
-    "name": "Hair Treatment",
-    "gender": "women",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 10,
-    "originPrice": 14,
-    "brand": "glurmarket",
-    "sold": 10,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [
-      "50",
-      "100",
-      "150"
-    ],
-    "variation": [
-      {
-        "color": "purple",
-        "colorCode": "#8684D4",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "red",
-        "colorCode": "#DB4444",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "cosmetic"
-  },
-  {
-    "id": "50",
-    "category": "cosmetic",
-    "type": "lip",
-    "name": "Lip Top Treatment",
-    "gender": "women",
-    "new": true,
-    "sale": false,
-    "rate": 4,
-    "price": 14,
-    "originPrice": 19,
-    "brand": "persona",
-    "sold": 18,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [
-      "100",
-      "200",
-      "300"
-    ],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DB4444",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "pink",
-        "colorCode": "#F4407D",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "cosmetic"
-  },
-  {
-    "id": "51",
-    "category": "cosmetic",
-    "type": "Lip",
-    "name": "Lip Tan Booster",
-    "gender": "women",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 15,
-    "originPrice": 20,
-    "brand": "persona",
-    "sold": 12,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [
-      "50",
-      "100",
-      "150"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "purple",
-        "colorCode": "#8684D4",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "cosmetic"
-  },
-  {
-    "id": "44",
-    "category": "cosmetic",
-    "type": "hair",
-    "name": "After Sun - tan Booster",
-    "gender": "women",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 15,
-    "originPrice": 20,
-    "brand": "glurmarket",
-    "sold": 12,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [
-      "100",
-      "200",
-      "300"
-    ],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DB4444",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "purple",
-        "colorCode": "#8684D4",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "cosmetic"
-  },
+
   {
   "id": "42",
   "category": "fashion",
@@ -2572,8 +2344,8 @@
   "new": false,
   "sale": true,
   "rate": 5,
-  "price": 20,
-  "originPrice": 25,
+  "price": 140.87,
+  "originPrice": 170.00,
   "brand": "nike",
   "sold": 12,
   "quantity": 100,
@@ -2611,1190 +2383,7 @@
   "action": "quick shop",
   "slug": "Nike-Af1-Eminem-Customs"
 },
-  {
-    "id": "52",
-    "category": "cosmetic",
-    "type": "lip",
-    "name": "Tinted lip Balm",
-    "gender": "women",
-    "new": true,
-    "sale": false,
-    "rate": 4,
-    "price": 20,
-    "originPrice": 25,
-    "brand": "persona",
-    "sold": 24,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [
-      "100",
-      "200",
-      "300"
-    ],
-    "variation": [
-      {
-        "color": "pink",
-        "colorCode": "#F4407D",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "purple",
-        "colorCode": "#8684D4",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "cosmetic"
-  },
-  {
-    "id": "53",
-    "category": "cosmetic",
-    "type": "eye",
-    "name": "Tinted eye Balm",
-    "gender": "women",
-    "new": true,
-    "sale": false,
-    "rate": 4,
-    "price": 20,
-    "originPrice": 25,
-    "brand": "bodycare",
-    "sold": 24,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [
-      "150",
-      "200",
-      "300"
-    ],
-    "variation": [
-      {
-        "color": "white",
-        "colorCode": "#F6EFDD",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "purple",
-        "colorCode": "#8684D4",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "cosmetic"
-  },
-  {
-    "id": "54",
-    "category": "pet",
-    "type": "food",
-    "name": "Soft Baked",
-    "gender": "dog",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 20,
-    "originPrice": 26,
-    "brand": "american",
-    "sold": 24,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [
-      "200",
-      "300",
-      "500"
-    ],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DB4444",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "pets"
-  },
-  {
-    "id": "55",
-    "category": "pet",
-    "type": "food",
-    "name": "Beneful Healthy",
-    "gender": "cat",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 16,
-    "originPrice": 22,
-    "brand": "purina",
-    "sold": 16,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "100",
-      "200",
-      "300"
-    ],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DB4444",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "pets"
-  },
-  {
-    "id": "56",
-    "category": "pet",
-    "type": "pet",
-    "name": "Corgi Asia",
-    "gender": "dog",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 129,
-    "originPrice": 140,
-    "brand": "corgi",
-    "sold": 12,
-    "quantity": 40,
-    "quantityPurchase": 1,
-    "sizes": [
-      "2",
-      "3"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "pets"
-  },
-  {
-    "id": "57",
-    "category": "pet",
-    "type": "outfit",
-    "name": "fur-lined pet coat",
-    "gender": "dog",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 129,
-    "originPrice": 140,
-    "brand": "petoutfit",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "pets"
-  },
-  {
-    "id": "58",
-    "category": "pet",
-    "type": "food",
-    "name": "Milo kitchen",
-    "gender": "dog",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 20,
-    "originPrice": 26,
-    "brand": "american",
-    "sold": 24,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [
-      "200",
-      "300",
-      "500"
-    ],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DB4444",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "pets"
-  },
-  {
-    "id": "59",
-    "category": "pet",
-    "type": "food",
-    "name": "Beneful Healthy",
-    "gender": "cat",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 16,
-    "originPrice": 22,
-    "brand": "purina",
-    "sold": 16,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "100",
-      "200",
-      "300"
-    ],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DB4444",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "pets"
-  },
-  {
-    "id": "60",
-    "category": "pet",
-    "type": "bed",
-    "name": "Bed for cat",
-    "gender": "cat",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 129,
-    "originPrice": 140,
-    "brand": "bedpet",
-    "sold": 12,
-    "quantity": 40,
-    "quantityPurchase": 1,
-    "sizes": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "pets"
-  },
-  {
-    "id": "61",
-    "category": "pet",
-    "type": "ring",
-    "name": "Ring for cat",
-    "gender": "cat",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 16,
-    "originPrice": 22,
-    "brand": "petoutfit",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DA4848",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "blue",
-        "colorCode": "#4856DA",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "pets"
-  },
-  {
-    "id": "62",
-    "category": "pet",
-    "type": "bed",
-    "name": "Bed for dog",
-    "gender": "dog",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 99,
-    "originPrice": 109,
-    "brand": "bedpet",
-    "sold": 12,
-    "quantity": 40,
-    "quantityPurchase": 1,
-    "sizes": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "pets"
-  },
-  {
-    "id": "63",
-    "category": "pet",
-    "type": "bed",
-    "name": "Bed dog",
-    "gender": "dog",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 104,
-    "originPrice": 112,
-    "brand": "bedpet",
-    "sold": 12,
-    "quantity": 40,
-    "quantityPurchase": 1,
-    "sizes": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "pets"
-  },
-  {
-    "id": "64",
-    "category": "pet",
-    "type": "pet",
-    "name": "Cat Germany",
-    "gender": "cat",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 89,
-    "originPrice": 100,
-    "brand": "germany",
-    "sold": 16,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "pets"
-  },
-  {
-    "id": "65",
-    "category": "pet",
-    "type": "pet",
-    "name": "dog australia",
-    "gender": "dog",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 99,
-    "originPrice": 120,
-    "brand": "australia",
-    "sold": 16,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/color/48x48.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "pets"
-  },
-  {
-    "id": "66",
-    "category": "jewelry",
-    "type": "bracelet",
-    "name": "golden bracelet",
-    "gender": "women",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 89,
-    "originPrice": 100,
-    "brand": "sjc",
-    "sold": 16,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [
-      "10",
-      "11",
-      "12",
-      "13"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "jewelry"
-  },
-  {
-    "id": "67",
-    "category": "jewelry",
-    "type": "bracelet",
-    "name": "silver bracelet",
-    "gender": "men",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 69,
-    "originPrice": 80,
-    "brand": "sjc",
-    "sold": 16,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "silver",
-        "colorCode": "#a1a2af",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "jewelry"
-  },
-  {
-    "id": "68",
-    "category": "jewelry",
-    "type": "ring",
-    "name": "silver ring",
-    "gender": "men",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 89,
-    "originPrice": 100,
-    "brand": "sjc",
-    "sold": 16,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [
-      "10",
-      "11",
-      "12",
-      "13"
-    ],
-    "variation": [
-      {
-        "color": "silver",
-        "colorCode": "#a1a2af",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "jewelry"
-  },
-  {
-    "id": "69",
-    "category": "jewelry",
-    "type": "necklace",
-    "name": "silver necklace",
-    "gender": "men",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 69,
-    "originPrice": 80,
-    "brand": "sjc",
-    "sold": 16,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [
-      "35",
-      "40",
-      "45",
-      "50"
-    ],
-    "variation": [
-      {
-        "color": "silver",
-        "colorCode": "#a1a2af",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "jewelry"
-  },
-  {
-    "id": "70",
-    "category": "jewelry",
-    "type": "bracelet",
-    "name": "woemn bracelet",
-    "gender": "women",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 89,
-    "originPrice": 100,
-    "brand": "sjc",
-    "sold": 24,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [
-      "10",
-      "11",
-      "12",
-      "13"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "silver",
-        "colorCode": "#a1a2af",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "jewelry"
-  },
-  {
-    "id": "71",
-    "category": "jewelry",
-    "type": "ring",
-    "name": "silver ring",
-    "gender": "men",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 89,
-    "originPrice": 100,
-    "brand": "sjc",
-    "sold": 21,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [
-      "10",
-      "11",
-      "12",
-      "13"
-    ],
-    "variation": [
-      {
-        "color": "silver",
-        "colorCode": "#a1a2af",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "jewelry"
-  },
-  {
-    "id": "682",
-    "category": "jewelry",
-    "type": "ring",
-    "name": "silver ring",
-    "gender": "men",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 89,
-    "originPrice": 100,
-    "brand": "sjc",
-    "sold": 3,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [
-      "10",
-      "11",
-      "12",
-      "13"
-    ],
-    "variation": [
-      {
-        "color": "silver",
-        "colorCode": "#a1a2af",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "jewelry"
-  },
-  {
-    "id": "692",
-    "category": "jewelry",
-    "type": "necklace",
-    "name": "silver necklace",
-    "gender": "men",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 69,
-    "originPrice": 80,
-    "brand": "sjc",
-    "sold": 2,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [
-      "35",
-      "40",
-      "45",
-      "50"
-    ],
-    "variation": [
-      {
-        "color": "silver",
-        "colorCode": "#a1a2af",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "jewelry"
-  },
-  {
-    "id": "702",
-    "category": "jewelry",
-    "type": "bracelet",
-    "name": "woemn bracelet",
-    "gender": "women",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 89,
-    "originPrice": 100,
-    "brand": "sjc",
-    "sold": 4,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [
-      "10",
-      "11",
-      "12",
-      "13"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "silver",
-        "colorCode": "#a1a2af",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "jewelry"
-  },
-  {
-    "id": "712",
-    "category": "jewelry",
-    "type": "ring",
-    "name": "silver ring",
-    "gender": "men",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 89,
-    "originPrice": 100,
-    "brand": "sjc",
-    "sold": 8,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [
-      "10",
-      "11",
-      "12",
-      "13"
-    ],
-    "variation": [
-      {
-        "color": "silver",
-        "colorCode": "#a1a2af",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "jewelry"
-  },
-  {
-    "id": "86",
-    "category": "furniture",
-    "type": "chair",
-    "name": "sofa chair",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 110,
-    "originPrice": 129,
-    "brand": "sofa",
-    "sold": 21,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "silver",
-        "colorCode": "#a1a2af",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "furniture"
-  },
-  {
-    "id": "73",
-    "category": "furniture",
-    "type": "chair",
-    "name": "wood chair",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 120,
-    "originPrice": 135,
-    "brand": "wood",
-    "sold": 21,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "furniture"
-  },
-  {
-    "id": "75",
-    "category": "furniture",
-    "type": "chair",
-    "name": "wood chair",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 100,
-    "originPrice": 125,
-    "brand": "wood",
-    "sold": 21,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "furniture"
-  },
-    {
+{
     "id": "76",
     "category": "fashion",
     "type": "slip-ons",
@@ -3803,8 +2392,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 175,
-    "originPrice": 210,
+    "price": 140.87,
+    "originPrice": 188.00,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -3835,42 +2424,7 @@
     "slug": "greys-anatomy-custom-slip-ons",
     "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol."
   },
-  {
-    "id": "72",
-    "category": "furniture",
-    "type": "chair",
-    "name": "chair furniture",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 120,
-    "originPrice": 135,
-    "brand": "wood",
-    "sold": 21,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "furniture"
-  },
+ 
    {
     "id": "77",
     "category": "fashion",
@@ -3880,8 +2434,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 175,
-    "originPrice": 210,
+    "price": 169.04,
+    "originPrice": 188.00,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -3912,48 +2466,7 @@
     "slug": "truck-art-custom-slip-ons",
     "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol."
   },
-  {
-    "id": "74",
-    "category": "furniture",
-    "type": "chair",
-    "name": "chair furniture",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 115,
-    "originPrice": 125,
-    "brand": "wood",
-    "sold": 21,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "furniture"
-  },
+  
     {
     "id": "78",
     "category": "fashion",
@@ -3963,8 +2476,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 185,
-    "originPrice": 220,
+    "price": 140.87,
+    "originPrice": 188.00,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -4004,8 +2517,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 170,
-    "originPrice": 210,
+    "price": 112.70,
+    "originPrice": 156.00,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -4036,187 +2549,46 @@
     "slug": "off-white-canvas-slip-ons-custom",
     "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol."
   },
-  {
+    {
     "id": "81",
-    "category": "furniture",
-    "type": "chair",
-    "name": "aluminium chair",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 110,
-    "originPrice": 129,
-    "brand": "stainless",
-    "sold": 21,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "silver",
-        "colorCode": "#a1a2af",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "furniture"
-  },
-  {
-    "id": "83",
-    "category": "furniture",
-    "type": "table",
-    "name": "wood table",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 125,
-    "originPrice": 135,
-    "brand": "wood",
-    "sold": 21,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "furniture"
-  },
-  {
-    "id": "84",
-    "category": "furniture",
-    "type": "table",
-    "name": "wood table",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 125,
-    "originPrice": 135,
-    "brand": "wood",
-    "sold": 21,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "furniture"
-  },
-  {
-    "id": "85",
-    "category": "furniture",
-    "type": "table",
-    "name": "wood table",
-    "gender": "both",
+    "category": "art",
+    "type": "custom portrait",
+    "name": "The Good, The Bad and The Ugly themed painting 11 x 14 inches",
+    "gender": "unisex",
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 125,
-    "originPrice": 135,
-    "brand": "wood",
-    "sold": 21,
-    "quantity": 64,
+    "price": 281.74,
+    "originPrice": 299.99,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 1,
     "quantityPurchase": 1,
-    "sizes": [],
+    "sizes": ["11 x 14 inches"],
     "variation": [
       {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
+        "color": "multi",
+        "colorCode": "#A020F0",
+        "colorImage": "/images/products/product (81)/p81 (1).jpg",
+        "image": "/images/products/product (81)/p81 (1).jpg"
       }
     ],
     "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (81)/p81 (2).jpg",
+      "/images/products/product (81)/p81 (3).jpg"
     ],
     "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
+      "/images/products/product (81)/p81 (1).jpg",
+      "/images/products/product (81)/p81 (2).jpg",
+      "/images/products/product (81)/p81 (3).jpg",
+      "/images/products/product (81)/p81 (4).jpg"
     ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
+    "description": "Bring cinematic legend to your space with The Good, The Bad and The Ugly themed painting. This custom 11 x 14 inch portrait captures the iconic trio in vivid, hand-painted detail, blending classic Western motifs with expressive artistry. Perfect for film enthusiasts and collectors, this piece adds drama and character to any room. Each brushstroke pays homage to the timeless story, making it a standout addition to your art collection.",
     "action": "add to cart",
-    "slug": "furniture"
+    "slug": "the-good-the-bad-the-ugly-themed-painting",
+    "careInstructions": "• Display away from direct sunlight to prevent fading.\n• Avoid humid or damp environments.\n• Dust gently with a soft, dry cloth.\n• Do not use water or cleaning chemicals on the surface.\n• Frame under glass for added protection.\n• Handle with clean hands to avoid smudges or stains."
   },
-  {
-    "id": "87",
-    "category": "furniture",
-    "type": "lighting",
-    "name": "sofa lighting",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 110,
-    "originPrice": 129,
-    "brand": "lighting",
-    "sold": 21,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "furniture"
-  },
-    {
+     {
     "id": "79",
     "category": "fashion",
     "type": "slip-ons",
@@ -4225,8 +2597,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 185,
-    "originPrice": 220,
+    "price": 154.96,
+    "originPrice": 1778.00,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -4257,2169 +2629,45 @@
     "slug": "loki-marvel-custom-slip-ons",
     "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol."
   },
-  {
-    "id": "82",
-    "category": "furniture",
-    "type": "table",
-    "name": "wood table",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 125,
-    "originPrice": 135,
-    "brand": "wood",
-    "sold": 21,
-    "quantity": 64,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "quick shop",
-    "slug": "furniture"
-  },
-  {
-    "id": "88",
-    "category": "furniture",
-    "type": "lighting",
-    "name": "bed lighting",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 100,
-    "originPrice": 119,
-    "brand": "lighting",
-    "sold": 12,
-    "quantity": 88,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio Furniture. Traditionally designed, they are perfect to be used in the any place where you need to store.",
-    "action": "add to cart",
-    "slug": "furniture"
-  },
-  {
-    "id": "89",
-    "category": "toys-kid",
-    "type": "pad",
-    "name": "bed lighting",
-    "gender": "men",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 80,
-    "originPrice": 99,
-    "brand": "lightningbed",
-    "sold": 28,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "5",
-      "8",
-      "10",
-      "12"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "blue",
-        "colorCode": "#4856DA",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio toykid. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with toykid from Onita toykid!",
-    "action": "add to cart",
-    "slug": "toykid"
-  },
-  {
-    "id": "90",
-    "category": "toys-kid",
-    "type": "toy",
-    "name": "toys lighting",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 20,
-    "originPrice": 39,
-    "brand": "lightningtoys",
-    "sold": 21,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [
-      "5",
-      "8",
-      "10",
-      "12"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio toykid. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with toykid from Onita toykid!",
-    "action": "quick shop",
-    "slug": "toykid"
-  },
-  {
-    "id": "91",
-    "category": "toys-kid",
-    "type": "blanket",
-    "name": "blanket lighting",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 30,
-    "originPrice": 49,
-    "brand": "lightningblanket",
-    "sold": 35,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "5",
-      "8",
-      "10",
-      "12"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio toykid. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with toykid from Onita toykid!",
-    "action": "add to cart",
-    "slug": "toykid"
-  },
-  {
-    "id": "92",
-    "category": "toys-kid",
-    "type": "clothing",
-    "name": "clothing lighting",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 12,
-    "originPrice": 20,
-    "brand": "lightningclothing",
-    "sold": 65,
-    "quantity": 180,
-    "quantityPurchase": 1,
-    "sizes": [
-      "5",
-      "8",
-      "10",
-      "12"
-    ],
-    "variation": [
-      {
-        "color": "blue",
-        "colorCode": "#4856DA",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio toykid. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with toykid from Onita toykid!",
-    "action": "add to cart",
-    "slug": "toykid"
-  },
-  {
-    "id": "93",
-    "category": "toys-kid",
-    "type": "pad",
-    "name": "bed lighting",
-    "gender": "men",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 80,
-    "originPrice": 99,
-    "brand": "lightningbed",
-    "sold": 14,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "5",
-      "8",
-      "10",
-      "12"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "blue",
-        "colorCode": "#4856DA",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio toykid. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with toykid from Onita toykid!",
-    "action": "add to cart",
-    "slug": "toykid"
-  },
-  {
-    "id": "94",
-    "category": "toys-kid",
-    "type": "toy",
-    "name": "toys lighting",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 54,
-    "originPrice": 59,
-    "brand": "lightningtoys",
-    "sold": 28,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "5",
-      "8",
-      "10",
-      "12"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio toykid. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with toykid from Onita toykid!",
-    "action": "quick shop",
-    "slug": "toykid"
-  },
-  {
-    "id": "95",
-    "category": "toys-kid",
-    "type": "blanket",
-    "name": "blanket lighting",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 40,
-    "originPrice": 59,
-    "brand": "lightningblanket",
-    "sold": 34,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "5",
-      "8",
-      "10",
-      "12"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio toykid. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with toykid from Onita toykid!",
-    "action": "add to cart",
-    "slug": "toykid"
-  },
-  {
-    "id": "96",
-    "category": "toys-kid",
-    "type": "clothing",
-    "name": "clothing lighting",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 40,
-    "originPrice": 59,
-    "brand": "lightningclothing",
-    "sold": 73,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "5",
-      "8",
-      "10",
-      "12"
-    ],
-    "variation": [
-      {
-        "color": "blue",
-        "colorCode": "#4856DA",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio toykid. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with toykid from Onita toykid!",
-    "action": "add to cart",
-    "slug": "toykid"
-  },
-  {
-    "id": "97",
-    "category": "toys-kid",
-    "type": "blanket",
-    "name": "blanket lighting",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 40,
-    "originPrice": 59,
-    "brand": "lightningblanket",
-    "sold": 65,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "5",
-      "8",
-      "10",
-      "12"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio toykid. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with toykid from Onita toykid!",
-    "action": "add to cart",
-    "slug": "toykid"
-  },
-  {
-    "id": "98",
-    "category": "toys-kid",
-    "type": "bib",
-    "name": "bib lighting",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 43,
-    "originPrice": 39,
-    "brand": "lightningbib",
-    "sold": 28,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "5",
-      "8",
-      "10",
-      "12"
-    ],
-    "variation": [
-      {
-        "color": "green",
-        "colorCode": "#D2EF9A",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "red",
-        "colorCode": "#DB4444",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "purple",
-        "colorCode": "#8684D4",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio toykid. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with toykid from Onita toykid!",
-    "action": "add to cart",
-    "slug": "toykid"
-  },
-  {
-    "id": "99",
-    "category": "toys-kid",
-    "type": "clothing",
-    "name": "clothing lighting",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 40,
-    "originPrice": 59,
-    "brand": "lightningclothing",
-    "sold": 23,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "5",
-      "8",
-      "10",
-      "12"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio toykid. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with toykid from Onita toykid!",
-    "action": "add to cart",
-    "slug": "toykid"
-  },
-  {
-    "id": "100",
-    "category": "toys-kid",
-    "type": "blanket",
-    "name": "blanket lighting",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 24,
-    "originPrice": 59,
-    "brand": "lightningblanket",
-    "sold": 28,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "5",
-      "8",
-      "10",
-      "12"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio toykid. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with toykid from Onita toykid!",
-    "action": "add to cart",
-    "slug": "toykid"
-  },
-  {
-    "id": "101",
-    "category": "yoga",
-    "type": "candle",
-    "name": "candle lighting",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 16,
-    "originPrice": 24,
-    "brand": "candle",
-    "sold": 28,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "100",
-      "200",
-      "300",
-      "400"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio yoga. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with yoga from Onita yoga!",
-    "action": "add to cart",
-    "slug": "yoga"
-  },
-  {
-    "id": "102",
-    "category": "yoga",
-    "type": "drinks",
-    "name": "drinks lighting",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 24,
-    "originPrice": 32,
-    "brand": "drinks",
-    "sold": 54,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "100",
-      "200",
-      "300",
-      "400"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio yoga. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with yoga from Onita yoga!",
-    "action": "quick shop",
-    "slug": "yoga"
-  },
-  {
-    "id": "103",
-    "category": "yoga",
-    "type": "kits",
-    "name": "kits lighting",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 32,
-    "originPrice": 42,
-    "brand": "kits",
-    "sold": 21,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [
-      "0.5",
-      "1",
-      "1.5",
-      "2"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio yoga. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with yoga from Onita yoga!",
-    "action": "add to cart",
-    "slug": "yoga"
-  },
-  {
-    "id": "104",
-    "category": "yoga",
-    "type": "clothes",
-    "name": "clothing lighting",
-    "gender": "women",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 24,
-    "originPrice": 32,
-    "brand": "clothing",
-    "sold": 58,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DB4444",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio yoga. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with yoga from Onita yoga!",
-    "action": "quick shop",
-    "slug": "yoga"
-  },
-  {
-    "id": "105",
-    "category": "yoga",
-    "type": "candle",
-    "name": "candle lighting",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 16,
-    "originPrice": 24,
-    "brand": "candle",
-    "sold": 28,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "100",
-      "200",
-      "300",
-      "400"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio yoga. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with yoga from Onita yoga!",
-    "action": "add to cart",
-    "slug": "yoga"
-  },
-  {
-    "id": "106",
-    "category": "yoga",
-    "type": "drinks",
-    "name": "drinks lighting",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 24,
-    "originPrice": 32,
-    "brand": "drinks",
-    "sold": 54,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "100",
-      "200",
-      "300",
-      "400"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio yoga. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with yoga from Onita yoga!",
-    "action": "quick shop",
-    "slug": "yoga"
-  },
-  {
-    "id": "107",
-    "category": "yoga",
-    "type": "mats",
-    "name": "mats lighting",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 32,
-    "originPrice": 42,
-    "brand": "mats",
-    "sold": 21,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [
-      "0.5",
-      "1",
-      "1.5",
-      "2"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio yoga. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with yoga from Onita yoga!",
-    "action": "add to cart",
-    "slug": "yoga"
-  },
-  {
-    "id": "108",
-    "category": "yoga",
-    "type": "clothes",
-    "name": "clothing lighting",
-    "gender": "women",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 24,
-    "originPrice": 32,
-    "brand": "clothing",
-    "sold": 58,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "variation": [
-      {
-        "color": "blue",
-        "colorCode": "#4856DA",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio yoga. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with yoga from Onita yoga!",
-    "action": "quick shop",
-    "slug": "yoga"
-  },
-  {
-    "id": "109",
-    "category": "yoga",
-    "type": "candle",
-    "name": "candle lighting",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 16,
-    "originPrice": 24,
-    "brand": "candle",
-    "sold": 28,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "100",
-      "200",
-      "300",
-      "400"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio yoga. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with yoga from Onita yoga!",
-    "action": "add to cart",
-    "slug": "yoga"
-  },
-  {
-    "id": "110",
-    "category": "yoga",
-    "type": "drinks",
-    "name": "drinks lighting",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 24,
-    "originPrice": 32,
-    "brand": "drinks",
-    "sold": 54,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "100",
-      "200",
-      "300",
-      "400"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio yoga. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with yoga from Onita yoga!",
-    "action": "quick shop",
-    "slug": "yoga"
-  },
-  {
-    "id": "111",
-    "category": "yoga",
-    "type": "kits",
-    "name": "kits lighting",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 32,
-    "originPrice": 42,
-    "brand": "kits",
-    "sold": 21,
-    "quantity": 100,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio yoga. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with yoga from Onita yoga!",
-    "action": "add to cart",
-    "slug": "yoga"
-  },
-  {
-    "id": "112",
-    "category": "yoga",
-    "type": "drinks",
-    "name": "drinks lighting",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 24,
-    "originPrice": 32,
-    "brand": "drinks",
-    "sold": 54,
-    "quantity": 120,
-    "quantityPurchase": 1,
-    "sizes": [
-      "100",
-      "200",
-      "300",
-      "400"
-    ],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio yoga. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with yoga from Onita yoga!",
-    "action": "add to cart",
-    "slug": "yoga"
-  },
-  {
-    "id": "113",
-    "category": "watch",
-    "type": "classic",
-    "name": "classic seiko",
-    "gender": "men",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 120,
-    "originPrice": 139,
-    "brand": "seiko",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "18",
-      "20"
-    ],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DA4848",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "blue",
-        "colorCode": "#4856DA",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio watch. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with watch from Onita watch!",
-    "action": "add to cart",
-    "slug": "watch"
-  },
-  {
-    "id": "114",
-    "category": "watch",
-    "type": "classic",
-    "name": "classic seiko women",
-    "gender": "women",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 110,
-    "originPrice": 129,
-    "brand": "seiko",
-    "sold": 15,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "14",
-      "16"
-    ],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DA4848",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "blue",
-        "colorCode": "#4856DA",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio watch. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with watch from Onita watch!",
-    "action": "quick shop",
-    "slug": "watch"
-  },
-  {
-    "id": "115",
-    "category": "watch",
-    "type": "luxury",
-    "name": "luxury seiko",
-    "gender": "men",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 120,
-    "originPrice": 139,
-    "brand": "seiko",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "18",
-      "20"
-    ],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DA4848",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "silver",
-        "colorCode": "#a1a2af",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio watch. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with watch from Onita watch!",
-    "action": "quick shop",
-    "slug": "watch"
-  },
-  {
-    "id": "116",
-    "category": "watch",
-    "type": "apple",
-    "name": "apple watch",
-    "gender": "men",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 100,
-    "originPrice": 119,
-    "brand": "apple",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "18",
-      "20"
-    ],
-    "variation": [
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio watch. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with watch from Onita watch!",
-    "action": "add to cart",
-    "slug": "watch"
-  },
-  {
-    "id": "117",
-    "category": "watch",
-    "type": "smart",
-    "name": "smart watch",
-    "gender": "women",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 100,
-    "originPrice": 119,
-    "brand": "smart",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "18",
-      "20"
-    ],
-    "variation": [
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio watch. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with watch from Onita watch!",
-    "action": "add to cart",
-    "slug": "watch"
-  },
-  {
-    "id": "118",
-    "category": "watch",
-    "type": "sport",
-    "name": "sport watch",
-    "gender": "men",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 100,
-    "originPrice": 119,
-    "brand": "sport",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "18",
-      "20"
-    ],
-    "variation": [
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio watch. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with watch from Onita watch!",
-    "action": "quick shop",
-    "slug": "watch"
-  },
-  {
-    "id": "119",
-    "category": "watch",
-    "type": "apple",
-    "name": "apple watch",
-    "gender": "women",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 100,
-    "originPrice": 119,
-    "brand": "apple",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "18",
-      "20"
-    ],
-    "variation": [
-      {
-        "color": "blue",
-        "colorCode": "#4856DA",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio watch. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with watch from Onita watch!",
-    "action": "quick shop",
-    "slug": "watch"
-  },
-  {
-    "id": "120",
-    "category": "watch",
-    "type": "fitness",
-    "name": "fitness watch",
-    "gender": "women",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 100,
-    "originPrice": 119,
-    "brand": "fitness",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "18",
-      "20"
-    ],
-    "variation": [
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "green",
-        "colorCode": "#D2EF9A",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio watch. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with watch from Onita watch!",
-    "action": "add to cart",
-    "slug": "watch"
-  },
-  {
-    "id": "121",
-    "category": "watch",
-    "type": "luxury",
-    "name": "luxury watch",
-    "gender": "women",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 100,
-    "originPrice": 119,
-    "brand": "seiko",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "18",
-      "20"
-    ],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DA4848",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "blue",
-        "colorCode": "#4856DA",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio watch. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with watch from Onita watch!",
-    "action": "add to cart",
-    "slug": "watch"
-  },
-  {
-    "id": "122",
-    "category": "watch",
-    "type": "sport",
-    "name": "sport watch",
-    "gender": "men",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 100,
-    "originPrice": 119,
-    "brand": "seiko",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [
-      "18",
-      "20"
-    ],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DA4848",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      },
-      {
-        "color": "black",
-        "colorCode": "#555",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio watch. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with watch from Onita watch!",
-    "action": "quick shop",
-    "slug": "watch"
-  },
-  {
-    "id": "123",
-    "category": "organic",
-    "type": "vegetables",
-    "name": "green cabbage organic",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 4,
-    "originPrice": 5,
-    "brand": "vegetables",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "green",
-        "colorCode": "#D2EF9A",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "quick shop",
-    "slug": "organic"
-  },
-  {
-    "id": "124",
-    "category": "organic",
-    "type": "vegetables",
-    "name": "purple cabbage organic",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 3,
-    "originPrice": 5,
-    "brand": "vegetables",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "green",
-        "colorCode": "#D2EF9A",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "add to cart",
-    "slug": "organic"
-  },
-  {
-    "id": "125",
-    "category": "organic",
-    "type": "vegetables",
-    "name": "Tinted Moisturiser",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 4,
-    "originPrice": 5,
-    "brand": "vegetables",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "green",
-        "colorCode": "#D2EF9A",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "quick shop",
-    "slug": "organic"
-  },
-  {
-    "id": "126",
-    "category": "organic",
-    "type": "vegetables",
-    "name": "purple cabbage organic",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 5,
-    "originPrice": 6,
-    "brand": "vegetables",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "purple",
-        "colorCode": "#8684D4",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "add to cart",
-    "slug": "organic"
-  },
-  {
-    "id": "127",
-    "category": "organic",
-    "type": "vegetables",
-    "name": "green cabbage organic",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 4,
-    "originPrice": 5,
-    "brand": "vegetables",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "green",
-        "colorCode": "#D2EF9A",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "quick shop",
-    "slug": "organic"
-  },
-  {
-    "id": "128",
-    "category": "organic",
-    "type": "vegetables",
-    "name": "green cai organic",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 3,
-    "originPrice": 5,
-    "brand": "vegetables",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "green",
-        "colorCode": "#D2EF9A",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "add to cart",
-    "slug": "organic"
-  },
-  {
-    "id": "129",
-    "category": "organic",
-    "type": "vegetables",
-    "name": "yellow cabbage organic",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 4,
-    "originPrice": 5,
-    "brand": "vegetables",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "quick shop",
-    "slug": "organic"
-  },
-  {
-    "id": "130",
-    "category": "organic",
-    "type": "vegetables",
-    "name": "purple cabbage organic",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 5,
-    "originPrice": 6,
-    "brand": "vegetables",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "add to cart",
-    "slug": "organic"
-  },
-  {
-    "id": "131",
-    "category": "organic",
-    "type": "meat",
-    "name": "green beef organic",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 8,
-    "originPrice": 10,
-    "brand": "meat",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DA4848",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "quick shop",
-    "slug": "organic"
-  },
-  {
-    "id": "132",
-    "category": "organic",
-    "type": "meat",
-    "name": "purple pork organic",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 6,
-    "originPrice": 8,
-    "brand": "meat",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DA4848",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "add to cart",
-    "slug": "organic"
-  },
-  {
-    "id": "133",
-    "category": "organic",
-    "type": "meat",
-    "name": "fish organic",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 9,
-    "originPrice": 11,
-    "brand": "meat",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DA4848",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "quick shop",
-    "slug": "organic"
-  },
-  {
-    "id": "134",
-    "category": "organic",
-    "type": "meat",
-    "name": "purple cabbage organic",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 7,
-    "originPrice": 9,
-    "brand": "meat",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "add to cart",
-    "slug": "organic"
-  },
-  {
-    "id": "135",
-    "category": "organic",
-    "type": "fruit",
-    "name": "apple organic",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 8,
-    "originPrice": 10,
-    "brand": "fruit",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DA4848",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "quick shop",
-    "slug": "organic"
-  },
-  {
-    "id": "136",
-    "category": "organic",
-    "type": "fruit",
-    "name": "passion fruit organic",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 6,
-    "originPrice": 8,
-    "brand": "fruit",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "add to cart",
-    "slug": "organic"
-  },
-  {
-    "id": "137",
-    "category": "organic",
-    "type": "fruit",
-    "name": "kiwi organic",
-    "gender": "both",
-    "new": true,
-    "sale": false,
-    "rate": 5,
-    "price": 9,
-    "originPrice": 11,
-    "brand": "fruit",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "yellow",
-        "colorCode": "#ECB018",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "quick shop",
-    "slug": "organic"
-  },
-  {
-    "id": "138",
-    "category": "organic",
-    "type": "fruit",
-    "name": "dragon fruit organic",
-    "gender": "both",
-    "new": false,
-    "sale": true,
-    "rate": 5,
-    "price": 7,
-    "originPrice": 9,
-    "brand": "fruit",
-    "sold": 24,
-    "quantity": 80,
-    "quantityPurchase": 1,
-    "sizes": [],
-    "variation": [
-      {
-        "color": "red",
-        "colorCode": "#DA4848",
-        "colorImage": "/images/product/1000x1000.jpg",
-        "image": "/images/product/1000x1000.jpg"
-      }
-    ],
-    "thumbImage": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "images": [
-      "/images/product/1000x1000.jpg",
-      "/images/product/1000x1000.jpg"
-    ],
-    "description": "Keep your home organized, yet elegant with storage cabinets by Onita Patio organic. Traditionally designed, they are perfect to be used in the any place where you need to store. Bring one-of-a-kind look to your interior with organic from Onita organic!",
-    "action": "add to cart",
-    "slug": "organic"
-  },
    {
+    "id": "82",
+    "category": "art",
+    "type": "custom portrait",
+    "name": "Dr. Strange 10 x 10 Painted Portrait",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 176.09,
+    "originPrice": 199.99,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 1,
+    "quantityPurchase": 1,
+    "sizes": ["10 x 10 inches"],
+    "variation": [
+      {
+        "color": "multi",
+        "colorCode": "#A020F0",
+        "colorImage": "/images/products/product (82)/p82 (1).jpg",
+        "image": "/images/products/product (82)/p82 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (82)/p82 (2).jpg",
+      "/images/products/product (82)/p82 (1).jpg"
+    ],
+    "images": [
+      "/images/products/product (82)/p82 (1).jpg",
+      "/images/products/product (82)/p82 (2).jpg"
+    ],
+    "description": "Add a touch of mystic artistry to your space with the Dr. Strange 10 x 10 Painted Portrait. This custom artwork captures the Sorcerer Supreme in vivid, hand-painted detail, blending magical motifs and vibrant colors for a truly enchanting piece. Perfect for Marvel fans and collectors, this portrait brings the world of superheroes and sorcery to life. Display it in your home or office to inspire wonder and imagination every day.",
+    "action": "add to cart",
+    "slug": "dr-strange-10x10-painted-portrait",
+    "careInstructions": "• Display away from direct sunlight to prevent fading.\n• Avoid humid or damp environments.\n• Dust gently with a soft, dry cloth.\n• Do not use water or cleaning chemicals on the surface.\n• Frame under glass for added protection.\n• Handle with clean hands to avoid smudges or stains."
+  },
+
+  {
     "id": "139",
     "category": "fashion",
     "type": "denim jackets",
@@ -6428,8 +2676,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 180,
-    "originPrice": 220,
+    "price": 140.87,
+    "originPrice": 190.99,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -6468,8 +2716,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 210,
-    "originPrice": 260,
+    "price": 190.17,
+    "originPrice": 220.95,
     "brand": "custom",
     "sold": 0,
     "quantity": 15,
@@ -6508,8 +2756,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 195,
-    "originPrice": 240,
+    "price": 154.96,
+    "originPrice": 198.95,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -6826,7 +3074,7 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 185,
+    "price": 154.96,
     "originPrice": 220,
     "brand": "custom",
     "sold": 0,
@@ -6868,8 +3116,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 210,
-    "originPrice": 250,
+    "price": 140.87,
+    "originPrice": 180.99,
     "brand": "custom",
     "sold": 0,
     "quantity": 15,
@@ -6910,8 +3158,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 195,
-    "originPrice": 240,
+    "price": 169.04,
+    "originPrice": 185.99,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -6952,8 +3200,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 200,
-    "originPrice": 250,
+    "price": 169.04,
+    "originPrice": 179.00,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -6994,8 +3242,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 175,
-    "originPrice": 220,
+    "price": 140.87,
+    "originPrice": 199.99,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -7036,8 +3284,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 210,
-    "originPrice": 260,
+    "price": 154.96,
+    "originPrice": 166.00,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -7077,8 +3325,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 185,
-    "originPrice": 220,
+    "price": 126.78,
+    "originPrice": 146.00,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -7119,8 +3367,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 210,
-    "originPrice": 260,
+    "price": 126.78,
+    "originPrice": 158.99,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -7203,8 +3451,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 215,
-    "originPrice": 270,
+    "price": 154.96,
+    "originPrice": 171.99,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,
@@ -7245,8 +3493,8 @@
     "new": true,
     "sale": false,
     "rate": 5,
-    "price": 220,
-    "originPrice": 270,
+    "price": 211.30,
+    "originPrice": 230.00,
     "brand": "custom",
     "sold": 0,
     "quantity": 20,

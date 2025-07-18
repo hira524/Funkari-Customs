@@ -66,7 +66,7 @@ export default function OrderConfirmation() {
                         </div>
                         <div className="flex justify-between mb-2">
                             <span className="font-medium">Total Amount:</span>
-                            <span className="text-gray-600">${totalCart}.00</span>
+                            <span className="text-gray-600">${totalCart}</span>
                         </div>
                         <div className="flex justify-between">
                             <span className="font-medium">Payment Method:</span>

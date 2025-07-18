@@ -24,6 +24,7 @@ const MenuEight = () => {
   const { openModalCart } = useModalCartContext();
   const { cartState } = useCart();
   const { openModalWishlist } = useModalWishlistContext();
+  const [openJacketsSub, setOpenJacketsSub] = useState(false);
 
   const [searchKeyword, setSearchKeyword] = useState("");
   const router = useRouter();
@@ -281,25 +282,46 @@ const MenuEight = () => {
                                     Nike Collection
                                   </div>
                                 </li>
-                                <li>
+                                <li className="h-full relative">
                                   <div
+                                    className={`link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full`}
                                     onClick={() =>
-                                      handleTypeClick("denim jackets")
+                                      setOpenJacketsSub(!openJacketsSub)
                                     }
-                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                    style={{ minWidth: "180px" }}
                                   >
-                                    Denim jackets
+                                    <span>JACKETS & HOODIES</span>
+                                    <Icon.CaretDown
+                                      size={16}
+                                      className={`ml-2 transition-transform ${
+                                        openJacketsSub ? "rotate-180" : ""
+                                      }`}
+                                    />
                                   </div>
-                                </li>
-                                <li>
-                                  <div
-                                    onClick={() =>
-                                      handleTypeClick("leather jacket")
-                                    }
-                                    className={`link text-secondary duration-300 cursor-pointer`}
-                                  >
-                                    Leather jackets
-                                  </div>
+                                  {openJacketsSub && (
+                                    <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
+                                      <li>
+                                        <div
+                                          onClick={() =>
+                                            handleTypeClick("denim jackets")
+                                          }
+                                          className={`link text-secondary duration-300 cursor-pointer`}
+                                        >
+                                          Denim jackets
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div
+                                          onClick={() =>
+                                            handleTypeClick("leather jacket")
+                                          }
+                                          className={`link text-secondary duration-300 cursor-pointer`}
+                                        >
+                                          Leather jackets
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  )}
                                 </li>
                                 <li>
                                   <div
@@ -308,14 +330,12 @@ const MenuEight = () => {
                                     }
                                     className={`link text-secondary duration-300 cursor-pointer`}
                                   >
-                                  wallets-clutches
+                                    Wallets & Clutches
                                   </div>
                                 </li>
                                 <li>
                                   <div
-                                    onClick={() =>
-                                      handleTypeClick("hightops")
-                                    }
+                                    onClick={() => handleTypeClick("hightops")}
                                     className={`link text-secondary duration-300 cursor-pointer`}
                                   >
                                     Hightops
@@ -323,9 +343,7 @@ const MenuEight = () => {
                                 </li>
                                 <li>
                                   <div
-                                    onClick={() =>
-                                      handleTypeClick("slip-ons")
-                                    }
+                                    onClick={() => handleTypeClick("slip-ons")}
                                     className={`link text-secondary duration-300 cursor-pointer`}
                                   >
                                     Slip-ons
@@ -333,9 +351,7 @@ const MenuEight = () => {
                                 </li>
                                 <li>
                                   <div
-                                    onClick={() =>
-                                      handleTypeClick("lowtops")
-                                    }
+                                    onClick={() => handleTypeClick("lowtops")}
                                     className={`link text-secondary duration-300 cursor-pointer`}
                                   >
                                     Lowtops
@@ -344,7 +360,17 @@ const MenuEight = () => {
                                 <li>
                                   <div
                                     onClick={() =>
-                                      router.push("/shop/breadcrumb-img")
+                                      handleTypeClick("custom portrait")
+                                    }
+                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    Custom Portraits
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      router.push("/shop/breadcrumb1")
                                     }
                                     className={`link text-secondary duration-300 cursor-pointer view-all-btn`}
                                   >
@@ -402,7 +428,7 @@ const MenuEight = () => {
                   </li>
                   <li className="h-full">
                     <Link
-                      href="/shop/breadcrumb-img"
+                      href="/shop/breadcrumb1"
                       className="text-button-uppercase duration-300 h-full flex items-center justify-center"
                     >
                       Shop
@@ -1095,9 +1121,11 @@ const MenuEight = () => {
                                 Denim jackets
                               </div>
                             </li>
-                             <li>
+                            <li>
                               <div
-                                onClick={() => handleTypeClick("leather jacket")}
+                                onClick={() =>
+                                  handleTypeClick("leather jacket")
+                                }
                                 className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
                               >
                                 leather jackets
@@ -1105,10 +1133,12 @@ const MenuEight = () => {
                             </li>
                             <li>
                               <div
-                                onClick={() => handleTypeClick("wallets-clutches")}
+                                onClick={() =>
+                                  handleTypeClick("wallets-clutches")
+                                }
                                 className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
                               >
-                               wallets-clutches
+                                wallets-clutches
                               </div>
                             </li>
                             <li>
@@ -1138,8 +1168,16 @@ const MenuEight = () => {
                             <li>
                               <div
                                 onClick={() =>
-                                  router.push("/shop/breadcrumb-img")
+                                  handleTypeClick("custom portrait")
                                 }
+                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
+                              >
+                                Custom Portraits
+                              </div>
+                            </li>
+                            <li>
+                              <div
+                                onClick={() => router.push("/shop/breadcrumb1")}
                                 className={`nav-item-mobile text-secondary duration-300 cursor-pointer view-all-btn`}
                               >
                                 View All
@@ -1152,7 +1190,7 @@ const MenuEight = () => {
                   </li>
                   <li>
                     <Link
-                      href="/shop/breadcrumb-img"
+                      href="/shop/breadcrumb1"
                       className="text-xl font-semibold flex items-center justify-between mt-5"
                     >
                       Shop

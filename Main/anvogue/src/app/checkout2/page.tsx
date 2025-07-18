@@ -166,13 +166,13 @@ const Checkout = () => {
                                         <div className="relative group mt-2">
                                             <span className="underline text-sm cursor-pointer group-hover:text-primary transition">Description</span>
                                             <div className="absolute left-0 z-20 w-[340px] p-4 bg-white border border-gray-300 rounded shadow-lg text-xs text-black opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity duration-200">
-                                                Make a bold statement with the 2 colorful Splash nike af1. These custom sneakers feature a vibrant, hand-painted splash design in multiple colors, turning every step into a work of art. Built on the classic Nike Air Force 1 silhouette, this pair offers premium comfort, durability, and a unique look that stands out from the crowd. Perfect for sneaker enthusiasts and anyone who loves creative, one-of-a-kind footwear.
+                                                Make a bold statement with the Dual colorful Splash nike af1. These custom sneakers feature a vibrant, hand-painted splash design in multiple colors, turning every step into a work of art. Built on the classic Nike Air Force 1 silhouette, this pair offers premium comfort, durability, and a unique look that stands out from the crowd. Perfect for sneaker enthusiasts and anyone who loves creative, one-of-a-kind footwear.
                                             </div>
                                         </div>
                                     </div>
                                     <div className="flex flex-col gap-1">
-                                        <del className="caption1 text-secondary text-end org_price">$220.00</del>
-                                        <strong className="text-title price">$185.00</strong>
+                                        <del className="caption1 text-secondary text-end org_price">$120.00</del>
+                                        <strong className="text-title price">$84.52</strong>
                                     </div>
                                 </div>
                                 {/* Nike Gran Tourismo */}
@@ -195,8 +195,8 @@ const Checkout = () => {
                                         </div>
                                     </div>
                                     <div className="flex flex-col gap-1">
-                                        <del className="caption1 text-secondary text-end org_price">$320.00</del>
-                                        <strong className="text-title price">$260.00</strong>
+                                        <del className="caption1 text-secondary text-end org_price">$200.00</del>
+                                        <strong className="text-title price">$154.96</strong>
                                     </div>
                                 </div>
                             </div>
