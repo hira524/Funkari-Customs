@@ -45,7 +45,7 @@ const SearchResult = () => {
             category: 'no-data',
             type: 'no-data',
             name: 'no-data',
-            gender: 'no-data',
+            gender: 'unisex',
             new: false,
             sale: false,
             rate: 0,
@@ -59,9 +59,11 @@ const SearchResult = () => {
             variation: [],
             thumbImage: [],
             images: [],
-            description: 'no-data',
-            action: 'no-data',
-            slug: 'no-data'
+            description: '',
+            action: '',
+            slug: '',
+            careInstructions: '', // Add this missing property
+            video: undefined      // Add this missing property
         }];
     }
 
