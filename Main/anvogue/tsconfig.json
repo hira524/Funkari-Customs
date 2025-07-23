@@ -23,6 +23,6 @@
     },
     
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Cosmetic1/AdsPhoto.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Cosmetic1/AdsPhoto.jsx", "src/app/homepages/watch/page.tsx.bak"],
   "exclude": ["node_modules"]
 }

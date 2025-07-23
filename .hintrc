@@ -16,6 +16,7 @@
       {
         "listitem": "off"
       }
-    ]
+    ],
+    "typescript-config/consistent-casing": "off"
   }
 }
