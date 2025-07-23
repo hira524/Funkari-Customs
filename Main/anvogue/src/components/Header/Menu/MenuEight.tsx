@@ -932,35 +932,54 @@ const MenuEight = () => {
                               Nike Collection
                             </div>
                           </li>
-                          
+
                           {/* JACKETS & HOODIES Section */}
                           <li className="h-full relative">
-                            <div className="text-button-uppercase font-bold py-2">
-                              JACKETS & HOODIES
+                            <div
+                              className={`link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px]`}
+                              onClick={() =>
+                                setOpenJacketsSub(!openJacketsSub)
+                              }
+                            >
+                              <span>JACKETS & HOODIES</span>
+                              <Icon.CaretDown
+                                size={16}
+                                className={`ml-2 transition-transform ${
+                                  openJacketsSub ? "rotate-180" : ""
+                                }`}
+                              />
                             </div>
-                            <ul className="pl-4">
-                              <li>
-                                <div
-                                  onClick={() => handleTypeClick("denim jackets")}
-                                  className={`link text-secondary duration-300 cursor-pointer`}
-                                >
-                                  Denim jackets
-                                </div>
-                              </li>
-                              <li>
-                                <div
-                                  onClick={() => handleTypeClick("leather jacket")}
-                                  className={`link text-secondary duration-300 cursor-pointer`}
-                                >
-                                  Leather jackets
-                                </div>
-                              </li>
-                            </ul>
+                            {openJacketsSub && (
+                              <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("denim jackets")
+                                    }
+                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    Denim jackets
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("leather jacket")
+                                    }
+                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    Leather jackets
+                                  </div>
+                                </li>
+                              </ul>
+                            )}
                           </li>
-                      
+
                           <li>
                             <div
-                              onClick={() => handleTypeClick("wallets-clutches")}
+                              onClick={() =>
+                                handleTypeClick("wallets-clutches")
+                              }
                               className={`link text-secondary duration-300 cursor-pointer`}
                             >
                               Wallets & Clutches
