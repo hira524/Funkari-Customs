@@ -50,13 +50,14 @@ const ModalSizeguide: React.FC<Props> = ({ isOpen, onClose }) => {
             {/* Size Chart Table - exactly matching the image */}
             <div className="overflow-x-auto mb-6 relative">
               {/* Gray brushstroke background effect */}
-              <div
-                className="absolute inset-0 bg-gray-200 opacity-30 -z-10"
-                style={{
-                  borderRadius: "2px",
-                  transform: "rotate(-1deg) scale(1.02)",
-                }}
-              ></div>
+              <div className="overflow-x-auto mb-6 relative">
+                {/* Gray brushstroke background effect */}
+                <div className="absolute inset-0 bg-gray-200 opacity-30 -z-10 rounded-sm -rotate-1 scale-105"></div>
+
+                <table className="w-full border-collapse">
+                  {/* ...rest of the table content remains the same... */}
+                </table>
+              </div>
 
               <table className="w-full border-collapse">
                 <thead>

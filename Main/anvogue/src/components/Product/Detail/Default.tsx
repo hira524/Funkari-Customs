@@ -439,8 +439,7 @@ const Default: React.FC<Props> = ({ data, productId }) => {
                   </div>
                   {/* Customization Button */}
                   <button
-                    className="button-main w-full text-center bg-blue-600 text-white border border-blue-600 hover:bg-blue-700 transition"
-                    style={{ marginTop: "8px" }}
+                    className="button-main w-full text-center bg-blue-600 text-white border border-blue-600 hover:bg-blue-700 transition mt-2"
                     onClick={handleCustomizeClick}
                   >
                     Customize Product
