@@ -16,6 +16,15 @@ import Footer from '@/components/Footer/Footer'
 import ModalNewsletter from '@/components/Modal/ModalNewsletter'
 
 export default function HomeWatch() {
+    // Filter and validate product data to ensure all required properties exist
+    const validProductData = productData.filter(item => 
+        item && 
+        typeof item.price === 'number' && 
+        typeof item.originPrice === 'number' &&
+        item.name &&
+        item.id
+    );
+
     return (
         <>
             <div className="bg-black style-watch">
@@ -25,10 +34,10 @@ export default function HomeWatch() {
                     <SliderWatch />
                 </div>
                 <Category />
-                <TabFeature data={productData} start={0} limit={5} />
+                <TabFeature data={validProductData} start={0} limit={5} />
                 <Banner />
-                <FeaturedProduct data={productData} />
-                <TrendingProduct data={productData} />
+                <FeaturedProduct data={validProductData} />
+                <TrendingProduct data={validProductData} />
                 <PopularProduct />
                 <Benefit props="md:py-[60px] py-8 style-watch md:mt-20 mt-10" />
                 <Instagram />
