@@ -922,101 +922,91 @@ const MenuEight = () => {
                         <Icon.CaretLeft />
                         Back
                       </div>
-                      <div className="list-nav-item w-full pt-2 pb-6">
-                        <div className="nav-item mb-6">
-                          <ul>
-                            <li>
-                              <div
-                                onClick={() => handleTypeClick("shoes")}
-                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
-                              >
-                                Nike Collection
-                              </div>
-                            </li>
-
-                            {/* JACKETS & HOODIES Section */}
-                            <li>
-                              <div className="text-button-uppercase font-bold py-2">
-                                JACKETS & HOODIES
-                              </div>
-                              <ul className="pl-4">
-                                <li>
-                                  <div
-                                    onClick={() =>
-                                      handleTypeClick("denim jackets")
-                                    }
-                                    className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
-                                  >
-                                    Denim jackets
-                                  </div>
-                                </li>
-                                <li>
-                                  <div
-                                    onClick={() =>
-                                      handleTypeClick("leather jacket")
-                                    }
-                                    className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
-                                  >
-                                    Leather jackets
-                                  </div>
-                                </li>
-                              </ul>
-                            </li>
-
-                            <li>
-                              <div
-                                onClick={() =>
-                                  handleTypeClick("wallets-clutches")
-                                }
-                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
-                              >
-                                Wallets & Clutches
-                              </div>
-                            </li>
-                            <li>
-                              <div
-                                onClick={() => handleTypeClick("hightops")}
-                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
-                              >
-                                Hightops
-                              </div>
-                            </li>
-                            <li>
-                              <div
-                                onClick={() => handleTypeClick("slip-ons")}
-                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
-                              >
-                                Slip-ons
-                              </div>
-                            </li>
-                            <li>
-                              <div
-                                onClick={() => handleTypeClick("lowtops")}
-                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
-                              >
-                                Lowtops
-                              </div>
-                            </li>
-                            <li>
-                              <div
-                                onClick={() =>
-                                  handleTypeClick("custom portrait")
-                                }
-                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
-                              >
-                                Custom Portraits
-                              </div>
-                            </li>
-                            <li>
-                              <div
-                                onClick={() => router.push("/shop/breadcrumb1")}
-                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer view-all-btn`}
-                              >
-                                View All
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
+                      <div className="nav-item">
+                        <ul>
+                          <li>
+                            <div
+                              onClick={() => handleTypeClick("shoes")}
+                              className={`link text-secondary duration-300 cursor-pointer`}
+                            >
+                              Nike Collection
+                            </div>
+                          </li>
+                          
+                          {/* JACKETS & HOODIES Section */}
+                          <li className="h-full relative">
+                            <div className="text-button-uppercase font-bold py-2">
+                              JACKETS & HOODIES
+                            </div>
+                            <ul className="pl-4">
+                              <li>
+                                <div
+                                  onClick={() => handleTypeClick("denim jackets")}
+                                  className={`link text-secondary duration-300 cursor-pointer`}
+                                >
+                                  Denim jackets
+                                </div>
+                              </li>
+                              <li>
+                                <div
+                                  onClick={() => handleTypeClick("leather jacket")}
+                                  className={`link text-secondary duration-300 cursor-pointer`}
+                                >
+                                  Leather jackets
+                                </div>
+                              </li>
+                            </ul>
+                          </li>
+                      
+                          <li>
+                            <div
+                              onClick={() => handleTypeClick("wallets-clutches")}
+                              className={`link text-secondary duration-300 cursor-pointer`}
+                            >
+                              Wallets & Clutches
+                            </div>
+                          </li>
+                          <li>
+                            <div
+                              onClick={() => handleTypeClick("hightops")}
+                              className={`link text-secondary duration-300 cursor-pointer`}
+                            >
+                              Hightops
+                            </div>
+                          </li>
+                          <li>
+                            <div
+                              onClick={() => handleTypeClick("slip-ons")}
+                              className={`link text-secondary duration-300 cursor-pointer`}
+                            >
+                              Slip-ons
+                            </div>
+                          </li>
+                          <li>
+                            <div
+                              onClick={() => handleTypeClick("lowtops")}
+                              className={`link text-secondary duration-300 cursor-pointer`}
+                            >
+                              Lowtops
+                            </div>
+                          </li>
+                          <li>
+                            <div
+                              onClick={() => handleTypeClick("custom portrait")}
+                              className={`link text-secondary duration-300 cursor-pointer`}
+                            >
+                              Custom Portraits
+                            </div>
+                          </li>
+                          <li>
+                            <div
+                              onClick={() => router.push("/shop/breadcrumb1")}
+                              className={`link text-secondary duration-300 cursor-pointer view-all-btn`}
+                            >
+                              View All
+                            </div>
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </li>
