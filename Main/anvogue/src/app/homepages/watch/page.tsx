@@ -16,14 +16,36 @@ import Footer from '@/components/Footer/Footer'
 import ModalNewsletter from '@/components/Modal/ModalNewsletter'
 
 export default function HomeWatch() {
-    // Filter and validate product data to ensure all required properties exist
-    const validProductData = productData.filter(item => 
-        item && 
-        typeof item.price === 'number' && 
-        typeof item.originPrice === 'number' &&
-        item.name &&
-        item.id
-    );
+    // Comprehensive data validation and sanitization
+    const validProductData = Array.isArray(productData) 
+        ? productData
+            .filter(item => item !== null && item !== undefined)
+            .map(item => ({
+                ...item,
+                id: item?.id || Math.random().toString(),
+                name: item?.name || 'Unknown Product',
+                price: typeof item?.price === 'number' ? item.price : 0,
+                originPrice: typeof item?.originPrice === 'number' ? item.originPrice : 0,
+                rate: typeof item?.rate === 'number' ? item.rate : 0,
+                sold: typeof item?.sold === 'number' ? item.sold : 0,
+                quantity: typeof item?.quantity === 'number' ? item.quantity : 0,
+                category: item?.category || 'uncategorized',
+                type: item?.type || 'product',
+                gender: item?.gender || 'unisex',
+                new: Boolean(item?.new),
+                sale: Boolean(item?.sale),
+                brand: item?.brand || 'Unknown',
+                quantityPurchase: typeof item?.quantityPurchase === 'number' ? item.quantityPurchase : 1,
+                sizes: Array.isArray(item?.sizes) ? item.sizes : [],
+                variation: Array.isArray(item?.variation) ? item.variation : [],
+                thumbImage: Array.isArray(item?.thumbImage) ? item.thumbImage : [],
+                images: Array.isArray(item?.images) ? item.images : [],
+                description: item?.description || '',
+                action: item?.action || 'add to cart',
+                slug: item?.slug || '',
+            }))
+            .filter(item => item.price > 0) // Only include items with valid prices
+        : [];
 
     return (
         <>
@@ -34,10 +56,14 @@ export default function HomeWatch() {
                     <SliderWatch />
                 </div>
                 <Category />
-                <TabFeature data={validProductData} start={0} limit={5} />
-                <Banner />
-                <FeaturedProduct data={validProductData} />
-                <TrendingProduct data={validProductData} />
+                {validProductData.length > 0 && (
+                    <>
+                        <TabFeature data={validProductData} start={0} limit={5} />
+                        <Banner />
+                        <FeaturedProduct data={validProductData} />
+                        <TrendingProduct data={validProductData} />
+                    </>
+                )}
                 <PopularProduct />
                 <Benefit props="md:py-[60px] py-8 style-watch md:mt-20 mt-10" />
                 <Instagram />
