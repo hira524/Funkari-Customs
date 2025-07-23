@@ -925,7 +925,7 @@ const MenuEight = () => {
                   href={"/homepages/fashion8"}
                   className="logo text-3xl font-semibold text-center"
                 >
-                  Funkari Custom
+                  Funkari Customs
                 </Link>
               </div>
               <div className="form-search relative mt-2">
@@ -1081,6 +1081,7 @@ const MenuEight = () => {
                                             </div>
                                         </div>
                                     </li> */}
+
                   <li
                     className={`${openSubNavMobile === 2 ? "open" : ""}`}
                     onClick={() => handleOpenSubNavMobile(2)}
@@ -1113,24 +1114,36 @@ const MenuEight = () => {
                                 Nike Collection
                               </div>
                             </li>
+
+                            {/* JACKETS & HOODIES Section */}
                             <li>
-                              <div
-                                onClick={() => handleTypeClick("denim jackets")}
-                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
-                              >
-                                Denim jackets
+                              <div className="text-button-uppercase font-bold py-2">
+                                JACKETS & HOODIES
                               </div>
+                              <ul className="pl-4">
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("denim jackets")
+                                    }
+                                    className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    Denim jackets
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("leather jacket")
+                                    }
+                                    className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    Leather jackets
+                                  </div>
+                                </li>
+                              </ul>
                             </li>
-                            <li>
-                              <div
-                                onClick={() =>
-                                  handleTypeClick("leather jacket")
-                                }
-                                className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
-                              >
-                                leather jackets
-                              </div>
-                            </li>
+
                             <li>
                               <div
                                 onClick={() =>
@@ -1138,7 +1151,7 @@ const MenuEight = () => {
                                 }
                                 className={`nav-item-mobile text-secondary duration-300 cursor-pointer`}
                               >
-                                wallets-clutches
+                                Wallets & Clutches
                               </div>
                             </li>
                             <li>
@@ -1188,6 +1201,7 @@ const MenuEight = () => {
                       </div>
                     </div>
                   </li>
+
                   <li>
                     <Link
                       href="/shop/breadcrumb1"
