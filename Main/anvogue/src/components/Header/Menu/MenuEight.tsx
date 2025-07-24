@@ -69,6 +69,8 @@ const MenuEight = () => {
     router.push(`/shop/breadcrumb1?type=${type}`);
   };
 
+  const [openCanvasCustomsSub, setOpenCanvasCustomsSub] = useState(false);
+
   return (
     <>
       <div
@@ -284,18 +286,12 @@ const MenuEight = () => {
                                 </li>
                                 <li className="h-full relative">
                                   <div
-                                    className={`link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px]`}
+                                    className="link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px]"
                                     onClick={() =>
                                       setOpenJacketsSub(!openJacketsSub)
                                     }
                                   >
-                                    <span>JACKETS & HOODIES</span>
-                                    <Icon.CaretDown
-                                      size={16}
-                                      className={`ml-2 transition-transform ${
-                                        openJacketsSub ? "rotate-180" : ""
-                                      }`}
-                                    />
+                                    <span>Jackets & Hoodies</span>
                                   </div>
                                   {openJacketsSub && (
                                     <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
@@ -304,7 +300,7 @@ const MenuEight = () => {
                                           onClick={() =>
                                             handleTypeClick("denim jackets")
                                           }
-                                          className={`link text-secondary duration-300 cursor-pointer`}
+                                          className="link text-secondary duration-300 cursor-pointer"
                                         >
                                           Denim jackets
                                         </div>
@@ -314,9 +310,19 @@ const MenuEight = () => {
                                           onClick={() =>
                                             handleTypeClick("leather jacket")
                                           }
-                                          className={`link text-secondary duration-300 cursor-pointer`}
+                                          className="link text-secondary duration-300 cursor-pointer"
                                         >
                                           Leather jackets
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div
+                                          onClick={() =>
+                                            handleTypeClick("hoodies")
+                                          }
+                                          className="link text-secondary duration-300 cursor-pointer"
+                                        >
+                                          Hoodies
                                         </div>
                                       </li>
                                     </ul>
@@ -332,29 +338,51 @@ const MenuEight = () => {
                                     Wallets & Clutches
                                   </div>
                                 </li>
-                                <li>
+                                <li className="h-full relative">
                                   <div
-                                    onClick={() => handleTypeClick("hightops")}
-                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                    className="link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px]"
+                                    onClick={() =>
+                                      setOpenCanvasCustomsSub(
+                                        !openCanvasCustomsSub
+                                      )
+                                    }
                                   >
-                                    Hightops
+                                    <span>Canvas Customs Collection</span>
                                   </div>
-                                </li>
-                                <li>
-                                  <div
-                                    onClick={() => handleTypeClick("slip-ons")}
-                                    className={`link text-secondary duration-300 cursor-pointer`}
-                                  >
-                                    Slip-ons
-                                  </div>
-                                </li>
-                                <li>
-                                  <div
-                                    onClick={() => handleTypeClick("lowtops")}
-                                    className={`link text-secondary duration-300 cursor-pointer`}
-                                  >
-                                    Lowtops
-                                  </div>
+                                  {openCanvasCustomsSub && (
+                                    <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
+                                      <li>
+                                        <div
+                                          onClick={() =>
+                                            handleTypeClick("hightops")
+                                          }
+                                          className="link text-secondary duration-300 cursor-pointer"
+                                        >
+                                          Hightops
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div
+                                          onClick={() =>
+                                            handleTypeClick("slip-ons")
+                                          }
+                                          className="link text-secondary duration-300 cursor-pointer"
+                                        >
+                                          Slip-ons
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div
+                                          onClick={() =>
+                                            handleTypeClick("lowtops")
+                                          }
+                                          className="link text-secondary duration-300 cursor-pointer"
+                                        >
+                                          Lowtops
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  )}
                                 </li>
                                 <li>
                                   <div
@@ -379,20 +407,40 @@ const MenuEight = () => {
                               </ul>
                             </div>
                             {/* Hidden categories */}
-                            {/* <div className="nav-item">
-                                                            <div className="text-button-uppercase pb-2">Massimo Dutti</div>
-                                                            <ul>
-                                                                <li>
-                                                                    <div
-                                                                        onClick={() => handleTypeClick('shirt')}
-                                                                        className={`link text-secondary duration-300 cursor-pointer`}
-                                                                    >
-                                                                        Shirt | Clothes
-                                                                    </div>
-                                                                </li>
-                                                                ...
-                                                            </ul>
-                                                        </div> */}
+                            <div className="nav-item">
+                              <ul>
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("custom vases")
+                                    }
+                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    Custom Painted Glass Bottle Vase
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("custom jewelry")
+                                    }
+                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    Customs Jewelry
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("custom painted khussa")
+                                    }
+                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    Custom painted Khussa-Desi Jutti
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
                           </div>
                           <div className="banner-ads-block pl-2.5 basis-1/3">
                             <div
@@ -936,18 +984,10 @@ const MenuEight = () => {
                           {/* JACKETS & HOODIES Section */}
                           <li className="h-full relative">
                             <div
-                              className={`link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px]`}
-                              onClick={() =>
-                                setOpenJacketsSub(!openJacketsSub)
-                              }
+                              className="link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px]"
+                              onClick={() => setOpenJacketsSub(!openJacketsSub)}
                             >
                               <span>JACKETS & HOODIES</span>
-                              <Icon.CaretDown
-                                size={16}
-                                className={`ml-2 transition-transform ${
-                                  openJacketsSub ? "rotate-180" : ""
-                                }`}
-                              />
                             </div>
                             {openJacketsSub && (
                               <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
@@ -956,7 +996,7 @@ const MenuEight = () => {
                                     onClick={() =>
                                       handleTypeClick("denim jackets")
                                     }
-                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                    className="link text-secondary duration-300 cursor-pointer"
                                   >
                                     Denim jackets
                                   </div>
@@ -966,9 +1006,17 @@ const MenuEight = () => {
                                     onClick={() =>
                                       handleTypeClick("leather jacket")
                                     }
-                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                    className="link text-secondary duration-300 cursor-pointer"
                                   >
                                     Leather jackets
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() => handleTypeClick("hoodies")}
+                                    className="link text-secondary duration-300 cursor-pointer"
+                                  >
+                                    Hoodies
                                   </div>
                                 </li>
                               </ul>
@@ -985,29 +1033,43 @@ const MenuEight = () => {
                               Wallets & Clutches
                             </div>
                           </li>
-                          <li>
+                          <li className="h-full relative">
                             <div
-                              onClick={() => handleTypeClick("hightops")}
-                              className={`link text-secondary duration-300 cursor-pointer`}
+                              className="link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px]"
+                              onClick={() =>
+                                setOpenCanvasCustomsSub(!openCanvasCustomsSub)
+                              }
                             >
-                              Hightops
+                              <span>Canvas Customs Collection</span>
                             </div>
-                          </li>
-                          <li>
-                            <div
-                              onClick={() => handleTypeClick("slip-ons")}
-                              className={`link text-secondary duration-300 cursor-pointer`}
-                            >
-                              Slip-ons
-                            </div>
-                          </li>
-                          <li>
-                            <div
-                              onClick={() => handleTypeClick("lowtops")}
-                              className={`link text-secondary duration-300 cursor-pointer`}
-                            >
-                              Lowtops
-                            </div>
+                            {openCanvasCustomsSub && (
+                              <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
+                                <li>
+                                  <div
+                                    onClick={() => handleTypeClick("hightops")}
+                                    className="link text-secondary duration-300 cursor-pointer"
+                                  >
+                                    Hightops
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() => handleTypeClick("slip-ons")}
+                                    className="link text-secondary duration-300 cursor-pointer"
+                                  >
+                                    Slip-ons
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() => handleTypeClick("lowtops")}
+                                    className="link text-secondary duration-300 cursor-pointer"
+                                  >
+                                    Lowtops
+                                  </div>
+                                </li>
+                              </ul>
+                            )}
                           </li>
                           <li>
                             <div
@@ -1023,6 +1085,38 @@ const MenuEight = () => {
                               className={`link text-secondary duration-300 cursor-pointer view-all-btn`}
                             >
                               View All
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="nav-item">
+                        <ul>
+                          <li>
+                            <div
+                              onClick={() => handleTypeClick("custom vases")}
+                              className={`link text-secondary duration-300 cursor-pointer`}
+                            >
+                              Custom Painted Glass Bottle Vase
+                            </div>
+                          </li>
+                          <li>
+                            <div
+                              onClick={() =>
+                                handleTypeClick("custom jewelry")
+                              }
+                              className={`link text-secondary duration-300 cursor-pointer`}
+                            >
+                              Custom Jewelry
+                            </div>
+                          </li>
+                          <li>
+                            <div
+                              onClick={() =>
+                                handleTypeClick("custom painted khussa")
+                              }
+                              className={`link text-secondary duration-300 cursor-pointer`}
+                            >
+                              Custom painted Khussa-Desi Jutti
                             </div>
                           </li>
                         </ul>

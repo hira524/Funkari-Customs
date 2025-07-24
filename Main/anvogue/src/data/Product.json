@@ -3574,8 +3574,765 @@
     ],
     "description": "Step into vibrant artistry with the Sunflower and Lilacs Custom Hightops. These unique high-top sneakers feature hand-painted sunflowers and lilacs, blending bold yellow and soft purple hues for a fresh, eye-catching look. Crafted on durable canvas for comfort and standout style, these hightops are perfect for those who want to express their love for nature and creative fashion. Make every step a celebration of color and individuality with these floral-inspired custom sneakers.",
     "action": "add to cart",
-        "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol." ,
+    "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, in shoe bags or boxes.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals.\n• Never submerge in water or wash in a machine.\n• Apply a clear, matte finish spray to protect paint, test first.\n• Avoid direct heat to prevent paint cracking or fading.\n• Use leather conditioner regularly to keep leather supple.\n• Avoid harsh chemicals like bleach or alcohol." ,
 
     "slug": "sunflower-and-lilacs-custom-hightops"
+  },
+     {
+    "id": "83",
+    "category": "fashion",
+    "type": "denim jackets",
+    "name": "White Fang Custom Denim Jacket",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 337.86,
+    "originPrice": 340.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 15,
+    "quantityPurchase": 1,
+    "sizes": [
+      "S", "M", "L", "XL", "XXL"
+    ],
+    "variation": [
+      {
+        "color": "blue/white",
+        "colorCode": "#3A5A98",
+        "colorImage": "/images/products/product (83)/p83 (1).jpg",
+        "image": "/images/products/product (83)/p83 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (83)/p83 (7).jpg",
+      "/images/products/product (83)/p83 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (83)/p83 (1).jpg",
+      "/images/products/product (83)/p83 (2).jpg",
+      "/images/products/product (83)/p83 (3).jpg",
+      "/images/products/product (83)/p83 (4).jpg",
+      "/images/products/product (83)/p83 (5).jpg"
+    ],
+    "description": "Unleash your wild spirit with the White Fang Custom Denim Jacket. This striking piece features hand-painted wolf artwork inspired by the legendary White Fang, blending fierce imagery with classic denim style. The jacket showcases detailed white wolf motifs, snow-capped mountains, and wilderness scenes that capture the essence of untamed nature. Crafted from premium denim for durability and comfort, it's perfect for those who want to make a bold statement and connect with their primal instincts. Transform your wardrobe with this unique piece that combines the ruggedness of the wild with urban fashion.",
+    "action": "add to cart",
+    "slug": "white-fang-custom-denim-jacket",
+    "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint and denim.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, on hangers to maintain shape.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals and scrubbing.\n• Never submerge in water or wash in a machine.\n• For denim, use a gentle fabric cleaner if needed, spot clean only.\n• Apply a clear, matte finish spray to protect paint, test first on a small area.\n• Avoid direct heat to prevent paint cracking or fading.\n• Do not bleach or use alcohol-based cleaners.\n• Avoid over-bending or folding to preserve shape and artwork."
+  },
+     {
+    "id": "84",
+    "category": "fashion",
+    "type": "denim jackets",
+    "name": "Custom Denim Jacket (Your pics)",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 246.35,
+    "originPrice": 280.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 10,
+    "quantityPurchase": 1,
+    "sizes": [
+      "S", "M", "L", "XL", "XXL"
+    ],
+    "variation": [
+      {
+        "color": "blue/custom",
+        "colorCode": "#3A5A98",
+        "colorImage": "/images/products/product (84)/p84 (1).jpg",
+        "image": "/images/products/product (84)/p84 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (84)/p84 (2).jpg",
+      "/images/products/product (84)/p84 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (84)/p84 (1).jpg",
+      "/images/products/product (84)/p84 (2).jpg",
+      "/images/products/product (84)/p84 (3).jpg",
+      "/images/products/product (84)/p84 (4).jpg"
+    ],
+    "description": "Transform your memories into wearable art with the Custom Denim Jacket (Your pics). This personalized denim jacket brings your favorite photos to life through expert hand-painting techniques, creating a truly one-of-a-kind piece that tells your unique story. Whether it's family portraits, beloved pets, travel memories, or artistic photography, our skilled artists will transform your chosen images into stunning, durable artwork on premium denim. Each jacket is carefully crafted to preserve the emotional value of your photos while creating a fashion statement that's exclusively yours. Perfect for commemorating special moments, expressing your personality, or giving a meaningful gift that will be treasured forever.",
+    "action": "add to cart",
+    "slug": "custom-denim-jacket-your-pics",
+    "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint and denim.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, on hangers to maintain shape.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals and scrubbing.\n• Never submerge in water or wash in a machine.\n• For denim, use a gentle fabric cleaner if needed, spot clean only.\n• Apply a clear, matte finish spray to protect paint, test first on a small area.\n• Avoid direct heat to prevent paint cracking or fading.\n• Do not bleach or use alcohol-based cleaners.\n• Avoid over-bending or folding to preserve shape and artwork.\n• Handle painted areas with extra care to preserve photo details.\n• Store flat when possible to prevent image distortion."
+  },
+     {
+    "id": "85",
+    "category": "fashion",
+    "type": "denim jackets",
+    "name": "Miles Morales Spider Man Custom Denim Jacket",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 211.16,
+    "originPrice": 250.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 12,
+    "quantityPurchase": 1,
+    "sizes": [
+      "S", "M", "L", "XL", "XXL"
+    ],
+    "variation": [
+      {
+        "color": "black/red",
+        "colorCode": "#1F1F1F",
+        "colorImage": "/images/products/product (85)/p85 (1).jpg",
+        "image": "/images/products/product (85)/p85 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (85)/p85 (6).jpg",
+      "/images/products/product (85)/p85 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (85)/p85 (1).jpg",
+      "/images/products/product (85)/p85 (2).jpg",
+      "/images/products/product (85)/p85 (3).jpg",
+      "/images/products/product (85)/p85 (4).jpg",
+      "/images/products/product (85)/p85 (5).jpg"
+    ],
+    "description": "Swing into style with the Miles Morales Spider-Man Custom Denim Jacket. This electrifying piece features hand-painted artwork inspired by the ultimate Spider-Man, Miles Morales, showcasing his iconic red and black suit, bio-electric powers, and dynamic web-slinging poses. The jacket captures the energy and innovation of the new generation Spider-Man with vibrant colors, lightning effects, and street art-inspired graffiti elements that reflect Miles' Brooklyn roots. Crafted from premium denim for durability and comfort, this jacket is perfect for fans who want to channel their inner hero and make a bold statement. Whether you're a comic book enthusiast or simply love unique, artistic fashion, this custom denim jacket lets you wear your superhero spirit with confidence and style.",
+    "action": "add to cart",
+    "slug": "miles-morales-spider-man-custom-denim-jacket",
+    "careInstructions": "• Wear sparingly for special occasions to minimize wear.\n• Handle gently to avoid scratches or damage to paint and denim.\n• Keep dry; avoid wet conditions, pat dry if wet, air dry at room temperature.\n• Store in a cool, dry place, away from sunlight, on hangers to maintain shape.\n• Clean gently with a soft, damp cloth; avoid harsh chemicals and scrubbing.\n• Never submerge in water or wash in a machine.\n• For denim, use a gentle fabric cleaner if needed, spot clean only.\n• Apply a clear, matte finish spray to protect paint, test first on a small area.\n• Avoid direct heat to prevent paint cracking or fading.\n• Do not bleach or use alcohol-based cleaners.\n• Avoid over-bending or folding to preserve shape and artwork.\n• Handle painted areas with extra care to preserve superhero details.\n• Store on padded hangers to prevent creasing of artwork."
+  },
+     {
+    "id": "86",
+    "category": "fashion",
+    "type": "leather jackets",
+    "name": "Pulp Fiction Leather Jacket",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 175.97,
+    "originPrice": 199.99,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 8,
+    "quantityPurchase": 1,
+    "sizes": [
+      "S", "M", "L", "XL", "XXL"
+    ],
+    "variation": [
+      {
+        "color": "black",
+        "colorCode": "#1F1F1F",
+        "colorImage": "/images/products/product (86)/p86 (1).jpg",
+        "image": "/images/products/product (86)/p86 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (86)/p86 (2).jpg",
+      "/images/products/product (86)/p86 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (86)/p86 (1).jpg",
+      "/images/products/product (86)/p86 (2).jpg",
+      "/images/products/product (86)/p86 (3).jpg",
+      "/images/products/product (86)/p86 (4).jpg"
+    ],
+    "description": "Step into cinematic cool with the Pulp Fiction Leather Jacket. This iconic piece captures the timeless style and rebellious spirit of Quentin Tarantino's masterpiece, featuring premium black leather construction and classic biker jacket design elements. The jacket embodies the effortless cool of characters like Vincent Vega and Jules Winnfield, with its sleek silhouette, asymmetrical zip closure, and authentic vintage-inspired details. Crafted from high-quality genuine leather for durability and comfort, this jacket is perfect for film enthusiasts, fashion rebels, and anyone who wants to channel that unforgettable Pulp Fiction attitude. Whether you're hitting the streets or making a statement, this leather jacket lets you carry a piece of movie history with unmatched style and confidence.",
+    "action": "add to cart",
+    "slug": "pulp-fiction-leather-jacket",
+    "careInstructions": "• Wear regularly to maintain leather suppleness and develop natural patina.\n• Keep away from direct heat sources and prolonged sunlight exposure.\n• Store on padded hangers in a cool, dry place with good ventilation.\n• Clean with specialized leather cleaner only; test on hidden area first.\n• Apply leather conditioner every 3-6 months to prevent cracking.\n• If wet, air dry naturally at room temperature; never use heat.\n• Remove stains immediately with appropriate leather cleaning products.\n• Avoid contact with oils, perfumes, and harsh chemicals.\n• Professional leather cleaning recommended for deep cleaning.\n• Store in breathable garment bag, never in plastic.\n• Handle zippers and hardware gently to prevent damage."
+  },
+     {
+    "id": "87",
+    "category": "fashion",
+    "type": "hoodies",
+    "name": "PCR7 themed Custom painted Hoodie",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 246.35,
+    "originPrice": 280.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 25,
+    "quantityPurchase": 1,
+    "sizes": [
+      "S", "M", "L", "XL", "XXL"
+    ],
+    "variation": [
+      {
+        "color": "navy/gold",
+        "colorCode": "#1E3A8A",
+        "colorImage": "/images/products/product (87)/p87 (1).jpg",
+        "image": "/images/products/product (87)/p87 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (87)/p87 (5).jpg",
+      "/images/products/product (87)/p87 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (87)/p87 (1).jpg",
+      "/images/products/product (87)/p87 (2).jpg",
+      "/images/products/product (87)/p87 (3).jpg",
+      "/images/products/product (87)/p87 (4).jpg"
+    ],
+    "description": "Celebrate football greatness with the PCR7 themed Custom Painted Hoodie. This exclusive hoodie features hand-painted artwork inspired by Cristiano Ronaldo's legendary PCR7 brand, showcasing dynamic designs, bold typography, and signature motifs that capture the essence of excellence and determination. The hoodie combines premium comfort with striking visual elements, including CR7 logos, motivational quotes, and athletic-inspired graphics in navy and gold colorways. Crafted from high-quality cotton blend for warmth and durability, this hoodie is perfect for football fans, fitness enthusiasts, and anyone who embodies the champion mindset. Whether you're training, relaxing, or making a statement, this custom painted hoodie lets you wear the spirit of greatness with unmatched style and comfort.",
+    "action": "add to cart",
+    "slug": "pcr7-themed-custom-painted-hoodie",
+    "careInstructions": "• Wash inside out in cold water (30°C or below) to protect painted design.\n• Use gentle cycle and mild detergent; avoid bleach or fabric softeners.\n• Hang dry or tumble dry on low heat; avoid high temperatures.\n• Do not iron directly on painted areas; use pressing cloth if needed.\n• Store hung or folded carefully to prevent cracking of artwork.\n• Avoid dry cleaning as chemicals may damage the paint.\n• For tough stains, spot clean gently with mild soap and water.\n• Keep away from sharp objects that may scratch the design.\n• First wash separately to prevent color bleeding.\n• Handle painted areas with care to maintain artwork integrity.\n• Avoid prolonged exposure to direct sunlight when storing."
+  },
+     {
+    "id": "88",
+    "category": "fashion",
+    "type": "hoodies",
+    "name": "Versace Designed Hoodie",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 316.74,
+    "originPrice": 370.00,
+    "brand": "versace",
+    "sold": 0,
+    "quantity": 15,
+    "quantityPurchase": 1,
+    "sizes": [
+      "S", "M", "L", "XL", "XXL"
+    ],
+    "variation": [
+      {
+        "color": "gold/black",
+        "colorCode": "#D4AF37",
+        "colorImage": "/images/products/product (88)/p88 (1).jpg",
+        "image": "/images/products/product (88)/p88 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (88)/p88 (1).jpg",
+      "/images/products/product (88)/p88 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (88)/p88 (1).jpg",
+      "/images/products/product (88)/p88 (2).jpg",
+      "/images/products/product (88)/p88 (3).jpg",
+      "/images/products/product (88)/p88 (4).jpg"
+    ],
+    "description": "Step into luxury fashion with the Versace Designed Hoodie. This exclusive piece features the iconic Versace aesthetic with bold Medusa head motifs, baroque patterns, and signature gold accents that define the brand's opulent style. Crafted from premium cotton blend for superior comfort and durability, this hoodie combines high-fashion elegance with streetwear versatility. The design showcases intricate detailing, luxurious finishes, and the unmistakable Versace flair that has made the brand a symbol of Italian luxury. Perfect for fashion enthusiasts who want to make a statement, this hoodie offers both comfort and prestige. Whether you're stepping out for a casual day or making a fashion statement, this Versace-inspired design lets you wear luxury with confidence and style.",
+    "action": "add to cart",
+    "slug": "versace-designed-hoodie",
+    "careInstructions": "• Wash inside out in cold water (30°C or below) to protect design elements.\n• Use gentle cycle and mild detergent; avoid bleach or fabric softeners.\n• Hand wash recommended for best results and longevity.\n• Air dry flat or hang dry; avoid tumble drying to prevent shrinkage.\n• Do not iron directly on printed or embroidered areas; use pressing cloth if needed.\n• Store hung on padded hangers to maintain shape.\n• Avoid dry cleaning as chemicals may damage decorative elements.\n• Keep away from sharp objects that may snag delicate details.\n• First wash separately to prevent color bleeding.\n• Handle embellishments and decorative elements with care.\n• Store in cool, dry place away from direct sunlight.\n• Professional cleaning recommended for stubborn stains."
+  },
+     {
+    "id": "89",
+    "category": "art",
+    "type": "custom vases",
+    "name": "Starry Night Painted Bottle Vase",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 65.00,
+    "originPrice": 75.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 8,
+    "quantityPurchase": 1,
+    "sizes": ["Standard"],
+    "variation": [
+      {
+        "color": "blue/gold",
+        "colorCode": "#1E3A8A",
+        "colorImage": "/images/products/product (89)/p89 (1).jpg",
+        "image": "/images/products/product (89)/p89 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (89)/p89 (2).jpg",
+      "/images/products/product (89)/p89 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (89)/p89 (1).jpg",
+      "/images/products/product (89)/p89 (2).jpg",
+      "/images/products/product (89)/p89 (3).jpg"
+    ],
+    "description": "Bring Van Gogh's masterpiece into your home with the Starry Night Painted Bottle Vase. This stunning decorative vase features a hand-painted recreation of Van Gogh's iconic 'Starry Night,' with swirling blues and golds that capture the magic of the famous painting. Crafted on a repurposed glass bottle for eco-friendly elegance, this functional art piece serves as both a beautiful vase for flowers and a captivating decorative accent. Perfect for art lovers, home decorators, and anyone who appreciates the timeless beauty of classic impressionist art. Transform any space with this unique piece that combines artistic heritage with practical functionality.",
+    "action": "add to cart",
+    "slug": "starry-night-painted-bottle-vase",
+    "careInstructions": "• Handle with care to prevent chipping or breaking of painted surface.\n• Clean gently with a soft, damp cloth; avoid harsh detergents or scrubbing.\n• Do not submerge completely in water; clean exterior only.\n• Avoid extreme temperature changes that may cause glass to crack.\n• Display away from direct sunlight to prevent paint fading.\n• Use as decorative vase only; not suitable for food or drink storage.\n• Store in a safe place when not in use to prevent accidental damage.\n• Avoid contact with oils, perfumes, or harsh chemicals.\n• If using for fresh flowers, change water regularly and clean interior gently.\n• Touch up paint if needed with matching colors applied by a professional."
+  },
+     {
+    "id": "90",
+    "category": "jewelry",
+    "type": "custom jewelry",
+    "name": "Custom Camellia Embroidered Locket",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 60.00,
+    "originPrice": 70.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 15,
+    "quantityPurchase": 1,
+    "sizes": ["Standard"],
+    "variation": [
+      {
+        "color": "gold/pink",
+        "colorCode": "#D4AF37",
+        "colorImage": "/images/products/product (90)/p90 (1).jpg",
+        "image": "/images/products/product (90)/p90 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (90)/p90 (2).jpg",
+      "/images/products/product (90)/p90 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (90)/p90 (1).jpg",
+      "/images/products/product (90)/p90 (2).jpg",
+      "/images/products/product (90)/p90 (3).jpg",
+      "/images/products/product (90)/p90 (4).jpg"
+    ],
+    "description": "Carry love close to your heart with the Custom Camellia Embroidered Locket. This exquisite piece features delicate hand-embroidered camellia flowers, symbolizing love, admiration, and perfection. The locket opens to reveal space for your most treasured photos or keepsakes, making it a truly personal and meaningful accessory. Crafted with attention to detail and finished in elegant gold tones with soft pink camellia accents, this locket is perfect for special occasions, gifts, or everyday elegance. Whether commemorating a special moment or expressing your unique style, this custom embroidered locket lets you wear your memories and emotions with timeless grace.",
+    "action": "add to cart",
+    "slug": "custom-camellia-embroidered-locket",
+    "careInstructions": "• Store in a jewelry box or soft pouch to prevent scratches and tarnishing.\n• Keep away from moisture, perfumes, lotions, and harsh chemicals.\n• Clean gently with a soft, dry cloth; avoid water and cleaning solutions.\n• Remove before swimming, showering, or exercising to prevent damage.\n• Avoid exposure to direct sunlight for extended periods.\n• Handle embroidered areas with extra care to preserve delicate threads.\n• Store separately from other jewelry to prevent tangling or scratching.\n• Have professionally cleaned if needed; avoid DIY cleaning methods.\n• Check clasp and chain regularly for wear and tear.\n• Keep locket closed when not in use to protect interior photos or keepsakes."
+  },
+     {
+    "id": "91",
+    "category": "jewelry",
+    "type": "custom jewelry",
+    "name": "Custom Jasmine Embroidered Locket",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 60.00,
+    "originPrice": 70.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 15,
+    "quantityPurchase": 1,
+    "sizes": ["Standard"],
+    "variation": [
+      {
+        "color": "gold/white",
+        "colorCode": "#D4AF37",
+        "colorImage": "/images/products/product (91)/p91 (1).jpg",
+        "image": "/images/products/product (91)/p91 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (91)/p91 (2).jpg",
+      "/images/products/product (91)/p91 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (91)/p91 (1).jpg",
+      "/images/products/product (91)/p91 (2).jpg",
+      "/images/products/product (91)/p91 (3).jpg",
+      "/images/products/product (91)/p91 (4).jpg"
+    ],
+    "description": "Embrace timeless elegance with the Custom Jasmine Embroidered Locket. This exquisite piece features delicate hand-embroidered jasmine flowers, symbolizing grace, elegance, and optimism. The locket opens to reveal space for your most cherished photos or keepsakes, making it a deeply personal and meaningful accessory. Crafted with meticulous attention to detail and finished in elegant gold tones with pristine white jasmine accents, this locket represents purity and beauty. Perfect for special occasions, meaningful gifts, or everyday sophistication, this custom embroidered locket allows you to carry your precious memories and emotions with refined grace and everlasting charm.",
+    "action": "add to cart",
+    "slug": "custom-jasmine-embroidered-locket",
+    "careInstructions": "• Store in a jewelry box or soft pouch to prevent scratches and tarnishing.\n• Keep away from moisture, perfumes, lotions, and harsh chemicals.\n• Clean gently with a soft, dry cloth; avoid water and cleaning solutions.\n• Remove before swimming, showering, or exercising to prevent damage.\n• Avoid exposure to direct sunlight for extended periods.\n• Handle embroidered areas with extra care to preserve delicate threads.\n• Store separately from other jewelry to prevent tangling or scratching.\n• Have professionally cleaned if needed; avoid DIY cleaning methods.\n• Check clasp and chain regularly for wear and tear.\n• Keep locket closed when not in use to protect interior photos or keepsakes."
+  },
+     {
+    "id": "92",
+    "category": "fashion",
+    "type": "custom painted khussa",
+    "name": "Floral on Black",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 65.00,
+    "originPrice": 85.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 20,
+    "quantityPurchase": 1,
+    "sizes": ["US 5", "US 6", "US 7", "US 8", "US 9", "US 10"],
+    "variation": [
+      {
+        "color": "black/floral",
+        "colorCode": "#1F1F1F",
+        "colorImage": "/images/products/product (92)/p92 (1).jpg",
+        "image": "/images/products/product (92)/p92 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (92)/p92 (2).jpg",
+      "/images/products/product (92)/p92 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (92)/p92 (1).jpg",
+      "/images/products/product (92)/p92 (2).jpg",
+      "/images/products/product (92)/p92 (3).jpg",
+      "/images/products/product (92)/p92 (4).jpg"
+    ],
+    "description": "Step into elegance with the Floral on Black custom painted khussa. These traditional Pakistani footwear pieces are transformed into wearable art with delicate hand-painted floral motifs that beautifully contrast against a rich black base. Each khussa showcases intricate botanical designs in vibrant colors, bringing together cultural heritage with contemporary artistic expression. Crafted with attention to detail and comfort, these khussas are perfect for special occasions, cultural celebrations, or anyone who appreciates the fusion of traditional craftsmanship and modern artistry. Make every step a celebration of culture and creativity with these unique, handcrafted shoes.",
+    "action": "add to cart",
+    "slug": "floral-on-black-custom-painted-khussa",
+    "careInstructions": "• Handle with care to avoid damage to painted designs and delicate embellishments.\n• Clean gently with a soft, dry cloth; avoid water and harsh chemicals.\n• Store in a cool, dry place away from direct sunlight to prevent fading.\n• Avoid wearing in wet conditions to protect the painted artwork.\n• Use shoe trees or stuff with tissue paper to maintain shape when storing.\n• Keep away from sharp objects that may scratch or damage the surface.\n• For stubborn stains, consult a professional cleaner experienced with painted footwear.\n• Apply a protective spray specifically designed for painted shoes, test first.\n• Allow to air dry completely if accidentally dampened; never use heat.\n• Store separately from other shoes to prevent color transfer or scratching.\n• Handle painted areas with extra care to preserve artistic details."
+  },
+   
+    {
+      "id": "93",
+      "category": "fashion",
+      "type": "custom painted khussa",
+      "name": "Starry Night Handpainted Khussa",
+      "gender": "unisex",
+      "new": true,
+      "sale": false,
+      "rate": 5,
+      "price": 65.00,
+      "originPrice": 85.00,
+      "brand": "custom",
+      "sold": 0,
+      "quantity": 12,
+      "quantityPurchase": 1,
+      "sizes": ["US 5", "US 6", "US 7", "US 8", "US 9", "US 10"],
+      "variation": [
+        {
+          "color": "blue/gold",
+          "colorCode": "#1E3A8A",
+          "colorImage": "/images/products/product (93)/p93 (1).jpg",
+          "image": "/images/products/product (93)/p93 (1).jpg"
+        }
+      ],
+      "thumbImage": [
+        "/images/products/product (93)/p93 (2).jpg",
+        "/images/products/product (93)/p93 (3).jpg"
+      ],
+      "images": [
+        "/images/products/product (93)/p93 (1).jpg",
+        "/images/products/product (93)/p93 (2).jpg",
+        "/images/products/product (93)/p93 (3).jpg",
+        "/images/products/product (93)/p93 (4).jpg"
+      ],
+      "description": "Step into artistic brilliance with the Starry Night Handpainted Khussa. These exquisite traditional Pakistani shoes transform Van Gogh's masterpiece into wearable art, featuring hand-painted swirling blues and golds that capture the magic of the iconic 'Starry Night' painting. Each khussa showcases intricate brushwork recreating the celestial movement and dreamy atmosphere of the original artwork, blending fine art with cultural heritage. Crafted with meticulous attention to detail and comfort, these unique khussas are perfect for art enthusiasts, cultural celebrations, or anyone who appreciates the fusion of classical art with traditional craftsmanship. Make every step a journey through the stars with these one-of-a-kind artistic shoes.",
+      "action": "add to cart",
+      "slug": "starry-night-handpainted-khussa-93",
+      "careInstructions": "• Handle with care to avoid damage to painted artwork and delicate details.\n• Clean gently with a soft, dry cloth; avoid water and harsh chemicals.\n• Store in a cool, dry place away from direct sunlight to prevent paint fading.\n• Avoid wearing in wet conditions to protect the hand-painted artwork.\n• Use shoe trees or stuff with tissue paper to maintain shape when storing.\n• Keep away from sharp objects that may scratch or damage the painted surface.\n• For stubborn stains, consult a professional cleaner experienced with painted footwear.\n• Apply a protective spray specifically designed for painted shoes, test first on small area.\n• Allow to air dry completely if accidentally dampened; never use heat.\n• Store separately from other shoes to prevent color transfer or scratching.\n• Handle painted areas with extra care to preserve Van Gogh-inspired artwork."
+    },
+    
+  {
+    "id": "94",
+    "category": "fashion",
+    "type": "custom painted khussa",
+    "name": "Floral on White Khussa",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 65.00,
+    "originPrice": 85.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 20,
+    "quantityPurchase": 1,
+    "sizes": ["US 5", "US 6", "US 7", "US 8", "US 9", "US 10"],
+    "variation": [
+      {
+        "color": "white/floral",
+        "colorCode": "#FFFFFF",
+        "colorImage": "/images/products/product (94)/p94 (1).jpg",
+        "image": "/images/products/product (94)/p94 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (94)/p94 (6).jpg",
+      "/images/products/product (94)/p94 (4).jpg"
+    ],
+    "images": [
+      "/images/products/product (94)/p94 (1).jpg",
+      "/images/products/product (94)/p94 (2).jpg",
+      "/images/products/product (94)/p94 (3).jpg",
+      "/images/products/product (94)/p94 (4).jpg",
+      "/images/products/product (94)/p94 (5).jpg"
+    ],
+    "description": "Step into pure elegance with the Floral on White custom painted khussa. These exquisite traditional Pakistani footwear pieces feature delicate hand-painted floral motifs that bloom beautifully against a pristine white base. Each khussa showcases intricate botanical designs in vibrant, colorful flowers, creating a fresh and sophisticated look that celebrates both cultural heritage and contemporary artistic expression. The white canvas provides the perfect backdrop for the vivid floral artwork, making these shoes ideal for special occasions, cultural celebrations, or anyone who appreciates the fusion of traditional craftsmanship with modern elegance. Make every step a celebration of grace and beauty with these unique, handcrafted shoes.",
+    "action": "add to cart",
+    "slug": "floral-on-white-khussa",
+    "careInstructions": "• Handle with care to avoid damage to painted designs and delicate embellishments.\n• Clean gently with a soft, dry cloth; avoid water and harsh chemicals.\n• Store in a cool, dry place away from direct sunlight to prevent fading.\n• Avoid wearing in wet conditions to protect the painted artwork.\n• Use shoe trees or stuff with tissue paper to maintain shape when storing.\n• Keep away from sharp objects that may scratch or damage the surface.\n• For stubborn stains, consult a professional cleaner experienced with painted footwear.\n• Apply a protective spray specifically designed for painted shoes, test first.\n• Allow to air dry completely if accidentally dampened; never use heat.\n• Store separately from other shoes to prevent color transfer or scratching.\n• Handle painted areas with extra care to preserve artistic details.\n• Keep white base clean by avoiding contact with dark or staining materials."
+  },
+  {
+    "id": "95",
+    "category": "fashion",
+    "type": "custom painted khussa",
+    "name": "Freedom Colorful Painted khussa",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 65.00,
+    "originPrice": 85.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 18,
+    "quantityPurchase": 1,
+    "sizes": ["US 5", "US 6", "US 7", "US 8", "US 9", "US 10"],
+    "variation": [
+      {
+        "color": "multi/colorful",
+        "colorCode": "#FF6B6B",
+        "colorImage": "/images/products/product (95)/p95 (1).jpg",
+        "image": "/images/products/product (95)/p95 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (95)/p95 (2).jpg",
+      "/images/products/product (95)/p95 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (95)/p95 (1).jpg",
+      "/images/products/product (95)/p95 (2).jpg",
+      "/images/products/product (95)/p95 (3).jpg",
+      "/images/products/product (95)/p95 (4).jpg"
+    ],
+    "description": "Celebrate liberty and self-expression with the Freedom Colorful Painted Khussa. These vibrant traditional Pakistani shoes feature an explosion of hand-painted colors, representing the spirit of freedom, creativity, and boundless imagination. Each khussa showcases a kaleidoscope of rainbow hues, abstract patterns, and liberating motifs that symbolize breaking free from conventions and embracing individuality. The colorful artwork flows across the traditional silhouette, creating a perfect fusion of cultural heritage with contemporary artistic freedom. Crafted with meticulous attention to detail and comfort, these unique khussas are perfect for free spirits, artists, and anyone who wants to make a bold statement about personal liberty and creative expression. Step into freedom and let your footwear tell the world about your colorful journey of self-discovery.",
+    "action": "add to cart",
+    "slug": "freedom-colorful-painted-khussa",
+    "careInstructions": "• Handle with care to avoid damage to painted designs and vibrant colors.\n• Clean gently with a soft, dry cloth; avoid water and harsh chemicals.\n• Store in a cool, dry place away from direct sunlight to prevent color fading.\n• Avoid wearing in wet conditions to protect the hand-painted artwork.\n• Use shoe trees or stuff with tissue paper to maintain shape when storing.\n• Keep away from sharp objects that may scratch or damage the surface.\n• For stubborn stains, consult a professional cleaner experienced with painted footwear.\n• Apply a protective spray specifically designed for painted shoes, test first on small area.\n• Allow to air dry completely if accidentally dampened; never use heat.\n• Store separately from other shoes to prevent color transfer or scratching.\n• Handle painted areas with extra care to preserve the vibrant multi-colored artwork.\n• Rotate wearing to prevent excessive wear on painted details."
+  },
+ {
+  "id": "96",
+  "category": "fashion",
+  "type": "custom painted khussa",
+  "name": "Starry Night Couple Theme Painted Khussa",
+  "gender": "unisex",
+  "new": true,
+  "sale": false,
+  "rate": 5,
+  "price": 65.00,
+  "originPrice": 85.00,
+  "brand": "custom",
+  "sold": 0,
+  "quantity": 15,
+  "quantityPurchase": 1,
+  "sizes": ["US 5", "US 6", "US 7", "US 8", "US 9", "US 10"],
+  "variation": [
+    {
+      "color": "blue/gold",
+      "colorCode": "#1E3A8A",
+      "colorImage": "/images/products/product (96)/p96 (1).jpg",
+      "image": "/images/products/product (96)/p96 (1).jpg"
+    }
+  ],
+  "thumbImage": [
+    "/images/products/product (96)/p96 (2).jpg",
+    "/images/products/product (96)/p96 (3).jpg"
+  ],
+  "images": [
+    "/images/products/product (96)/p96 (1).jpg",
+    "/images/products/product (96)/p96 (2).jpg",
+    "/images/products/product (96)/p96 (3).jpg",
+    "/images/products/product (96)/p96 (4).jpg"
+  ],
+  "description": "Celebrate love under the stars with the Starry Night Couple Theme Painted Khussa. These romantic traditional Pakistani shoes transform Van Gogh's masterpiece into a love story, featuring hand-painted silhouettes of couples dancing beneath the iconic swirling blues and golds of 'Starry Night.' Each khussa showcases intimate moments set against the celestial beauty of the famous painting, blending romance with artistic heritage. The design captures the magic of shared moments under starlit skies, making these shoes perfect for couples, romantic occasions, or anyone who believes in love's timeless beauty. Crafted with meticulous attention to detail and comfort, these unique khussas are ideal for weddings, anniversaries, or expressing your romantic spirit. Step into a world where love meets art with these one-of-a-kind artistic shoes.",
+  "action": "add to cart",
+  "slug": "starry-night-couple-theme-painted-khussa",
+  "careInstructions": "• Handle with care to avoid damage to painted artwork and delicate romantic details.\n• Clean gently with a soft, dry cloth; avoid water and harsh chemicals.\n• Store in a cool, dry place away from direct sunlight to prevent paint fading.\n• Avoid wearing in wet conditions to protect the hand-painted artwork.\n• Use shoe trees or stuff with tissue paper to maintain shape when storing.\n• Keep away from sharp objects that may scratch or damage the painted surface.\n• For stubborn stains, consult a professional cleaner experienced with painted footwear.\n• Apply a protective spray specifically designed for painted shoes, test first on small area.\n• Allow to air dry completely if accidentally dampened; never use heat.\n• Store separately from other shoes to prevent color transfer or scratching.\n• Handle painted areas with extra care to preserve Van Gogh-inspired couple artwork.\n• Store as a pair to maintain the romantic theme continuity."
+},
+     {
+    "id": "97",
+    "category": "fashion",
+    "type": "custom painted khussa",
+    "name": "Starry Night Khussa Gold Edition",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 65.00,
+    "originPrice": 85.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 12,
+    "quantityPurchase": 1,
+    "sizes": ["US 5", "US 6", "US 7", "US 8", "US 9", "US 10"],
+    "variation": [
+      {
+        "color": "gold/black",
+        "colorCode": "#D4AF37",
+        "colorImage": "/images/products/product (97)/p97 (1).jpg",
+        "image": "/images/products/product (97)/p97 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (97)/p97 (2).jpg",
+      "/images/products/product (97)/p97 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (97)/p97 (1).jpg",
+      "/images/products/product (97)/p97 (2).jpg",
+      "/images/products/product (97)/p97 (3).jpg",
+      "/images/products/product (97)/p97 (4).jpg"
+    ],
+    "description": "Step into luxurious artistry with the Starry Night Khussa Gold Edition. This premium version of our beloved traditional Pakistani shoe elevates Van Gogh's masterpiece with stunning gold accents and metallic highlights that catch the light like real stars. Each khussa features hand-painted swirling celestial movements in rich golds and deep blacks, creating a sophisticated interpretation of the iconic 'Starry Night' painting. The gold edition adds an element of elegance and opulence to the original design, making these shoes perfect for special occasions, cultural celebrations, or anyone who wants to make a truly memorable statement. Crafted with meticulous attention to detail and comfort, these unique khussas blend fine art with traditional craftsmanship and luxurious finishing. Make every step a golden journey through the stars with these exclusive artistic shoes.",
+    "action": "add to cart",
+    "slug": "starry-night-khussa-gold-edition",
+    "careInstructions": "• Handle with extra care to avoid damage to painted artwork and gold accents.\n• Clean gently with a soft, dry cloth; avoid water and harsh chemicals.\n• Store in a cool, dry place away from direct sunlight to prevent paint and gold fading.\n• Avoid wearing in wet conditions to protect the hand-painted artwork and metallic finish.\n• Use shoe trees or stuff with tissue paper to maintain shape when storing.\n• Keep away from sharp objects that may scratch or damage the painted surface.\n• For stubborn stains, consult a professional cleaner experienced with painted footwear.\n• Apply a protective spray specifically designed for painted shoes, test first on small area.\n• Allow to air dry completely if accidentally dampened; never use heat.\n• Store separately from other shoes to prevent color transfer or scratching.\n• Handle painted areas with extra care to preserve Van Gogh-inspired artwork and gold details.\n• Use a soft brush to gently clean gold accents without damaging the finish."
+  },
+  {
+    "id": "98",
+    "category": "fashion",
+    "type": "custom painted khussa",
+    "name": "BTS themed khussa",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 65.00,
+    "originPrice": 85.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 18,
+    "quantityPurchase": 1,
+    "sizes": ["US 5", "US 6", "US 7", "US 8", "US 9", "US 10"],
+    "variation": [
+      {
+        "color": "purple/multi",
+        "colorCode": "#8B5A96",
+        "colorImage": "/images/products/product (98)/p98 (1).jpg",
+        "image": "/images/products/product (98)/p98 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (98)/p98 (2).jpg",
+      "/images/products/product (98)/p98 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (98)/p98 (1).jpg",
+      "/images/products/product (98)/p98 (2).jpg",
+      "/images/products/product (98)/p98 (3).jpg",
+      "/images/products/product (98)/p98 (4).jpg"
+    ],
+    "description": "Step into the world of K-pop royalty with the BTS themed khussa. These exclusive traditional Pakistani shoes celebrate the global phenomenon BTS with hand-painted artwork featuring the iconic BTS logo, member signatures, and vibrant purple accents that represent the ARMY fandom. Each khussa showcases intricate details inspired by BTS album covers, song lyrics, and symbolic elements that resonate with fans worldwide. The design beautifully merges Korean pop culture with traditional Pakistani craftsmanship, creating a unique fusion of East meets East. Crafted with meticulous attention to detail and comfort, these khussas are perfect for ARMYs, K-pop enthusiasts, and anyone who wants to celebrate their love for BTS while honoring cultural artistry. Make every step a tribute to your favorite boy band and let your footwear express your passion for music that transcends borders.",
+    "action": "add to cart",
+    "slug": "bts-themed-khussa",
+    "careInstructions": "• Handle with care to avoid damage to painted designs and BTS artwork details.\n• Clean gently with a soft, dry cloth; avoid water and harsh chemicals.\n• Store in a cool, dry place away from direct sunlight to prevent color fading.\n• Avoid wearing in wet conditions to protect the hand-painted artwork.\n• Use shoe trees or stuff with tissue paper to maintain shape when storing.\n• Keep away from sharp objects that may scratch or damage the painted surface.\n• For stubborn stains, consult a professional cleaner experienced with painted footwear.\n• Apply a protective spray specifically designed for painted shoes, test first on small area.\n• Allow to air dry completely if accidentally dampened; never use heat.\n• Store separately from other shoes to prevent color transfer or scratching.\n• Handle painted areas with extra care to preserve BTS-inspired artwork and fan details.\n• Keep away from moisture to preserve signature and logo details."
+  },
+    {
+    "id": "99",
+    "category": "fashion",
+    "type": "custom painted khussa",
+    "name": "Floral on Beige",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 65.00,
+    "originPrice": 85.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 22,
+    "quantityPurchase": 1,
+    "sizes": ["US 5", "US 6", "US 7", "US 8", "US 9", "US 10"],
+    "variation": [
+      {
+        "color": "beige/floral",
+        "colorCode": "#F5F5DC",
+        "colorImage": "/images/products/product (99)/p99 (1).jpg",
+        "image": "/images/products/product (99)/p99 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (99)/p99 (2).jpg",
+      "/images/products/product (99)/p99 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (99)/p99 (1).jpg",
+      "/images/products/product (99)/p99 (2).jpg",
+      "/images/products/product (99)/p99 (3).jpg",
+      "/images/products/product (99)/p99 (4).jpg"
+    ],
+    "description": "Step into understated elegance with the Floral on Beige custom painted khussa. These sophisticated traditional Pakistani footwear pieces feature delicate hand-painted floral motifs that gracefully bloom against a warm beige base. Each khussa showcases intricate botanical designs in soft, harmonious colors, creating a refined and versatile look that celebrates both cultural heritage and timeless sophistication. The neutral beige canvas provides an elegant backdrop for the beautiful floral artwork, making these shoes perfect for both casual and formal occasions, cultural celebrations, or anyone who appreciates the fusion of traditional craftsmanship with classic elegance. Make every step a statement of grace and refined beauty with these unique, handcrafted shoes.",
+    "action": "add to cart",
+    "slug": "floral-on-beige-custom-painted-khussa",
+    "careInstructions": "• Handle with care to avoid damage to painted designs and delicate embellishments.\n• Clean gently with a soft, dry cloth; avoid water and harsh chemicals.\n• Store in a cool, dry place away from direct sunlight to prevent fading.\n• Avoid wearing in wet conditions to protect the painted artwork.\n• Use shoe trees or stuff with tissue paper to maintain shape when storing.\n• Keep away from sharp objects that may scratch or damage the surface.\n• For stubborn stains, consult a professional cleaner experienced with painted footwear.\n• Apply a protective spray specifically designed for painted shoes, test first.\n• Allow to air dry completely if accidentally dampened; never use heat.\n• Store separately from other shoes to prevent color transfer or scratching.\n• Handle painted areas with extra care to preserve artistic details.\n• Keep beige base clean by avoiding contact with dark or staining materials."
+  },
+    {
+    "id": "100",
+    "category": "fashion",
+    "type": "custom painted khussa",
+    "name": "Orange Floral on Black Khussa",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 65.00,
+    "originPrice": 85.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 18,
+    "quantityPurchase": 1,
+    "sizes": ["US 5", "US 6", "US 7", "US 8", "US 9", "US 10"],
+    "variation": [
+      {
+        "color": "black/orange",
+        "colorCode": "#1F1F1F",
+        "colorImage": "/images/products/product (100)/p100 (1).jpg",
+        "image": "/images/products/product (100)/p100 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (100)/p100 (2).jpg",
+      "/images/products/product (100)/p100 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (100)/p100 (1).jpg",
+      "/images/products/product (100)/p100 (2).jpg",
+      "/images/products/product (100)/p100 (3).jpg",
+      "/images/products/product (100)/p100 (4).jpg"
+    ],
+    "description": "Step into vibrant elegance with the Orange Floral on Black custom painted khussa. These striking traditional Pakistani footwear pieces feature bold hand-painted orange floral motifs that create a stunning contrast against a rich black base. Each khussa showcases intricate botanical designs with warm orange blooms and complementary accents, bringing together cultural heritage with contemporary artistic expression. The dramatic color combination makes these shoes perfect for making a statement at special occasions, cultural celebrations, or for anyone who appreciates the fusion of traditional craftsmanship with modern artistic flair. Make every step a celebration of boldness and beauty with these unique, handcrafted shoes.",
+    "action": "add to cart",
+    "slug": "orange-floral-on-black-khussa",
+    "careInstructions": "• Handle with care to avoid damage to painted designs and delicate embellishments.\n• Clean gently with a soft, dry cloth; avoid water and harsh chemicals.\n• Store in a cool, dry place away from direct sunlight to prevent fading.\n• Avoid wearing in wet conditions to protect the painted artwork.\n• Use shoe trees or stuff with tissue paper to maintain shape when storing.\n• Keep away from sharp objects that may scratch or damage the surface.\n• For stubborn stains, consult a professional cleaner experienced with painted footwear.\n• Apply a protective spray specifically designed for painted shoes, test first.\n• Allow to air dry completely if accidentally dampened; never use heat.\n• Store separately from other shoes to prevent color transfer or scratching.\n• Handle painted areas with extra care to preserve artistic details.\n• Keep black base clean by avoiding contact with light-colored or staining materials."
+  },
+     {
+    "id": "101",
+    "category": "fashion",
+    "type": "custom painted khussa",
+    "name": "Van Gogh Sunflower Painted Khussa",
+    "gender": "unisex",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 65.00,
+    "originPrice": 85.00,
+    "brand": "custom",
+    "sold": 0,
+    "quantity": 15,
+    "quantityPurchase": 1,
+    "sizes": ["US 5", "US 6", "US 7", "US 8", "US 9", "US 10"],
+    "variation": [
+      {
+        "color": "yellow/gold",
+        "colorCode": "#FFD700",
+        "colorImage": "/images/products/product (101)/p101 (1).jpg",
+        "image": "/images/products/product (101)/p101 (1).jpg"
+      }
+    ],
+    "thumbImage": [
+      "/images/products/product (101)/p101 (2).jpg",
+      "/images/products/product (101)/p101 (3).jpg"
+    ],
+    "images": [
+      "/images/products/product (101)/p101 (1).jpg",
+      "/images/products/product (101)/p101 (2).jpg",
+      "/images/products/product (101)/p101 (3).jpg",
+      "/images/products/product (101)/p101 (4).jpg"
+    ],
+    "description": "Step into artistic brilliance with the Van Gogh Sunflower Painted Khussa. These magnificent traditional Pakistani shoes transform Van Gogh's iconic sunflower paintings into wearable masterpieces, featuring hand-painted golden sunflowers that radiate warmth and joy. Each khussa showcases intricate brushwork recreating the vibrant yellows, rich golds, and expressive textures of Van Gogh's famous sunflower series, blending fine art appreciation with cultural heritage. The detailed artwork captures the essence of Van Gogh's passionate brushstrokes and his love for these luminous flowers, creating shoes that celebrate both artistic genius and traditional craftsmanship. Crafted with meticulous attention to detail and comfort, these unique khussas are perfect for art enthusiasts, cultural celebrations, or anyone who wants to carry the sunshine and optimism of Van Gogh's sunflowers with every step.",
+    "action": "add to cart",
+    "slug": "van-gogh-sunflower-painted-khussa",
+    "careInstructions": "• Handle with care to avoid damage to painted artwork and delicate sunflower details.\n• Clean gently with a soft, dry cloth; avoid water and harsh chemicals.\n• Store in a cool, dry place away from direct sunlight to prevent paint fading.\n• Avoid wearing in wet conditions to protect the hand-painted artwork.\n• Use shoe trees or stuff with tissue paper to maintain shape when storing.\n• Keep away from sharp objects that may scratch or damage the painted surface.\n• For stubborn stains, consult a professional cleaner experienced with painted footwear.\n• Apply a protective spray specifically designed for painted shoes, test first on small area.\n• Allow to air dry completely if accidentally dampened; never use heat.\n• Store separately from other shoes to prevent color transfer or scratching.\n• Handle painted areas with extra care to preserve Van Gogh-inspired sunflower artwork.\n• Rotate display occasionally to prevent uneven fading of the vibrant yellow pigments."
   }
 ]

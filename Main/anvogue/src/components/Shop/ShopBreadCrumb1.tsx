@@ -283,7 +283,88 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                   ))}
                 </div>
                 <div className="list-type mt-4">
-                  {["denim jackets", "leather jackets"].map((item, index) => (
+                  {["custom vases"].map((item, index) => (
+                    <div
+                      key={index}
+                      className={`item flex items-center justify-between cursor-pointer ${
+                        dataType === item ? "active" : ""
+                      }`}
+                      onClick={() => handleType(item)}
+                    >
+                      <div className="text-secondary has-line-before hover:text-black capitalize">
+                        {item}
+                      </div>
+                      <div className="text-secondary2">
+                        (
+                        {
+                          data.filter(
+                            (dataItem) =>
+                              dataItem.type === item &&
+                              dataItem.category === "art"
+                          ).length
+                        }
+                        )
+                      </div>
+                    </div>
+                    
+                  ))}
+                </div>
+                <div className="list-type mt-4">
+                  {["custom jewelry"].map((item, index) => (
+                    <div
+                      key={index}
+                      className={`item flex items-center justify-between cursor-pointer ${
+                        dataType === item ? "active" : ""
+                      }`}
+                      onClick={() => handleType(item)}
+                    >
+                      <div className="text-secondary has-line-before hover:text-black capitalize">
+                        {item}
+                      </div>
+                      <div className="text-secondary2">
+                        (
+                        {
+                          data.filter(
+                            (dataItem) =>
+                              dataItem.type === item &&
+                              dataItem.category === "jewelry"
+                          ).length
+                        }
+                        )
+                      </div>
+                    </div>
+                    
+                  ))} 
+                </div>
+                <div className="list-type mt-4">
+                  {["custom painted khussa"].map((item, index) => (
+                    <div
+                      key={index}
+                      className={`item flex items-center justify-between cursor-pointer ${
+                        dataType === item ? "active" : ""
+                      }`}
+                      onClick={() => handleType(item)}
+                    >
+                      <div className="text-secondary has-line-before hover:text-black capitalize">
+                        {item}
+                      </div>
+                      <div className="text-secondary2">
+                        (
+                        {
+                          data.filter(
+                            (dataItem) =>
+                              dataItem.type === item &&
+                              dataItem.category === "fashion"
+                          ).length
+                        }
+                        )
+                      </div>
+                    </div>
+                    
+                  ))}
+                </div>
+                <div className="list-type mt-4">
+                  {["denim jackets", "leather jackets", "hoodies"].map((item, index) => (
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${
