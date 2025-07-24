@@ -1079,14 +1079,7 @@ const MenuEight = () => {
                               Custom Portraits
                             </div>
                           </li>
-                          <li>
-                            <div
-                              onClick={() => router.push("/shop/breadcrumb1")}
-                              className={`link text-secondary duration-300 cursor-pointer view-all-btn`}
-                            >
-                              View All
-                            </div>
-                          </li>
+                          
                         </ul>
                       </div>
                       <div className="nav-item">
@@ -1117,6 +1110,14 @@ const MenuEight = () => {
                               className={`link text-secondary duration-300 cursor-pointer`}
                             >
                               Custom painted Khussa-Desi Jutti
+                            </div>
+                          </li>
+                          <li>
+                            <div
+                              onClick={() => router.push("/shop/breadcrumb1")}
+                              className={`link text-secondary duration-300 cursor-pointer view-all-btn`}
+                            >
+                              View All
                             </div>
                           </li>
                         </ul>
