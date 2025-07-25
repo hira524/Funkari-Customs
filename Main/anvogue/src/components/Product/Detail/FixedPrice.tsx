@@ -252,7 +252,7 @@ const FixedPrice: React.FC<Props> = ({ data, productId }) => {
                                 <div className="item flex items-center gap-3 mt-4">
                                     <div className="icon-return text-4xl"></div>
                                     <div>
-                                        <div className="text-title">100 Day Returns</div>
+                                        <div className="text-title">7 Day Returns</div>
                                         <div className="caption1 text-secondary mt-1">Not impressed? Get a refund. You have 100 days to break our hearts.</div>
                                     </div>
                                 </div>
