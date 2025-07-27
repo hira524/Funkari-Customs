@@ -439,6 +439,16 @@ const MenuEight = () => {
                                     Custom painted Khussa-Desi Jutti
                                   </div>
                                 </li>
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("custom painted bags")
+                                    }
+                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                  >
+                                    LV bags
+                                  </div>
+                                </li>
                               </ul>
                             </div>
                           </div>

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { ProductType } from "@/type/ProductType";
 import Product from "../Product/Product";
@@ -24,19 +25,48 @@ const ShopBreadCrumb1: React.FC<Props> = ({
   gender,
   category,
 }) => {
-  const [showOnlySale, setShowOnlySale] = useState(false);
-  const [sortOption, setSortOption] = useState("");
-  const [type, setType] = useState<string | null | undefined>(dataType);
-  const [size, setSize] = useState<string | null>();
-  const [color, setColor] = useState<string | null>();
-  const [brand, setBrand] = useState<string | null>();
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  
+  // Initialize state from URL parameters
+  const [showOnlySale, setShowOnlySale] = useState(searchParams.get('sale') === 'true');
+  const [sortOption, setSortOption] = useState(searchParams.get('sort') || "");
+  const [type, setType] = useState<string | null | undefined>(searchParams.get('type') || dataType);
+  const [size, setSize] = useState<string | null>(searchParams.get('size') || null);
+  const [color, setColor] = useState<string | null>(searchParams.get('color') || null);
+  const [brand, setBrand] = useState<string | null>(searchParams.get('brand') || null);
   const [priceRange, setPriceRange] = useState<{ min: number; max: number }>({
-    min: 50,
-    max: 500,
+    min: parseInt(searchParams.get('minPrice') || '50'),
+    max: parseInt(searchParams.get('maxPrice') || '2000'),
   });
-  const [currentPage, setCurrentPage] = useState(0);
+  const [currentPage, setCurrentPage] = useState(parseInt(searchParams.get('page') || '0'));
   const productsPerPage = productPerPage;
   const offset = currentPage * productsPerPage;
+
+  // Update URL function
+  const updateURLParams = () => {
+    const params = new URLSearchParams();
+    
+    if (showOnlySale) params.set('sale', 'true');
+    if (sortOption) params.set('sort', sortOption);
+    if (type) params.set('type', type);
+    if (size) params.set('size', size);
+    if (color) params.set('color', color);
+    if (brand) params.set('brand', brand);
+    if (priceRange.min !== 50) params.set('minPrice', priceRange.min.toString());
+    if (priceRange.max !== 2000) params.set('maxPrice', priceRange.max.toString());
+    if (currentPage > 0) params.set('page', currentPage.toString());
+    
+    // Update URL without refreshing the page
+    const url = `${window.location.pathname}?${params.toString()}`;
+    window.history.pushState({ path: url }, '', url);
+  };
+
+  // Apply URL updates when filters change
+  useEffect(() => {
+    updateURLParams();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showOnlySale, sortOption, type, size, color, brand, priceRange, currentPage]);
 
   const handleShowOnlySale = () => {
     setShowOnlySale((toggleSelect) => !toggleSelect);
@@ -74,6 +104,27 @@ const ShopBreadCrumb1: React.FC<Props> = ({
     setCurrentPage(0);
   };
 
+  // Handle browser back/forward button
+  useEffect(() => {
+    const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search);
+      setShowOnlySale(params.get('sale') === 'true');
+      setSortOption(params.get('sort') || "");
+      setType(params.get('type') || dataType);
+      setSize(params.get('size') || null);
+      setColor(params.get('color') || null);
+      setBrand(params.get('brand') || null);
+      setPriceRange({
+        min: parseInt(params.get('minPrice') || '50'),
+        max: parseInt(params.get('maxPrice') || '2000'),
+      });
+      setCurrentPage(parseInt(params.get('page') || '0'));
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [dataType]);
+
   // Filter product
   let filteredData = data.filter((product) => {
     let isShowOnlySaleMatched = true;
@@ -108,7 +159,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
     }
 
     let isPriceRangeMatched = true;
-    if (priceRange.min !== 50 || priceRange.max !== 500) {
+    if (priceRange.min !== 50 || priceRange.max !== 2000) {
       isPriceRangeMatched =
         product.price >= priceRange.min && product.price <= priceRange.max;
     }
@@ -146,8 +197,8 @@ const ShopBreadCrumb1: React.FC<Props> = ({
   if (sortOption === "discountHighToLow") {
     filteredData = sortedData.sort(
       (a, b) =>
-        Math.floor(100 - (b.price / b.originPrice) * 100) -
-        Math.floor(100 - (a.price / a.originPrice) * 100)
+        Math.floor(2000 - (b.price / b.originPrice) * 2000) -
+        Math.floor(2000 - (a.price / a.originPrice) * 2000)
     );
   }
 
@@ -222,9 +273,8 @@ const ShopBreadCrumb1: React.FC<Props> = ({
     setSize(null);
     setColor(null);
     setBrand(null);
-    setPriceRange({ min: 50, max: 500 });
+    setPriceRange({ min: 50, max: 2000 });
     setCurrentPage(0);
-    handleType(null);
   };
 
   return (
@@ -235,14 +285,20 @@ const ShopBreadCrumb1: React.FC<Props> = ({
             <div className="main-content w-full h-full flex flex-col items-center justify-center relative z-[1]">
               <div className="text-content">
                 <div className="heading2 text-center">
-                  {dataType === null ? "Shop" : dataType}
+                  {type || dataType || "Shop"}
                 </div>
                 <div className="link flex items-center justify-center gap-1 caption1 mt-3">
                   <Link href={"/homepages/fashion8"}>Homepage</Link>
                   <Icon.CaretRight size={14} className="text-secondary2" />
-                  <div className="text-secondary2 capitalize">
-                    {dataType === null ? "Shop" : dataType}
-                  </div>
+                  <Link href="/shop" className="capitalize">Shop</Link>
+                  {(type || dataType) && (
+                    <>
+                      <Icon.CaretRight size={14} className="text-secondary2" />
+                      <div className="text-secondary2 capitalize">
+                        {type || dataType}
+                      </div>
+                    </>
+                  )}
                 </div>
               </div>
             </div>
@@ -519,6 +575,32 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     </div>
                   ))}
                 </div>
+                <div className="list-type mt-4">
+                  {["custom painted bags"].map((item, index) => (
+                    <div
+                      key={index}
+                      className={`item flex items-center justify-between cursor-pointer ${
+                        dataType === item ? "active" : ""
+                      }`}
+                      onClick={() => handleType(item)}
+                    >
+                      <div className="text-secondary has-line-before hover:text-black capitalize">
+                        {item}
+                      </div>
+                      <div className="text-secondary2">
+                        (
+                        {
+                          data.filter(
+                            (dataItem) =>
+                              dataItem.type === item &&
+                              dataItem.category === "fashion"
+                          ).length
+                        }
+                        )
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
               {/*<div className="filter-size pb-8 border-b border-line mt-8">
                 <div className="heading6">Size</div>
@@ -542,9 +624,9 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                 <div className="heading6">Price Range</div>
                 <Slider
                   range
-                  defaultValue={[50, 500]}
+                  defaultValue={[50, 2000]}
                   min={50}
-                  max={500}
+                  max={2000}
                   onChange={handlePriceChange}
                   className="mt-5"
                 />

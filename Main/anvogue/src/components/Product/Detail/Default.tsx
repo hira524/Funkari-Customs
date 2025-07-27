@@ -576,7 +576,7 @@ const Default: React.FC<Props> = ({ data, productId }) => {
                   <div>
                     <div className="text-title">Free shipping</div>
                     <div className="caption1 text-secondary mt-1">
-                      Free shipping on orders over $75.
+                      free shipping on orders over $300.
                     </div>
                   </div>
                 </div>
@@ -594,7 +594,7 @@ const Default: React.FC<Props> = ({ data, productId }) => {
                   <div>
                     <div className="text-title">7 Day Returns</div>
                     <div className="caption1 text-secondary mt-1">
-                      Not impressed? Get a refund. You have 100 days to break
+                      Not impressed? Get a refund. You have 7 days to break
                       our hearts.
                     </div>
                   </div>

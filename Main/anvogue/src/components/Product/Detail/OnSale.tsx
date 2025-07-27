@@ -851,7 +851,7 @@ const OnSale: React.FC<Props> = ({ data, productId }) => {
                                     <div className="icon-delivery-truck text-4xl"></div>
                                     <div>
                                         <div className="text-title">Free shipping</div>
-                                        <div className="caption1 text-secondary mt-1">Free shipping on orders over $75.</div>
+                                        <div className="caption1 text-secondary mt-1">free shipping on orders over $300.</div>
                                     </div>
                                 </div>
                                 <div className="item flex items-center gap-3 mt-4">
@@ -865,7 +865,7 @@ const OnSale: React.FC<Props> = ({ data, productId }) => {
                                     <div className="icon-return text-4xl"></div>
                                     <div>
                                         <div className="text-title">7 Day Returns</div>
-                                        <div className="caption1 text-secondary mt-1">Not impressed? Get a refund. You have 100 days to break our hearts.</div>
+                                        <div className="caption1 text-secondary mt-1">Not impressed? Get a refund. You have 7 days to break our hearts.</div>
                                     </div>
                                 </div>
                             </div>

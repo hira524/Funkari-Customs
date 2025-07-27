@@ -393,7 +393,7 @@ const BoughtTogether: React.FC<Props> = ({ data, productId }) => {
                                     <div className="icon-delivery-truck text-4xl"></div>
                                     <div>
                                         <div className="text-title">Free shipping</div>
-                                        <div className="caption1 text-secondary mt-1">Free shipping on orders over $75.</div>
+                                        <div className="caption1 text-secondary mt-1">free shipping on orders over $300.</div>
                                     </div>
                                 </div>
                                 <div className="item flex items-center gap-3 mt-4">

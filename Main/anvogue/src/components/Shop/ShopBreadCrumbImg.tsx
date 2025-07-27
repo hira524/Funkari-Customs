@@ -25,7 +25,7 @@ const ShopBreadCrumbImg: React.FC<Props> = ({ data, productPerPage, dataType }) 
     const [size, setSize] = useState<string | null>()
     const [color, setColor] = useState<string | null>()
     const [brand, setBrand] = useState<string | null>()
-    const [priceRange, setPriceRange] = useState<{ min: number; max: number }>({ min: 0, max: 100 });
+    const [priceRange, setPriceRange] = useState<{ min: number; max: number }>({ min: 0, max: 2000 });
     const [currentPage, setCurrentPage] = useState(0);
     const productsPerPage = productPerPage;
     const offset = currentPage * productsPerPage;
@@ -101,7 +101,7 @@ const ShopBreadCrumbImg: React.FC<Props> = ({ data, productPerPage, dataType }) 
         }
 
         let isPriceRangeMatched = true;
-        if (priceRange.min !== 0 || priceRange.max !== 100) {
+        if (priceRange.min !== 0 || priceRange.max !== 2000) {
             isPriceRangeMatched = product.price >= priceRange.min && product.price <= priceRange.max;
         }
 
@@ -128,7 +128,7 @@ const ShopBreadCrumbImg: React.FC<Props> = ({ data, productPerPage, dataType }) 
     if (sortOption === 'discountHighToLow') {
         filteredData = sortedData
             .sort((a, b) => (
-                (Math.floor(100 - ((b.price / b.originPrice) * 100))) - (Math.floor(100 - ((a.price / a.originPrice) * 100)))
+                (Math.floor(2000 - ((b.price / b.originPrice) * 2000))) - (Math.floor(2000 - ((a.price / a.originPrice) * 2000)))
             ))
 
     }
@@ -202,7 +202,7 @@ const ShopBreadCrumbImg: React.FC<Props> = ({ data, productPerPage, dataType }) 
         setSize(null);
         setColor(null);
         setBrand(null);
-        setPriceRange({ min: 0, max: 100 });
+        setPriceRange({ min: 0, max: 2000 });
         setCurrentPage(0);
         dataType = null
         setType(dataType);
@@ -227,8 +227,8 @@ const ShopBreadCrumbImg: React.FC<Props> = ({ data, productPerPage, dataType }) 
                         <div className="bg-img absolute top-2 -right-6 max-lg:bottom-0 max-lg:top-auto w-1/3 max-lg:w-[26%] z-[0] max-sm:w-[45%]">
                             <Image
                                 src={'/images/slider/bg1-1.png'}
-                                width={1000}
-                                height={1000}
+                                width={20000}
+                                height={20000}
                                 alt=''
                                 className=''
                             />
@@ -373,9 +373,9 @@ const ShopBreadCrumbImg: React.FC<Props> = ({ data, productPerPage, dataType }) 
                                     <div className="heading6">Price Range</div>
                                     <Slider
                                         range
-                                        defaultValue={[0, 100]}
+                                        defaultValue={[0, 2000]}
                                         min={0}
-                                        max={100}
+                                        max={2000}
                                         onChange={handlePriceChange}
                                         className='mt-5'
                                     />
