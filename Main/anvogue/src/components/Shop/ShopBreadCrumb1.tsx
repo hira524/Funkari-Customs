@@ -39,11 +39,14 @@ const ShopBreadCrumb1: React.FC<Props> = ({
     min: parseInt(searchParams.get('minPrice') || '50'),
     max: parseInt(searchParams.get('maxPrice') || '2000'),
   });
-  const [currentPage, setCurrentPage] = useState(parseInt(searchParams.get('page') || '0'));
-  const productsPerPage = productPerPage;
+const [currentPage, setCurrentPage] = useState(() => {
+  const pageParam = searchParams.get('page');
+  return pageParam ? parseInt(pageParam) - 1 : 0;
+});  const productsPerPage = productPerPage;
   const offset = currentPage * productsPerPage;
 
   // Update URL function
+    // Update the updateURLParams function with this improved version
   const updateURLParams = () => {
     const params = new URLSearchParams();
     
@@ -55,13 +58,12 @@ const ShopBreadCrumb1: React.FC<Props> = ({
     if (brand) params.set('brand', brand);
     if (priceRange.min !== 50) params.set('minPrice', priceRange.min.toString());
     if (priceRange.max !== 2000) params.set('maxPrice', priceRange.max.toString());
-    if (currentPage > 0) params.set('page', currentPage.toString());
+    if (currentPage > 0) params.set('page', (currentPage + 1).toString());
     
-    // Update URL without refreshing the page
+    // Use Next.js router push for proper client-side navigation that works in all environments
     const url = `${window.location.pathname}?${params.toString()}`;
-    window.history.pushState({ path: url }, '', url);
+    router.push(url, { scroll: false });
   };
-
   // Apply URL updates when filters change
   useEffect(() => {
     updateURLParams();
@@ -262,8 +264,8 @@ const ShopBreadCrumb1: React.FC<Props> = ({
   }
 
   const handlePageChange = (selected: number) => {
-    setCurrentPage(selected);
-  };
+  setCurrentPage(selected);
+};
 
   const handleClearAll = () => {
     dataType = null;
