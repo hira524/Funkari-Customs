@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useCallback, useEffect } from 'react';
+import React, { useCallback } from 'react';
 import ReactPaginate from 'react-paginate';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 
@@ -30,21 +30,10 @@ const HandlePagination: React.FC<Props> = ({ pageCount, onPageChange, initialPag
         // Call the provided onPageChange handler
         onPageChange(selectedItem.selected);
         
-        // Update URL with Next.js router to ensure consistent behavior in all environments
+        // Update URL with Next.js router
         const query = createQueryString('page', (selectedItem.selected + 1).toString());
         router.push(`${pathname}?${query}`, { scroll: false });
     };
-
-    // Handle browser back/forward navigation
-    useEffect(() => {
-        const pageParam = searchParams.get('page');
-        const currentPageFromUrl = pageParam ? parseInt(pageParam) - 1 : 0;
-        
-        // Only trigger onPageChange if the page from URL is different than current page
-        if (currentPageFromUrl !== initialPage) {
-            onPageChange(currentPageFromUrl);
-        }
-    }, [searchParams, onPageChange, initialPage]);
 
     return (
         <ReactPaginate
@@ -67,6 +56,7 @@ const HandlePagination: React.FC<Props> = ({ pageCount, onPageChange, initialPag
             activeClassName={'active'}
             forcePage={initialPage}
             renderOnZeroPageCount={null}
+            disableInitialCallback={true}
         />
     );
 };

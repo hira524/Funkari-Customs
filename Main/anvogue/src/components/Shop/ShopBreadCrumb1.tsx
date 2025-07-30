@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { ProductType } from "@/type/ProductType";
 import Product from "../Product/Product";
@@ -26,8 +26,9 @@ const ShopBreadCrumb1: React.FC<Props> = ({
   category,
 }) => {
   const router = useRouter();
+  const pathname = usePathname();
   const searchParams = useSearchParams();
-  
+
   // Initialize state from URL parameters
   const [showOnlySale, setShowOnlySale] = useState(searchParams.get('sale') === 'true');
   const [sortOption, setSortOption] = useState(searchParams.get('sort') || "");
@@ -39,14 +40,36 @@ const ShopBreadCrumb1: React.FC<Props> = ({
     min: parseInt(searchParams.get('minPrice') || '50'),
     max: parseInt(searchParams.get('maxPrice') || '2000'),
   });
-const [currentPage, setCurrentPage] = useState(() => {
-  const pageParam = searchParams.get('page');
-  return pageParam ? parseInt(pageParam) - 1 : 0;
-});  const productsPerPage = productPerPage;
+  const [currentPage, setCurrentPage] = useState(() => {
+    const pageParam = searchParams.get('page');
+    return pageParam ? parseInt(pageParam) - 1 : 0;
+  });
+  
+  const productsPerPage = productPerPage;
   const offset = currentPage * productsPerPage;
 
-  // Update URL function
-    // Update the updateURLParams function with this improved version
+  // Sync state from URL on mount and on popstate
+  const syncStateFromURL = () => {
+    const params = new URLSearchParams(window.location.search);
+    setShowOnlySale(params.get('sale') === 'true');
+    setSortOption(params.get('sort') || "");
+    setType(params.get('type') || dataType);
+    setSize(params.get('size') || null);
+    setColor(params.get('color') || null);
+    setBrand(params.get('brand') || null);
+    setPriceRange({
+      min: parseInt(params.get('minPrice') || '50'),
+      max: parseInt(params.get('maxPrice') || '2000'),
+    });
+    setCurrentPage(params.get('page') ? parseInt(params.get('page') || '1') - 1 : 0);
+  };
+
+  useEffect(() => {
+    window.addEventListener('popstate', syncStateFromURL);
+    return () => window.removeEventListener('popstate', syncStateFromURL);
+  }, []);
+
+  // Update URL when state changes
   const updateURLParams = () => {
     const params = new URLSearchParams();
     
@@ -60,10 +83,10 @@ const [currentPage, setCurrentPage] = useState(() => {
     if (priceRange.max !== 2000) params.set('maxPrice', priceRange.max.toString());
     if (currentPage > 0) params.set('page', (currentPage + 1).toString());
     
-    // Use Next.js router push for proper client-side navigation that works in all environments
-    const url = `${window.location.pathname}?${params.toString()}`;
-    router.push(url, { scroll: false });
+    // Use Next.js router push for proper client-side navigation
+    router.push(`${pathname}?${params.toString()}`, { scroll: false });
   };
+
   // Apply URL updates when filters change
   useEffect(() => {
     updateURLParams();
@@ -105,27 +128,6 @@ const [currentPage, setCurrentPage] = useState(() => {
     setBrand((prevBrand) => (prevBrand === brand ? null : brand));
     setCurrentPage(0);
   };
-
-  // Handle browser back/forward button
-  useEffect(() => {
-    const handlePopState = () => {
-      const params = new URLSearchParams(window.location.search);
-      setShowOnlySale(params.get('sale') === 'true');
-      setSortOption(params.get('sort') || "");
-      setType(params.get('type') || dataType);
-      setSize(params.get('size') || null);
-      setColor(params.get('color') || null);
-      setBrand(params.get('brand') || null);
-      setPriceRange({
-        min: parseInt(params.get('minPrice') || '50'),
-        max: parseInt(params.get('maxPrice') || '2000'),
-      });
-      setCurrentPage(parseInt(params.get('page') || '0'));
-    };
-
-    window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
-  }, [dataType]);
 
   // Filter product
   let filteredData = data.filter((product) => {
@@ -264,8 +266,8 @@ const [currentPage, setCurrentPage] = useState(() => {
   }
 
   const handlePageChange = (selected: number) => {
-  setCurrentPage(selected);
-};
+    setCurrentPage(selected);
+  };
 
   const handleClearAll = () => {
     dataType = null;
@@ -604,24 +606,6 @@ const [currentPage, setCurrentPage] = useState(() => {
                   ))}
                 </div>
               </div>
-              {/*<div className="filter-size pb-8 border-b border-line mt-8">
-                <div className="heading6">Size</div>
-                <div className="list-size flex items-center flex-wrap gap-3 gap-y-4 mt-4">
-                  {["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"].map(
-                    (item, index) => (
-                      <div
-                        key={index}
-                        className={`size-item text-button w-[64px] h-[44px] flex items-center justify-center rounded-full border border-line ${
-                          size === item ? "active" : ""
-                        }`}
-                        onClick={() => handleSize(item)}
-                      >
-                        {item}
-                      </div>
-                    )
-                  )}
-                </div>
-              </div>*/}
               <div className="filter-price pb-8 border-b border-line mt-8">
                 <div className="heading6">Price Range</div>
                 <Slider
@@ -715,30 +699,6 @@ const [currentPage, setCurrentPage] = useState(() => {
                   </div>
                 </div>
               </div>
-              {/* <div className="filter-brand mt-8">
-                                <div className="heading6">Brands</div>
-                                <div className="list-brand mt-4">
-                                    {['adidas', 'hermes', 'zara', 'nike', 'gucci'].map((item, index) => (
-                                        <div key={index} className="brand-item flex items-center justify-between">
-                                            <div className="left flex items-center cursor-pointer">
-                                                <div className="block-input">
-                                                    <input
-                                                        type="checkbox"
-                                                        name={item}
-                                                        id={item}
-                                                        checked={brand === item}
-                                                        onChange={() => handleBrand(item)} />
-                                                    <Icon.CheckSquare size={20} weight='fill' className='icon-checkbox' />
-                                                </div>
-                                                <label htmlFor={item} className="brand-name capitalize pl-2 cursor-pointer">{item}</label>
-                                            </div>
-                                            <div className='text-secondary2'>
-                                                ({data.filter(dataItem => dataItem.brand === item && dataItem.category === 'fashion').length})
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>*/}
             </div>
             <div className="list-product-block lg:w-3/4 md:w-2/3 w-full md:pl-3">
               <div className="filter-heading flex items-center justify-between gap-5 flex-wrap">
@@ -768,6 +728,7 @@ const [currentPage, setCurrentPage] = useState(() => {
                       name="filterSale"
                       id="filter-sale"
                       className="border-line"
+                      checked={showOnlySale}
                       onChange={handleShowOnlySale}
                     />
                     <label
@@ -787,7 +748,7 @@ const [currentPage, setCurrentPage] = useState(() => {
                       onChange={(e) => {
                         handleSortChange(e.target.value);
                       }}
-                      defaultValue={"Sorting"}
+                      value={sortOption || "Sorting"}
                     >
                       <option value="Sorting" disabled>
                         Sorting
@@ -897,6 +858,7 @@ const [currentPage, setCurrentPage] = useState(() => {
                   <HandlePagination
                     pageCount={pageCount}
                     onPageChange={handlePageChange}
+                    initialPage={currentPage}
                   />
                 </div>
               )}
