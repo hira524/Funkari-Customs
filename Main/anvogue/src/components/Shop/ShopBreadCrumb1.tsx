@@ -8,7 +8,6 @@ import { ProductType } from "@/type/ProductType";
 import Product from "../Product/Product";
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
-import HandlePagination from "../Other/HandlePagination";
 
 interface Props {
   data: Array<ProductType>;
@@ -29,44 +28,46 @@ const ShopBreadCrumb1: React.FC<Props> = ({
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
-  // Initialize state from URL parameters
-  const [showOnlySale, setShowOnlySale] = useState(searchParams.get('sale') === 'true');
-  const [sortOption, setSortOption] = useState(searchParams.get('sort') || "");
-  const [type, setType] = useState<string | null | undefined>(searchParams.get('type') || dataType);
-  const [size, setSize] = useState<string | null>(searchParams.get('size') || null);
-  const [color, setColor] = useState<string | null>(searchParams.get('color') || null);
-  const [brand, setBrand] = useState<string | null>(searchParams.get('brand') || null);
+  // Initialize state
+  const [showOnlySale, setShowOnlySale] = useState(false);
+  const [sortOption, setSortOption] = useState("");
+  const [type, setType] = useState<string | null | undefined>(dataType);
+  const [size, setSize] = useState<string | null>(null);
+  const [color, setColor] = useState<string | null>(null);
+  const [brand, setBrand] = useState<string | null>(null);
   const [priceRange, setPriceRange] = useState<{ min: number; max: number }>({
-    min: parseInt(searchParams.get('minPrice') || '50'),
-    max: parseInt(searchParams.get('maxPrice') || '2000'),
+    min: 50,
+    max: 2000,
   });
-  const [currentPage, setCurrentPage] = useState(() => {
-    const pageParam = searchParams.get('page');
-    return pageParam ? parseInt(pageParam) - 1 : 0;
-  });
-  
+  const [currentPage, setCurrentPage] = useState(1); // Change to 1-based
+  const [isInitialized, setIsInitialized] = useState(false);
+
   const productsPerPage = productPerPage;
-  const offset = currentPage * productsPerPage;
 
-  // Sync state from URL on mount and on popstate
+  // Initialize from URL on mount
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    setShowOnlySale(params.get('sale') === 'true');
-    setSortOption(params.get('sort') || "");
-    setType(params.get('type') || dataType);
-    setSize(params.get('size') || null);
-    setColor(params.get('color') || null);
-    setBrand(params.get('brand') || null);
-    setPriceRange({
-      min: parseInt(params.get('minPrice') || '50'),
-      max: parseInt(params.get('maxPrice') || '2000'),
-    });
-    const pageParam = params.get('page');
-    setCurrentPage(pageParam ? parseInt(pageParam) - 1 : 0);
-  }, [dataType]);
+    if (!isInitialized) {
+      const urlParams = new URLSearchParams(window.location.search);
+      
+      setShowOnlySale(urlParams.get('sale') === 'true');
+      setSortOption(urlParams.get('sort') || "");
+      setType(urlParams.get('type') || dataType);
+      setSize(urlParams.get('size') || null);
+      setColor(urlParams.get('color') || null);
+      setBrand(urlParams.get('brand') || null);
+      setPriceRange({
+        min: parseInt(urlParams.get('minPrice') || '50'),
+        max: parseInt(urlParams.get('maxPrice') || '2000'),
+      });
+      setCurrentPage(parseInt(urlParams.get('page') || '1'));
+      setIsInitialized(true);
+    }
+  }, [isInitialized, dataType]);
 
-  // Update URL function
-  const updateURLParams = () => {
+  // Update URL when state changes (but not on initial load)
+  useEffect(() => {
+    if (!isInitialized) return;
+
     const params = new URLSearchParams();
     
     if (showOnlySale) params.set('sale', 'true');
@@ -77,77 +78,50 @@ const ShopBreadCrumb1: React.FC<Props> = ({
     if (brand) params.set('brand', brand);
     if (priceRange.min !== 50) params.set('minPrice', priceRange.min.toString());
     if (priceRange.max !== 2000) params.set('maxPrice', priceRange.max.toString());
-    if (currentPage > 0) params.set('page', (currentPage + 1).toString());
+    if (currentPage > 1) params.set('page', currentPage.toString());
     
-    // Use Next.js router push for proper client-side navigation
-    router.push(`${pathname}?${params.toString()}`, { scroll: false });
-  };
-
-  // Apply URL updates when filters change
-  useEffect(() => {
-    updateURLParams();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [showOnlySale, sortOption, type, size, color, brand, priceRange, currentPage]);
+    const newUrl = `${pathname}${params.toString() ? '?' + params.toString() : ''}`;
+    router.replace(newUrl, { scroll: false });
+  }, [isInitialized, showOnlySale, sortOption, type, size, color, brand, priceRange, currentPage, pathname, router]);
 
   const handleShowOnlySale = () => {
-    setShowOnlySale((toggleSelect) => !toggleSelect);
+    setShowOnlySale(prev => !prev);
+    setCurrentPage(1);
   };
 
   const handleSortChange = (option: string) => {
     setSortOption(option);
-    setCurrentPage(0);
+    setCurrentPage(1);
   };
 
-  const handleType = (type: string | null) => {
-    setType((prevType) => (prevType === type ? null : type));
-    setCurrentPage(0);
+  const handleType = (selectedType: string | null) => {
+    setType(prevType => prevType === selectedType ? null : selectedType);
+    setCurrentPage(1);
   };
 
-  const handleSize = (size: string) => {
-    setSize((prevSize) => (prevSize === size ? null : size));
-    setCurrentPage(0);
+  const handleSize = (selectedSize: string) => {
+    setSize(prevSize => prevSize === selectedSize ? null : selectedSize);
+    setCurrentPage(1);
   };
 
   const handlePriceChange = (values: number | number[]) => {
     if (Array.isArray(values)) {
       setPriceRange({ min: values[0], max: values[1] });
-      setCurrentPage(0);
+      setCurrentPage(1);
     }
   };
 
-  const handleColor = (color: string) => {
-    setColor((prevColor) => (prevColor === color ? null : color));
-    setCurrentPage(0);
+  const handleColor = (selectedColor: string) => {
+    setColor(prevColor => prevColor === selectedColor ? null : selectedColor);
+    setCurrentPage(1);
   };
 
-  const handleBrand = (brand: string) => {
-    setBrand((prevBrand) => (prevBrand === brand ? null : brand));
-    setCurrentPage(0);
+  const handleBrand = (selectedBrand: string) => {
+    setBrand(prevBrand => prevBrand === selectedBrand ? null : selectedBrand);
+    setCurrentPage(1);
   };
 
-  // Handle browser back/forward button
-  useEffect(() => {
-    const handlePopState = () => {
-      const params = new URLSearchParams(window.location.search);
-      setShowOnlySale(params.get('sale') === 'true');
-      setSortOption(params.get('sort') || "");
-      setType(params.get('type') || dataType);
-      setSize(params.get('size') || null);
-      setColor(params.get('color') || null);
-      setBrand(params.get('brand') || null);
-      setPriceRange({
-        min: parseInt(params.get('minPrice') || '50'),
-        max: parseInt(params.get('maxPrice') || '2000'),
-      });
-      const pageParam = params.get('page');
-      setCurrentPage(pageParam ? parseInt(pageParam) - 1 : 0);
-    };
-
-    window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
-  }, [dataType]);
-
-  // Filter product
+  // Filter products
   let filteredData = data.filter((product) => {
     let isShowOnlySaleMatched = true;
     if (showOnlySale) {
@@ -171,7 +145,6 @@ const ShopBreadCrumb1: React.FC<Props> = ({
 
     let isTypeMatched = true;
     if (type) {
-      dataType = type;
       isTypeMatched = product.type === type;
     }
 
@@ -209,7 +182,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
     );
   });
 
-  // Create a copy array filtered to sort
+  // Sort products
   let sortedData = [...filteredData];
 
   if (sortOption === "soldQuantityHighToLow") {
@@ -233,64 +206,18 @@ const ShopBreadCrumb1: React.FC<Props> = ({
   }
 
   const totalProducts = filteredData.length;
-  const selectedType = type;
-  const selectedSize = size;
-  const selectedColor = color;
-  const selectedBrand = brand;
+  const pageCount = Math.ceil(totalProducts / productsPerPage);
+  
+  // Ensure current page is valid
+  const validCurrentPage = Math.min(Math.max(1, currentPage), Math.max(1, pageCount));
+  const offset = (validCurrentPage - 1) * productsPerPage;
 
-  if (filteredData.length === 0) {
-    filteredData = [
-      {
-        id: "no-data",
-        category: "no-data",
-        type: "no-data",
-        name: "no-data",
-        gender: "no-data",
-        new: false,
-        sale: false,
-        rate: 0,
-        price: 0,
-        originPrice: 0,
-        brand: "no-data",
-        sold: 0,
-        quantity: 0,
-        quantityPurchase: 0,
-        sizes: [],
-        variation: [],
-        thumbImage: [],
-        images: [],
-        description: "no-data",
-        action: "no-data",
-        slug: "no-data",
-        careInstructions: "",
-        video: undefined
-      },
-    ];
-  }
-
-  // Find page number base on filteredData
-  const pageCount = Math.ceil(filteredData.length / productsPerPage);
-  useEffect(() => {
-    if (pageCount === 0 && currentPage !== 0) {
-      setCurrentPage(0);
-    }
-  }, [pageCount, currentPage]);
-
-  // Get product data for current page
-  let currentProducts: ProductType[];
-
-  if (filteredData.length > 0) {
-    currentProducts = filteredData.slice(offset, offset + productsPerPage);
-  } else {
-    currentProducts = [];
-  }
-
-  const handlePageChange = (selected: number) => {
-    setCurrentPage(selected);
-  };
+  // Get current page products
+  const currentProducts = totalProducts > 0 
+    ? filteredData.slice(offset, offset + productsPerPage)
+    : [];
 
   const handleClearAll = () => {
-    dataType = null;
     setShowOnlySale(false);
     setSortOption("");
     setType(null);
@@ -298,8 +225,108 @@ const ShopBreadCrumb1: React.FC<Props> = ({
     setColor(null);
     setBrand(null);
     setPriceRange({ min: 50, max: 2000 });
-    setCurrentPage(0);
+    setCurrentPage(1);
   };
+
+  // Simple pagination component
+  const renderPagination = () => {
+    if (pageCount <= 1) return null;
+
+    const pages = [];
+    const maxVisiblePages = 5;
+    
+    let startPage = Math.max(1, validCurrentPage - Math.floor(maxVisiblePages / 2));
+    let endPage = Math.min(pageCount, startPage + maxVisiblePages - 1);
+    
+    if (endPage - startPage + 1 < maxVisiblePages) {
+      startPage = Math.max(1, endPage - maxVisiblePages + 1);
+    }
+
+    // Previous button
+    if (validCurrentPage > 1) {
+      pages.push(
+        <button
+          key="prev"
+          onClick={() => setCurrentPage(validCurrentPage - 1)}
+          className="px-3 py-2 mx-1 border border-gray-300 rounded hover:bg-gray-100"
+        >
+          &lt;
+        </button>
+      );
+    }
+
+    // First page
+    if (startPage > 1) {
+      pages.push(
+        <button
+          key={1}
+          onClick={() => setCurrentPage(1)}
+          className="px-3 py-2 mx-1 border border-gray-300 rounded hover:bg-gray-100"
+        >
+          1
+        </button>
+      );
+      if (startPage > 2) {
+        pages.push(<span key="dots1" className="px-2">...</span>);
+      }
+    }
+
+    // Page numbers
+    for (let i = startPage; i <= endPage; i++) {
+      pages.push(
+        <button
+          key={i}
+          onClick={() => setCurrentPage(i)}
+          className={`px-3 py-2 mx-1 border rounded ${
+            i === validCurrentPage
+              ? 'bg-black text-white border-black'
+              : 'border-gray-300 hover:bg-gray-100'
+          }`}
+        >
+          {i}
+        </button>
+      );
+    }
+
+    // Last page
+    if (endPage < pageCount) {
+      if (endPage < pageCount - 1) {
+        pages.push(<span key="dots2" className="px-2">...</span>);
+      }
+      pages.push(
+        <button
+          key={pageCount}
+          onClick={() => setCurrentPage(pageCount)}
+          className="px-3 py-2 mx-1 border border-gray-300 rounded hover:bg-gray-100"
+        >
+          {pageCount}
+        </button>
+      );
+    }
+
+    // Next button
+    if (validCurrentPage < pageCount) {
+      pages.push(
+        <button
+          key="next"
+          onClick={() => setCurrentPage(validCurrentPage + 1)}
+          className="px-3 py-2 mx-1 border border-gray-300 rounded hover:bg-gray-100"
+        >
+          &gt;
+        </button>
+      );
+    }
+
+    return (
+      <div className="flex items-center justify-center mt-8">
+        {pages}
+      </div>
+    );
+  };
+
+  if (!isInitialized) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <>
@@ -341,7 +368,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${
-                        dataType === item ? "active" : ""
+                        type === item ? "active" : ""
                       }`}
                       onClick={() => handleType(item)}
                     >
@@ -367,7 +394,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${
-                        dataType === item ? "active" : ""
+                        type === item ? "active" : ""
                       }`}
                       onClick={() => handleType(item)}
                     >
@@ -386,7 +413,6 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                         )
                       </div>
                     </div>
-                    
                   ))}
                 </div>
                 <div className="list-type mt-4">
@@ -394,7 +420,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${
-                        dataType === item ? "active" : ""
+                        type === item ? "active" : ""
                       }`}
                       onClick={() => handleType(item)}
                     >
@@ -413,15 +439,14 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                         )
                       </div>
                     </div>
-                    
-                  ))} 
+                  ))}
                 </div>
                 <div className="list-type mt-4">
                   {["custom painted khussa"].map((item, index) => (
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${
-                        dataType === item ? "active" : ""
+                        type === item ? "active" : ""
                       }`}
                       onClick={() => handleType(item)}
                     >
@@ -440,7 +465,6 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                         )
                       </div>
                     </div>
-                    
                   ))}
                 </div>
                 <div className="list-type mt-4">
@@ -448,7 +472,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${
-                        dataType === item ? "active" : ""
+                        type === item ? "active" : ""
                       }`}
                       onClick={() => handleType(item)}
                     >
@@ -474,7 +498,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${
-                        dataType === item ? "active" : ""
+                        type === item ? "active" : ""
                       }`}
                       onClick={() => handleType(item)}
                     >
@@ -500,7 +524,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${
-                        dataType === item ? "active" : ""
+                        type === item ? "active" : ""
                       }`}
                       onClick={() => handleType(item)}
                     >
@@ -526,7 +550,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${
-                        dataType === item ? "active" : ""
+                        type === item ? "active" : ""
                       }`}
                       onClick={() => handleType(item)}
                     >
@@ -552,7 +576,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${
-                        dataType === item ? "active" : ""
+                        type === item ? "active" : ""
                       }`}
                       onClick={() => handleType(item)}
                     >
@@ -578,7 +602,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${
-                        dataType === item ? "active" : ""
+                        type === item ? "active" : ""
                       }`}
                       onClick={() => handleType(item)}
                     >
@@ -604,7 +628,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${
-                        dataType === item ? "active" : ""
+                        type === item ? "active" : ""
                       }`}
                       onClick={() => handleType(item)}
                     >
@@ -626,29 +650,11 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                   ))}
                 </div>
               </div>
-              {/*<div className="filter-size pb-8 border-b border-line mt-8">
-                <div className="heading6">Size</div>
-                <div className="list-size flex items-center flex-wrap gap-3 gap-y-4 mt-4">
-                  {["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"].map(
-                    (item, index) => (
-                      <div
-                        key={index}
-                        className={`size-item text-button w-[64px] h-[44px] flex items-center justify-center rounded-full border border-line ${
-                          size === item ? "active" : ""
-                        }`}
-                        onClick={() => handleSize(item)}
-                      >
-                        {item}
-                      </div>
-                    )
-                  )}
-                </div>
-              </div>*/}
               <div className="filter-price pb-8 border-b border-line mt-8">
                 <div className="heading6">Price Range</div>
                 <Slider
                   range
-                  defaultValue={[50, 2000]}
+                  value={[priceRange.min, priceRange.max]}
                   min={50}
                   max={2000}
                   onChange={handlePriceChange}
@@ -673,7 +679,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                 <div className="heading6">colors</div>
                 <div className="list-color flex items-center flex-wrap gap-3 gap-y-4 mt-4">
                   <div
-                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line ${
+                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line cursor-pointer ${
                       color === "pink" ? "active" : ""
                     }`}
                     onClick={() => handleColor("pink")}
@@ -682,7 +688,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div className="caption1 capitalize">pink</div>
                   </div>
                   <div
-                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line ${
+                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line cursor-pointer ${
                       color === "red" ? "active" : ""
                     }`}
                     onClick={() => handleColor("red")}
@@ -691,7 +697,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div className="caption1 capitalize">red</div>
                   </div>
                   <div
-                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line ${
+                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line cursor-pointer ${
                       color === "green" ? "active" : ""
                     }`}
                     onClick={() => handleColor("green")}
@@ -700,7 +706,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div className="caption1 capitalize">green</div>
                   </div>
                   <div
-                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line ${
+                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line cursor-pointer ${
                       color === "yellow" ? "active" : ""
                     }`}
                     onClick={() => handleColor("yellow")}
@@ -709,7 +715,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div className="caption1 capitalize">yellow</div>
                   </div>
                   <div
-                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line ${
+                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line cursor-pointer ${
                       color === "purple" ? "active" : ""
                     }`}
                     onClick={() => handleColor("purple")}
@@ -718,7 +724,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div className="caption1 capitalize">purple</div>
                   </div>
                   <div
-                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line ${
+                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line cursor-pointer ${
                       color === "black" ? "active" : ""
                     }`}
                     onClick={() => handleColor("black")}
@@ -727,7 +733,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                     <div className="caption1 capitalize">black</div>
                   </div>
                   <div
-                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line ${
+                    className={`color-item px-3 py-[5px] flex items-center justify-center gap-2 rounded-full border border-line cursor-pointer ${
                       color === "white" ? "active" : ""
                     }`}
                     onClick={() => handleColor("white")}
@@ -737,30 +743,6 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                   </div>
                 </div>
               </div>
-              {/* <div className="filter-brand mt-8">
-                                <div className="heading6">Brands</div>
-                                <div className="list-brand mt-4">
-                                    {['adidas', 'hermes', 'zara', 'nike', 'gucci'].map((item, index) => (
-                                        <div key={index} className="brand-item flex items-center justify-between">
-                                            <div className="left flex items-center cursor-pointer">
-                                                <div className="block-input">
-                                                    <input
-                                                        type="checkbox"
-                                                        name={item}
-                                                        id={item}
-                                                        checked={brand === item}
-                                                        onChange={() => handleBrand(item)} />
-                                                    <Icon.CheckSquare size={20} weight='fill' className='icon-checkbox' />
-                                                </div>
-                                                <label htmlFor={item} className="brand-name capitalize pl-2 cursor-pointer">{item}</label>
-                                            </div>
-                                            <div className='text-secondary2'>
-                                                ({data.filter(dataItem => dataItem.brand === item && dataItem.category === 'fashion').length})
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>*/}
             </div>
             <div className="list-product-block lg:w-3/4 md:w-2/3 w-full md:pl-3">
               <div className="filter-heading flex items-center justify-between gap-5 flex-wrap">
@@ -790,6 +772,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                       name="filterSale"
                       id="filter-sale"
                       className="border-line"
+                      checked={showOnlySale}
                       onChange={handleShowOnlySale}
                     />
                     <label
@@ -806,10 +789,8 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                       id="select-filter"
                       name="select-filter"
                       className="caption1 py-2 pl-3 md:pr-20 pr-10 rounded-lg border border-line"
-                      onChange={(e) => {
-                        handleSortChange(e.target.value);
-                      }}
-                      defaultValue={"Sorting"}
+                      value={sortOption || "Sorting"}
+                      onChange={(e) => handleSortChange(e.target.value)}
                     >
                       <option value="Sorting" disabled>
                         Sorting
@@ -834,55 +815,44 @@ const ShopBreadCrumb1: React.FC<Props> = ({
                   {totalProducts}
                   <span className="text-secondary pl-1">Products Found</span>
                 </div>
-                {(selectedType ||
-                  selectedSize ||
-                  selectedColor ||
-                  selectedBrand) && (
+                {(type || size || color || brand) && (
                   <>
                     <div className="list flex items-center gap-3">
                       <div className="w-px h-4 bg-line"></div>
-                      {selectedType && (
+                      {type && (
                         <div
-                          className="item flex items-center px-2 py-1 gap-1 bg-linear rounded-full capitalize"
-                          onClick={() => {
-                            setType(null);
-                          }}
+                          className="item flex items-center px-2 py-1 gap-1 bg-linear rounded-full capitalize cursor-pointer"
+                          onClick={() => setType(null)}
                         >
                           <Icon.X className="cursor-pointer" />
-                          <span>{selectedType}</span>
+                          <span>{type}</span>
                         </div>
                       )}
-                      {selectedSize && (
+                      {size && (
                         <div
-                          className="item flex items-center px-2 py-1 gap-1 bg-linear rounded-full capitalize"
-                          onClick={() => {
-                            setSize(null);
-                          }}
+                          className="item flex items-center px-2 py-1 gap-1 bg-linear rounded-full capitalize cursor-pointer"
+                          onClick={() => setSize(null)}
                         >
                           <Icon.X className="cursor-pointer" />
-                          <span>{selectedSize}</span>
+                          <span>{size}</span>
                         </div>
                       )}
-                      {selectedColor && (
+                      {color && (
                         <div
-                          className="item flex items-center px-2 py-1 gap-1 bg-linear rounded-full capitalize"
-                          onClick={() => {
-                            setColor(null);
-                          }}
+                          className="item flex items-center px-2 py-1 gap-1 bg-linear rounded-full capitalize cursor-pointer"
+                          onClick={() => setColor(null)}
                         >
                           <Icon.X className="cursor-pointer" />
-                          <span>{selectedColor}</span>
+                          <span>{color}</span>
                         </div>
                       )}
-                      {selectedBrand && (
+                      {brand && (
                         <div
-                          className="item flex items-center px-2 py-1 gap-1 bg-linear rounded-full capitalize"
-                          onClick={() => {
-                            setBrand(null);
-                          }}
+                          className="item flex items-center px-2 py-1 gap-1 bg-linear rounded-full capitalize cursor-pointer"
+                          onClick={() => setBrand(null)}
                         >
                           <Icon.X className="cursor-pointer" />
-                          <span>{selectedBrand}</span>
+                          <span>{brand}</span>
                         </div>
                       )}
                     </div>
@@ -903,26 +873,18 @@ const ShopBreadCrumb1: React.FC<Props> = ({
               </div>
 
               <div className="list-product hide-product-sold grid lg:grid-cols-3 grid-cols-2 sm:gap-[30px] gap-[20px] mt-7">
-                {currentProducts.map((item) =>
-                  item.id === "no-data" ? (
-                    <div key={item.id} className="no-data-product">
-                      No products match the selected criteria.
-                    </div>
-                  ) : (
+                {currentProducts.length > 0 ? (
+                  currentProducts.map((item) => (
                     <Product key={item.id} data={item} type="grid" style={""} />
-                  )
+                  ))
+                ) : (
+                  <div className="col-span-full text-center py-8">
+                    <p className="text-lg text-gray-500">No products found matching your criteria.</p>
+                  </div>
                 )}
               </div>
 
-              {pageCount > 1 && (
-                <div className="list-pagination flex items-center justify-center md:mt-10 mt-7">
-                  <HandlePagination
-                    pageCount={pageCount}
-                    onPageChange={handlePageChange}
-                    initialPage={currentPage}
-                  />
-                </div>
-              )}
+              {renderPagination()}
             </div>
           </div>
         </div>
