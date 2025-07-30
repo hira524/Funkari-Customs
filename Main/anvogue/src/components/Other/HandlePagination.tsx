@@ -1,8 +1,7 @@
 'use client'
 
-import React, { useCallback } from 'react';
+import React from 'react';
 import ReactPaginate from 'react-paginate';
-import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 
 interface Props {
     pageCount: number
@@ -11,52 +10,18 @@ interface Props {
 }
 
 const HandlePagination: React.FC<Props> = ({ pageCount, onPageChange, initialPage = 0 }) => {
-    const router = useRouter();
-    const pathname = usePathname();
-    const searchParams = useSearchParams();
-
-    // Create a memoized function to update URL to avoid unnecessary re-renders
-    const createQueryString = useCallback(
-        (name: string, value: string) => {
-            const params = new URLSearchParams(searchParams.toString());
-            params.set(name, value);
-            return params.toString();
-        },
-        [searchParams]
-    );
-
-    // Handle page changes with proper client-side navigation
-    const handlePageClick = (selectedItem: { selected: number }) => {
-        // Call the provided onPageChange handler
-        onPageChange(selectedItem.selected);
-        
-        // Update URL with Next.js router
-        const query = createQueryString('page', (selectedItem.selected + 1).toString());
-        router.push(`${pathname}?${query}`, { scroll: false });
-    };
-
     return (
         <ReactPaginate
             previousLabel="<"
             nextLabel=">"
-            breakLabel="..."
             pageCount={pageCount}
             pageRangeDisplayed={3}
             marginPagesDisplayed={2}
-            onPageChange={handlePageClick}
+            onPageChange={(selectedItem) => onPageChange(selectedItem.selected)}
             containerClassName={'pagination'}
-            pageClassName={'page-item'}
-            pageLinkClassName={'page-link'}
-            previousClassName={'page-item'}
-            previousLinkClassName={'page-link'}
-            nextClassName={'page-item'}
-            nextLinkClassName={'page-link'}
-            breakClassName={'page-item'}
-            breakLinkClassName={'page-link'}
             activeClassName={'active'}
+            initialPage={initialPage}
             forcePage={initialPage}
-            renderOnZeroPageCount={null}
-            disableInitialCallback={true}
         />
     );
 };
