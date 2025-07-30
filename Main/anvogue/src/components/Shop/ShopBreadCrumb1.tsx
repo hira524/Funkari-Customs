@@ -67,6 +67,7 @@ const ShopBreadCrumb1: React.FC<Props> = ({
   useEffect(() => {
     window.addEventListener('popstate', syncStateFromURL);
     return () => window.removeEventListener('popstate', syncStateFromURL);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Update URL when state changes
