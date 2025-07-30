@@ -5,16 +5,25 @@ import React from 'react';
 interface Props {
     pageCount: number;
     onPageChange: (selected: number) => void;
-    currentPage: number;
+    currentPage?: number; // Make this optional
+    initialPage?: number; // Keep this for backward compatibility
 }
 
-const HandlePagination: React.FC<Props> = ({ pageCount, onPageChange, currentPage }) => {
+const HandlePagination: React.FC<Props> = ({ 
+    pageCount, 
+    onPageChange, 
+    currentPage, 
+    initialPage = 0 
+}) => {
+    // Use currentPage if provided, otherwise fall back to initialPage (0-based) + 1
+    const activePage = currentPage !== undefined ? currentPage : initialPage + 1;
+    
     if (pageCount <= 1) return null;
 
     const pages = [];
     const maxVisiblePages = 5;
     
-    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+    let startPage = Math.max(1, activePage - Math.floor(maxVisiblePages / 2));
     let endPage = Math.min(pageCount, startPage + maxVisiblePages - 1);
     
     if (endPage - startPage + 1 < maxVisiblePages) {
@@ -22,11 +31,16 @@ const HandlePagination: React.FC<Props> = ({ pageCount, onPageChange, currentPag
     }
 
     // Previous button
-    if (currentPage > 1) {
+    if (activePage > 1) {
         pages.push(
             <button
                 key="prev"
-                onClick={() => onPageChange(currentPage - 1)}
+                onClick={() => {
+                    const newPage = activePage - 1;
+                    // If using old 0-based system, convert back
+                    const pageToPass = currentPage !== undefined ? newPage : newPage - 1;
+                    onPageChange(pageToPass);
+                }}
                 className="px-3 py-2 mx-1 border border-gray-300 rounded hover:bg-gray-100"
             >
                 &lt;
@@ -39,7 +53,10 @@ const HandlePagination: React.FC<Props> = ({ pageCount, onPageChange, currentPag
         pages.push(
             <button
                 key={1}
-                onClick={() => onPageChange(1)}
+                onClick={() => {
+                    const pageToPass = currentPage !== undefined ? 1 : 0;
+                    onPageChange(pageToPass);
+                }}
                 className="px-3 py-2 mx-1 border border-gray-300 rounded hover:bg-gray-100"
             >
                 1
@@ -55,9 +72,12 @@ const HandlePagination: React.FC<Props> = ({ pageCount, onPageChange, currentPag
         pages.push(
             <button
                 key={i}
-                onClick={() => onPageChange(i)}
+                onClick={() => {
+                    const pageToPass = currentPage !== undefined ? i : i - 1;
+                    onPageChange(pageToPass);
+                }}
                 className={`px-3 py-2 mx-1 border rounded ${
-                    i === currentPage
+                    i === activePage
                         ? 'bg-black text-white border-black'
                         : 'border-gray-300 hover:bg-gray-100'
                 }`}
@@ -75,7 +95,10 @@ const HandlePagination: React.FC<Props> = ({ pageCount, onPageChange, currentPag
         pages.push(
             <button
                 key={pageCount}
-                onClick={() => onPageChange(pageCount)}
+                onClick={() => {
+                    const pageToPass = currentPage !== undefined ? pageCount : pageCount - 1;
+                    onPageChange(pageToPass);
+                }}
                 className="px-3 py-2 mx-1 border border-gray-300 rounded hover:bg-gray-100"
             >
                 {pageCount}
@@ -84,11 +107,15 @@ const HandlePagination: React.FC<Props> = ({ pageCount, onPageChange, currentPag
     }
 
     // Next button
-    if (currentPage < pageCount) {
+    if (activePage < pageCount) {
         pages.push(
             <button
                 key="next"
-                onClick={() => onPageChange(currentPage + 1)}
+                onClick={() => {
+                    const newPage = activePage + 1;
+                    const pageToPass = currentPage !== undefined ? newPage : newPage - 1;
+                    onPageChange(pageToPass);
+                }}
                 className="px-3 py-2 mx-1 border border-gray-300 rounded hover:bg-gray-100"
             >
                 &gt;
