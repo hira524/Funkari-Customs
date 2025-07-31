@@ -96,7 +96,7 @@ const Footer = () => {
                                 <div className="select-block flex items-center gap-5 max-md:hidden">
                                     <div className="choose-language flex items-center gap-1.5">
                                         <select name="language" id="chooseLanguageFooter" className='caption2 bg-transparent'>
-                                            <option value="English">English</option>
+                                            <option value="English"></option>
                                             <option value="Espana">Espana</option>
                                             <option value="France">France</option>
                                         </select>
