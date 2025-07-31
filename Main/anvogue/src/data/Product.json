@@ -2,7 +2,7 @@
    {
     "id": "1",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Anime Abstract",
     "gender": "unisex",
     "new": true,
@@ -43,7 +43,7 @@
     {
     "id": "2",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 GTR Skyline",
     "gender": "unisex",
     "new": true,
@@ -84,7 +84,7 @@
     {
     "id": "3",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Sasuke x TojiFujiguro",
     "gender": "unisex",
     "new": true,
@@ -125,7 +125,7 @@
   {
     "id": "4",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Sunset Abstract",
     "gender": "unisex",
     "new": true,
@@ -167,7 +167,7 @@
     {
     "id": "5",
     "category": "fashion",
-    "type": "shoes",
+    "type": "nike aj collection",
     "name": "Nike Aj high Demon Slayer",
     "gender": "unisex",
     "new": true,
@@ -210,7 +210,7 @@
 {
   "id": "6",
   "category": "fashion",
-  "type": "shoes",
+  "type": "Nike Air Force Collection",
   "name": "Nike Af1 Batman x joker (White)",
   "gender": "unisex",
   "new": true,
@@ -252,7 +252,7 @@
 {
   "id": "7",
   "category": "fashion",
-  "type": "shoes",
+  "type": "nike aj collection",
   "name": "Nike Jordan High WILD LOTUS",
   "gender": "unisex",
   "new": true,
@@ -295,7 +295,7 @@
    {
     "id": "8",
     "category": "fashion",
-    "type": "sets",
+    "type": "nike aj collection",
     "name": "Nike Jordan Snoop Dogg x 2pac",
     "gender": "unisex",
     "new": true,
@@ -343,7 +343,7 @@
     {
     "id": "9",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Bridal theme",
     "gender": "women",
     "new": true,
@@ -385,7 +385,7 @@
    {
     "id": "10",
     "category": "fashion",
-    "type": "shoes",
+    "type": "nike aj collection",
     "name": "Nike Af1 Luffy",
     "gender": "unisex",
     "new": true,
@@ -427,7 +427,7 @@
   {
   "id": "11",
   "category": "fashion",
-  "type": "shoes",
+  "type": "Nike Air Force Collection",
   "name": "Nike Af1 Money themed Customs",
   "gender": "unisex",
   "new": true,
@@ -468,7 +468,7 @@
    {
     "id": "12",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Neon Beach",
     "gender": "unisex",
     "new": true,
@@ -508,7 +508,7 @@
     {
     "id": "13",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Dual Color Splash",
     "gender": "unisex",
     "new": true,
@@ -550,7 +550,7 @@
     {
     "id": "14",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Hello kitty",
     "gender": "women",
     "new": true,
@@ -592,7 +592,7 @@
     {
     "id": "15",
     "category": "fashion",
-    "type": "shoes",
+    "type": "nike aj collection",
     "name": "Nike Air Jordan Real Madrid Custom",
     "gender": "unisex",
     "new": true,
@@ -632,7 +632,7 @@
     {
     "id": "16",
     "category": "fashion",
-    "type": "shoes",
+    "type": "nike aj collection",
     "name": "Nike Jordan high Life And Death Samurai Customs",
     "gender": "unisex",
     "new": true,
@@ -674,7 +674,7 @@
     {
     "id": "22",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 SRK DDLJ",
     "gender": "men",
     "new": true,
@@ -714,7 +714,7 @@
     {
     "id": "23",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Sasuke x Naruto Swoosh",
     "gender": "unisex",
     "new": true,
@@ -754,7 +754,7 @@
     {
     "id": "17",
     "category": "fashion",
-    "type": "shoes",
+    "type": "nike aj collection",
     "name": "Nike Jordan tattoo theme",
     "gender": "unisex",
     "new": true,
@@ -796,7 +796,7 @@
     {
     "id": "18",
     "category": "fashion",
-    "type": "shoes",
+    "type": "nike aj collection",
     "name": "Nike Jordan HOWL Theme",
     "gender": "unisex",
     "new": true,
@@ -837,7 +837,7 @@
     {
     "id": "19",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Devil Jin Tekken Customs",
     "gender": "unisex",
     "new": true,
@@ -880,7 +880,7 @@
   {
   "id": "20",
   "category": "fashion",
-  "type": "shoes",
+  "type": "Nike Air Force Collection",
   "name": "Nike Af1 Bloody Ballbag customs",
   "gender": "unisex",
   "new": true,
@@ -922,7 +922,7 @@
    {
     "id": "21",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Air Jordan GranTourismo Dunks",
     "gender": "men",
     "new": true,
@@ -965,7 +965,7 @@
     {
     "id": "24",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Messi Worldcup",
     "gender": "men",
     "new": true,
@@ -1007,7 +1007,7 @@
   {
   "id": "241",
   "category": "fashion",
-  "type": "shoes",
+  "type": "Nike Air Force Collection",
   "name": "Nike Af1 Inside out themed Customs",
   "gender": "men",
   "new": false,
@@ -1055,7 +1055,7 @@
     {
     "id": "25",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Ken Block Theme",
     "gender": "men",
     "new": true,
@@ -1096,7 +1096,7 @@
     {
     "id": "26",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 itachi uchiha",
     "gender": "men",
     "new": true,
@@ -1136,7 +1136,7 @@
   {
   "id": "27",
   "category": "fashion",
-  "type": "shoes",
+  "type": "Nike Air Force Collection",
   "name": "Nike Af1 Infinite Bond",
   "gender": "men",
   "new": true,
@@ -1177,7 +1177,7 @@
    {
     "id": "28",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 High Drip Style",
     "gender": "unisex",
     "new": true,
@@ -1217,7 +1217,7 @@
        {
       "id": "29",
       "category": "fashion",
-      "type": "shoes",
+      "type": "Nike Air Force Collection",
       "name": "Nike Af1 Aquagreen Swoosh",
       "gender": "unisex",
       "new": true,
@@ -1264,7 +1264,7 @@
     {
     "id": "30",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Castus Jack",
     "gender": "unisex",
     "new": true,
@@ -1306,7 +1306,7 @@
     {
     "id": "31",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 6ix9ine Theme",
     "gender": "unisex",
     "new": true,
@@ -1346,7 +1346,7 @@
     {
     "id": "32",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Babar Azam",
     "gender": "unisex",
     "new": true,
@@ -1393,7 +1393,7 @@
     {
     "id": "33",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Bandana Customs",
     "gender": "unisex",
     "new": true,
@@ -1446,7 +1446,7 @@
     {
     "id": "34",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": " Nike Af1 Game Over",
     "gender": "unisex",
     "new": true,
@@ -1499,7 +1499,7 @@
     {
     "id": "35",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Turquoise Abstract Customs",
     "gender": "women",
     "new": true,
@@ -1553,7 +1553,7 @@
    {
     "id": "36",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike AJ High Autumn Customs",
     "gender": "women",
     "new": true,
@@ -1606,7 +1606,7 @@
     {
     "id": "37",
     "category": "fashion",
-    "type": "shoes",
+    "type": "nike aj collection",
     "name": "Nike Dunks Fujiwara Tofu Shop Customs",
     "gender": "women",
     "new": true,
@@ -1660,7 +1660,7 @@
     {
     "id": "38",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "DBZ Goku x Frieza Nike Jordan Mids",
     "gender": "unisex",
     "new": true,
@@ -1708,7 +1708,7 @@
   {
       "id": "39",
       "category": "fashion",
-      "type": "shoes",
+      "type": "Nike Air Force Collection",
       "name": "Mughal Art high top Canvas sneakers",
       "gender": "women",
       "new": false,
@@ -1762,7 +1762,7 @@
   {
   "id": "391",
   "category": "fashion",
-  "type": "shoes",
+  "type": "Nike Air Force Collection",
   "name": "Nike Af1 Martin Garrix Custom",
   "gender": "women",
   "new": false,
@@ -1813,7 +1813,7 @@
 {
   "id": "392",
   "category": "fashion",
-  "type": "shoes",
+  "type": "Nike Air Force Collection",
   "name": "Nike Af1 Money Black Themed Customs",
   "gender": "women",
   "new": true,
@@ -1866,7 +1866,7 @@
 {
   "id": "393",
   "category": "fashion",
-  "type": "shoes",
+  "type": "Nike Air Force Collection",
   "name": "Nike Af1 Money Colorful theme on black",
   "gender": "women",
   "new": true,
@@ -1913,7 +1913,7 @@
   {
   "id": "394",
   "category": "fashion",
-  "type": "shoes",
+  "type": "Nike Air Force Collection",
   "name": "Nike Af1 Pinky Swoosh",
   "gender": "women",
   "new": false,
@@ -1964,7 +1964,7 @@
   {
   "id": "395",
   "category": "fashion",
-  "type": "shoes",
+  "type": "Nike Air Force Collection",
   "name": "Nike Af1 Real Madrid",
   "gender": "women",
   "new": true,
@@ -2015,7 +2015,7 @@
   {
   "id": "396",
   "category": "fashion",
-  "type": "shoes",
+  "type": "Nike Air Force Collection",
   "name": "Nike Af1 Tatakae",
   "gender": "women",
   "new": false,
@@ -2068,7 +2068,7 @@
       {
       "id": "40",
       "category": "fashion",
-      "type": "shoes",
+      "type": "Nike Air Force Collection",
       "name": "Nike Af1 Caricature x coyotes",
       "gender": "women",
       "new": true,
@@ -2115,7 +2115,7 @@
    {
     "id": "41",
     "category": "fashion",
-    "type": "shoes",
+    "type": "Nike Air Force Collection",
     "name": "Nike Af1 Curly",
     "gender": "women",
     "new": false,
@@ -2161,7 +2161,7 @@
   {
   "id": "45",
   "category": "fashion",
-  "type": "shoes",
+  "type": "nike aj collection",
   "name": "Nike AJ White Fang themed Customs",
   "gender": "women",
   "new": true,
@@ -2338,7 +2338,7 @@
   {
   "id": "42",
   "category": "fashion",
-  "type": "shoes",
+  "type": "Nike Air Force Collection",
   "name": "Nike Af1 Eminem Customs",
   "gender": "women",
   "new": false,
@@ -4338,7 +4338,7 @@
        {
       "id": "102",
       "category": "fashion",
-      "type": "shoes",
+      "type": "nike aj collection",
       "name": "Deadpool x John Wick Nike Jordan Customs",
       "gender": "unisex",
       "new": true,
@@ -4377,7 +4377,7 @@
     {
       "id": "103",
       "category": "fashion",
-      "type": "shoes",
+      "type": "Nike Air Force Collection",
       "name": "God of War (Kratos) Nike Af1 Customs",
       "gender": "unisex",
       "new": true,
@@ -4417,7 +4417,7 @@
     {
       "id": "104",
       "category": "fashion",
-      "type": "shoes",
+      "type": "Nike Air Force Collection",
       "name": "Sakuna x Itadori Nike Af1 Customs",
       "gender": "unisex",
       "new": true,
@@ -4456,7 +4456,7 @@
     {
       "id": "105",
       "category": "fashion",
-      "type": "shoes",
+      "type": "Nike Air Force Collection",
       "name": "Nike Af1 Yakuza Flash x Daredevil Customs",
       "gender": "unisex",
       "new": true,

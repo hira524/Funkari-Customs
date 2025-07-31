@@ -364,7 +364,33 @@ const ShopBreadCrumb1: React.FC<Props> = ({
               <div className="filter-type pb-8 border-b border-line">
                 <div className="heading6">Products Type</div>
                 <div className="list-type mt-4">
-                  {["shoes"].map((item, index) => (
+                  {["Nike Air Force Collection"].map((item, index) => (
+                    <div
+                      key={index}
+                      className={`item flex items-center justify-between cursor-pointer ${
+                        type === item ? "active" : ""
+                      }`}
+                      onClick={() => handleType(item)}
+                    >
+                      <div className="text-secondary has-line-before hover:text-black capitalize">
+                        {item}
+                      </div>
+                      <div className="text-secondary2">
+                        (
+                        {
+                          data.filter(
+                            (dataItem) =>
+                              dataItem.type === item &&
+                              dataItem.category === "fashion"
+                          ).length
+                        }
+                        )
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                <div className="list-type mt-4">
+                  {["nike aj collection"].map((item, index) => (
                     <div
                       key={index}
                       className={`item flex items-center justify-between cursor-pointer ${

@@ -70,6 +70,8 @@ const MenuEight = () => {
   };
 
   const [openCanvasCustomsSub, setOpenCanvasCustomsSub] = useState(false);
+  const [openNikeSub, setOpenNikeSub] = useState(false);
+  const [openNikeMobileSub, setOpenNikeMobileSub] = useState(false);
 
   return (
     <>
@@ -276,13 +278,42 @@ const MenuEight = () => {
                           <div className="nav-link basis-2/3 grid grid-cols-4 gap-y-8">
                             <div className="nav-item">
                               <ul>
-                                <li>
+                                <li className="h-full relative">
                                   <div
-                                    onClick={() => handleTypeClick("shoes")}
-                                    className={`link text-secondary duration-300 cursor-pointer`}
+                                    className="link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px]"
+                                    onClick={() =>
+                                      setOpenNikeSub &&
+                                      setOpenNikeSub(!openNikeSub)
+                                    }
                                   >
-                                    Custom Nike Collection
+                                    <span>Custom Nike Collection</span>
                                   </div>
+                                  {openNikeSub && (
+                                    <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
+                                      <li>
+                                        <div
+                                          onClick={() =>
+                                            handleTypeClick(
+                                              "nike aj collection"
+                                            )
+                                          }
+                                          className="link text-secondary duration-300 cursor-pointer"
+                                        >
+                                          Nike AJ Collection
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <div
+                                          onClick={() =>
+                                            handleTypeClick("Nike Air Force Collection")
+                                          }
+                                          className="link text-secondary duration-300 cursor-pointer"
+                                        >
+                                          Nike Air Force Collection
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  )}
                                 </li>
                                 <li className="h-full relative">
                                   <div
@@ -455,7 +486,7 @@ const MenuEight = () => {
                           <div className="banner-ads-block pl-2.5 basis-1/3">
                             <div
                               className="banner-ads-item bg-linear rounded-2xl relative overflow-hidden cursor-pointer"
-                              onClick={() => handleTypeClick("shoes")}
+                              onClick={() => handleTypeClick("Nike Air Force Collection")}
                             >
                               <div className="text-content py-14 pl-8 relative z-[1]">
                                 <div className="text-button-uppercase text-white bg-red px-2 py-0.5 inline-block rounded-sm">
@@ -982,13 +1013,39 @@ const MenuEight = () => {
                       </div>
                       <div className="nav-item">
                         <ul>
-                          <li>
+                          <li className="h-full relative">
                             <div
-                              onClick={() => handleTypeClick("shoes")}
-                              className={`link text-secondary duration-300 cursor-pointer`}
+                              className="link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px]"
+                              onClick={() =>
+                                setOpenNikeMobileSub &&
+                                setOpenNikeMobileSub(!openNikeMobileSub)
+                              }
                             >
-                              Custom Nike Collection
+                              <span>Custom Nike Collection</span>
+                              <Icon.CaretDown size={18} />
                             </div>
+                            {openNikeMobileSub && (
+                              <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
+                                <li>
+                                  <div
+                                    onClick={() =>
+                                      handleTypeClick("nike aj collection")
+                                    }
+                                    className="link text-secondary duration-300 cursor-pointer"
+                                  >
+                                    Nike AJ Collection
+                                  </div>
+                                </li>
+                                <li>
+                                  <div
+                                    onClick={() => handleTypeClick("Nike Air Force Collection")}
+                                    className="link text-secondary duration-300 cursor-pointer"
+                                  >
+                                    Nike Air Force Collection
+                                  </div>
+                                </li>
+                              </ul>
+                            )}
                           </li>
 
                           {/* JACKETS & HOODIES Section */}
@@ -1081,15 +1138,14 @@ const MenuEight = () => {
                               </ul>
                             )}
                           </li>
-                            <li>
-                              <div
-                                onClick={() => handleTypeClick("custom portrait")}
-                                className={`link text-secondary duration-300 cursor-pointer`}
-                              >
-                                Custom Portraits
-                              </div>
-                            </li>
-                          
+                          <li>
+                            <div
+                              onClick={() => handleTypeClick("custom portrait")}
+                              className={`link text-secondary duration-300 cursor-pointer`}
+                            >
+                              Custom Portraits
+                            </div>
+                          </li>
                         </ul>
                       </div>
                       <div className="nav-item">
@@ -1104,9 +1160,7 @@ const MenuEight = () => {
                           </li>
                           <li>
                             <div
-                              onClick={() =>
-                                handleTypeClick("custom jewelry")
-                              }
+                              onClick={() => handleTypeClick("custom jewelry")}
                               className={`link text-secondary duration-300 cursor-pointer`}
                             >
                               Custom Jewelry
