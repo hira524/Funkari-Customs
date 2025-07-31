@@ -281,7 +281,7 @@ const MenuEight = () => {
                                     onClick={() => handleTypeClick("shoes")}
                                     className={`link text-secondary duration-300 cursor-pointer`}
                                   >
-                                    Nike Collection
+                                    Custom Nike Collection
                                   </div>
                                 </li>
                                 <li className="h-full relative">
@@ -291,7 +291,7 @@ const MenuEight = () => {
                                       setOpenJacketsSub(!openJacketsSub)
                                     }
                                   >
-                                    <span>Jackets & Hoodies</span>
+                                    <span>Custom Jackets & Hoodies</span>
                                   </div>
                                   {openJacketsSub && (
                                     <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
@@ -302,7 +302,7 @@ const MenuEight = () => {
                                           }
                                           className="link text-secondary duration-300 cursor-pointer"
                                         >
-                                          Denim jackets
+                                          Custom Denim jackets
                                         </div>
                                       </li>
                                       <li>
@@ -312,7 +312,7 @@ const MenuEight = () => {
                                           }
                                           className="link text-secondary duration-300 cursor-pointer"
                                         >
-                                          Leather jackets
+                                          Custom Leather jackets
                                         </div>
                                       </li>
                                       <li>
@@ -322,7 +322,7 @@ const MenuEight = () => {
                                           }
                                           className="link text-secondary duration-300 cursor-pointer"
                                         >
-                                          Hoodies
+                                          Custom Hoodies
                                         </div>
                                       </li>
                                     </ul>
@@ -335,7 +335,7 @@ const MenuEight = () => {
                                     }
                                     className={`link text-secondary duration-300 cursor-pointer`}
                                   >
-                                    Wallets & Clutches
+                                    Custom Wallets & Clutches
                                   </div>
                                 </li>
                                 <li className="h-full relative">
@@ -347,7 +347,7 @@ const MenuEight = () => {
                                       )
                                     }
                                   >
-                                    <span>Canvas Customs Collection</span>
+                                    <span>Custom Canvas Collection</span>
                                   </div>
                                   {openCanvasCustomsSub && (
                                     <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
@@ -358,7 +358,7 @@ const MenuEight = () => {
                                           }
                                           className="link text-secondary duration-300 cursor-pointer"
                                         >
-                                          Hightops
+                                          Custom Hightops
                                         </div>
                                       </li>
                                       <li>
@@ -368,7 +368,7 @@ const MenuEight = () => {
                                           }
                                           className="link text-secondary duration-300 cursor-pointer"
                                         >
-                                          Slip-ons
+                                          Custom Slip-ons
                                         </div>
                                       </li>
                                       <li>
@@ -378,7 +378,7 @@ const MenuEight = () => {
                                           }
                                           className="link text-secondary duration-300 cursor-pointer"
                                         >
-                                          Lowtops
+                                          Custom Lowtops
                                         </div>
                                       </li>
                                     </ul>
@@ -446,7 +446,7 @@ const MenuEight = () => {
                                     }
                                     className={`link text-secondary duration-300 cursor-pointer`}
                                   >
-                                    LV bags
+                                    Custom LV bags
                                   </div>
                                 </li>
                               </ul>
@@ -987,7 +987,7 @@ const MenuEight = () => {
                               onClick={() => handleTypeClick("shoes")}
                               className={`link text-secondary duration-300 cursor-pointer`}
                             >
-                              Nike Collection
+                              Custom Nike Collection
                             </div>
                           </li>
 
@@ -997,7 +997,7 @@ const MenuEight = () => {
                               className="link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px]"
                               onClick={() => setOpenJacketsSub(!openJacketsSub)}
                             >
-                              <span>JACKETS & HOODIES</span>
+                              <span>Custom Jackets & Hoodies</span>
                             </div>
                             {openJacketsSub && (
                               <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
@@ -1008,7 +1008,7 @@ const MenuEight = () => {
                                     }
                                     className="link text-secondary duration-300 cursor-pointer"
                                   >
-                                    Denim jackets
+                                    Custom Denim jackets
                                   </div>
                                 </li>
                                 <li>
@@ -1018,7 +1018,7 @@ const MenuEight = () => {
                                     }
                                     className="link text-secondary duration-300 cursor-pointer"
                                   >
-                                    Leather jackets
+                                    Custom Leather jackets
                                   </div>
                                 </li>
                                 <li>
@@ -1026,7 +1026,7 @@ const MenuEight = () => {
                                     onClick={() => handleTypeClick("hoodies")}
                                     className="link text-secondary duration-300 cursor-pointer"
                                   >
-                                    Hoodies
+                                    Custom Hoodies
                                   </div>
                                 </li>
                               </ul>
@@ -1040,7 +1040,7 @@ const MenuEight = () => {
                               }
                               className={`link text-secondary duration-300 cursor-pointer`}
                             >
-                              Wallets & Clutches
+                              Custom Wallets & Clutches
                             </div>
                           </li>
                           <li className="h-full relative">
@@ -1050,7 +1050,7 @@ const MenuEight = () => {
                                 setOpenCanvasCustomsSub(!openCanvasCustomsSub)
                               }
                             >
-                              <span>Canvas Customs Collection</span>
+                              <span>Custom Canvas Collection</span>
                             </div>
                             {openCanvasCustomsSub && (
                               <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
@@ -1059,7 +1059,7 @@ const MenuEight = () => {
                                     onClick={() => handleTypeClick("hightops")}
                                     className="link text-secondary duration-300 cursor-pointer"
                                   >
-                                    Hightops
+                                    Custom Hightops
                                   </div>
                                 </li>
                                 <li>
@@ -1067,7 +1067,7 @@ const MenuEight = () => {
                                     onClick={() => handleTypeClick("slip-ons")}
                                     className="link text-secondary duration-300 cursor-pointer"
                                   >
-                                    Slip-ons
+                                    Custom Slip-ons
                                   </div>
                                 </li>
                                 <li>
@@ -1075,20 +1075,20 @@ const MenuEight = () => {
                                     onClick={() => handleTypeClick("lowtops")}
                                     className="link text-secondary duration-300 cursor-pointer"
                                   >
-                                    Lowtops
+                                    Custom Lowtops
                                   </div>
                                 </li>
                               </ul>
                             )}
                           </li>
-                          <li>
-                            <div
-                              onClick={() => handleTypeClick("custom portrait")}
-                              className={`link text-secondary duration-300 cursor-pointer`}
-                            >
-                              Custom Portraits
-                            </div>
-                          </li>
+                            <li>
+                              <div
+                                onClick={() => handleTypeClick("custom portrait")}
+                                className={`link text-secondary duration-300 cursor-pointer`}
+                              >
+                                Custom Portraits
+                              </div>
+                            </li>
                           
                         </ul>
                       </div>
@@ -1120,6 +1120,16 @@ const MenuEight = () => {
                               className={`link text-secondary duration-300 cursor-pointer`}
                             >
                               Custom painted Khussa-Desi Jutti
+                            </div>
+                          </li>
+                          <li>
+                            <div
+                              onClick={() =>
+                                handleTypeClick("custom painted bags")
+                              }
+                              className={`link text-secondary duration-300 cursor-pointer`}
+                            >
+                              Custom LV Bags
                             </div>
                           </li>
                           <li>
