@@ -72,6 +72,8 @@ const MenuEight = () => {
   const [openCanvasCustomsSub, setOpenCanvasCustomsSub] = useState(false);
   const [openNikeSub, setOpenNikeSub] = useState(false);
   const [openNikeMobileSub, setOpenNikeMobileSub] = useState(false);
+  const [openJacketsMobileSub, setOpenJacketsMobileSub] = useState(false);
+  const [openCanvasMobileSub, setOpenCanvasMobileSub] = useState(false);
 
   return (
     <>
@@ -1015,31 +1017,35 @@ const MenuEight = () => {
                         <ul>
                           <li className="h-full relative">
                             <div
-                              className="link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px]"
-                              onClick={() =>
-                                setOpenNikeMobileSub &&
-                                setOpenNikeMobileSub(!openNikeMobileSub)
-                              }
+                              className="link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px] py-2"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setOpenNikeMobileSub(!openNikeMobileSub);
+                              }}
                             >
                               <span>Custom Nike Collection</span>
                               <Icon.CaretDown size={18} />
                             </div>
                             {openNikeMobileSub && (
-                              <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
+                              <ul className="ml-4 mt-2">
                                 <li>
                                   <div
-                                    onClick={() =>
-                                      handleTypeClick("nike aj collection")
-                                    }
-                                    className="link text-secondary duration-300 cursor-pointer"
+                                    onClick={() => {
+                                      handleTypeClick("nike aj collection");
+                                      handleMenuMobile();
+                                    }}
+                                    className="link text-secondary duration-300 cursor-pointer py-2"
                                   >
                                     Nike AJ Collection
                                   </div>
                                 </li>
                                 <li>
                                   <div
-                                    onClick={() => handleTypeClick("Nike Air Force Collection")}
-                                    className="link text-secondary duration-300 cursor-pointer"
+                                    onClick={() => {
+                                      handleTypeClick("Nike Air Force Collection");
+                                      handleMenuMobile();
+                                    }}
+                                    className="link text-secondary duration-300 cursor-pointer py-2"
                                   >
                                     Nike Air Force Collection
                                   </div>
@@ -1051,37 +1057,46 @@ const MenuEight = () => {
                           {/* JACKETS & HOODIES Section */}
                           <li className="h-full relative">
                             <div
-                              className="link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px]"
-                              onClick={() => setOpenJacketsSub(!openJacketsSub)}
+                              className="link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px] py-2"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setOpenJacketsMobileSub(!openJacketsMobileSub);
+                              }}
                             >
                               <span>Custom Jackets & Hoodies</span>
+                              <Icon.CaretDown size={18} />
                             </div>
-                            {openJacketsSub && (
-                              <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
+                            {openJacketsMobileSub && (
+                              <ul className="ml-4 mt-2">
                                 <li>
                                   <div
-                                    onClick={() =>
-                                      handleTypeClick("denim jackets")
-                                    }
-                                    className="link text-secondary duration-300 cursor-pointer"
+                                    onClick={() => {
+                                      handleTypeClick("denim jackets");
+                                      handleMenuMobile();
+                                    }}
+                                    className="link text-secondary duration-300 cursor-pointer py-2"
                                   >
                                     Custom Denim jackets
                                   </div>
                                 </li>
                                 <li>
                                   <div
-                                    onClick={() =>
-                                      handleTypeClick("leather jacket")
-                                    }
-                                    className="link text-secondary duration-300 cursor-pointer"
+                                    onClick={() => {
+                                      handleTypeClick("leather jacket");
+                                      handleMenuMobile();
+                                    }}
+                                    className="link text-secondary duration-300 cursor-pointer py-2"
                                   >
                                     Custom Leather jackets
                                   </div>
                                 </li>
                                 <li>
                                   <div
-                                    onClick={() => handleTypeClick("hoodies")}
-                                    className="link text-secondary duration-300 cursor-pointer"
+                                    onClick={() => {
+                                      handleTypeClick("hoodies");
+                                      handleMenuMobile();
+                                    }}
+                                    className="link text-secondary duration-300 cursor-pointer py-2"
                                   >
                                     Custom Hoodies
                                   </div>
@@ -1092,45 +1107,57 @@ const MenuEight = () => {
 
                           <li>
                             <div
-                              onClick={() =>
-                                handleTypeClick("wallets-clutches")
-                              }
-                              className={`link text-secondary duration-300 cursor-pointer`}
+                              onClick={() => {
+                                handleTypeClick("wallets-clutches");
+                                handleMenuMobile();
+                              }}
+                              className="link text-secondary duration-300 cursor-pointer py-2"
                             >
                               Custom Wallets & Clutches
                             </div>
                           </li>
                           <li className="h-full relative">
                             <div
-                              className="link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px]"
-                              onClick={() =>
-                                setOpenCanvasCustomsSub(!openCanvasCustomsSub)
-                              }
+                              className="link text-secondary duration-300 cursor-pointer flex items-center justify-between w-full min-w-[180px] py-2"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setOpenCanvasMobileSub(!openCanvasMobileSub);
+                              }}
                             >
                               <span>Custom Canvas Collection</span>
+                              <Icon.CaretDown size={18} />
                             </div>
-                            {openCanvasCustomsSub && (
-                              <ul className="absolute top-full left-0 bg-white shadow-lg rounded z-10 min-w-[180px]">
+                            {openCanvasMobileSub && (
+                              <ul className="ml-4 mt-2">
                                 <li>
                                   <div
-                                    onClick={() => handleTypeClick("hightops")}
-                                    className="link text-secondary duration-300 cursor-pointer"
+                                    onClick={() => {
+                                      handleTypeClick("hightops");
+                                      handleMenuMobile();
+                                    }}
+                                    className="link text-secondary duration-300 cursor-pointer py-2"
                                   >
                                     Custom Hightops
                                   </div>
                                 </li>
                                 <li>
                                   <div
-                                    onClick={() => handleTypeClick("slip-ons")}
-                                    className="link text-secondary duration-300 cursor-pointer"
+                                    onClick={() => {
+                                      handleTypeClick("slip-ons");
+                                      handleMenuMobile();
+                                    }}
+                                    className="link text-secondary duration-300 cursor-pointer py-2"
                                   >
                                     Custom Slip-ons
                                   </div>
                                 </li>
                                 <li>
                                   <div
-                                    onClick={() => handleTypeClick("lowtops")}
-                                    className="link text-secondary duration-300 cursor-pointer"
+                                    onClick={() => {
+                                      handleTypeClick("lowtops");
+                                      handleMenuMobile();
+                                    }}
+                                    className="link text-secondary duration-300 cursor-pointer py-2"
                                   >
                                     Custom Lowtops
                                   </div>
@@ -1140,8 +1167,11 @@ const MenuEight = () => {
                           </li>
                           <li>
                             <div
-                              onClick={() => handleTypeClick("custom portrait")}
-                              className={`link text-secondary duration-300 cursor-pointer`}
+                              onClick={() => {
+                                handleTypeClick("custom portrait");
+                                handleMenuMobile();
+                              }}
+                              className="link text-secondary duration-300 cursor-pointer py-2"
                             >
                               Custom Portraits
                             </div>
@@ -1152,44 +1182,55 @@ const MenuEight = () => {
                         <ul>
                           <li>
                             <div
-                              onClick={() => handleTypeClick("custom vases")}
-                              className={`link text-secondary duration-300 cursor-pointer`}
+                              onClick={() => {
+                                handleTypeClick("custom vases");
+                                handleMenuMobile();
+                              }}
+                              className="link text-secondary duration-300 cursor-pointer py-2"
                             >
                               Custom Painted Glass Bottle Vase
                             </div>
                           </li>
                           <li>
                             <div
-                              onClick={() => handleTypeClick("custom jewelry")}
-                              className={`link text-secondary duration-300 cursor-pointer`}
+                              onClick={() => {
+                                handleTypeClick("custom jewelry");
+                                handleMenuMobile();
+                              }}
+                              className="link text-secondary duration-300 cursor-pointer py-2"
                             >
                               Custom Jewelry
                             </div>
                           </li>
                           <li>
                             <div
-                              onClick={() =>
-                                handleTypeClick("custom painted khussa")
-                              }
-                              className={`link text-secondary duration-300 cursor-pointer`}
+                              onClick={() => {
+                                handleTypeClick("custom painted khussa");
+                                handleMenuMobile();
+                              }}
+                              className="link text-secondary duration-300 cursor-pointer py-2"
                             >
                               Custom painted Khussa-Desi Jutti
                             </div>
                           </li>
                           <li>
                             <div
-                              onClick={() =>
-                                handleTypeClick("custom painted bags")
-                              }
-                              className={`link text-secondary duration-300 cursor-pointer`}
+                              onClick={() => {
+                                handleTypeClick("custom painted bags");
+                                handleMenuMobile();
+                              }}
+                              className="link text-secondary duration-300 cursor-pointer py-2"
                             >
                               Custom LV Bags
                             </div>
                           </li>
                           <li>
                             <div
-                              onClick={() => router.push("/shop/breadcrumb1")}
-                              className={`link text-secondary duration-300 cursor-pointer view-all-btn`}
+                              onClick={() => {
+                                router.push("/shop/breadcrumb1");
+                                handleMenuMobile();
+                              }}
+                              className="link text-secondary duration-300 cursor-pointer view-all-btn py-2"
                             >
                               View All
                             </div>
