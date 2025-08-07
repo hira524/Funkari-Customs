@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Customization Request</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .email-container {
+            max-width: 650px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .email-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #ff6b6b, #ffd93d, #6bcf7f, #4d9de0, #e15759);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 2;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, #ff6b6b 0%, #ffd93d 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            position: relative;
+            z-index: 2;
+            border: 4px solid rgba(255,255,255,0.2);
+        }
+        
+        .content {
+            padding: 40px 30px;
+            background: linear-gradient(to bottom, #ffffff 0%, #f8f9ff 100%);
+        }
+        
+        .field {
+            margin-bottom: 25px;
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-left: 5px solid #667eea;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .field:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+        }
+        
+        .field-label {
+            font-weight: 600;
+            color: #2d3748;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .field-label::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        
+        .field-value {
+            color: #4a5568;
+            font-size: 16px;
+            word-wrap: break-word;
+            font-weight: 500;
+        }
+        
+        .product-id {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+            letter-spacing: 1px;
+        }
+        
+        .message-box {
+            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            padding: 20px;
+            border-radius: 12px;
+            border: 2px solid #e2e8f0;
+            white-space: pre-wrap;
+            font-size: 15px;
+            line-height: 1.7;
+            color: #2d3748;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+        }
+        
+        .footer {
+            background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+        
+        .footer p {
+            margin: 8px 0;
+            color: #cbd5e0;
+            font-size: 13px;
+        }
+        
+        .footer strong {
+            color: #ffffff;
+        }
+        
+        .priority-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 25px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(255, 107, 107, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: relative;
+            z-index: 2;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { box-shadow: 0 4px 8px rgba(255, 107, 107, 0.3); }
+            50% { box-shadow: 0 4px 20px rgba(255, 107, 107, 0.5); }
+            100% { box-shadow: 0 4px 8px rgba(255, 107, 107, 0.3); }
+        }
+        
+        .contact-info {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 25px;
+            border: 2px solid #90caf9;
+            text-align: center;
+        }
+        
+        .contact-info strong {
+            color: #1565c0;
+            font-size: 16px;
+        }
+        
+        .reply-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-top: 15px;
+            box-shadow: 0 6px 12px rgba(102, 126, 234, 0.3);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-size: 14px;
+        }
+        
+        .reply-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        }
+        
+        .brand-footer {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #ffd93d;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+        
+        .divider {
+            height: 3px;
+            background: linear-gradient(90deg, #ff6b6b, #ffd93d, #6bcf7f, #4d9de0);
+            margin: 0;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            .email-container {
+                border-radius: 15px;
+            }
+            
+            .header, .content, .contact-info {
+                padding: 20px;
+            }
+            
+            .logo {
+                width: 60px;
+                height: 60px;
+                font-size: 20px;
+            }
+            
+            .header h1 {
+                font-size: 24px;
+            }
+            
+            .field {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">FC</div>
+            <h1>New Customization Request</h1>
+            <div class="priority-badge">🔥 NEW REQUEST</div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <!-- Customer Information -->
+            <div class="field">
+                <div class="field-label">Customer Name</div>
+                <div class="field-value">{{from_name}}</div>
+            </div>
+
+            <div class="field">
+                <div class="field-label">Customer Email</div>
+                <div class="field-value">
+                    <a href="mailto:{{from_email}}" style="color: #1f1f1f; text-decoration: none;">{{from_email}}</a>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="field-label">Product ID</div>
+                <div class="field-value">
+                    <div class="product-id">{{product_id}}</div>
+                </div>
+            </div>
+
+            <!-- Customization Details -->
+            <div class="field">
+                <div class="field-label">Customization Details</div>
+                <div class="field-value">
+                    <div class="message-box">{{message}}</div>
+                </div>
+            </div>
+
+            <!-- Quick Action -->
+            <div class="contact-info">
+                <strong>Quick Actions:</strong><br>
+                <a href="mailto:{{from_email}}" class="reply-button">Reply to Customer</a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="divider"></div>
+        <div class="footer">
+            <p>This email was automatically generated from your Funkari Customs website contact form.</p>
+            <p>Received on: <strong>{{date}}</strong> | Time: <strong>{{time}}</strong></p>
+        </div>
+        
+        <div class="brand-footer">
+            ✨ FUNKARI CUSTOMS - Custom Sneakers & Art ✨
+        </div>
+    </div>
+</body>
+</html>
