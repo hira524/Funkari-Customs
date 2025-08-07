@@ -94,11 +94,9 @@ const MenuEight = () => {
               <Image
                 src="/images/logo/Funkari New Original logo.png"
                 alt="Funkari Custom Logo"
-                width={40}
-                height={40}
-                className="mr-2"
+                width={120}
+                height={80}
               />
-              <div className="heading4">Funkari Customs</div>
             </Link>
             <div className="form-search w-2/3 pl-8 flex items-center h-[44px] max-lg:hidden">
               <div className="category-block relative h-full">
@@ -833,9 +831,14 @@ const MenuEight = () => {
                 </div>
                 <Link
                   href={"/homepages/fashion8"}
-                  className="logo text-3xl font-semibold text-center"
+                  className="logo flex items-center justify-center"
                 >
-                  Funkari Customs
+                  <Image
+                    src="/images/logo/Funkari New Original logo.png"
+                    alt="Funkari Custom Logo"
+                    width={120}
+                    height={80}
+                  />
                 </Link>
               </div>
               <div className="form-search relative mt-2">
